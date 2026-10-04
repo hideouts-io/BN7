@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z/run.py", line 197, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z/run.py", line 192, in main
+    raise AssertionError(f"Evaluation expectation comparison failed: {checks}")
+AssertionError: Evaluation expectation comparison failed: {'baseline_status_pass': True, 'baseline_record_class_synthetic': True, 'baseline_disposition_hold': True, 'baseline_declared_applicability_hold': False, 'comparison_status_pass': True, 'comparison_record_class_synthetic': True, 'current_disposition_remains_hold': True, 'context_change_architecture_revision': True, 'expected_changed_assumptions': True, 'expected_resource_estimates_stale': True, 'expected_evidence_outside_envelope': True, 'expected_expert_reviews_reopen': True, 'expected_impacted_nodes': True, 'expected_decision_reopen_required': True, 'source_head_unchanged': True, 'source_tracked_bytes_unchanged': True, 'source_clean_after': True}

@@ -1,0 +1,20 @@
+{
+  "name": "bn7-playbook",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "build": "node scripts/build-playbook.mts",
+    "pdf": "node scripts/export-playbook.mts",
+    "verify": "node scripts/verify-preview.mts",
+    "check": "node --check scripts/build-playbook.mts && node --check scripts/export-playbook.mts && node --check scripts/verify-preview.mts"
+  },
+  "devDependencies": {
+    "marked": "17.0.5",
+    "playwright": "1.62.1",
+    "@types/node": "25.9.5"
+  }
+}

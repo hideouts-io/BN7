@@ -1,0 +1,23 @@
+{
+  "name": "pip-check",
+  "argv": [
+    "/Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z/.venv/bin/python",
+    "-m",
+    "pip",
+    "check"
+  ],
+  "cwd": "/Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z",
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PIP_CONFIG_FILE": "/dev/null",
+    "PIP_DISABLE_PIP_VERSION_CHECK": "1"
+  },
+  "shell_display": "env PIP_CONFIG_FILE=/dev/null PIP_DISABLE_PIP_VERSION_CHECK=1 PYTHONDONTWRITEBYTECODE=1 /Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z/.venv/bin/python -m pip check",
+  "started_at_utc": "2026-10-04T22:39:36.349138+00:00",
+  "finished_at_utc": "2026-10-04T22:39:36.553605+00:00",
+  "exit_code": 0,
+  "stdout_path": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/pip-check.stdout.txt",
+  "stderr_path": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/pip-check.stderr.txt",
+  "stdout_sha256": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

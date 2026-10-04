@@ -1,0 +1,35 @@
+{
+  "name": "install-dependencies",
+  "argv": [
+    "/Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z/.venv/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "--no-input",
+    "--no-cache-dir",
+    "--index-url",
+    "https://pypi.org/simple",
+    "--retries",
+    "3",
+    "--timeout",
+    "30",
+    "--report",
+    "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/installation-report.json",
+    "-r",
+    "/Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z/requirements-ftqc-evaluation.txt"
+  ],
+  "cwd": "/Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z",
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PIP_CONFIG_FILE": "/dev/null",
+    "PIP_DISABLE_PIP_VERSION_CHECK": "1"
+  },
+  "shell_display": "env PIP_CONFIG_FILE=/dev/null PIP_DISABLE_PIP_VERSION_CHECK=1 PYTHONDONTWRITEBYTECODE=1 /Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z/.venv/bin/python -m pip install --no-input --no-cache-dir --index-url https://pypi.org/simple --retries 3 --timeout 30 --report /Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/installation-report.json -r /Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z/requirements-ftqc-evaluation.txt",
+  "started_at_utc": "2026-10-04T22:39:34.224004+00:00",
+  "finished_at_utc": "2026-10-04T22:39:36.348886+00:00",
+  "exit_code": 0,
+  "stdout_path": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/install-dependencies.stdout.txt",
+  "stderr_path": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/install-dependencies.stderr.txt",
+  "stdout_sha256": "910f5a4ba79565c672e00cfde2474b571018de3f95d88d56eac9b79b0c112a1d",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

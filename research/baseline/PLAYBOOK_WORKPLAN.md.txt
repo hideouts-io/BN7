@@ -1,0 +1,137 @@
+# Bridge Node 7 Playbook Workplan
+
+**Editorial working document · October 4, 2026 · Local research and draft complete; public release pending**
+
+Public-facing content lives in [PUBLIC_PLAYBOOK.md](PUBLIC_PLAYBOOK.md). This file holds the research assessment, editorial decisions, missing inputs, and publication tasks. It is not part of the proposed public playbook.
+
+## Objective and current state
+
+Create one public entry point that explains Bridge Node 7, routes readers to authoritative technical references, and supports an initial investor conversation with evidence appropriate to each claim.
+
+The working audience assumption is public and technical partners first, with an investor reading path. Audience confirmation remains open. This is a documentation initiative, not a fundraising forecast or an operational software audit.
+
+The current BN7 workspace began as an empty Git repository with no commits or remote. These documents are local review artifacts. No existing Bridge Node 7 source repository, website, release, or cloud Page was modified.
+
+## Research assessment
+
+| Finding | Evidence | Editorial response |
+| --- | --- | --- |
+| A coherent architecture already exists, but its explanation is spread across surfaces. | [Profile](https://github.com/Bridge-Node-7), [architecture](https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md), [website](https://bridgenode7.com/). | Make the playbook the explanation and navigation layer. Link existing specifications instead of creating competing definitions. |
+| The website's seven-domain positioning is broader than the most immediately inspectable examples. | [Homepage](https://bridgenode7.com/), [FTQC intelligence](https://bridgenode7.com/neutral-atom-ftqc/index.html), [Atlas](https://bridgenode7.com/materials-to-mission/). | Lead with FMA and a single complete example; keep the wider domain map secondary. |
+| Public availability does not imply uniform reuse rights. | [FMA license](https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/LICENSE); licenses in the other repositories. | Describe a mixed portfolio and label each reference's rights. Do not call the entire portfolio open source. |
+| Source versions and published releases sometimes differ. | Repository VERSION files and published GitHub Releases; snapshot below. | Pin evidence to a source revision or release and say which was inspected. Avoid treating a source version as release proof. |
+| Portable artifacts establish bounded interfaces, not universal compatibility. | [Materials-to-Mission interoperability](https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/docs/FMA_INTEROPERABILITY.md). | Require exact-revision compatibility evidence before claiming a complete integrated platform. |
+| The partner page has an assessment outline but leaves delivery particulars to an engagement. | [Partner](https://bridgenode7.com/partner/). | Prepare one narrow pilot proposal with measurable acceptance criteria. Do not invent prices or delivery promises. |
+| Public technical references do not establish commercial traction. | Reviewed website, public repository descriptions, examples, and limitations. | Obtain approved business facts separately. No inference of customers, revenue, market size, or fundraising status. |
+
+Research covered the canonical public account, its eight public repositories, central architecture documents, available release metadata, and the website's main capability, partner, policy, and privacy surfaces. It did not audit every file, independently reproduce software behavior, inspect private operations, or verify financial or legal records. Absence of a business fact in this review means it was not established here.
+
+## Repository snapshot
+
+GitHub identifies Bridge-Node-7 as a public user account. The inventory contains its profile repository and seven implementation repositories. Exact source revisions below were inspected on October 4, 2026; website observations use that same review date. Source version is distinct from the latest published release. Even equal version numbers do not establish identical source and release commits.
+
+| Repository | Inspected source commit | Source version | Latest published release | Rights recorded |
+| --- | --- | --- | --- | --- |
+| [Profile](https://github.com/Bridge-Node-7/Bridge-Node-7) | `3f959138f3252b16bc69dabf178bdde83a606a3b` | Not applicable | None found | Separate profile rights. |
+| [FMA](https://github.com/Bridge-Node-7/frontier-mission-assurance) | `f99dd2174c74f26b648321e02f8d30e2cff10230` | 0.11.2 | [v0.11.2](https://github.com/Bridge-Node-7/frontier-mission-assurance/releases/tag/v0.11.2) | All rights reserved; evaluation/review. |
+| [FDE](https://github.com/Bridge-Node-7/frontier-decision-engine) | `4a913756d00cdd321da04bf7350507e571f2f2dd` | 0.5.16 | [v0.5.14](https://github.com/Bridge-Node-7/frontier-decision-engine/releases/tag/v0.5.14) | Apache-2.0. |
+| [FIW](https://github.com/Bridge-Node-7/frontier-intelligence-workflows) | `36366e96c12765e14d09965c1f82330194dfa8d3` | 0.9.0 | [v0.9.0](https://github.com/Bridge-Node-7/frontier-intelligence-workflows/releases/tag/v0.9.0) | MIT. |
+| [Materials-to-Mission](https://github.com/Bridge-Node-7/materials-to-mission) | `2a8d26af86e8adb8b1e34550045782d1a20418a4` | 0.7.6 | [v0.7.5](https://github.com/Bridge-Node-7/materials-to-mission/releases/tag/v0.7.5) | MIT. |
+| [Pax Silica](https://github.com/Bridge-Node-7/pax-silica) | `2f62f678d06f8444ddc7788ce03e1f1f46cf4cba` | 0.3.3 | [v0.3.2](https://github.com/Bridge-Node-7/pax-silica/releases/tag/v0.3.2) | MIT. |
+| [AI Cyber Assurance](https://github.com/Bridge-Node-7/ai-cyber-assurance) | `9033bf73bbd3923c5de0a9c6fb9959b4c140de64` | 0.6.1 | [v0.6.1](https://github.com/Bridge-Node-7/ai-cyber-assurance/releases/tag/v0.6.1) | MIT. |
+| [Quantum Readiness](https://github.com/Bridge-Node-7/quantum-readiness-space-communications) | `0f926377de268b20c2b1223eaf830405b8eb3648` | 0.2.4 | [v0.2.3](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/releases/tag/v0.2.3) | MIT. |
+
+Release metadata lists these seven releases as non-prereleases. This records publication state, not commercial or operational maturity. File references in both working documents are pinned to the inspected commits; repository and website entry points remain live links.
+
+Additional sources for maturity review: [Materials-to-Mission maturity](https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/docs/MATURITY_AND_PROOF.md), [FIW limitations](https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/LIMITATIONS.md), [Pax credibility](https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/docs/CREDIBILITY.md), [Quantum limitations](https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/KNOWN_LIMITATIONS.md), and [AI Cyber scope](https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/README.md).
+
+Resolve the FMA source-era [release receipt](https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/RELEASE_RECEIPT.md), which still uses candidate/pending language, against the actual published release before any release-status statement is finalized. This workplan treats GitHub Release metadata as the publication record. A separate example execution remains required for independent behavioral evidence.
+
+## Claims to resolve before release
+
+| ID | Proposed claim or topic | Evidence class | Source and boundary | Next action |
+| --- | --- | --- | --- | --- |
+| C01 | BN7 develops evidence-to-decision infrastructure. | Published self-description. | [Homepage](https://bridgenode7.com/) and [profile](https://github.com/Bridge-Node-7); does not establish adoption. | Confirm concise public wording with accountable company owner. |
+| C02 | FMA exposes affected decision relationships after a declared change. | Documented reference behavior. | [FTQC worked path](https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/FTQC_GOLDEN_PATH.md); synthetic scope. | Reproduce the chosen exact revision and preserve outputs. |
+| C03 | Atlas provides reviewed materials pathways. | Public-source review. | [Atlas](https://bridgenode7.com/materials-to-mission/); only named reviewed pathways support review-depth claims. | Select one case, retain its source dates, claim IDs, and unresolved link. |
+| C04 | FDE supports human-owned decision preparation. | Documented public implementation. | [FDE](https://github.com/Bridge-Node-7/frontier-decision-engine), [public interface](https://bridgenode7.com/frontier-decision-engine/); interface inspection is separate from calculation verification. | Run one public-safe scenario and check expected outputs against the same source revision. |
+| C05 | Components interoperate in a particular scenario. | Bounded contract/example evidence. | [MTM interoperability](https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/docs/FMA_INTEROPERABILITY.md); pinned contracts do not prove current-revision compatibility. | State exact participating revisions, contract versions, and exercised path; require a compatibility receipt. |
+| C06 | A partner can request a Strategic Resilience Assessment. | Published engagement positioning. | [Partner](https://bridgenode7.com/partner/); price, schedule, and delivery scope not established. | Agree the first offer and responsibilities before presenting them as standard terms. |
+| C07 | The approach improves reviewer effort or decision continuity. | Proposed benefit hypothesis. | Pilot measurement required; no customer result established in this review. | Baseline the existing workflow, then measure the agreed change. |
+| C08 | Company, traction, IP, and financing facts. | Missing verified business inputs. | Public references are insufficient evidence. | Obtain source records and approved wording from accountable owners. |
+
+For every added material claim record: exact wording; evidence category; source revision or dated URL; scope; limitation; accountable reviewer; disclosure approval; next review trigger. Use observed, documented, inferred, proposed, or unknown status explicitly. Publication readiness requires the reviewer and disclosure fields to be complete.
+
+## Creation process
+
+The sequence below is a proposed first sprint. Effort estimates are planning assumptions, not delivery commitments; named owners and actual dates need assignment.
+
+| Step | Status | Responsible role | Deliverable and acceptance criterion | Dependency |
+| --- | --- | --- | --- | --- |
+| 1. Map the public record | Complete for this review | Research editor | Canonical entry points, portfolio inventory, release differences, and evidence gaps recorded here. | None. |
+| 2. Establish the document spine | Draft complete | Editorial owner + company owner | PUBLIC_PLAYBOOK.md has reader paths, core method, portfolio, example, evaluation, and investor orientation. | Step 1. |
+| 3. Confirm focus and factual inputs | Open | Company owner | Approve primary reader, first use case, legal/company identity, commercial wording, and disclosure scope. | Step 2. |
+| 4. Produce example proof | Open | Technical maintainer + domain reviewer | Exact revision, environment, commands, outputs, expected behavior, observed behavior, and limits recorded for one example. | Step 3; evaluation rights and environment confirmed. |
+| 5. Complete investor orientation | Open | Company owner + finance/IP owners | Either approved business facts support the public language, or the section remains explicitly limited to technical diligence with missing facts identified. A full private diligence package is a separate later task. | Step 3. |
+| 6. Review for reader comprehension | Open | One technical reader + one general/investor reader | Readers can explain the problem, identify an evaluable capability, distinguish evidence classes, and find a next step. | Steps 4–5. |
+| 7. Prepare canonical publication | Open | Website maintainer + editorial owner | One rendered playbook, working navigation, source links, mobile/keyboard readability, and no duplicated technical instructions. | Step 6. |
+| 8. Authorize and publish v0.1 | Not started | Accountable publisher | Approve exact content, destination, and Git changes; then verify the live URL and reciprocal links. | Step 7 and explicit publication authorization. |
+| 9. Maintain current state | Proposed | Named editorial owner | Review on relevant releases, changed examples, new approved outcomes, or company-fact changes. | Published version. |
+
+Suggested allocation after inputs are available: days 1–2 for focus and facts; days 3–4 for example proof; days 5–6 for investor wording and reader review; days 7–8 for rendered publication preparation. Authorization and external dependencies can extend that sequence.
+
+## Proposed first pilot
+
+**Working proposal, not a confirmed product offer:** one consequential technical decision with one material change in its evidence basis. Select a partner that already has evidence, an accountable decision owner, and a recurring need to revisit the decision.
+
+Use the existing [FMA decision-packet pattern](https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/MISSION_DECISION_PACKET.md) and relevant domain instructions rather than designing a second assessment system.
+
+| Item | Proposed agreement |
+| --- | --- |
+| Decision | Name one bounded question, owner, evidence cutoff, and decision horizon. |
+| Inputs | Agreed evidence references, controlling assumptions, expert review, and information-handling boundary. |
+| Outputs | Reviewable decision basis, open evidence obligations, one changed-state comparison, and explicit reassessment conditions. |
+| Measures | Time to reconstruct the basis; reviewer effort; ability to trace affected dependencies; unresolved obligations retained. |
+| Baseline | Measure the current workflow on the same decision before assessing any improvement. |
+| Acceptance | Pre-agreed critical relationships remain inspectable; an agreed material change exposes affected items; the reviewer can explain remaining unknowns. |
+| Stop condition | Evidence access, domain authority, rights, or handling requirements make the bounded evaluation unsuitable. |
+| Public outcome | Publish only approved results with their actual scope and measurement method. A synthetic demonstration stays labeled synthetic. |
+
+Review [FDE pilot readiness](https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/docs/PILOT_READINESS.md) when including FDE. Its pilot gates describe evidence to obtain; they do not substitute for recorded outcomes.
+
+## Investor information to obtain
+
+| Topic | Required evidence | Public treatment | Controlled diligence treatment |
+| --- | --- | --- | --- |
+| Identity and team | Legal entity, operating identity, named roles, relevant credentials with substantiation. | Approved short identity and team summary. | Supporting legal and employment records as appropriate. |
+| Ownership and rights | Code/IP ownership, contributor rights, applicable licenses, operational-use agreements. | Accurate portfolio rights and approved ownership statement. | Agreements and detailed rights analysis. |
+| Initial buyer and problem | Buyer role, budget owner, decision workflow, current alternatives, evidence from actual conversations. | Approved target use case and value hypothesis. | Interview notes, identifiable prospects, and pipeline records. |
+| Commercial model | Confirmed service/product scope, pricing basis, delivery requirements, support and repeatability assumptions. | Approved model description; proposals labeled proposed. | Unit economics and contractual terms. |
+| Traction | Actual evaluations, pilots, customers, outcomes, revenue, and permission to disclose. | Only substantiated and approved metrics or cases. | Customer records, contracts, detailed financial evidence. |
+| Market and competition | Defined segment, sourced sizing method, comparison criteria, and evidence of differentiated value. | Bounded, sourced claims when ready. | Detailed model, assumptions, and competitive diligence. |
+| Capital and milestones | Actual funding objective if any, resources, runway basis, dependencies, and measurable milestone costs. | Approved milestones with clear status. | Cap table, financing history, forecast, and use-of-funds model. |
+
+Do not add a market-size number, funding ask, customer count, founder biography, or revenue claim until the evidence and disclosure decision exist.
+
+## Publication design
+
+Recommended destination: **bridgenode7.com/playbook/** as the public reading URL, supported by one version-controlled Markdown source. This URL is proposed and was not created.
+
+Evaluate keeping the source in the existing profile repository's documentation, with the website rendering that same source. Confirm how the website is built before choosing synchronization. The playbook is a navigation layer, so a new repository is not yet justified; the existing [architecture repository-creation criteria](https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md) favor distinct ownership and lifecycle over unnecessary duplication.
+
+Proposed navigation: homepage and partner page link to Playbook; profile links to the same reading URL; the playbook links to the authoritative technical references. Website pages should keep their concise purpose and refer deeper readers to the playbook. Create a downloadable derivative only if needed, generated from the same source.
+
+## Release criteria and immediate next batch
+
+- [x] Research canonical public surfaces and record material gaps.
+- [x] Draft a public guide and a separate editorial workplan.
+- [ ] Assign the company owner and editorial owner; confirm the primary reader and use case.
+- [ ] Complete company/IP/commercial facts or deliberately omit unsupported claims.
+- [ ] Reproduce one exact-revision example and document its observed scope.
+- [ ] Complete source-revision, factual, licensing, and disclosure review for all material claims.
+- [ ] Have two representative readers follow their routes and record comprehension problems.
+- [ ] Prepare and inspect the rendered website integration, links, anchors, and accessibility.
+- [ ] Approve the exact publication change and publish only the public document.
+- [ ] Verify the live page, source identity, and links from website and GitHub.
+
+The immediate next batch is focus/owner confirmation plus a bounded example proof, followed by approved company facts for the investor path. Scheduled monitoring, GitHub issue creation, commits, pushes, and website publication are not part of the completed local work.

@@ -1,0 +1,121 @@
+# Bridge Node 7 Public Playbook
+
+**Working draft v0.1 · Research cutoff: October 4, 2026 · Prepared for review before public release**
+
+Bridge Node 7 develops evidence-to-decision infrastructure for frontier systems: methods and reference software that help technical teams trace the basis of a decision and recognize when that basis needs another review. Its public positioning connects frontier intelligence, mission assurance, and strategic resilience. [Bridge Node 7 website](https://bridgenode7.com/), [canonical GitHub profile](https://github.com/Bridge-Node-7).
+
+## Start here
+
+This playbook is the proposed central guide to Bridge Node 7's public work. It explains the purpose, connects the available references, and gives readers a path to evaluation. Each repository remains authoritative for its own implementation, contracts, instructions, and rights.
+
+| Reader | Suggested route | Result |
+| --- | --- | --- |
+| Public newcomer | [Purpose](#purpose) → [Worked example](#worked-example) → [Evidence limits](#evidence-limits) | Understand the practical problem and what the public work demonstrates. |
+| Technical partner | [Public capabilities](#public-capabilities) → [Evaluation](#evaluation) → [Working together](#working-together) | Identify an appropriate reference and a bounded evaluation. |
+| Investor or institutional reviewer | [Purpose](#purpose) → [Public capabilities](#public-capabilities) → [Investor orientation](#investor-orientation) | Separate the technical approach from the commercial evidence needed for diligence. |
+
+## Purpose
+
+A technical decision can depend on experiments, models, supplier information, assumptions, and expert reviews held in different places. As those inputs change, a team needs to know whether its previous reasoning still applies.
+
+Bridge Node 7's flagship, Frontier Mission Assurance (FMA), connects those declared relationships to a reviewable decision basis. Existing evidence systems remain authoritative. The public reference illustrates how a changed dependency can expose an affected claim or prior review; qualified people determine the next technical answer. [FMA overview](https://github.com/Bridge-Node-7/frontier-mission-assurance).
+
+Useful questions include whether to fund another experiment, continue an architecture evaluation, investigate a materials bottleneck, or request additional evidence before a commitment. These are illustrative applications, not reported customer engagements.
+
+## Method
+
+Begin with one decision and activate only the methods that materially help answer it. Record the evidence available at the decision time, the assumptions that remain open, and the changes that would trigger reassessment. [Decision lifecycle](https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/DECISION_LIFECYCLE.md).
+
+```mermaid
+flowchart LR
+    A[Decision question] --> B[Evidence and assumptions]
+    B --> C[Dependencies and expert review]
+    C --> D[Accountable human decision]
+    D --> E[Preserved decision record]
+    E --> F[New evidence or changed conditions]
+    F --> B
+```
+
+| Role | Practical responsibility |
+| --- | --- |
+| Intelligence and domain work | Establish the evidence relevant to the question, its provenance, and its limits. |
+| Mission assurance | Preserve relationships between supporting evidence, assumptions, dependencies, and the decision basis. |
+| Decision preparation | Present options and tradeoffs in a form that a person can review. |
+| Accountable decision owner | Exercise judgment, record the disposition, and reconsider it when the basis materially changes. |
+
+This is a conceptual reading guide. Available components and their compatibility must be evaluated within their documented scope. [Frontier Assurance architecture](https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md).
+
+## Public capabilities
+
+Start with the first three references. Follow the supporting work when its domain matches the decision.
+
+| Reference | What a reader can inspect | Scope and rights |
+| --- | --- | --- |
+| [Frontier Mission Assurance](https://github.com/Bridge-Node-7/frontier-mission-assurance) | Assurance relationships, evidence gaps, declared dependency impact, decision records, and synthetic domain examples. | Public evaluation and review reference. Consult its [license](https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/LICENSE) and [use terms](https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/USE_AND_EVALUATION.md) before broader use. |
+| [Materials-to-Mission](https://github.com/Bridge-Node-7/materials-to-mission) | Structured materials evidence and decision artifacts; the [public Atlas](https://bridgenode7.com/materials-to-mission/) provides an accessible entry point. | Experimental public maturity M0; MIT-licensed repository. Consult the repository's scope and limitations. |
+| [Frontier Decision Engine](https://github.com/Bridge-Node-7/frontier-decision-engine) | A decision-framing and comparison workflow; the [public interface](https://bridgenode7.com/frontier-decision-engine/) offers a browser entry point. | Apache-2.0 repository; public deployment for public or sanitized inputs. Human decision authority remains explicit. |
+| [Frontier Intelligence Workflows](https://github.com/Bridge-Node-7/frontier-intelligence-workflows) | Reusable patterns for evidence collection, claim review, uncertainty, and reassessment. | MIT-licensed workflow reference. |
+| [AI Cyber Assurance](https://github.com/Bridge-Node-7/ai-cyber-assurance) | Evidence-centered assurance cases and validation workflows for bounded AI and cybersecurity questions. | MIT-licensed reference; review is human governed. |
+| [Quantum Readiness for Space Communications](https://github.com/Bridge-Node-7/quantum-readiness-space-communications) | Assessment templates and a decision-pack method for cryptographic transition across space and ground dependencies. | MIT-licensed planning framework; assessment results do not confer operational authorization. |
+| [Pax Silica](https://github.com/Bridge-Node-7/pax-silica) | Public-source intelligence on strategic technology supply chains and industrial capability. | MIT-licensed public-source work; distinguish source reports from demonstrated qualification. |
+
+The website also provides [neutral-atom fault-tolerant quantum computing intelligence](https://bridgenode7.com/neutral-atom-ftqc/index.html). Organizations discussed there are subjects of public-source research; their appearance does not establish a Bridge Node 7 partnership.
+
+Specialized methods, including [Disclosure Assurance's extreme-uncertainty pattern](https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/profiles/frontier-signal-integrity/EXTREME_UNCERTAINTY_PATTERN.md), apply the existing evidence discipline within a narrower context. Follow their own source and inference boundaries.
+
+## Worked example
+
+**Synthetic reference: a fault-tolerant quantum-computing decision changes when a controlling assumption changes.**
+
+A team has a reviewed basis for considering an architecture. That basis includes a resource estimate, supporting technical evidence, assumptions about applicability, and expert review. A new input changes one controlling assumption.
+
+| Stage | What to inspect |
+| --- | --- |
+| Original basis | The decision, evidence references, assumptions, and review conditions. |
+| Material change | The particular assumption that changed and its declared dependent relationships. |
+| Impact | Which estimate, evidence envelope, claim, or expert review needs reconsideration. |
+| Human response | The additional technical work required before the decision can be treated as settled again. |
+
+The demonstration concerns declared change impact and decision continuity. It does not establish quantum hardware performance or select a replacement architecture. Follow the authoritative [FTQC worked path](https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/FTQC_GOLDEN_PATH.md) for fixtures and instructions.
+
+For a public-source example rather than a synthetic engineering fixture, inspect Gallium **GA-001** in the [Materials-to-Mission Atlas](https://bridgenode7.com/materials-to-mission/). It exposes a pathway and an unresolved qualification link. Official mineral designation, an application connection, and a reviewed pathway are different evidence states; the Atlas does not certify readiness.
+
+## Evaluation
+
+1. Choose one reference and read its scope, license, and known limitations.
+2. Select an exact published release or source commit. Keep the instructions and fixtures from that same revision together.
+3. Follow the repository's evaluation guide in an appropriate project environment.
+4. Inspect the outputs and deliberately unresolved evidence, rather than relying only on a PASS message.
+5. Record the revision, environment, observed behavior, and remaining unknowns before considering a wider evaluation.
+
+For FMA, start with the [Five-Minute Evaluation](https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/FIVE_MINUTE_EVALUATION.md). Its documented expected result is a public reference evaluation PASS while retaining a deliberate evidence gap. The [Mission Decision Packet](https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/MISSION_DECISION_PACKET.md) describes how one decision's basis and reopen conditions can be reviewed together.
+
+**Verification status of this draft:** repository documentation and public website material were inspected. The software evaluation was not independently executed during this research. Expected behavior above is documented behavior, not a new test result.
+
+## Working together
+
+The public partner page describes Strategic Resilience Assessments and paths for mission pilots, technical collaboration, research programs, and strategic opportunities. Its assessment outline covers dependencies, the evidence boundary, the critical constraint, alternatives, and the current decision basis. [Work with Bridge Node 7](https://bridgenode7.com/partner/).
+
+A useful opening inquiry identifies the decision, its owner, the material uncertainty, and the evidence available for review. Begin with a non-confidential overview through [contact@bridgenode7.com](mailto:contact@bridgenode7.com). The engagement's scope, deliverables, timing, permissions, and acceptance criteria need agreement before work begins.
+
+## Investor orientation
+
+The public references allow a reviewer to examine the technical approach: traceable evidence, explicit assumptions, decision records, and reassessment when conditions change. This provides an entry point for technical diligence.
+
+The commercial question to investigate is whether an identified buyer will pay for a measurable improvement in reviewing a consequential decision. Candidate measures include time to reconstruct a decision basis, reviewer effort, traceability of affected dependencies, and consistency of reassessment. These are proposed evaluation measures, not reported commercial results.
+
+An investor assessment also needs verified company information: team and legal entity, IP ownership and licensing, customer or pilot status, revenue and delivery economics, the initial target market, competition, and resource requirements tied to milestones. Those facts were not established by the public surfaces reviewed for this draft. Request approved information through the partner channel; sensitive diligence belongs in a separately controlled package.
+
+## Evidence limits
+
+Evidence should retain its original meaning as it moves between sources, methods, and interfaces. A calculation, source claim, synthetic example, and reviewed observation support different conclusions. [Evidence and authority architecture](https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md).
+
+Public reference demonstrations do not establish customer adoption, commercial performance, system qualification, independent certification, or deployment authority. FMA's evaluation rights differ from the open-source licenses of supporting repositories. Public policy references provide context; the website expressly separates them from federal endorsement or participation. [FMA scope](https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/SCOPE.md), [policy context](https://bridgenode7.com/genesis/).
+
+Public contributions and inquiries should contain information approved for public sharing. Use the published [privacy and security-reporting guidance](https://bridgenode7.com/privacy/) for handling and reporting routes.
+
+## Authoritative documentation
+
+Use [Bridge-Node-7 on GitHub](https://github.com/Bridge-Node-7) and [bridgenode7.com](https://bridgenode7.com/) as the public entry points. Each linked repository owns its technical detail. Cite the exact release or commit used for substantive evaluation.
+
+This draft is intended to become a maintained navigation and explanation layer. Detailed technical instructions remain in their source repositories; company facts and any future public outcome claims need a named owner, evidence, a review date, and approval for disclosure before inclusion.

@@ -1,0 +1,75 @@
+{
+  "interpreter": {
+    "base_prefix": "/opt/homebrew/opt/python@3.11/Frameworks/Python.framework/Versions/3.11",
+    "executable": "/Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z/.venv/bin/python",
+    "machine": "arm64",
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "prefix": "/Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z/.venv",
+    "version": "3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 21.0.0 (clang-2100.1.1.101)]"
+  },
+  "installed_packages_from_pip_report": [
+    {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "requested_directly": true,
+      "artifact_url": "https://files.pythonhosted.org/packages/16/19/13de8e4377ed53079ee996e1ab0a9c33ec2faf808a4647b7b4c0d46dd239/pyyaml-6.0.3-cp311-cp311-macosx_11_0_arm64.whl",
+      "artifact_sha256": "652cb6edd41e718550aad172851962662ff2681490a8a711af6a4d288dd96824"
+    },
+    {
+      "name": "jsonschema",
+      "version": "4.26.0",
+      "requested_directly": true,
+      "artifact_url": "https://files.pythonhosted.org/packages/69/90/f63fb5873511e014207a475e2bb4e8b2e570d655b00ac19a9a0ca0a385ee/jsonschema-4.26.0-py3-none-any.whl",
+      "artifact_sha256": "d489f15263b8d200f8387e64b4c3a75f06629559fb73deb8fdfb525f2dab50ce"
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0",
+      "requested_directly": false,
+      "artifact_url": "https://files.pythonhosted.org/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl",
+      "artifact_sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309"
+    },
+    {
+      "name": "jsonschema-specifications",
+      "version": "2025.9.1",
+      "requested_directly": false,
+      "artifact_url": "https://files.pythonhosted.org/packages/41/45/1a4ed80516f02155c51f51e8cedb3c1902296743db0bbc66608a0db2814f/jsonschema_specifications-2025.9.1-py3-none-any.whl",
+      "artifact_sha256": "98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe"
+    },
+    {
+      "name": "referencing",
+      "version": "0.37.0",
+      "requested_directly": false,
+      "artifact_url": "https://files.pythonhosted.org/packages/2c/58/ca301544e1fa93ed4f80d724bf5b194f6e4b945841c5bfd555878eea9fcb/referencing-0.37.0-py3-none-any.whl",
+      "artifact_sha256": "381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231"
+    },
+    {
+      "name": "rpds-py",
+      "version": "2026.9.1",
+      "requested_directly": false,
+      "artifact_url": "https://files.pythonhosted.org/packages/9e/b2/632c3d034961149eff606e3e357547620a9ab37b849ae5815f67838753fd/rpds_py-2026.9.1-cp311-cp311-macosx_11_0_arm64.whl",
+      "artifact_sha256": "3231c4c0e521dafa5be0c9f114ee2c2ad46650836f2d72caa86801950c3e7044"
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "requested_directly": false,
+      "artifact_url": "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl",
+      "artifact_sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+    }
+  ],
+  "freeze_all": [
+    "attrs==26.1.0",
+    "jsonschema==4.26.0",
+    "jsonschema-specifications==2025.9.1",
+    "pip==26.2.1",
+    "PyYAML==6.0.3",
+    "referencing==0.37.0",
+    "rpds-py==2026.9.1",
+    "setuptools==84.0.0",
+    "typing_extensions==4.16.0"
+  ],
+  "dependency_consistency_check": "No broken requirements found.",
+  "installation_report_sha256": "7bc75b4ed288d8cbf79df1a48b2bcad0ddb7d2166545a69438209e1abd15f9ac",
+  "note": "pip and setuptools were seeded by venv; the pip installation request added only the source-pinned PyYAML/jsonschema and their resolved transitives. No FMA package build or editable install was performed."
+}

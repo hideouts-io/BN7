@@ -1,0 +1,43 @@
+{
+  "verified_at_utc": "2026-10-04T22:41:16.766308+00:00",
+  "runtime_commands_reexecuted": false,
+  "source_head": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+  "initial_wrapper_result": "evaluation.json",
+  "correction": "The wrapper's ENVELOPE-RESOURCE-001 string was a recording-script identifier typo. Source and runtime use ENV-RESOURCE-001, and baseline also exposes ENV-LOSS-001. FMA commands and outputs were not changed or rerun.",
+  "checks": {
+    "baseline_status_pass": true,
+    "baseline_record_class_synthetic": true,
+    "baseline_disposition_hold": true,
+    "baseline_declared_applicability_hold": true,
+    "comparison_status_pass": true,
+    "comparison_record_class_synthetic": true,
+    "current_disposition_remains_hold": true,
+    "context_change_architecture_revision": true,
+    "expected_changed_assumptions": true,
+    "expected_resource_estimates_stale": true,
+    "expected_evidence_outside_envelope": true,
+    "expected_expert_reviews_reopen": true,
+    "expected_impacted_nodes": true,
+    "expected_decision_reopen_required": true,
+    "source_head_unchanged": true,
+    "source_tracked_bytes_unchanged": true,
+    "source_clean_after": true,
+    "baseline-validation_stdout_hash_matches": true,
+    "baseline-validation_stderr_hash_matches": true,
+    "baseline-validation_exit_zero": true,
+    "changed-assumption-comparison_stdout_hash_matches": true,
+    "changed-assumption-comparison_stderr_hash_matches": true,
+    "changed-assumption-comparison_exit_zero": true,
+    "baseline_source_declares_two_gate_ids": true
+  },
+  "all_checks_pass": true,
+  "baseline_declared_gate_ids": [
+    "ENV-RESOURCE-001",
+    "ENV-LOSS-001"
+  ],
+  "preserved_initial_script_sha256": "4ba78d26cb0a479009b205c0cd7d7b09438e5805a2be73d15c0b8d6859847b3f",
+  "preserved_initial_evaluation_sha256": "df92ee07b3898dd32b7e9fc67b7777d794a3af427c26dbc4e2050d51a7f24f07",
+  "orchestrator_stdout_sha256": "83c7df8800c1b7a67b64d53b17cfb6213a2ab085e8761527d25f9346fc425598",
+  "orchestrator_stderr_sha256": "c92af24752fee76cb3eb4d19deb6dda6688619000f0e5182c076b3cc8e08c4d6",
+  "orchestrator_exit_code": 1
+}

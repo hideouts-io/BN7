@@ -1,0 +1,68 @@
+{
+  "scope": "Two stdout-only synthetic FTQC commands: baseline validation and baseline versus changed-assumption comparison; no whole suite, receipt-code reproduction, editable package install, or upstream modifications.",
+  "completed_at_utc": "2026-10-04T22:39:37.217426+00:00",
+  "working_directory": "/Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z",
+  "source_head": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+  "source_version": "0.11.2",
+  "base_interpreter": "/opt/homebrew/bin/python3.11",
+  "base_interpreter_resolved_path": "/opt/homebrew/Cellar/python@3.11/3.11.16/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+  "base_interpreter_sha256": "3494e1ea84d8b49a17c193a9825d34abd476b7f3c2075e58c14316696fe3bf6f",
+  "requirements_selection": "Only the two repository-pinned imports needed by the FTQC scripts; pytest, ruff, build, setuptools and wheel were not installed as source build requirements.",
+  "requirements_sha256": "0b0709dc3105d98b29f4fc6a870c15c0cf42191498384ef8a2a32d3fcf5f34ed",
+  "expected_fixture_source_path": "/Users/macbookpro/Codex/Any/BN7-sources/frontier-mission-assurance/profiles/ftqc-assurance/examples/synthetic-neutral-atom/changed-assumption/expected-impact.json",
+  "expected_fixture_sha256": "d1449a912bddeb466cf34570ea5145e8632bbb0f20045c729a4a83a7cab0b784",
+  "checks": {
+    "baseline_status_pass": true,
+    "baseline_record_class_synthetic": true,
+    "baseline_disposition_hold": true,
+    "baseline_declared_applicability_hold": false,
+    "comparison_status_pass": true,
+    "comparison_record_class_synthetic": true,
+    "current_disposition_remains_hold": true,
+    "context_change_architecture_revision": true,
+    "expected_changed_assumptions": true,
+    "expected_resource_estimates_stale": true,
+    "expected_evidence_outside_envelope": true,
+    "expected_expert_reviews_reopen": true,
+    "expected_impacted_nodes": true,
+    "expected_decision_reopen_required": true,
+    "source_head_unchanged": true,
+    "source_tracked_bytes_unchanged": true,
+    "source_clean_after": true
+  },
+  "all_checks_pass": false,
+  "baseline_hold_reasons": [
+    "ENV-RESOURCE-001 applicability is declared but not established",
+    "ENV-LOSS-001 applicability is declared but not established"
+  ],
+  "baseline_warnings": [
+    "assurance-graph.yaml: EVIDENCE-QEC-001: evidence has no source/provenance field",
+    "assurance-graph.yaml: EVIDENCE-LOSS-001: evidence has no source/provenance field",
+    "assurance-graph.yaml: EXPERT-REVIEW-001: evidence has no source/provenance field",
+    "assurance-graph.yaml: EVIDENCE-PHOTONIC-001: evidence has no source/provenance field"
+  ],
+  "comparison_warnings": [
+    "previous: assurance-graph.yaml: EVIDENCE-QEC-001: evidence has no source/provenance field",
+    "previous: assurance-graph.yaml: EVIDENCE-LOSS-001: evidence has no source/provenance field",
+    "previous: assurance-graph.yaml: EXPERT-REVIEW-001: evidence has no source/provenance field",
+    "previous: assurance-graph.yaml: EVIDENCE-PHOTONIC-001: evidence has no source/provenance field",
+    "current: assurance-graph.yaml: EVIDENCE-QEC-001: evidence has no source/provenance field",
+    "current: assurance-graph.yaml: EVIDENCE-LOSS-001: evidence has no source/provenance field",
+    "current: assurance-graph.yaml: EXPERT-REVIEW-001: evidence has no source/provenance field",
+    "current: assurance-graph.yaml: EVIDENCE-PHOTONIC-001: evidence has no source/provenance field"
+  ],
+  "current_hold_reasons": [
+    "ENV-RESOURCE-001 applicability is declared but not established",
+    "ENV-RESOURCE-001 is outside computed applicability",
+    "ENV-QEC-001 is outside computed applicability",
+    "ENV-LOSS-001 applicability is declared but not established",
+    "ENV-LOSS-001 is outside computed applicability"
+  ],
+  "governance_review_required": false,
+  "resource_estimate_current_fixture_review_state": "CURRENT",
+  "resource_estimates_computed_stale": [
+    "MODEL-RESOURCE-001"
+  ],
+  "decision_changes": [],
+  "boundary_note": "Change impact is derived from declared case contracts and graph relationships. It does not establish the replacement quantum-engineering answer, estimator correctness, hardware performance, independent V&V, or decision authority."
+}

@@ -1,0 +1,3886 @@
+{
+  "check_version": "1.0",
+  "review_date_local": "2026-10-04",
+  "assembled_at_utc": "2026-10-04T22:38:57.261585+00:00",
+  "input_documents": [
+    {
+      "path": "PUBLIC_PLAYBOOK.md",
+      "sha256": "00c08c4e6ead12d2896327437f1d0d378fba6099bbba794184d154935fa8de56"
+    },
+    {
+      "path": "research/EVIDENCE_REGISTER.md",
+      "sha256": "292c6310276a399e2926635282e507beee7eba3a46c8ef2c5ffc46e0444890b3"
+    },
+    {
+      "path": "research/website-study.md",
+      "sha256": "2fcb265250526eb847eaf644f5a9af8f7e415117404b6afc1ec52fb2d8c2d948"
+    },
+    {
+      "path": "research/source-inventory.json",
+      "sha256": "7470b34e5451da36c17eff7131a16d6304986d72e085e09ae76bccfa26eae742"
+    }
+  ],
+  "scope": {
+    "remote": "GET requests to exact public manuscript/register/site-study links, citation/use files and published release routes; mailto not exercised",
+    "local": "Pinned clone HEADs, file/directory presence, citation line ranges; raw-byte comparison for manuscript pinned files",
+    "excluded": "Website integration, source/deployment discovery and changes excluded by user. Standalone deliverables only. Proposed bridgenode7.com/playbook/ destination superseded. No commits, uploads or publications."
+  },
+  "source_occurrences": [
+    {
+      "url": "https://bridgenode7.com/",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 9
+        },
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 101
+        },
+        {
+          "path": "research/website-study.md",
+          "line": 11
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/examples/frontier-technology-diligence/README.md",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 19
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/DECISION_LIFECYCLE.md",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 34
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/FTQC_GOLDEN_PATH.md",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 53
+        }
+      ]
+    },
+    {
+      "url": "https://bridgenode7.com/materials-to-mission/",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 59
+        },
+        {
+          "path": "research/website-study.md",
+          "line": 13
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/public-snapshots/gallium/GA-001/public-view.json#L60-L65",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 61
+        },
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 115
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/docs/MATURITY_AND_PROOF.md",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 63
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 71
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 72
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 73
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-decision-engine",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 74
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/ai-cyber-assurance",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 75
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 76
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/pax-silica",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 77
+        }
+      ]
+    },
+    {
+      "url": "https://bridgenode7.com/neutral-atom-ftqc/index.html",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 79
+        },
+        {
+          "path": "research/website-study.md",
+          "line": 14
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/tree/f99dd2174c74f26b648321e02f8d30e2cff10230/profiles/scientific-discovery",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 85
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/FIVE_MINUTE_EVALUATION.md",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 87
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 93
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/USE_AND_EVALUATION.md",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 95
+        },
+        {
+          "path": "citation-and-reuse-route",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://bridgenode7.com/privacy/",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 97
+        },
+        {
+          "path": "research/website-study.md",
+          "line": 19
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 101
+        }
+      ]
+    },
+    {
+      "url": "https://bridgenode7.com/partner/",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 101
+        },
+        {
+          "path": "research/website-study.md",
+          "line": 12
+        }
+      ]
+    },
+    {
+      "url": "mailto:contact@bridgenode7.com",
+      "occurrences": [
+        {
+          "path": "PUBLIC_PLAYBOOK.md",
+          "line": 103
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/README.md#L3-L19",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 15
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/README.md#L9-L32",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 25
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/DECISION_LIFECYCLE.md#L9-L54",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 35
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/examples/frontier-technology-diligence/README.md#L3-L47",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 45
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/LIMITATIONS.md#L9-L35",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 55
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/13-assurance-intelligence/README.md#L92-L98",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 55
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/README.md#L7-L30",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 65
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/src/frontier_assurance/analysis.py#L46-L62",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 65
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/profiles/ftqc-assurance/examples/synthetic-neutral-atom/baseline/decision-receipt.yaml#L1-L14",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 75
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/profiles/ftqc-assurance/examples/synthetic-neutral-atom/baseline/system-concept.json#L13-L19",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 85
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/profiles/ftqc-assurance/examples/synthetic-neutral-atom/changed-assumption-case/system-concept.json#L13-L19",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 85
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/scripts/compare_ftqc_cases.py#L171-L275",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 85
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/tests/test_ftqc_case_compare.py#L44-L58",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 95
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/public-snapshots/gallium/GA-001/README.md#L1-L39",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 105
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/public-snapshots/gallium/GA-001/README.md#L8-L41",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 115
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/docs/MATURITY_AND_PROOF.md#L5-L23",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 115
+        },
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 205
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/docs/ARCHITECTURE.md#L7-L43",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 125
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/docs/METHODOLOGY.md#L5-L15",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 125
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/docs/METHODOLOGY.md#L17-L23",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 135
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/docs/DECISION_RECEIPTS.md#L19-L37",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 145
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/site/src/lib/recording.js#L102-L160",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 145
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/13-assurance-intelligence/README.md#L27-L37",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 155
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/scripts/render_assurance_outputs.py#L267-L284",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 155
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/10-examples/synthetic-ai-agent-assurance/README.md#L7-L36",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 165
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/scripts/validate_assurance_case.py#L393-L426",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 165
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/docs/methodology.md#L5-L38",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 175
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/KNOWN_LIMITATIONS.md#L3-L18",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 175
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/README.md#L17-L36",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 185
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/data/pax-silica.json#L1-L22",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 185
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md#L42-L75",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 195
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/docs/FMA_INTEROPERABILITY.md#L15-L64",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 195
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/README.md#L64-L72",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 205
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/README.md#L13-L17",
+      "occurrences": [
+        {
+          "path": "research/EVIDENCE_REGISTER.md",
+          "line": 205
+        }
+      ]
+    },
+    {
+      "url": "https://bridgenode7.com/frontier-mission-assurance/index.html",
+      "occurrences": [
+        {
+          "path": "research/website-study.md",
+          "line": 15
+        }
+      ]
+    },
+    {
+      "url": "https://bridgenode7.com/frontier-decision-engine/",
+      "occurrences": [
+        {
+          "path": "research/website-study.md",
+          "line": 16
+        }
+      ]
+    },
+    {
+      "url": "https://bridgenode7.com/genesis/",
+      "occurrences": [
+        {
+          "path": "research/website-study.md",
+          "line": 17
+        }
+      ]
+    },
+    {
+      "url": "https://bridgenode7.com/golden-age/",
+      "occurrences": [
+        {
+          "path": "research/website-study.md",
+          "line": 18
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/LICENSE",
+      "occurrences": [
+        {
+          "path": "citation-and-reuse-route",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/LICENSE",
+      "occurrences": [
+        {
+          "path": "citation-and-reuse-route",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/releases/tag/v0.6.1",
+      "occurrences": [
+        {
+          "path": "source-inventory-release",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/LICENSE",
+      "occurrences": [
+        {
+          "path": "citation-and-reuse-route",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/CITATION.cff",
+      "occurrences": [
+        {
+          "path": "citation-and-reuse-route",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-decision-engine/releases/tag/v0.5.14",
+      "occurrences": [
+        {
+          "path": "source-inventory-release",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/LICENSE",
+      "occurrences": [
+        {
+          "path": "citation-and-reuse-route",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/NOTICE.md",
+      "occurrences": [
+        {
+          "path": "citation-and-reuse-route",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/releases/tag/v0.9.0",
+      "occurrences": [
+        {
+          "path": "source-inventory-release",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/LICENSE",
+      "occurrences": [
+        {
+          "path": "citation-and-reuse-route",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/CITATION.cff",
+      "occurrences": [
+        {
+          "path": "citation-and-reuse-route",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/releases/tag/v0.11.2",
+      "occurrences": [
+        {
+          "path": "source-inventory-release",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/LICENSE",
+      "occurrences": [
+        {
+          "path": "citation-and-reuse-route",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/NOTICE",
+      "occurrences": [
+        {
+          "path": "citation-and-reuse-route",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/CITATION.cff",
+      "occurrences": [
+        {
+          "path": "citation-and-reuse-route",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/releases/tag/v0.7.5",
+      "occurrences": [
+        {
+          "path": "source-inventory-release",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/LICENSE",
+      "occurrences": [
+        {
+          "path": "citation-and-reuse-route",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/NOTICE",
+      "occurrences": [
+        {
+          "path": "citation-and-reuse-route",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/pax-silica/releases/tag/v0.3.2",
+      "occurrences": [
+        {
+          "path": "source-inventory-release",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/LICENSE",
+      "occurrences": [
+        {
+          "path": "citation-and-reuse-route",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/CITATION.cff",
+      "occurrences": [
+        {
+          "path": "citation-and-reuse-route",
+          "line": null
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/releases/tag/v0.2.3",
+      "occurrences": [
+        {
+          "path": "source-inventory-release",
+          "line": null
+        }
+      ]
+    }
+  ],
+  "local_pinned_checks": [
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/examples/frontier-technology-diligence/README.md",
+      "repo": "frontier-intelligence-workflows",
+      "commit": "36366e96c12765e14d09965c1f82330194dfa8d3",
+      "path": "examples/frontier-technology-diligence/README.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "63218c9cb58a37c725c778cc60c37c04f353255b03e66a06a13f36ebfc4ed7a2"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/DECISION_LIFECYCLE.md",
+      "repo": "Bridge-Node-7",
+      "commit": "3f959138f3252b16bc69dabf178bdde83a606a3b",
+      "path": "docs/DECISION_LIFECYCLE.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "b9b7864b7621e5cd934a36f4f2430d1bbc6bc3c125d145afbbcc0d2202d380d9"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/FTQC_GOLDEN_PATH.md",
+      "repo": "frontier-mission-assurance",
+      "commit": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+      "path": "docs/FTQC_GOLDEN_PATH.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "2c2dce6c5facc3ba1027cccc2cd7b82ea188b704dc20571f8a8f4013c400827c"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/public-snapshots/gallium/GA-001/public-view.json#L60-L65",
+      "repo": "materials-to-mission",
+      "commit": "2a8d26af86e8adb8b1e34550045782d1a20418a4",
+      "path": "public-snapshots/gallium/GA-001/public-view.json",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        60,
+        65
+      ],
+      "line_range_valid": true,
+      "sha256": "31bdbf1a074e1f838205eab16c32ee02b8e3ee1a75899d0e476db0ce9fdf8676"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/docs/MATURITY_AND_PROOF.md",
+      "repo": "materials-to-mission",
+      "commit": "2a8d26af86e8adb8b1e34550045782d1a20418a4",
+      "path": "docs/MATURITY_AND_PROOF.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "c2160e437e8814a0e46c11d2d90218fdbb598a694fbe122368b21fa627f8c4bf"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/tree/f99dd2174c74f26b648321e02f8d30e2cff10230/profiles/scientific-discovery",
+      "repo": "frontier-mission-assurance",
+      "commit": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+      "path": "profiles/scientific-discovery",
+      "kind": "tree",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": null
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/FIVE_MINUTE_EVALUATION.md",
+      "repo": "frontier-mission-assurance",
+      "commit": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+      "path": "docs/FIVE_MINUTE_EVALUATION.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "5fdec93c2f84de202392eb22f24652401bcf184f68d8b26fb776be769ccf1160"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md",
+      "repo": "Bridge-Node-7",
+      "commit": "3f959138f3252b16bc69dabf178bdde83a606a3b",
+      "path": "docs/FRONTIER_ASSURANCE_ARCHITECTURE.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "5f98e008e55a43297161136d062c81467f974377fd0f5a922e95ad38b601a03e"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/USE_AND_EVALUATION.md",
+      "repo": "frontier-mission-assurance",
+      "commit": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+      "path": "docs/USE_AND_EVALUATION.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "798e3f61e3a8c8d24ea064be2bc645dfea14fcac2b70e955fa3897a91b12a151"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/README.md#L3-L19",
+      "repo": "Bridge-Node-7",
+      "commit": "3f959138f3252b16bc69dabf178bdde83a606a3b",
+      "path": "README.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        3,
+        19
+      ],
+      "line_range_valid": true,
+      "sha256": "c86ad85fa3f6b2627f97c481897aa9dc1cec507f73694083f9a0e129d803e2a4"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/README.md#L9-L32",
+      "repo": "Bridge-Node-7",
+      "commit": "3f959138f3252b16bc69dabf178bdde83a606a3b",
+      "path": "README.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        9,
+        32
+      ],
+      "line_range_valid": true,
+      "sha256": "c86ad85fa3f6b2627f97c481897aa9dc1cec507f73694083f9a0e129d803e2a4"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/DECISION_LIFECYCLE.md#L9-L54",
+      "repo": "Bridge-Node-7",
+      "commit": "3f959138f3252b16bc69dabf178bdde83a606a3b",
+      "path": "docs/DECISION_LIFECYCLE.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        9,
+        54
+      ],
+      "line_range_valid": true,
+      "sha256": "b9b7864b7621e5cd934a36f4f2430d1bbc6bc3c125d145afbbcc0d2202d380d9"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/examples/frontier-technology-diligence/README.md#L3-L47",
+      "repo": "frontier-intelligence-workflows",
+      "commit": "36366e96c12765e14d09965c1f82330194dfa8d3",
+      "path": "examples/frontier-technology-diligence/README.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        3,
+        47
+      ],
+      "line_range_valid": true,
+      "sha256": "63218c9cb58a37c725c778cc60c37c04f353255b03e66a06a13f36ebfc4ed7a2"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/LIMITATIONS.md#L9-L35",
+      "repo": "frontier-intelligence-workflows",
+      "commit": "36366e96c12765e14d09965c1f82330194dfa8d3",
+      "path": "LIMITATIONS.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        9,
+        35
+      ],
+      "line_range_valid": true,
+      "sha256": "b12ae27abd0e2a74f9554fe7460e01e1c57f821fb3af0ec5d4b5219222298667"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/13-assurance-intelligence/README.md#L92-L98",
+      "repo": "ai-cyber-assurance",
+      "commit": "9033bf73bbd3923c5de0a9c6fb9959b4c140de64",
+      "path": "13-assurance-intelligence/README.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        92,
+        98
+      ],
+      "line_range_valid": true,
+      "sha256": "ac35acd01d3bf3f378c86b9185cd799a722fa1fbd20333ef050f1e0cffe9ec38"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/README.md#L7-L30",
+      "repo": "frontier-mission-assurance",
+      "commit": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+      "path": "README.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        7,
+        30
+      ],
+      "line_range_valid": true,
+      "sha256": "e3cf226644ccb650e1f51214ad1e2c863bfe85c01ab2f494a4ec73ba2377c0ed"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/src/frontier_assurance/analysis.py#L46-L62",
+      "repo": "frontier-mission-assurance",
+      "commit": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+      "path": "src/frontier_assurance/analysis.py",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        46,
+        62
+      ],
+      "line_range_valid": true,
+      "sha256": "9f443775a2b966eec5be8b5f7032b5565228223022aec78c9746b939f5a1eb6f"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/profiles/ftqc-assurance/examples/synthetic-neutral-atom/baseline/decision-receipt.yaml#L1-L14",
+      "repo": "frontier-mission-assurance",
+      "commit": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+      "path": "profiles/ftqc-assurance/examples/synthetic-neutral-atom/baseline/decision-receipt.yaml",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        1,
+        14
+      ],
+      "line_range_valid": true,
+      "sha256": "73891dedb402b1c14a71095339b0636901403d2507f7ce1c06b3db7aa709aed1"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/profiles/ftqc-assurance/examples/synthetic-neutral-atom/baseline/system-concept.json#L13-L19",
+      "repo": "frontier-mission-assurance",
+      "commit": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+      "path": "profiles/ftqc-assurance/examples/synthetic-neutral-atom/baseline/system-concept.json",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        13,
+        19
+      ],
+      "line_range_valid": true,
+      "sha256": "7d39594f05fa82a63d3b81a80d90f90669d98629d18dd8a1c861ffba69f43aeb"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/profiles/ftqc-assurance/examples/synthetic-neutral-atom/changed-assumption-case/system-concept.json#L13-L19",
+      "repo": "frontier-mission-assurance",
+      "commit": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+      "path": "profiles/ftqc-assurance/examples/synthetic-neutral-atom/changed-assumption-case/system-concept.json",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        13,
+        19
+      ],
+      "line_range_valid": true,
+      "sha256": "c00d310bb6abbb0aeb577c55155da80c6a798e3e46ceb806ed4b3a53288d6bf3"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/scripts/compare_ftqc_cases.py#L171-L275",
+      "repo": "frontier-mission-assurance",
+      "commit": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+      "path": "scripts/compare_ftqc_cases.py",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        171,
+        275
+      ],
+      "line_range_valid": true,
+      "sha256": "5a5de33e5db002998f6b332f3642b729b3cbf5f09850f85374ea954288bc184b"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/tests/test_ftqc_case_compare.py#L44-L58",
+      "repo": "frontier-mission-assurance",
+      "commit": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+      "path": "tests/test_ftqc_case_compare.py",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        44,
+        58
+      ],
+      "line_range_valid": true,
+      "sha256": "2ad7b7e5f7df85c8e58c4f3b4ba47e519a23b4618d4311076837f0b9f49fcd9e"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/public-snapshots/gallium/GA-001/README.md#L1-L39",
+      "repo": "materials-to-mission",
+      "commit": "2a8d26af86e8adb8b1e34550045782d1a20418a4",
+      "path": "public-snapshots/gallium/GA-001/README.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        1,
+        39
+      ],
+      "line_range_valid": true,
+      "sha256": "4509bff67b2c23ead90fd7520a757575426b2fefd5aa2a7ecf63f410c4475834"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/public-snapshots/gallium/GA-001/README.md#L8-L41",
+      "repo": "materials-to-mission",
+      "commit": "2a8d26af86e8adb8b1e34550045782d1a20418a4",
+      "path": "public-snapshots/gallium/GA-001/README.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        8,
+        41
+      ],
+      "line_range_valid": true,
+      "sha256": "4509bff67b2c23ead90fd7520a757575426b2fefd5aa2a7ecf63f410c4475834"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/docs/MATURITY_AND_PROOF.md#L5-L23",
+      "repo": "materials-to-mission",
+      "commit": "2a8d26af86e8adb8b1e34550045782d1a20418a4",
+      "path": "docs/MATURITY_AND_PROOF.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        5,
+        23
+      ],
+      "line_range_valid": true,
+      "sha256": "c2160e437e8814a0e46c11d2d90218fdbb598a694fbe122368b21fa627f8c4bf"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/docs/ARCHITECTURE.md#L7-L43",
+      "repo": "frontier-decision-engine",
+      "commit": "4a913756d00cdd321da04bf7350507e571f2f2dd",
+      "path": "docs/ARCHITECTURE.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        7,
+        43
+      ],
+      "line_range_valid": true,
+      "sha256": "fb31a639ee9f4d97e5f8f94278f366cb906a53cb95b030c3aa4a65eb7c6bd0da"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/docs/METHODOLOGY.md#L5-L15",
+      "repo": "frontier-decision-engine",
+      "commit": "4a913756d00cdd321da04bf7350507e571f2f2dd",
+      "path": "docs/METHODOLOGY.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        5,
+        15
+      ],
+      "line_range_valid": true,
+      "sha256": "3fa2246c8287932059fc023bb0a3fd3665199bbcad4d8a4545d5d881e730d0ab"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/docs/METHODOLOGY.md#L17-L23",
+      "repo": "frontier-decision-engine",
+      "commit": "4a913756d00cdd321da04bf7350507e571f2f2dd",
+      "path": "docs/METHODOLOGY.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        17,
+        23
+      ],
+      "line_range_valid": true,
+      "sha256": "3fa2246c8287932059fc023bb0a3fd3665199bbcad4d8a4545d5d881e730d0ab"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/docs/DECISION_RECEIPTS.md#L19-L37",
+      "repo": "frontier-decision-engine",
+      "commit": "4a913756d00cdd321da04bf7350507e571f2f2dd",
+      "path": "docs/DECISION_RECEIPTS.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        19,
+        37
+      ],
+      "line_range_valid": true,
+      "sha256": "d7f96dba566e9722f817dffb7b9e7774ec5d65e02e40c0102fc6160133b0414e"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/site/src/lib/recording.js#L102-L160",
+      "repo": "frontier-decision-engine",
+      "commit": "4a913756d00cdd321da04bf7350507e571f2f2dd",
+      "path": "site/src/lib/recording.js",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        102,
+        160
+      ],
+      "line_range_valid": true,
+      "sha256": "3342ecd23946a0794ea7c200521d6bf3d0c6f00041255c8b7f06cf26c7b25bfc"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/13-assurance-intelligence/README.md#L27-L37",
+      "repo": "ai-cyber-assurance",
+      "commit": "9033bf73bbd3923c5de0a9c6fb9959b4c140de64",
+      "path": "13-assurance-intelligence/README.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        27,
+        37
+      ],
+      "line_range_valid": true,
+      "sha256": "ac35acd01d3bf3f378c86b9185cd799a722fa1fbd20333ef050f1e0cffe9ec38"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/scripts/render_assurance_outputs.py#L267-L284",
+      "repo": "ai-cyber-assurance",
+      "commit": "9033bf73bbd3923c5de0a9c6fb9959b4c140de64",
+      "path": "scripts/render_assurance_outputs.py",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        267,
+        284
+      ],
+      "line_range_valid": true,
+      "sha256": "a458f43a8d3237beea8abe87da3583b1572decb9d94d2f26f0c325fe3013be8e"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/10-examples/synthetic-ai-agent-assurance/README.md#L7-L36",
+      "repo": "ai-cyber-assurance",
+      "commit": "9033bf73bbd3923c5de0a9c6fb9959b4c140de64",
+      "path": "10-examples/synthetic-ai-agent-assurance/README.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        7,
+        36
+      ],
+      "line_range_valid": true,
+      "sha256": "b2ab5c2d28a3a7c6b33aca632f7c240303eff75754d978f80022f25b27866386"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/scripts/validate_assurance_case.py#L393-L426",
+      "repo": "ai-cyber-assurance",
+      "commit": "9033bf73bbd3923c5de0a9c6fb9959b4c140de64",
+      "path": "scripts/validate_assurance_case.py",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        393,
+        426
+      ],
+      "line_range_valid": true,
+      "sha256": "3ffb55e8a744f7764796a7847350d0de12b7f9b03d0d9d0d4766dcbc35659009"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/docs/methodology.md#L5-L38",
+      "repo": "quantum-readiness-space-communications",
+      "commit": "0f926377de268b20c2b1223eaf830405b8eb3648",
+      "path": "docs/methodology.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        5,
+        38
+      ],
+      "line_range_valid": true,
+      "sha256": "7b24ac29cff7c43533dc3329dfd3a7741f5de29cde1cf3ebf64fac924c11982d"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/KNOWN_LIMITATIONS.md#L3-L18",
+      "repo": "quantum-readiness-space-communications",
+      "commit": "0f926377de268b20c2b1223eaf830405b8eb3648",
+      "path": "KNOWN_LIMITATIONS.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        3,
+        18
+      ],
+      "line_range_valid": true,
+      "sha256": "7c1642564c17be6f070cd8f273b0ace7c333970170522929903d56e7d3756dc4"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/README.md#L17-L36",
+      "repo": "pax-silica",
+      "commit": "2f62f678d06f8444ddc7788ce03e1f1f46cf4cba",
+      "path": "README.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        17,
+        36
+      ],
+      "line_range_valid": true,
+      "sha256": "f55df4223ac910914d9f8f854e812dc0eb902e04148baded16a08cbaeb5135a4"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/data/pax-silica.json#L1-L22",
+      "repo": "pax-silica",
+      "commit": "2f62f678d06f8444ddc7788ce03e1f1f46cf4cba",
+      "path": "data/pax-silica.json",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        1,
+        22
+      ],
+      "line_range_valid": true,
+      "sha256": "0f33d43ae52d30639ffad2fea1bd6a71d9774bd667cfbe0efd63fd115ec6280d"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md#L42-L75",
+      "repo": "Bridge-Node-7",
+      "commit": "3f959138f3252b16bc69dabf178bdde83a606a3b",
+      "path": "docs/FRONTIER_ASSURANCE_ARCHITECTURE.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        42,
+        75
+      ],
+      "line_range_valid": true,
+      "sha256": "5f98e008e55a43297161136d062c81467f974377fd0f5a922e95ad38b601a03e"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/docs/FMA_INTEROPERABILITY.md#L15-L64",
+      "repo": "materials-to-mission",
+      "commit": "2a8d26af86e8adb8b1e34550045782d1a20418a4",
+      "path": "docs/FMA_INTEROPERABILITY.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        15,
+        64
+      ],
+      "line_range_valid": true,
+      "sha256": "c41d6f9c7d5800dc7828e0fbfae1d6889f9bd95ad95b9aec4ba3c66f4748440a"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/README.md#L64-L72",
+      "repo": "Bridge-Node-7",
+      "commit": "3f959138f3252b16bc69dabf178bdde83a606a3b",
+      "path": "README.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        64,
+        72
+      ],
+      "line_range_valid": true,
+      "sha256": "c86ad85fa3f6b2627f97c481897aa9dc1cec507f73694083f9a0e129d803e2a4"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/README.md#L13-L17",
+      "repo": "frontier-mission-assurance",
+      "commit": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+      "path": "README.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": [
+        13,
+        17
+      ],
+      "line_range_valid": true,
+      "sha256": "e3cf226644ccb650e1f51214ad1e2c863bfe85c01ab2f494a4ec73ba2377c0ed"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/LICENSE",
+      "repo": "Bridge-Node-7",
+      "commit": "3f959138f3252b16bc69dabf178bdde83a606a3b",
+      "path": "LICENSE",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "fb691e3765d4610f1e05746f1a20fe2e4cd38faac8f2c6673148f4c6443e4d41"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/LICENSE",
+      "repo": "ai-cyber-assurance",
+      "commit": "9033bf73bbd3923c5de0a9c6fb9959b4c140de64",
+      "path": "LICENSE",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "ebf9edf980df78083ac843a89e98fe4200465d72de9d4fff3d728f118f85a057"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/LICENSE",
+      "repo": "frontier-decision-engine",
+      "commit": "4a913756d00cdd321da04bf7350507e571f2f2dd",
+      "path": "LICENSE",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/CITATION.cff",
+      "repo": "frontier-decision-engine",
+      "commit": "4a913756d00cdd321da04bf7350507e571f2f2dd",
+      "path": "CITATION.cff",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "6cb943f390518da06665dbfa3cb092b7413a2b86f32e48f83feb4a8d57233ef3"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/LICENSE",
+      "repo": "frontier-intelligence-workflows",
+      "commit": "36366e96c12765e14d09965c1f82330194dfa8d3",
+      "path": "LICENSE",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "a9fe5c5dab007ccb17a47ff827d3bba570475c5978e627bdd3d1884c412e07b8"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/NOTICE.md",
+      "repo": "frontier-intelligence-workflows",
+      "commit": "36366e96c12765e14d09965c1f82330194dfa8d3",
+      "path": "NOTICE.md",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "b6028e4484349e6717ed628912de7cbab5f3a827e3bf6558be4d66ef209b3781"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/LICENSE",
+      "repo": "frontier-mission-assurance",
+      "commit": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+      "path": "LICENSE",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "2f4f1380f4d874f7489f8c05f73fbe5491ea0d9d427ec03ef7dfc42cb153c376"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/CITATION.cff",
+      "repo": "frontier-mission-assurance",
+      "commit": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+      "path": "CITATION.cff",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "d55be4d63568313790798eae49aa9f20accf2a746de453ef05fd1279fd6b5b0f"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/LICENSE",
+      "repo": "materials-to-mission",
+      "commit": "2a8d26af86e8adb8b1e34550045782d1a20418a4",
+      "path": "LICENSE",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "ebf9edf980df78083ac843a89e98fe4200465d72de9d4fff3d728f118f85a057"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/NOTICE",
+      "repo": "materials-to-mission",
+      "commit": "2a8d26af86e8adb8b1e34550045782d1a20418a4",
+      "path": "NOTICE",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "695cf994e4f81ffab1db5929705eb4e5fedcb728da4bd89101c9e5a90e2516bb"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/CITATION.cff",
+      "repo": "materials-to-mission",
+      "commit": "2a8d26af86e8adb8b1e34550045782d1a20418a4",
+      "path": "CITATION.cff",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "8ce612df32a79e1aac2718c09385d010bcb1d2af2465efc7c5081c0a0deeefe1"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/LICENSE",
+      "repo": "pax-silica",
+      "commit": "2f62f678d06f8444ddc7788ce03e1f1f46cf4cba",
+      "path": "LICENSE",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "ebf9edf980df78083ac843a89e98fe4200465d72de9d4fff3d728f118f85a057"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/NOTICE",
+      "repo": "pax-silica",
+      "commit": "2f62f678d06f8444ddc7788ce03e1f1f46cf4cba",
+      "path": "NOTICE",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "2fd1cabab6991fb045a560e83c0dcce972e58dba50f4dc8f1312c5f63f2954d2"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/LICENSE",
+      "repo": "quantum-readiness-space-communications",
+      "commit": "0f926377de268b20c2b1223eaf830405b8eb3648",
+      "path": "LICENSE",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "09ee52b643dd9b942807196c3ab67e3a82a79f2f3da39cf5f80c93889d7283a7"
+    },
+    {
+      "url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/CITATION.cff",
+      "repo": "quantum-readiness-space-communications",
+      "commit": "0f926377de268b20c2b1223eaf830405b8eb3648",
+      "path": "CITATION.cff",
+      "kind": "blob",
+      "clone_head_matches": true,
+      "exists": true,
+      "line_range": null,
+      "line_range_valid": null,
+      "sha256": "aa2beb4a05fdb0e39111796ea800219ee516cfe3e16a2a7d56ef46b691460515"
+    }
+  ],
+  "http_results": [
+    {
+      "requested_url": "https://bridgenode7.com/",
+      "final_url": "https://bridgenode7.com/",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:29.859557+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "a45e59d3af559b4f592eef317f33b0da4e78746fedb8caa85d7110483e4e3fbd",
+      "bytes": 38401,
+      "error": null,
+      "headers": {
+        "Server": "GitHub.com",
+        "Last-Modified": "Sun, 04 Oct 2026 22:27:20 GMT",
+        "ETag": "\"6ac2d2c8-9601\"",
+        "Cache-Control": "max-age=600"
+      },
+      "title": "Bridge Node 7 | Frontier Intelligence \u00b7 Mission Assurance \u00b7 Strategic Resilience",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://bridgenode7.com/frontier-decision-engine/",
+      "final_url": "https://bridgenode7.com/frontier-decision-engine/",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:29.860206+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "83383c6441782d7dff8d3aba2fa3bd9fbdb98255014203ac8cc4d29f065aaaf3",
+      "bytes": 4051,
+      "error": null,
+      "headers": {
+        "Server": "GitHub.com",
+        "Last-Modified": "Sat, 03 Oct 2026 21:45:46 GMT",
+        "ETag": "\"6ac1778a-fd3\"",
+        "Cache-Control": "max-age=600"
+      },
+      "title": "Frontier Decision Engine",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://bridgenode7.com/frontier-mission-assurance/index.html",
+      "final_url": "https://bridgenode7.com/frontier-mission-assurance/index.html",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:29.860288+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "e64c252640d547d61bf2bb7c9c4af6575d76caba7053fcafec4f20044108c89e",
+      "bytes": 17502,
+      "error": null,
+      "headers": {
+        "Server": "GitHub.com",
+        "Last-Modified": "Sun, 04 Oct 2026 22:27:20 GMT",
+        "ETag": "\"6ac2d2c8-445e\"",
+        "Cache-Control": "max-age=600"
+      },
+      "title": "Frontier Mission Assurance | Bridge Node 7",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://bridgenode7.com/genesis/",
+      "final_url": "https://bridgenode7.com/genesis/",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:29.860358+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "f283811cbaae9d1fc1338a4c8f90ae3fb039e88961412550de90f90f99579010",
+      "bytes": 34317,
+      "error": null,
+      "headers": {
+        "Server": "GitHub.com",
+        "Last-Modified": "Sun, 04 Oct 2026 22:27:20 GMT",
+        "ETag": "\"6ac2d2c8-860d\"",
+        "Cache-Control": "max-age=600"
+      },
+      "title": "Genesis Mission | Public Program Context | Bridge Node 7",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://bridgenode7.com/golden-age/",
+      "final_url": "https://bridgenode7.com/golden-age/",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:30.034352+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "5f04e8c9f5cd9a6c3338340e08c290108a70fdebdd6f24dd9f2c3ad0efbb955c",
+      "bytes": 34833,
+      "error": null,
+      "headers": {
+        "Server": "GitHub.com",
+        "Last-Modified": "Sun, 04 Oct 2026 22:27:20 GMT",
+        "ETag": "\"6ac2d2c8-8811\"",
+        "Cache-Control": "max-age=600"
+      },
+      "title": "Golden Age Science &amp; Technology | Public Policy Context | Bridge Node 7",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://bridgenode7.com/materials-to-mission/",
+      "final_url": "https://bridgenode7.com/materials-to-mission/",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:30.110944+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "c05a49d6b30b12ec5012370163060eaa278da155e9703bc39c38b76cf11bdec4",
+      "bytes": 148903,
+      "error": null,
+      "headers": {
+        "Server": "GitHub.com",
+        "Last-Modified": "Sun, 04 Oct 2026 08:35:08 GMT",
+        "ETag": "\"6ac20fbc-245a7\"",
+        "Cache-Control": "max-age=600"
+      },
+      "title": "Materials-to-Mission Atlas | Bridge Node 7",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://bridgenode7.com/neutral-atom-ftqc/index.html",
+      "final_url": "https://bridgenode7.com/neutral-atom-ftqc/index.html",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:30.118002+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "784f4c1c22a6d0023cc2d4314ff5a230b4a07eeb898712f121d2da63a19814e5",
+      "bytes": 69860,
+      "error": null,
+      "headers": {
+        "Server": "GitHub.com",
+        "Last-Modified": "Sun, 04 Oct 2026 22:27:20 GMT",
+        "ETag": "\"6ac2d2c8-110e4\"",
+        "Cache-Control": "max-age=600"
+      },
+      "title": "Neutral-Atom Fault-Tolerant Quantum Computing \u00b7 Bridge Node 7",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://bridgenode7.com/partner/",
+      "final_url": "https://bridgenode7.com/partner/",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:30.123633+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "b4a7285890a628ae685348b7fb93c3f1113e87249cce987426c6809008ae857a",
+      "bytes": 34667,
+      "error": null,
+      "headers": {
+        "Server": "GitHub.com",
+        "Last-Modified": "Sun, 04 Oct 2026 22:27:20 GMT",
+        "ETag": "\"6ac2d2c8-876b\"",
+        "Cache-Control": "max-age=600"
+      },
+      "title": "Work with us | Bridge Node 7",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://bridgenode7.com/privacy/",
+      "final_url": "https://bridgenode7.com/privacy/",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:30.280406+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "2dfec3ae9b4e60fd1dd967cf6cc55a855b599633b141b6fe0dfa3946725cc8fb",
+      "bytes": 14815,
+      "error": null,
+      "headers": {
+        "Server": "GitHub.com",
+        "Last-Modified": "Sun, 04 Oct 2026 22:27:20 GMT",
+        "ETag": "\"6ac2d2c8-39df\"",
+        "Cache-Control": "max-age=600"
+      },
+      "title": "Bridge Node 7 | Privacy",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7",
+      "final_url": "https://github.com/Bridge-Node-7",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:30.332372+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "5694484a2b71720c7462d4e00912ba77fc46a9d9c7320e08696c700cd218c050",
+      "bytes": 229529,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"2d5256ef0a89940547e057c871d023e0\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "Bridge-Node-7 (Bridge Node 7) \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/LICENSE",
+      "final_url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/LICENSE",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:30.399253+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "d918cc34f2a5dbb5c081a64adb993672193d2913f09fce7a6955057443225b3a",
+      "bytes": 230899,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"d56edd84d5a2d0bda238841dcfda5a10\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "Bridge-Node-7/LICENSE at 3f959138f3252b16bc69dabf178bdde83a606a3b \u00b7 Bridge-Node-7/Bridge-Node-7 \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/README.md",
+      "final_url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/README.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:30.406453+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "7daba60e0adca6df157724e0d57d0dfc3c840094026297aa561329e394867a7b",
+      "bytes": 286902,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"381c87a1c8e6adc11ab6ab58a4306db6\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "Bridge-Node-7/README.md at 3f959138f3252b16bc69dabf178bdde83a606a3b \u00b7 Bridge-Node-7/Bridge-Node-7 \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/DECISION_LIFECYCLE.md",
+      "final_url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/DECISION_LIFECYCLE.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:30.470366+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "2f41b6e860d1839fe0e4a76b9b80b3150a24b67230bbda083fe77b3c47c87c7c",
+      "bytes": 282115,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"949c851e00c57e585e0a10ee19d0879c\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "Bridge-Node-7/docs/DECISION_LIFECYCLE.md at 3f959138f3252b16bc69dabf178bdde83a606a3b \u00b7 Bridge-Node-7/Bridge-Node-7 \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md",
+      "final_url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:31.042551+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "a18184fb7441c89c443a46ee6cf0818a6a4b4e79d43530b9f3f37cf093e07dac",
+      "bytes": 333138,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"a0cb9985083c6c00630a39d10fadad3a\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "Bridge-Node-7/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md at 3f959138f3252b16bc69dabf178bdde83a606a3b \u00b7 Bridge-Node-7/Bridge-Node-7 \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance",
+      "final_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:31.139185+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "c0755b996cc1c88311897a472ac8fafcf2bb1d0643cb73d87da3f2f2ef391554",
+      "bytes": 412199,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"5550cc1d63401a858db1c8e7a5649266\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "GitHub - Bridge-Node-7/ai-cyber-assurance: Evidence-centered cyber assurance templates and validation workflows for AI-enabled systems. \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/10-examples/synthetic-ai-agent-assurance/README.md",
+      "final_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/10-examples/synthetic-ai-agent-assurance/README.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:31.238450+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "9ab0c6ec9e548b8fa321f0d92ca33091837263256d78a68c7e91639ec7720e98",
+      "bytes": 253415,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"44e3b56e45cb43169a5ee9872fa0cf26\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "ai-cyber-assurance/10-examples/synthetic-ai-agent-assurance/README.md at 9033bf73bbd3923c5de0a9c6fb9959b4c140de64 \u00b7 Bridge-Node-7/ai-cyber-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/13-assurance-intelligence/README.md",
+      "final_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/13-assurance-intelligence/README.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:31.257492+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "fc9ddee661045f27661e386efbe7d6bd44c4b7ccccb25560b76d43da1ba80cf3",
+      "bytes": 287743,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"255bfe2c58257ec6f8e08a7604ca9d6d\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "ai-cyber-assurance/13-assurance-intelligence/README.md at 9033bf73bbd3923c5de0a9c6fb9959b4c140de64 \u00b7 Bridge-Node-7/ai-cyber-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/LICENSE",
+      "final_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/LICENSE",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:31.863813+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "1980fcce20e18af33332c6e5d56a73ac5c175b9e3114b975333cf8e5f2f48ea5",
+      "bytes": 235632,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"c033e505107f9838fe0cddc955c9e6b1\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "ai-cyber-assurance/LICENSE at 9033bf73bbd3923c5de0a9c6fb9959b4c140de64 \u00b7 Bridge-Node-7/ai-cyber-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/scripts/render_assurance_outputs.py",
+      "final_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/scripts/render_assurance_outputs.py",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:32.003333+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "23410ef38a03c8aa309f845e9cee83a3fef583c6c346f696bb6991383b9aca09",
+      "bytes": 439340,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"070932f590e6321f4871faa74b48b980\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "ai-cyber-assurance/scripts/render_assurance_outputs.py at 9033bf73bbd3923c5de0a9c6fb9959b4c140de64 \u00b7 Bridge-Node-7/ai-cyber-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/scripts/validate_assurance_case.py",
+      "final_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/scripts/validate_assurance_case.py",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:32.149357+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "16eba0a49bc0bc2092eec97613cf93974843b9b98df5fcd1f89f47c35730e9a2",
+      "bytes": 579966,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"aeb6a9b3369873f92cdc5d7116d893ef\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "ai-cyber-assurance/scripts/validate_assurance_case.py at 9033bf73bbd3923c5de0a9c6fb9959b4c140de64 \u00b7 Bridge-Node-7/ai-cyber-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/releases/tag/v0.6.1",
+      "final_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/releases/tag/v0.6.1",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:32.183129+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "81f6c78e0cb94b4ccf6c3c57ca848a574ecf2bee50bf3392c191c9c1da89ce26",
+      "bytes": 203877,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"72c547b18f7a02fc8b82adb877119339\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "Release AI Cyber Assurance v0.6.1 \u00b7 Bridge-Node-7/ai-cyber-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-decision-engine",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-decision-engine",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:32.498294+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "0f904027e3a7e2228ea6787b436def4e6084e1956038d3b1ba569500cded941c",
+      "bytes": 339253,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"bbc9fb3327244b87afca3b6c6f458a7f\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "GitHub - Bridge-Node-7/frontier-decision-engine: Open-source decision infrastructure for deep uncertainty. \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/CITATION.cff",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/CITATION.cff",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:32.899376+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "6e85c1a11242cd16332ca787f9b94e8fb6eca6961d128d0dd2a8cb79bba86b40",
+      "bytes": 232524,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"86d60e1990b6f731ff21b70f7358cddc\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-decision-engine/CITATION.cff at 4a913756d00cdd321da04bf7350507e571f2f2dd \u00b7 Bridge-Node-7/frontier-decision-engine \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/LICENSE",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/LICENSE",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:33.109383+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "b139578aeff5eb13aab02d4767cb740e8d9d672289be9cfa73d4208ba14cde4d",
+      "bytes": 317984,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"5a33c347794b01b9fee7f2fee6d3470e\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-decision-engine/LICENSE at 4a913756d00cdd321da04bf7350507e571f2f2dd \u00b7 Bridge-Node-7/frontier-decision-engine \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/docs/ARCHITECTURE.md",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/docs/ARCHITECTURE.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:33.111127+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "2858e0ac4985ce9e8f93146bb54d0e1f07cc7093aabf52c72f814ea0443e82c1",
+      "bytes": 290586,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"aa7c4ef75582e311e0bd1589d11b5402\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-decision-engine/docs/ARCHITECTURE.md at 4a913756d00cdd321da04bf7350507e571f2f2dd \u00b7 Bridge-Node-7/frontier-decision-engine \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/docs/DECISION_RECEIPTS.md",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/docs/DECISION_RECEIPTS.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:33.415438+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "ef5bc9d3e85048861409eb921113a8f02b53326f8446328afc51e3c599022f83",
+      "bytes": 254370,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"5fc206353078eb70f0472f887f61eedb\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-decision-engine/docs/DECISION_RECEIPTS.md at 4a913756d00cdd321da04bf7350507e571f2f2dd \u00b7 Bridge-Node-7/frontier-decision-engine \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/docs/METHODOLOGY.md",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/docs/METHODOLOGY.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:33.732456+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "91a5d65148a8bf1bdeda04e63b3590111cacb4b338aaeeb29c748cab56eea5d4",
+      "bytes": 240056,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"6ae5da03e260c214e9694aee7780f237\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-decision-engine/docs/METHODOLOGY.md at 4a913756d00cdd321da04bf7350507e571f2f2dd \u00b7 Bridge-Node-7/frontier-decision-engine \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/site/src/lib/recording.js",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/site/src/lib/recording.js",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:33.808395+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "bdf605758451862eb1974310bf6669deab727a90fb64ebf1a6fede9349f49207",
+      "bytes": 402110,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"c73dbe3e16a20343d518290f9245c6ba\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-decision-engine/site/src/lib/recording.js at 4a913756d00cdd321da04bf7350507e571f2f2dd \u00b7 Bridge-Node-7/frontier-decision-engine \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/releases/tag/v0.5.14",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/releases/tag/v0.5.14",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:33.858373+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "f498b4af1255456a5b5e55e9a484096e0a83a1666f1e0fee4c1a188342508a18",
+      "bytes": 208001,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"530c21cd64db4a5ebdb81d81637cfabc\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "Release Frontier Decision Engine v0.5.14 \u00b7 Bridge-Node-7/frontier-decision-engine \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:34.104743+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "8828605e971487558eaf42f3dbe7a3201707413310be22d9c43a29f1cd442036",
+      "bytes": 364769,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"8c595a76255bff0fe70a16d068e32e7b\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "GitHub - Bridge-Node-7/frontier-intelligence-workflows: Evidence-first workflows for reviewing uncertain technology claims and documenting bounded decisions. \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/LICENSE",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/LICENSE",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:34.437889+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "e8550e300747ce2efb03e9b3f40b9e6420e09df79ec21cb1849fff08b3e2815d",
+      "bytes": 236169,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"ceb642f154bae91f5bf53a95c6180fe1\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-intelligence-workflows/LICENSE at 36366e96c12765e14d09965c1f82330194dfa8d3 \u00b7 Bridge-Node-7/frontier-intelligence-workflows \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/LIMITATIONS.md",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/LIMITATIONS.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:34.663594+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "7d4e9f4f4e841a77ee5b3541d27a8b10f573310a8d0eb1f2a147830b04f00ab2",
+      "bytes": 252532,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"9763e5cb0f7a84724494fd249f48f64e\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-intelligence-workflows/LIMITATIONS.md at 36366e96c12765e14d09965c1f82330194dfa8d3 \u00b7 Bridge-Node-7/frontier-intelligence-workflows \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/NOTICE.md",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/NOTICE.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:34.663867+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "ff86b6baba757f123e3cf113860fedb8daf75efdb94a2c94e4e3b599a8141982",
+      "bytes": 242941,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"b10f339fb3bfbb6ebf3a720dc7d36bcc\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-intelligence-workflows/NOTICE.md at 36366e96c12765e14d09965c1f82330194dfa8d3 \u00b7 Bridge-Node-7/frontier-intelligence-workflows \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/examples/frontier-technology-diligence/README.md",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/examples/frontier-technology-diligence/README.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:35.192729+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "55febf744e815e48f86af4daa9b51bde850370fa4d07c01c4c57a07654a5155a",
+      "bytes": 260761,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"74429d8d87c40d2e5e4c815159f3279a\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-intelligence-workflows/examples/frontier-technology-diligence/README.md at 36366e96c12765e14d09965c1f82330194dfa8d3 \u00b7 Bridge-Node-7/frontier-intelligence-workflows \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/releases/tag/v0.9.0",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/releases/tag/v0.9.0",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:35.253482+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "4c6f5f20b1a52750bd0f81303b64d32acd6a8406194e574607eef10edafc1030",
+      "bytes": 205114,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"ae8191b88d1904f188092ecffcca9406\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "Release Frontier Intelligence Workflows v0.9.0 \u2014 Frontier Signal Integrity \u00b7 Bridge-Node-7/frontier-intelligence-workflows \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:35.363663+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "cf0eb428a0d5e444cbc455282ae23ae5fab7d99abcda9de62bf6ebc3ef93cc0a",
+      "bytes": 398341,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"223fdd06c5b2467774b9c88016dc7c6e\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "GitHub - Bridge-Node-7/frontier-mission-assurance: Public reference implementation for evidence-native verification, validation, and mission assurance. \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/CITATION.cff",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/CITATION.cff",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:35.408445+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "8e17d51c67fbb67d85d812ab71309c575d26d6a70978ea74f78e45ae17b94732",
+      "bytes": 234451,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"89347d717cbaee271d28965637dd2857\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-mission-assurance/CITATION.cff at f99dd2174c74f26b648321e02f8d30e2cff10230 \u00b7 Bridge-Node-7/frontier-mission-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/LICENSE",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/LICENSE",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:36.008138+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "57ad659b61534f63738d98eb9be6828dfa3fa7b0e73500180f0bba2eee0054c4",
+      "bytes": 231778,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"db4836c73a712451ca84d3d4725241da\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-mission-assurance/LICENSE at f99dd2174c74f26b648321e02f8d30e2cff10230 \u00b7 Bridge-Node-7/frontier-mission-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/README.md",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/README.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:36.065524+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "be3ccd8e86a8371560790c7b1a138461045dbfb9ea8d8e562d41f38daf3c2080",
+      "bytes": 355340,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"df90a9fbe727edadc4b9c36857b3db9d\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-mission-assurance/README.md at f99dd2174c74f26b648321e02f8d30e2cff10230 \u00b7 Bridge-Node-7/frontier-mission-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/FIVE_MINUTE_EVALUATION.md",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/FIVE_MINUTE_EVALUATION.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:36.193984+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "5b6e459fb1611ad2c406b9d65f708db735f7b02787c39f71b225c1772c727007",
+      "bytes": 276953,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"08046dce3a6f925dd5a7d4e54106c80b\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-mission-assurance/docs/FIVE_MINUTE_EVALUATION.md at f99dd2174c74f26b648321e02f8d30e2cff10230 \u00b7 Bridge-Node-7/frontier-mission-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/FTQC_GOLDEN_PATH.md",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/FTQC_GOLDEN_PATH.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:36.299014+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "b0f4a52c793c48d90d3002ec5ee536e25e05882990ee7e30ee9e94945a7ba206",
+      "bytes": 283137,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"77cef5ffe2907a1589d6655388523dda\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-mission-assurance/docs/FTQC_GOLDEN_PATH.md at f99dd2174c74f26b648321e02f8d30e2cff10230 \u00b7 Bridge-Node-7/frontier-mission-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/USE_AND_EVALUATION.md",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/USE_AND_EVALUATION.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:36.769933+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "408060e4c2459f4ec75891b8fcfb00bc0e2ef9b0e373251c95da4286519d2d2e",
+      "bytes": 266519,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"8fefd166248b88c5ec71b41968db4a0e\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-mission-assurance/docs/USE_AND_EVALUATION.md at f99dd2174c74f26b648321e02f8d30e2cff10230 \u00b7 Bridge-Node-7/frontier-mission-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/profiles/ftqc-assurance/examples/synthetic-neutral-atom/baseline/decision-receipt.yaml",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/profiles/ftqc-assurance/examples/synthetic-neutral-atom/baseline/decision-receipt.yaml",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:36.895446+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "cb31a1052e4ea449eeef8769a5a2b0cd20e0658dab4a88c4d19a651bac833784",
+      "bytes": 248165,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"450fa86a0cfc0286042669d07745b788\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-mission-assurance/profiles/ftqc-assurance/examples/synthetic-neutral-atom/baseline/decision-receipt.yaml at f99dd2174c74f26b648321e02f8d30e2cff10230 \u00b7 Bridge-Node-7/frontier-mission-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/profiles/ftqc-assurance/examples/synthetic-neutral-atom/baseline/system-concept.json",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/profiles/ftqc-assurance/examples/synthetic-neutral-atom/baseline/system-concept.json",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:36.988530+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "e6eb507c028ae33be40a9513c71f43e0d535414fdf9d47f83a88117553ab93d1",
+      "bytes": 256275,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"08c5c3f64f73a74d12e517efe33b9370\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-mission-assurance/profiles/ftqc-assurance/examples/synthetic-neutral-atom/baseline/system-concept.json at f99dd2174c74f26b648321e02f8d30e2cff10230 \u00b7 Bridge-Node-7/frontier-mission-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/profiles/ftqc-assurance/examples/synthetic-neutral-atom/changed-assumption-case/system-concept.json",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/profiles/ftqc-assurance/examples/synthetic-neutral-atom/changed-assumption-case/system-concept.json",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:37.079508+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "d4b6cf5db34c2d8a80bd66c5c4d4cac7a44d97f6a52ecde534cf7bde30959f05",
+      "bytes": 256757,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"afdb4b53e850b1fedf65c2e7b4f0b699\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-mission-assurance/profiles/ftqc-assurance/examples/synthetic-neutral-atom/changed-assumption-case/system-concept.json at f99dd2174c74f26b648321e02f8d30e2cff10230 \u00b7 Bridge-Node-7/frontier-mission-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/scripts/compare_ftqc_cases.py",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/scripts/compare_ftqc_cases.py",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:37.479041+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "ecd78d2b4333d0496b41f56f465bfa8d1228f59ff07a29766026a7beb0b45b79",
+      "bytes": 537513,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"7e7f98ee2b42e1565279184f8a3a0a87\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-mission-assurance/scripts/compare_ftqc_cases.py at f99dd2174c74f26b648321e02f8d30e2cff10230 \u00b7 Bridge-Node-7/frontier-mission-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/src/frontier_assurance/analysis.py",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/src/frontier_assurance/analysis.py",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:37.733953+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "42e2b15a48d382395b8ef7570be7907baf95a15e79fb9a2b69654963037de184",
+      "bytes": 274718,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"8f06265b740f31544ac40d1211116ec2\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-mission-assurance/src/frontier_assurance/analysis.py at f99dd2174c74f26b648321e02f8d30e2cff10230 \u00b7 Bridge-Node-7/frontier-mission-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/tests/test_ftqc_case_compare.py",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/tests/test_ftqc_case_compare.py",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:37.735566+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "4fd5a01a5e9c22df2498c7a671f0621dc5fbe5fed95192d99d857f58126018c9",
+      "bytes": 318997,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"073d8f944b7d7301ce9cb193847f73c7\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-mission-assurance/tests/test_ftqc_case_compare.py at f99dd2174c74f26b648321e02f8d30e2cff10230 \u00b7 Bridge-Node-7/frontier-mission-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/releases/tag/v0.11.2",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/releases/tag/v0.11.2",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:37.783566+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "ee1f172a7a91c323a53ee5097110e35e499f99626793e60f50c4a99fe8066584",
+      "bytes": 207831,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"fa6ba89639b61335573b0ed6badcb9c3\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "Release Frontier Mission Assurance v0.11.2 \u00b7 Bridge-Node-7/frontier-mission-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/tree/f99dd2174c74f26b648321e02f8d30e2cff10230/profiles/scientific-discovery",
+      "final_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/tree/f99dd2174c74f26b648321e02f8d30e2cff10230/profiles/scientific-discovery",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:38.339696+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "f9495af2cfbec0f003f226e688872879da772373d501bba6f4cfd9da9af1cf63",
+      "bytes": 273821,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"aed9858f1f13c501b76310cd8cf8630b\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "frontier-mission-assurance/profiles/scientific-discovery at f99dd2174c74f26b648321e02f8d30e2cff10230 \u00b7 Bridge-Node-7/frontier-mission-assurance \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/materials-to-mission",
+      "final_url": "https://github.com/Bridge-Node-7/materials-to-mission",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:38.501916+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "88acb8a531361f0cdb95315f14207a271aeae36362c22927207c8119c0d0ce5e",
+      "bytes": 381298,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"401c8474fcc75e0ae740bfeb6b3e2131\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "GitHub - Bridge-Node-7/materials-to-mission: Evidence-backed materials decision toolkit for critical materials and advanced systems. \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/CITATION.cff",
+      "final_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/CITATION.cff",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:38.503226+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "b4d98095e93462f4493dbfce463ec523a7cba73a19f9b37f7810653f12178a28",
+      "bytes": 236975,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"81a5f8a3612a96933d443c442f678996\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "materials-to-mission/CITATION.cff at 2a8d26af86e8adb8b1e34550045782d1a20418a4 \u00b7 Bridge-Node-7/materials-to-mission \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/LICENSE",
+      "final_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/LICENSE",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:38.546747+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "019316bf9907cdf1110512b905647dfa2d81793a64b32c3e968fdd4d768d8bff",
+      "bytes": 238219,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"fcd74a16f1a14dd70fb1dcdcd414f3dd\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "materials-to-mission/LICENSE at 2a8d26af86e8adb8b1e34550045782d1a20418a4 \u00b7 Bridge-Node-7/materials-to-mission \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/NOTICE",
+      "final_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/NOTICE",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:39.058359+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "8da3ad120cae6707db38db53300b9d81fc7a726a1c131f477e31243e02a833b3",
+      "bytes": 234702,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"208437ed80928d9ec1a66d0926afa3d6\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "materials-to-mission/NOTICE at 2a8d26af86e8adb8b1e34550045782d1a20418a4 \u00b7 Bridge-Node-7/materials-to-mission \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/docs/FMA_INTEROPERABILITY.md",
+      "final_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/docs/FMA_INTEROPERABILITY.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:39.284216+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "3f0b023d077afdda888a77914677ef827a0eda86148234f9477f55c403850aff",
+      "bytes": 263042,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"6b273e53565203352fe54415967ecac9\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "materials-to-mission/docs/FMA_INTEROPERABILITY.md at 2a8d26af86e8adb8b1e34550045782d1a20418a4 \u00b7 Bridge-Node-7/materials-to-mission \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/docs/MATURITY_AND_PROOF.md",
+      "final_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/docs/MATURITY_AND_PROOF.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:39.284934+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "7ce78c196fc0ba5c44e8da573e58a5f2d4fceef1057b97373084b2573f25fb03",
+      "bytes": 246620,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"481244a93cf1ea08f21e53ad4b09f278\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "materials-to-mission/docs/MATURITY_AND_PROOF.md at 2a8d26af86e8adb8b1e34550045782d1a20418a4 \u00b7 Bridge-Node-7/materials-to-mission \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/public-snapshots/gallium/GA-001/README.md",
+      "final_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/public-snapshots/gallium/GA-001/README.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:39.318478+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "70e1cc2fd5dc3ac5e114d688d5113f8411ed5f1a2ad1f58955b8c46d0ca23dd4",
+      "bytes": 250102,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"2de2ad3fa7240e1438c71adb843eedfa\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "materials-to-mission/public-snapshots/gallium/GA-001/README.md at 2a8d26af86e8adb8b1e34550045782d1a20418a4 \u00b7 Bridge-Node-7/materials-to-mission \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/public-snapshots/gallium/GA-001/public-view.json",
+      "final_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/public-snapshots/gallium/GA-001/public-view.json",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:39.869309+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "ce5554c5da471098f4c852834519d77310e741d42fddcc79f0e4a43f39f530cf",
+      "bytes": 294217,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"076540cef31f5f385766afb401e09669\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "materials-to-mission/public-snapshots/gallium/GA-001/public-view.json at 2a8d26af86e8adb8b1e34550045782d1a20418a4 \u00b7 Bridge-Node-7/materials-to-mission \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/materials-to-mission/releases/tag/v0.7.5",
+      "final_url": "https://github.com/Bridge-Node-7/materials-to-mission/releases/tag/v0.7.5",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:40.266887+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "c4d5eb77ddeb02898580baec90126245a6a80e7a29a10cd484f2f7fabfa08d92",
+      "bytes": 212895,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"27854aa014f41d562fb45120beba2f7c\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "Release Materials-to-Mission v0.7.5 - Trust Hardening \u00b7 Bridge-Node-7/materials-to-mission \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/pax-silica",
+      "final_url": "https://github.com/Bridge-Node-7/pax-silica",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:40.283547+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "58871d45af038140f8e047e7612a09e2fb8749c8de5acc1c263ec0cb72c77e29",
+      "bytes": 298168,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"7e65609e3cbb4c45450a934e619918d3\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "GitHub - Bridge-Node-7/pax-silica: Independent public-source intelligence on Pax Silica, strategic technology supply chains, qualification, and resilient capability. \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/LICENSE",
+      "final_url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/LICENSE",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:40.283865+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "bd67956a869198d95d8c156a09c4c2758b05804a8b948444a4a58e8e952b368b",
+      "bytes": 236042,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"4a3b44f5e7455c40447cd28f51999165\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "pax-silica/LICENSE at 2f62f678d06f8444ddc7788ce03e1f1f46cf4cba \u00b7 Bridge-Node-7/pax-silica \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/NOTICE",
+      "final_url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/NOTICE",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:40.868777+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "5f675d623c441bf90784ac6c8477271b219db4f06b735828ee64563bdd016a66",
+      "bytes": 229837,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"6932f19e38b64205fe21869399f0e9aa\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "pax-silica/NOTICE at 2f62f678d06f8444ddc7788ce03e1f1f46cf4cba \u00b7 Bridge-Node-7/pax-silica \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/README.md",
+      "final_url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/README.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:41.023932+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "c84bdf7975ff48204897817b50d1bacbb637a033f3489adaf7781f5cc0fd6ec9",
+      "bytes": 259667,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"eab0340c985e4157c6e5d8e05b32a3a1\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "pax-silica/README.md at 2f62f678d06f8444ddc7788ce03e1f1f46cf4cba \u00b7 Bridge-Node-7/pax-silica \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/data/pax-silica.json",
+      "final_url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/data/pax-silica.json",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:41.072363+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "0bdd366bc804127bb8ec85e3a433d4f829514f7c5532fef2e45d276b920e82cd",
+      "bytes": 469641,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"28652a31071b7a08593eb2554ba95b1f\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "pax-silica/data/pax-silica.json at 2f62f678d06f8444ddc7788ce03e1f1f46cf4cba \u00b7 Bridge-Node-7/pax-silica \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/pax-silica/releases/tag/v0.3.2",
+      "final_url": "https://github.com/Bridge-Node-7/pax-silica/releases/tag/v0.3.2",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:41.168844+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "1f444ba94bcd73641865055ad4351ff68e57a1fdbed378afaf6d0301804f4482",
+      "bytes": 205314,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"f16f4865488fb1e0e45fe150b9baa42f\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "Release Pax Silica v0.3.2 \u00b7 Bridge-Node-7/pax-silica \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications",
+      "final_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:41.591724+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "2c6f3f2a0bc766a00435e632b423dd30250ab187fb29c9f152da5f21c7fae402",
+      "bytes": 383468,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"e1dd140ae5f839891991f4b719ade0fd\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "GitHub - Bridge-Node-7/quantum-readiness-space-communications: Evidence-based assessment and migration-planning framework for post-quantum cryptography across spacecraft, satellite links, ground systems, mission operations, and supporting vendors. \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/CITATION.cff",
+      "final_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/CITATION.cff",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:41.689275+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "d9dbfd99130ed2955d55490c6763b8af8d80da9e5cf86ad8ea093446a92ec2b4",
+      "bytes": 240399,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"83f74dc25b96cab0b97e1e909ba6db17\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "quantum-readiness-space-communications/CITATION.cff at 0f926377de268b20c2b1223eaf830405b8eb3648 \u00b7 Bridge-Node-7/quantum-readiness-space-communications \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/KNOWN_LIMITATIONS.md",
+      "final_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/KNOWN_LIMITATIONS.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:41.893476+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "c5a9d133cf3d15be899fdc29f3901b8ce92274e9bad45e31fea4d2c88dec5fe7",
+      "bytes": 240376,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"c16b9e8927608d47f83c7827227c0e65\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "quantum-readiness-space-communications/KNOWN_LIMITATIONS.md at 0f926377de268b20c2b1223eaf830405b8eb3648 \u00b7 Bridge-Node-7/quantum-readiness-space-communications \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/LICENSE",
+      "final_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/LICENSE",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:41.908738+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "75479ce3ee245035549e255695083195efc8544ca9e0f50fe3baafa3b019b095",
+      "bytes": 239318,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"5e3f48fcf6050e03b83396a42b385987\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "quantum-readiness-space-communications/LICENSE at 0f926377de268b20c2b1223eaf830405b8eb3648 \u00b7 Bridge-Node-7/quantum-readiness-space-communications \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/docs/methodology.md",
+      "final_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/docs/methodology.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:42.578031+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "c24dc10b72560289eb15c1f4d202408ea3027823fe6f7930ad814d2be93d8804",
+      "bytes": 254425,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"ae5ce044fab7845e6d156e883f3ae9e4\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "quantum-readiness-space-communications/docs/methodology.md at 0f926377de268b20c2b1223eaf830405b8eb3648 \u00b7 Bridge-Node-7/quantum-readiness-space-communications \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    },
+    {
+      "requested_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/releases/tag/v0.2.3",
+      "final_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/releases/tag/v0.2.3",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:42.659499+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "response_sha256": "95e4f102831612d68b4ca70a3bcec556281c6c56a912b957b910840c7880dbfb",
+      "bytes": 211953,
+      "error": null,
+      "headers": {
+        "Server": "github.com",
+        "Last-Modified": null,
+        "ETag": "W/\"99b61792c69bad76067fb0967f9ea865\"",
+        "Cache-Control": "max-age=0, private, must-revalidate"
+      },
+      "title": "Release v0.2.3 \u2014 Contribution intake alignment \u00b7 Bridge-Node-7/quantum-readiness-space-communications \u00b7 GitHub",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "manuscript_raw_byte_checks": [
+    {
+      "requested_url": "https://raw.githubusercontent.com/Bridge-Node-7/frontier-intelligence-workflows/36366e96c12765e14d09965c1f82330194dfa8d3/examples/frontier-technology-diligence/README.md",
+      "final_url": "https://raw.githubusercontent.com/Bridge-Node-7/frontier-intelligence-workflows/36366e96c12765e14d09965c1f82330194dfa8d3/examples/frontier-technology-diligence/README.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:43.653531+00:00",
+      "content_type": "text/plain; charset=utf-8",
+      "response_sha256": "63218c9cb58a37c725c778cc60c37c04f353255b03e66a06a13f36ebfc4ed7a2",
+      "bytes": 2529,
+      "error": null,
+      "headers": {
+        "Server": null,
+        "Last-Modified": null,
+        "ETag": "\"56be2eda7b7b5d9dae310b987a63f65d89384eb3419b8b3df9ac17199c616abd\"",
+        "Cache-Control": "max-age=300"
+      },
+      "title": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ],
+      "expected_local_sha256": "63218c9cb58a37c725c778cc60c37c04f353255b03e66a06a13f36ebfc4ed7a2",
+      "matches_local_bytes": true
+    },
+    {
+      "requested_url": "https://raw.githubusercontent.com/Bridge-Node-7/Bridge-Node-7/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/DECISION_LIFECYCLE.md",
+      "final_url": "https://raw.githubusercontent.com/Bridge-Node-7/Bridge-Node-7/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/DECISION_LIFECYCLE.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:43.653943+00:00",
+      "content_type": "text/plain; charset=utf-8",
+      "response_sha256": "b9b7864b7621e5cd934a36f4f2430d1bbc6bc3c125d145afbbcc0d2202d380d9",
+      "bytes": 7189,
+      "error": null,
+      "headers": {
+        "Server": null,
+        "Last-Modified": null,
+        "ETag": "\"361b6692402b8d87a2b2253cc926eae62d1d88e63f39a30921e3aba80cd16118\"",
+        "Cache-Control": "max-age=300"
+      },
+      "title": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ],
+      "expected_local_sha256": "b9b7864b7621e5cd934a36f4f2430d1bbc6bc3c125d145afbbcc0d2202d380d9",
+      "matches_local_bytes": true
+    },
+    {
+      "requested_url": "https://raw.githubusercontent.com/Bridge-Node-7/frontier-mission-assurance/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/FTQC_GOLDEN_PATH.md",
+      "final_url": "https://raw.githubusercontent.com/Bridge-Node-7/frontier-mission-assurance/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/FTQC_GOLDEN_PATH.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:43.654183+00:00",
+      "content_type": "text/plain; charset=utf-8",
+      "response_sha256": "2c2dce6c5facc3ba1027cccc2cd7b82ea188b704dc20571f8a8f4013c400827c",
+      "bytes": 4990,
+      "error": null,
+      "headers": {
+        "Server": null,
+        "Last-Modified": null,
+        "ETag": "\"db0f4400a75e0dfe5b1b6768ca554c3faaa30e2b0861fb6f0d31b9bc92d53457\"",
+        "Cache-Control": "max-age=300"
+      },
+      "title": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ],
+      "expected_local_sha256": "2c2dce6c5facc3ba1027cccc2cd7b82ea188b704dc20571f8a8f4013c400827c",
+      "matches_local_bytes": true
+    },
+    {
+      "requested_url": "https://raw.githubusercontent.com/Bridge-Node-7/materials-to-mission/2a8d26af86e8adb8b1e34550045782d1a20418a4/public-snapshots/gallium/GA-001/public-view.json",
+      "final_url": "https://raw.githubusercontent.com/Bridge-Node-7/materials-to-mission/2a8d26af86e8adb8b1e34550045782d1a20418a4/public-snapshots/gallium/GA-001/public-view.json",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:43.655330+00:00",
+      "content_type": "text/plain; charset=utf-8",
+      "response_sha256": "31bdbf1a074e1f838205eab16c32ee02b8e3ee1a75899d0e476db0ce9fdf8676",
+      "bytes": 3464,
+      "error": null,
+      "headers": {
+        "Server": null,
+        "Last-Modified": null,
+        "ETag": "\"44cc425ee3629ed466cc22a8f1ed16d851dd2b998457052fbed847a950e30c68\"",
+        "Cache-Control": "max-age=300"
+      },
+      "title": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ],
+      "expected_local_sha256": "31bdbf1a074e1f838205eab16c32ee02b8e3ee1a75899d0e476db0ce9fdf8676",
+      "matches_local_bytes": true
+    },
+    {
+      "requested_url": "https://raw.githubusercontent.com/Bridge-Node-7/materials-to-mission/2a8d26af86e8adb8b1e34550045782d1a20418a4/docs/MATURITY_AND_PROOF.md",
+      "final_url": "https://raw.githubusercontent.com/Bridge-Node-7/materials-to-mission/2a8d26af86e8adb8b1e34550045782d1a20418a4/docs/MATURITY_AND_PROOF.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:43.983354+00:00",
+      "content_type": "text/plain; charset=utf-8",
+      "response_sha256": "c2160e437e8814a0e46c11d2d90218fdbb598a694fbe122368b21fa627f8c4bf",
+      "bytes": 1084,
+      "error": null,
+      "headers": {
+        "Server": null,
+        "Last-Modified": null,
+        "ETag": "\"e990c85ed27677d883f2afe7c8ded266549d9249ec703f14844646f715590cda\"",
+        "Cache-Control": "max-age=300"
+      },
+      "title": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ],
+      "expected_local_sha256": "c2160e437e8814a0e46c11d2d90218fdbb598a694fbe122368b21fa627f8c4bf",
+      "matches_local_bytes": true
+    },
+    {
+      "requested_url": "https://raw.githubusercontent.com/Bridge-Node-7/frontier-mission-assurance/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/FIVE_MINUTE_EVALUATION.md",
+      "final_url": "https://raw.githubusercontent.com/Bridge-Node-7/frontier-mission-assurance/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/FIVE_MINUTE_EVALUATION.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:44.010409+00:00",
+      "content_type": "text/plain; charset=utf-8",
+      "response_sha256": "5fdec93c2f84de202392eb22f24652401bcf184f68d8b26fb776be769ccf1160",
+      "bytes": 3592,
+      "error": null,
+      "headers": {
+        "Server": null,
+        "Last-Modified": null,
+        "ETag": "\"ea387d7306a04b7d89924a4e31977d6919e527ce36297fa1512aec8d6b36c87f\"",
+        "Cache-Control": "max-age=300"
+      },
+      "title": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ],
+      "expected_local_sha256": "5fdec93c2f84de202392eb22f24652401bcf184f68d8b26fb776be769ccf1160",
+      "matches_local_bytes": true
+    },
+    {
+      "requested_url": "https://raw.githubusercontent.com/Bridge-Node-7/Bridge-Node-7/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md",
+      "final_url": "https://raw.githubusercontent.com/Bridge-Node-7/Bridge-Node-7/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:44.029862+00:00",
+      "content_type": "text/plain; charset=utf-8",
+      "response_sha256": "5f98e008e55a43297161136d062c81467f974377fd0f5a922e95ad38b601a03e",
+      "bytes": 14803,
+      "error": null,
+      "headers": {
+        "Server": null,
+        "Last-Modified": null,
+        "ETag": "\"84531bb4280843315b9a35b7910078bd6e2b0c757736807e633dd50e110dd763\"",
+        "Cache-Control": "max-age=300"
+      },
+      "title": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ],
+      "expected_local_sha256": "5f98e008e55a43297161136d062c81467f974377fd0f5a922e95ad38b601a03e",
+      "matches_local_bytes": true
+    },
+    {
+      "requested_url": "https://raw.githubusercontent.com/Bridge-Node-7/frontier-mission-assurance/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/USE_AND_EVALUATION.md",
+      "final_url": "https://raw.githubusercontent.com/Bridge-Node-7/frontier-mission-assurance/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/USE_AND_EVALUATION.md",
+      "status": 200,
+      "redirects": [],
+      "retrieved_at_utc": "2026-10-04T22:37:44.030362+00:00",
+      "content_type": "text/plain; charset=utf-8",
+      "response_sha256": "798e3f61e3a8c8d24ea064be2bc645dfea14fcac2b70e955fa3897a91b12a151",
+      "bytes": 3512,
+      "error": null,
+      "headers": {
+        "Server": null,
+        "Last-Modified": null,
+        "ETag": "\"c6c2e112db85a5ccec31973c53733f1d83c12250fa308d5390a62cfc494928e6\"",
+        "Cache-Control": "max-age=300"
+      },
+      "title": null,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "error": null
+        }
+      ],
+      "expected_local_sha256": "798e3f61e3a8c8d24ea064be2bc645dfea14fcac2b70e955fa3897a91b12a151",
+      "matches_local_bytes": true
+    }
+  ],
+  "mailto_checks": [
+    {
+      "url": "mailto:contact@bridgenode7.com",
+      "method": "address syntax and public page contact comparison; no mail sent",
+      "address": "contact@bridgenode7.com",
+      "observed_on_public_contact_page": true
+    }
+  ],
+  "website_publication": {
+    "integration_requested": false,
+    "reason": "User explicitly does not want to change the website",
+    "source_checkout": "not required; discovery stopped",
+    "deployment_owner": "not required; discovery stopped",
+    "proposed_playbook_path": "superseded",
+    "observed_public_hosting_statement": {
+      "url": "https://bridgenode7.com/privacy/",
+      "statement": "Privacy page attributes delivery infrastructure to GitHub Pages.",
+      "scope": "Reported public hosting description; no editable source/deployment authority inferred."
+    }
+  },
+  "summary": {
+    "http_destinations": 71,
+    "http_200": 71,
+    "http_failures": 0,
+    "redirected_destinations": 0,
+    "local_pinned_references": 57,
+    "local_missing_paths": 0,
+    "local_invalid_ranges": 0,
+    "manuscript_raw_checks": 8,
+    "manuscript_raw_matches": 8
+  },
+  "release_identity_refresh": [
+    {
+      "repo": "Bridge-Node-7",
+      "status": "not_refreshed_no_release_in_prior_inventory",
+      "inventory_assembled_at_utc": "2026-10-04T12:53:09.372Z"
+    },
+    {
+      "repo": "ai-cyber-assurance",
+      "api_url": "https://api.github.com/repos/Bridge-Node-7/ai-cyber-assurance/releases/latest",
+      "retrieved_at_utc": "2026-10-04T22:38:55.207678+00:00",
+      "tag": "v0.6.1",
+      "release_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/releases/tag/v0.6.1",
+      "published_at_utc": "2026-08-29T05:22:12Z",
+      "tag_reference_api_url": "https://api.github.com/repos/Bridge-Node-7/ai-cyber-assurance/git/ref/tags/v0.6.1",
+      "tag_retrieved_at_utc": "2026-10-04T22:38:55.488343+00:00",
+      "tag_object_chain": [
+        {
+          "type": "commit",
+          "sha": "0924773a6cd29c957cc4d0122f9620f8323cb676"
+        }
+      ],
+      "resolved_commit": "0924773a6cd29c957cc4d0122f9620f8323cb676",
+      "inventory_release_same": true,
+      "source_version": "0.6.1",
+      "source_head": "9033bf73bbd3923c5de0a9c6fb9959b4c140de64",
+      "source_head_matches_release": false
+    },
+    {
+      "repo": "frontier-decision-engine",
+      "api_url": "https://api.github.com/repos/Bridge-Node-7/frontier-decision-engine/releases/latest",
+      "retrieved_at_utc": "2026-10-04T22:38:55.200121+00:00",
+      "tag": "v0.5.14",
+      "release_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/releases/tag/v0.5.14",
+      "published_at_utc": "2026-09-24T18:49:23Z",
+      "tag_reference_api_url": "https://api.github.com/repos/Bridge-Node-7/frontier-decision-engine/git/ref/tags/v0.5.14",
+      "tag_retrieved_at_utc": "2026-10-04T22:38:55.488839+00:00",
+      "tag_object_chain": [
+        {
+          "type": "tag",
+          "sha": "d4c8a873ee4830e5228dac01e3fd61e9b8f5a8a9"
+        },
+        {
+          "type": "commit",
+          "sha": "52d037d2c153b7ed8af1c92240619b27b3cb299f"
+        }
+      ],
+      "resolved_commit": "52d037d2c153b7ed8af1c92240619b27b3cb299f",
+      "inventory_release_same": true,
+      "source_version": "0.5.16",
+      "source_head": "4a913756d00cdd321da04bf7350507e571f2f2dd",
+      "source_head_matches_release": false
+    },
+    {
+      "repo": "frontier-intelligence-workflows",
+      "api_url": "https://api.github.com/repos/Bridge-Node-7/frontier-intelligence-workflows/releases/latest",
+      "retrieved_at_utc": "2026-10-04T22:38:55.247501+00:00",
+      "tag": "v0.9.0",
+      "release_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/releases/tag/v0.9.0",
+      "published_at_utc": "2026-09-20T00:28:38Z",
+      "tag_reference_api_url": "https://api.github.com/repos/Bridge-Node-7/frontier-intelligence-workflows/git/ref/tags/v0.9.0",
+      "tag_retrieved_at_utc": "2026-10-04T22:38:55.556533+00:00",
+      "tag_object_chain": [
+        {
+          "type": "tag",
+          "sha": "e3f1f36289e8644aa0fd9e7383be981c25b500aa"
+        },
+        {
+          "type": "commit",
+          "sha": "45d3baf52b896f5fac347995366f11ae2832679f"
+        }
+      ],
+      "resolved_commit": "45d3baf52b896f5fac347995366f11ae2832679f",
+      "inventory_release_same": true,
+      "source_version": "0.9.0",
+      "source_head": "36366e96c12765e14d09965c1f82330194dfa8d3",
+      "source_head_matches_release": false
+    },
+    {
+      "repo": "frontier-mission-assurance",
+      "api_url": "https://api.github.com/repos/Bridge-Node-7/frontier-mission-assurance/releases/latest",
+      "retrieved_at_utc": "2026-10-04T22:38:55.775585+00:00",
+      "tag": "v0.11.2",
+      "release_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/releases/tag/v0.11.2",
+      "published_at_utc": "2026-09-30T00:33:46Z",
+      "tag_reference_api_url": "https://api.github.com/repos/Bridge-Node-7/frontier-mission-assurance/git/ref/tags/v0.11.2",
+      "tag_retrieved_at_utc": "2026-10-04T22:38:56.085723+00:00",
+      "tag_object_chain": [
+        {
+          "type": "tag",
+          "sha": "2aa3ee8c1526f3f2f21d55c311e40f65ca3acc35"
+        },
+        {
+          "type": "commit",
+          "sha": "7cec217729c32869120f3d430f1720ca12751c0f"
+        }
+      ],
+      "resolved_commit": "7cec217729c32869120f3d430f1720ca12751c0f",
+      "inventory_release_same": true,
+      "source_version": "0.11.2",
+      "source_head": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+      "source_head_matches_release": false
+    },
+    {
+      "repo": "materials-to-mission",
+      "api_url": "https://api.github.com/repos/Bridge-Node-7/materials-to-mission/releases/latest",
+      "retrieved_at_utc": "2026-10-04T22:38:56.028081+00:00",
+      "tag": "v0.7.5",
+      "release_url": "https://github.com/Bridge-Node-7/materials-to-mission/releases/tag/v0.7.5",
+      "published_at_utc": "2026-08-23T00:53:23Z",
+      "tag_reference_api_url": "https://api.github.com/repos/Bridge-Node-7/materials-to-mission/git/ref/tags/v0.7.5",
+      "tag_retrieved_at_utc": "2026-10-04T22:38:56.351877+00:00",
+      "tag_object_chain": [
+        {
+          "type": "tag",
+          "sha": "737352760b9f06a23a772e040ad18355176be0b0"
+        },
+        {
+          "type": "commit",
+          "sha": "88a6e034df2a17d046c281f759c198a43f93a905"
+        }
+      ],
+      "resolved_commit": "88a6e034df2a17d046c281f759c198a43f93a905",
+      "inventory_release_same": true,
+      "source_version": "0.7.6",
+      "source_head": "2a8d26af86e8adb8b1e34550045782d1a20418a4",
+      "source_head_matches_release": false
+    },
+    {
+      "repo": "pax-silica",
+      "api_url": "https://api.github.com/repos/Bridge-Node-7/pax-silica/releases/latest",
+      "retrieved_at_utc": "2026-10-04T22:38:56.144943+00:00",
+      "tag": "v0.3.2",
+      "release_url": "https://github.com/Bridge-Node-7/pax-silica/releases/tag/v0.3.2",
+      "published_at_utc": "2026-08-23T03:34:38Z",
+      "tag_reference_api_url": "https://api.github.com/repos/Bridge-Node-7/pax-silica/git/ref/tags/v0.3.2",
+      "tag_retrieved_at_utc": "2026-10-04T22:38:56.458725+00:00",
+      "tag_object_chain": [
+        {
+          "type": "commit",
+          "sha": "cb9ef87a35da858bd903a2cc282af8e40c695316"
+        }
+      ],
+      "resolved_commit": "cb9ef87a35da858bd903a2cc282af8e40c695316",
+      "inventory_release_same": true,
+      "source_version": "0.3.3",
+      "source_head": "2f62f678d06f8444ddc7788ce03e1f1f46cf4cba",
+      "source_head_matches_release": false
+    },
+    {
+      "repo": "quantum-readiness-space-communications",
+      "api_url": "https://api.github.com/repos/Bridge-Node-7/quantum-readiness-space-communications/releases/latest",
+      "retrieved_at_utc": "2026-10-04T22:38:56.655422+00:00",
+      "tag": "v0.2.3",
+      "release_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/releases/tag/v0.2.3",
+      "published_at_utc": "2026-08-07T21:47:26Z",
+      "tag_reference_api_url": "https://api.github.com/repos/Bridge-Node-7/quantum-readiness-space-communications/git/ref/tags/v0.2.3",
+      "tag_retrieved_at_utc": "2026-10-04T22:38:56.966117+00:00",
+      "tag_object_chain": [
+        {
+          "type": "tag",
+          "sha": "017b8b40f2ab63f02b47c093e7d39f0a7e72574d"
+        },
+        {
+          "type": "commit",
+          "sha": "7c61088d3aa202f67a1c216a683e0493f3c7fa76"
+        }
+      ],
+      "resolved_commit": "7c61088d3aa202f67a1c216a683e0493f3c7fa76",
+      "inventory_release_same": true,
+      "source_version": "0.2.4",
+      "source_head": "0f926377de268b20c2b1223eaf830405b8eb3648",
+      "source_head_matches_release": false
+    }
+  ],
+  "reuse_and_citation_routes": [
+    {
+      "repo": "Bridge-Node-7",
+      "commit": "3f959138f3252b16bc69dabf178bdde83a606a3b",
+      "license_posture": "All Rights Reserved; original documentation; express permission or applicable platform/legal rights required",
+      "license_url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/LICENSE",
+      "citation_cff_present": false,
+      "citation_cff_version": null,
+      "citation_message": null
+    },
+    {
+      "repo": "ai-cyber-assurance",
+      "commit": "9033bf73bbd3923c5de0a9c6fb9959b4c140de64",
+      "license_posture": "MIT",
+      "license_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/LICENSE",
+      "citation_cff_present": false,
+      "citation_cff_version": null,
+      "citation_message": null
+    },
+    {
+      "repo": "frontier-decision-engine",
+      "commit": "4a913756d00cdd321da04bf7350507e571f2f2dd",
+      "license_posture": "Apache-2.0",
+      "license_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/LICENSE",
+      "citation_cff_present": true,
+      "citation_cff_version": "0.5.16",
+      "citation_message": "Please cite the software and the specific dataset or case version used.",
+      "citation_cff_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/CITATION.cff"
+    },
+    {
+      "repo": "frontier-intelligence-workflows",
+      "commit": "36366e96c12765e14d09965c1f82330194dfa8d3",
+      "license_posture": "MIT",
+      "license_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/LICENSE",
+      "citation_cff_present": false,
+      "citation_cff_version": null,
+      "citation_message": null
+    },
+    {
+      "repo": "frontier-mission-assurance",
+      "commit": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+      "license_posture": "All Rights Reserved; evaluation and review only; no general reuse license",
+      "license_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/LICENSE",
+      "citation_cff_present": true,
+      "citation_cff_version": "0.11.2",
+      "citation_message": "If this public reference implementation informs published work, cite the repository and the exact release used.",
+      "citation_cff_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/CITATION.cff"
+    },
+    {
+      "repo": "materials-to-mission",
+      "commit": "2a8d26af86e8adb8b1e34550045782d1a20418a4",
+      "license_posture": "MIT",
+      "license_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/LICENSE",
+      "citation_cff_present": true,
+      "citation_cff_version": "0.7.6",
+      "citation_message": "Cite this repository as the Bridge Node 7 Materials-to-Mission public reference method and validation toolkit.",
+      "citation_cff_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/CITATION.cff"
+    },
+    {
+      "repo": "pax-silica",
+      "commit": "2f62f678d06f8444ddc7788ce03e1f1f46cf4cba",
+      "license_posture": "MIT",
+      "license_url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/LICENSE",
+      "citation_cff_present": false,
+      "citation_cff_version": null,
+      "citation_message": null
+    },
+    {
+      "repo": "quantum-readiness-space-communications",
+      "commit": "0f926377de268b20c2b1223eaf830405b8eb3648",
+      "license_posture": "MIT",
+      "license_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/LICENSE",
+      "citation_cff_present": true,
+      "citation_cff_version": "0.2.4",
+      "citation_message": "For formal releases, cite the exact tagged release; for unreleased source, cite the exact commit.",
+      "citation_cff_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/CITATION.cff"
+    }
+  ],
+  "publication_findings": [
+    {
+      "id": "CITE-001",
+      "severity": "review_required",
+      "finding": "All seven inspected implementation HEADs differ from the latest published release commits, including ACA/FIW/FMA with matching version labels.",
+      "action": "Preserve exact inspected source commit; cite a published release only when its artifact was actually used.",
+      "broken_link": false
+    },
+    {
+      "id": "SITE-001",
+      "severity": "scope_change",
+      "finding": "Website changes excluded by user; proposed bridgenode7.com/playbook/ path superseded.",
+      "action": "Complete standalone HTML/PDF deliverables and obtain an approved sharing destination; source/deployment discovery is excluded.",
+      "broken_link": false
+    }
+  ]
+}

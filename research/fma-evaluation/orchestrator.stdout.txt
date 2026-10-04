@@ -1,0 +1,29 @@
+{"step": "create-venv", "exit_code": 0, "stdout": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/create-venv.stdout.txt", "stderr": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/create-venv.stderr.txt"}
+{"step": "install-dependencies", "exit_code": 0, "stdout": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/install-dependencies.stdout.txt", "stderr": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/install-dependencies.stderr.txt"}
+{"step": "pip-check", "exit_code": 0, "stdout": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/pip-check.stdout.txt", "stderr": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/pip-check.stderr.txt"}
+{"step": "pip-freeze", "exit_code": 0, "stdout": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/pip-freeze.stdout.txt", "stderr": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/pip-freeze.stderr.txt"}
+{"step": "interpreter", "exit_code": 0, "stdout": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/interpreter.stdout.txt", "stderr": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/interpreter.stderr.txt"}
+{"step": "baseline-validation", "exit_code": 0, "stdout": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/baseline-validation.stdout.txt", "stderr": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/baseline-validation.stderr.txt"}
+{"step": "changed-assumption-comparison", "exit_code": 0, "stdout": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/changed-assumption-comparison.stdout.txt", "stderr": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/changed-assumption-comparison.stderr.txt"}
+{
+  "all_checks_pass": false,
+  "checks": {
+    "baseline_status_pass": true,
+    "baseline_record_class_synthetic": true,
+    "baseline_disposition_hold": true,
+    "baseline_declared_applicability_hold": false,
+    "comparison_status_pass": true,
+    "comparison_record_class_synthetic": true,
+    "current_disposition_remains_hold": true,
+    "context_change_architecture_revision": true,
+    "expected_changed_assumptions": true,
+    "expected_resource_estimates_stale": true,
+    "expected_evidence_outside_envelope": true,
+    "expected_expert_reviews_reopen": true,
+    "expected_impacted_nodes": true,
+    "expected_decision_reopen_required": true,
+    "source_head_unchanged": true,
+    "source_tracked_bytes_unchanged": true,
+    "source_clean_after": true
+  }
+}

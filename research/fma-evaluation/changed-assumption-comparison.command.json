@@ -1,0 +1,25 @@
+{
+  "name": "changed-assumption-comparison",
+  "argv": [
+    "/Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z/.venv/bin/python",
+    "/Users/macbookpro/Codex/Any/BN7-sources/frontier-mission-assurance/scripts/compare_ftqc_cases.py",
+    "/Users/macbookpro/Codex/Any/BN7-sources/frontier-mission-assurance/profiles/ftqc-assurance/examples/synthetic-neutral-atom/baseline",
+    "/Users/macbookpro/Codex/Any/BN7-sources/frontier-mission-assurance/profiles/ftqc-assurance/examples/synthetic-neutral-atom/changed-assumption-case",
+    "--root",
+    "/Users/macbookpro/Codex/Any/BN7-sources/frontier-mission-assurance",
+    "--json"
+  ],
+  "cwd": "/Users/macbookpro/Codex/Any/BN7-sources/frontier-mission-assurance",
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPATH": "/Users/macbookpro/Codex/Any/BN7-sources/frontier-mission-assurance/src"
+  },
+  "shell_display": "env PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/Users/macbookpro/Codex/Any/BN7-sources/frontier-mission-assurance/src /Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z/.venv/bin/python /Users/macbookpro/Codex/Any/BN7-sources/frontier-mission-assurance/scripts/compare_ftqc_cases.py /Users/macbookpro/Codex/Any/BN7-sources/frontier-mission-assurance/profiles/ftqc-assurance/examples/synthetic-neutral-atom/baseline /Users/macbookpro/Codex/Any/BN7-sources/frontier-mission-assurance/profiles/ftqc-assurance/examples/synthetic-neutral-atom/changed-assumption-case --root /Users/macbookpro/Codex/Any/BN7-sources/frontier-mission-assurance --json",
+  "started_at_utc": "2026-10-04T22:39:36.964953+00:00",
+  "finished_at_utc": "2026-10-04T22:39:37.141374+00:00",
+  "exit_code": 0,
+  "stdout_path": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/changed-assumption-comparison.stdout.txt",
+  "stderr_path": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/changed-assumption-comparison.stderr.txt",
+  "stdout_sha256": "5f8e3c47e1f4bd2ee22ff08ff10ddf694b83cf69fcc95e867d1752306c0742cf",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "interpreter",
+  "argv": [
+    "/Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z/.venv/bin/python",
+    "-c",
+    "import json,platform,sys; print(json.dumps({'version':sys.version,'executable':sys.executable,'base_prefix':sys.base_prefix,'prefix':sys.prefix,'platform':platform.platform(),'machine':platform.machine()},sort_keys=True,indent=2))"
+  ],
+  "cwd": "/Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z",
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "shell_display": "env PYTHONDONTWRITEBYTECODE=1 /Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z/.venv/bin/python -c 'import json,platform,sys; print(json.dumps({'\"'\"'version'\"'\"':sys.version,'\"'\"'executable'\"'\"':sys.executable,'\"'\"'base_prefix'\"'\"':sys.base_prefix,'\"'\"'prefix'\"'\"':sys.prefix,'\"'\"'platform'\"'\"':platform.platform(),'\"'\"'machine'\"'\"':platform.machine()},sort_keys=True,indent=2))'",
+  "started_at_utc": "2026-10-04T22:39:36.754507+00:00",
+  "finished_at_utc": "2026-10-04T22:39:36.805245+00:00",
+  "exit_code": 0,
+  "stdout_path": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/interpreter.stdout.txt",
+  "stderr_path": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/interpreter.stderr.txt",
+  "stdout_sha256": "f780881e47053a423537433119ccb3702b0ff6fef146f259f47a364b1b671917",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

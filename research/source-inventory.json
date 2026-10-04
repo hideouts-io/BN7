@@ -1,0 +1,515 @@
+{
+  "inventory_version": "1.0",
+  "assembled_at_utc": "2026-10-04T12:53:09.372Z",
+  "repository_count": 8,
+  "total_tracked_files": 917,
+  "scope": {
+    "source_state": "The exact cloned HEAD of each repository; metadata and release observations do not update or fetch clone references.",
+    "latest_release_selection": "Latest published_at timestamp among release objects with draft=false, prerelease=false, and non-null published_at. All observed release lists contain fewer than 100 objects, so no list was truncated by pagination.",
+    "validation": "Required GitHub metadata/release/tag fields were validated at runtime. Tag objects were resolved recursively to commits through read-only GitHub API calls.",
+    "execution": "No repository code, tests, installs, commits, pushes, releases, or deployments were run for this inventory.",
+    "release_assets": "Release asset bytes, checksums, signatures, attestations, and hosted validation outcomes were not independently verified.",
+    "rights": "License posture records the cloned LICENSE notice and GitHub's detection; the user's stated authorization for BN7 playbook preparation is separately established."
+  },
+  "repositories": [
+    {
+      "name": "Bridge-Node-7",
+      "full_name": "Bridge-Node-7/Bridge-Node-7",
+      "repository_url": "https://github.com/Bridge-Node-7/Bridge-Node-7",
+      "clone_url": "https://github.com/Bridge-Node-7/Bridge-Node-7.git",
+      "clone_path": "/Users/macbookpro/Codex/Any/BN7-sources/Bridge-Node-7",
+      "default_branch": "main",
+      "github_private": false,
+      "github_archived": false,
+      "cloned_head_sha": "3f959138f3252b16bc69dabf178bdde83a606a3b",
+      "head_author_date": "2026-10-04T02:22:49-07:00",
+      "head_commit_date": "2026-10-04T02:22:49-07:00",
+      "tracked_file_count": 7,
+      "source_version": null,
+      "source_version_status": "not_versioned_documentation",
+      "source_version_authorities": [],
+      "license": {
+        "posture": "All Rights Reserved; original documentation; express permission or applicable platform/legal rights required",
+        "notice_path": "LICENSE",
+        "notice_url": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/LICENSE",
+        "github_detected_spdx_id": "NOASSERTION"
+      },
+      "observed_release_count": 0,
+      "latest_published_release": null,
+      "published_release_status": "no_releases_published",
+      "source_version_matches_latest_published_tag": null,
+      "head_matches_latest_published_release_commit": null,
+      "metadata_api_url": "https://api.github.com/repos/Bridge-Node-7/Bridge-Node-7",
+      "releases_api_url": "https://api.github.com/repos/Bridge-Node-7/Bridge-Node-7/releases?per_page=100",
+      "metadata_retrieved_at_utc": "2026-10-04T12:49:23.744Z",
+      "releases_retrieved_at_utc": "2026-10-04T12:49:23.733Z",
+      "local_state_checked_at_utc": "2026-10-04T12:52:24.989239+00:00",
+      "working_tree": {
+        "clean": true,
+        "status_porcelain": [],
+        "scope": "Tracked files and nonignored untracked files; ignored build or cache files are outside this check"
+      }
+    },
+    {
+      "name": "ai-cyber-assurance",
+      "full_name": "Bridge-Node-7/ai-cyber-assurance",
+      "repository_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance",
+      "clone_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance.git",
+      "clone_path": "/Users/macbookpro/Codex/Any/BN7-sources/ai-cyber-assurance",
+      "default_branch": "main",
+      "github_private": false,
+      "github_archived": false,
+      "cloned_head_sha": "9033bf73bbd3923c5de0a9c6fb9959b4c140de64",
+      "head_author_date": "2026-10-01T21:43:08-07:00",
+      "head_commit_date": "2026-10-01T21:43:08-07:00",
+      "tracked_file_count": 74,
+      "source_version": "0.6.1",
+      "source_version_status": "declared_source_version",
+      "source_version_authorities": [
+        {
+          "path": "VERSION",
+          "field": "file contents",
+          "value": "0.6.1",
+          "source_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/VERSION"
+        }
+      ],
+      "license": {
+        "posture": "MIT",
+        "notice_path": "LICENSE",
+        "notice_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/LICENSE",
+        "github_detected_spdx_id": "MIT"
+      },
+      "observed_release_count": 8,
+      "latest_published_release": {
+        "tag": "v0.6.1",
+        "tag_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/tree/v0.6.1",
+        "release_url": "https://github.com/Bridge-Node-7/ai-cyber-assurance/releases/tag/v0.6.1",
+        "prerelease": false,
+        "draft": false,
+        "published_at_utc": "2026-08-29T05:22:12Z",
+        "resolved_tag_commit_sha": "0924773a6cd29c957cc4d0122f9620f8323cb676",
+        "tag_reference_api_url": "https://api.github.com/repos/Bridge-Node-7/ai-cyber-assurance/git/ref/tags/v0.6.1",
+        "tag_reference_retrieved_at_utc": "2026-10-04T12:51:02.113Z",
+        "tag_object_chain": [
+          {
+            "type": "commit",
+            "sha": "0924773a6cd29c957cc4d0122f9620f8323cb676"
+          }
+        ]
+      },
+      "published_release_status": "published_non_prerelease_release_present",
+      "source_version_matches_latest_published_tag": true,
+      "head_matches_latest_published_release_commit": false,
+      "metadata_api_url": "https://api.github.com/repos/Bridge-Node-7/ai-cyber-assurance",
+      "releases_api_url": "https://api.github.com/repos/Bridge-Node-7/ai-cyber-assurance/releases?per_page=100",
+      "metadata_retrieved_at_utc": "2026-10-04T12:49:23.746Z",
+      "releases_retrieved_at_utc": "2026-10-04T12:49:23.829Z",
+      "local_state_checked_at_utc": "2026-10-04T12:52:25.029075+00:00",
+      "working_tree": {
+        "clean": true,
+        "status_porcelain": [],
+        "scope": "Tracked files and nonignored untracked files; ignored build or cache files are outside this check"
+      }
+    },
+    {
+      "name": "frontier-decision-engine",
+      "full_name": "Bridge-Node-7/frontier-decision-engine",
+      "repository_url": "https://github.com/Bridge-Node-7/frontier-decision-engine",
+      "clone_url": "https://github.com/Bridge-Node-7/frontier-decision-engine.git",
+      "clone_path": "/Users/macbookpro/Codex/Any/BN7-sources/frontier-decision-engine",
+      "default_branch": "main",
+      "github_private": false,
+      "github_archived": false,
+      "cloned_head_sha": "4a913756d00cdd321da04bf7350507e571f2f2dd",
+      "head_author_date": "2026-10-03T14:43:26-07:00",
+      "head_commit_date": "2026-10-03T14:43:26-07:00",
+      "tracked_file_count": 129,
+      "source_version": "0.5.16",
+      "source_version_status": "declared_source_version",
+      "source_version_authorities": [
+        {
+          "path": "package.json",
+          "field": "version",
+          "value": "0.5.16",
+          "source_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/package.json"
+        }
+      ],
+      "license": {
+        "posture": "Apache-2.0",
+        "notice_path": "LICENSE",
+        "notice_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/blob/4a913756d00cdd321da04bf7350507e571f2f2dd/LICENSE",
+        "github_detected_spdx_id": "Apache-2.0"
+      },
+      "observed_release_count": 22,
+      "latest_published_release": {
+        "tag": "v0.5.14",
+        "tag_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/tree/v0.5.14",
+        "release_url": "https://github.com/Bridge-Node-7/frontier-decision-engine/releases/tag/v0.5.14",
+        "prerelease": false,
+        "draft": false,
+        "published_at_utc": "2026-09-24T18:49:23Z",
+        "resolved_tag_commit_sha": "52d037d2c153b7ed8af1c92240619b27b3cb299f",
+        "tag_reference_api_url": "https://api.github.com/repos/Bridge-Node-7/frontier-decision-engine/git/ref/tags/v0.5.14",
+        "tag_reference_retrieved_at_utc": "2026-10-04T12:51:02.555Z",
+        "tag_object_chain": [
+          {
+            "type": "tag",
+            "sha": "d4c8a873ee4830e5228dac01e3fd61e9b8f5a8a9"
+          },
+          {
+            "type": "commit",
+            "sha": "52d037d2c153b7ed8af1c92240619b27b3cb299f"
+          }
+        ]
+      },
+      "published_release_status": "published_non_prerelease_release_present",
+      "source_version_matches_latest_published_tag": false,
+      "head_matches_latest_published_release_commit": false,
+      "metadata_api_url": "https://api.github.com/repos/Bridge-Node-7/frontier-decision-engine",
+      "releases_api_url": "https://api.github.com/repos/Bridge-Node-7/frontier-decision-engine/releases?per_page=100",
+      "metadata_retrieved_at_utc": "2026-10-04T12:50:05.462Z",
+      "releases_retrieved_at_utc": "2026-10-04T12:50:05.538Z",
+      "local_state_checked_at_utc": "2026-10-04T12:52:25.071113+00:00",
+      "working_tree": {
+        "clean": true,
+        "status_porcelain": [],
+        "scope": "Tracked files and nonignored untracked files; ignored build or cache files are outside this check"
+      }
+    },
+    {
+      "name": "frontier-intelligence-workflows",
+      "full_name": "Bridge-Node-7/frontier-intelligence-workflows",
+      "repository_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows",
+      "clone_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows.git",
+      "clone_path": "/Users/macbookpro/Codex/Any/BN7-sources/frontier-intelligence-workflows",
+      "default_branch": "main",
+      "github_private": false,
+      "github_archived": false,
+      "cloned_head_sha": "36366e96c12765e14d09965c1f82330194dfa8d3",
+      "head_author_date": "2026-10-04T01:22:42-07:00",
+      "head_commit_date": "2026-10-04T01:22:42-07:00",
+      "tracked_file_count": 135,
+      "source_version": "0.9.0",
+      "source_version_status": "declared_source_version",
+      "source_version_authorities": [
+        {
+          "path": "VERSION",
+          "field": "file contents",
+          "value": "0.9.0",
+          "source_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/VERSION"
+        }
+      ],
+      "license": {
+        "posture": "MIT",
+        "notice_path": "LICENSE",
+        "notice_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/LICENSE",
+        "github_detected_spdx_id": "MIT"
+      },
+      "observed_release_count": 5,
+      "latest_published_release": {
+        "tag": "v0.9.0",
+        "tag_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/tree/v0.9.0",
+        "release_url": "https://github.com/Bridge-Node-7/frontier-intelligence-workflows/releases/tag/v0.9.0",
+        "prerelease": false,
+        "draft": false,
+        "published_at_utc": "2026-09-20T00:28:38Z",
+        "resolved_tag_commit_sha": "45d3baf52b896f5fac347995366f11ae2832679f",
+        "tag_reference_api_url": "https://api.github.com/repos/Bridge-Node-7/frontier-intelligence-workflows/git/ref/tags/v0.9.0",
+        "tag_reference_retrieved_at_utc": "2026-10-04T12:51:02.636Z",
+        "tag_object_chain": [
+          {
+            "type": "tag",
+            "sha": "e3f1f36289e8644aa0fd9e7383be981c25b500aa"
+          },
+          {
+            "type": "commit",
+            "sha": "45d3baf52b896f5fac347995366f11ae2832679f"
+          }
+        ]
+      },
+      "published_release_status": "published_non_prerelease_release_present",
+      "source_version_matches_latest_published_tag": true,
+      "head_matches_latest_published_release_commit": false,
+      "metadata_api_url": "https://api.github.com/repos/Bridge-Node-7/frontier-intelligence-workflows",
+      "releases_api_url": "https://api.github.com/repos/Bridge-Node-7/frontier-intelligence-workflows/releases?per_page=100",
+      "metadata_retrieved_at_utc": "2026-10-04T12:49:23.746Z",
+      "releases_retrieved_at_utc": "2026-10-04T12:49:23.816Z",
+      "local_state_checked_at_utc": "2026-10-04T12:52:25.113217+00:00",
+      "working_tree": {
+        "clean": true,
+        "status_porcelain": [],
+        "scope": "Tracked files and nonignored untracked files; ignored build or cache files are outside this check"
+      }
+    },
+    {
+      "name": "frontier-mission-assurance",
+      "full_name": "Bridge-Node-7/frontier-mission-assurance",
+      "repository_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance",
+      "clone_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance.git",
+      "clone_path": "/Users/macbookpro/Codex/Any/BN7-sources/frontier-mission-assurance",
+      "default_branch": "main",
+      "github_private": false,
+      "github_archived": false,
+      "cloned_head_sha": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+      "head_author_date": "2026-10-04T00:58:40-07:00",
+      "head_commit_date": "2026-10-04T00:58:40-07:00",
+      "tracked_file_count": 239,
+      "source_version": "0.11.2",
+      "source_version_status": "declared_source_version",
+      "source_version_authorities": [
+        {
+          "path": "VERSION",
+          "field": "file contents",
+          "value": "0.11.2",
+          "source_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/VERSION"
+        },
+        {
+          "path": "pyproject.toml",
+          "field": "project.version",
+          "value": "0.11.2",
+          "source_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/pyproject.toml"
+        }
+      ],
+      "license": {
+        "posture": "All Rights Reserved; evaluation and review only; no general reuse license",
+        "notice_path": "LICENSE",
+        "notice_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/LICENSE",
+        "github_detected_spdx_id": "NOASSERTION"
+      },
+      "observed_release_count": 24,
+      "latest_published_release": {
+        "tag": "v0.11.2",
+        "tag_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/tree/v0.11.2",
+        "release_url": "https://github.com/Bridge-Node-7/frontier-mission-assurance/releases/tag/v0.11.2",
+        "prerelease": false,
+        "draft": false,
+        "published_at_utc": "2026-09-30T00:33:46Z",
+        "resolved_tag_commit_sha": "7cec217729c32869120f3d430f1720ca12751c0f",
+        "tag_reference_api_url": "https://api.github.com/repos/Bridge-Node-7/frontier-mission-assurance/git/ref/tags/v0.11.2",
+        "tag_reference_retrieved_at_utc": "2026-10-04T12:51:02.550Z",
+        "tag_object_chain": [
+          {
+            "type": "tag",
+            "sha": "2aa3ee8c1526f3f2f21d55c311e40f65ca3acc35"
+          },
+          {
+            "type": "commit",
+            "sha": "7cec217729c32869120f3d430f1720ca12751c0f"
+          }
+        ]
+      },
+      "published_release_status": "published_non_prerelease_release_present",
+      "source_version_matches_latest_published_tag": true,
+      "head_matches_latest_published_release_commit": false,
+      "metadata_api_url": "https://api.github.com/repos/Bridge-Node-7/frontier-mission-assurance",
+      "releases_api_url": "https://api.github.com/repos/Bridge-Node-7/frontier-mission-assurance/releases?per_page=100",
+      "metadata_retrieved_at_utc": "2026-10-04T12:50:05.438Z",
+      "releases_retrieved_at_utc": "2026-10-04T12:50:05.578Z",
+      "local_state_checked_at_utc": "2026-10-04T12:52:25.158815+00:00",
+      "working_tree": {
+        "clean": true,
+        "status_porcelain": [],
+        "scope": "Tracked files and nonignored untracked files; ignored build or cache files are outside this check"
+      }
+    },
+    {
+      "name": "materials-to-mission",
+      "full_name": "Bridge-Node-7/materials-to-mission",
+      "repository_url": "https://github.com/Bridge-Node-7/materials-to-mission",
+      "clone_url": "https://github.com/Bridge-Node-7/materials-to-mission.git",
+      "clone_path": "/Users/macbookpro/Codex/Any/BN7-sources/materials-to-mission",
+      "default_branch": "main",
+      "github_private": false,
+      "github_archived": false,
+      "cloned_head_sha": "2a8d26af86e8adb8b1e34550045782d1a20418a4",
+      "head_author_date": "2026-10-04T01:34:21-07:00",
+      "head_commit_date": "2026-10-04T01:34:21-07:00",
+      "tracked_file_count": 184,
+      "source_version": "0.7.6",
+      "source_version_status": "declared_source_version",
+      "source_version_authorities": [
+        {
+          "path": "VERSION",
+          "field": "file contents",
+          "value": "0.7.6",
+          "source_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/VERSION"
+        },
+        {
+          "path": "pyproject.toml",
+          "field": "project.version",
+          "value": "0.7.6",
+          "source_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/pyproject.toml"
+        }
+      ],
+      "license": {
+        "posture": "MIT",
+        "notice_path": "LICENSE",
+        "notice_url": "https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/LICENSE",
+        "github_detected_spdx_id": "MIT"
+      },
+      "observed_release_count": 19,
+      "latest_published_release": {
+        "tag": "v0.7.5",
+        "tag_url": "https://github.com/Bridge-Node-7/materials-to-mission/tree/v0.7.5",
+        "release_url": "https://github.com/Bridge-Node-7/materials-to-mission/releases/tag/v0.7.5",
+        "prerelease": false,
+        "draft": false,
+        "published_at_utc": "2026-08-23T00:53:23Z",
+        "resolved_tag_commit_sha": "88a6e034df2a17d046c281f759c198a43f93a905",
+        "tag_reference_api_url": "https://api.github.com/repos/Bridge-Node-7/materials-to-mission/git/ref/tags/v0.7.5",
+        "tag_reference_retrieved_at_utc": "2026-10-04T12:51:02.569Z",
+        "tag_object_chain": [
+          {
+            "type": "tag",
+            "sha": "737352760b9f06a23a772e040ad18355176be0b0"
+          },
+          {
+            "type": "commit",
+            "sha": "88a6e034df2a17d046c281f759c198a43f93a905"
+          }
+        ]
+      },
+      "published_release_status": "published_non_prerelease_release_present",
+      "source_version_matches_latest_published_tag": false,
+      "head_matches_latest_published_release_commit": false,
+      "metadata_api_url": "https://api.github.com/repos/Bridge-Node-7/materials-to-mission",
+      "releases_api_url": "https://api.github.com/repos/Bridge-Node-7/materials-to-mission/releases?per_page=100",
+      "metadata_retrieved_at_utc": "2026-10-04T12:50:05.424Z",
+      "releases_retrieved_at_utc": "2026-10-04T12:50:05.707Z",
+      "local_state_checked_at_utc": "2026-10-04T12:52:25.201182+00:00",
+      "working_tree": {
+        "clean": true,
+        "status_porcelain": [],
+        "scope": "Tracked files and nonignored untracked files; ignored build or cache files are outside this check"
+      }
+    },
+    {
+      "name": "pax-silica",
+      "full_name": "Bridge-Node-7/pax-silica",
+      "repository_url": "https://github.com/Bridge-Node-7/pax-silica",
+      "clone_url": "https://github.com/Bridge-Node-7/pax-silica.git",
+      "clone_path": "/Users/macbookpro/Codex/Any/BN7-sources/pax-silica",
+      "default_branch": "main",
+      "github_private": false,
+      "github_archived": false,
+      "cloned_head_sha": "2f62f678d06f8444ddc7788ce03e1f1f46cf4cba",
+      "head_author_date": "2026-10-02T18:50:12-07:00",
+      "head_commit_date": "2026-10-02T18:50:12-07:00",
+      "tracked_file_count": 55,
+      "source_version": "0.3.3",
+      "source_version_status": "declared_source_version",
+      "source_version_authorities": [
+        {
+          "path": "VERSION",
+          "field": "file contents",
+          "value": "0.3.3",
+          "source_url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/VERSION"
+        }
+      ],
+      "license": {
+        "posture": "MIT",
+        "notice_path": "LICENSE",
+        "notice_url": "https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/LICENSE",
+        "github_detected_spdx_id": "MIT"
+      },
+      "observed_release_count": 10,
+      "latest_published_release": {
+        "tag": "v0.3.2",
+        "tag_url": "https://github.com/Bridge-Node-7/pax-silica/tree/v0.3.2",
+        "release_url": "https://github.com/Bridge-Node-7/pax-silica/releases/tag/v0.3.2",
+        "prerelease": false,
+        "draft": false,
+        "published_at_utc": "2026-08-23T03:34:38Z",
+        "resolved_tag_commit_sha": "cb9ef87a35da858bd903a2cc282af8e40c695316",
+        "tag_reference_api_url": "https://api.github.com/repos/Bridge-Node-7/pax-silica/git/ref/tags/v0.3.2",
+        "tag_reference_retrieved_at_utc": "2026-10-04T12:51:02.113Z",
+        "tag_object_chain": [
+          {
+            "type": "commit",
+            "sha": "cb9ef87a35da858bd903a2cc282af8e40c695316"
+          }
+        ]
+      },
+      "published_release_status": "published_non_prerelease_release_present",
+      "source_version_matches_latest_published_tag": false,
+      "head_matches_latest_published_release_commit": false,
+      "metadata_api_url": "https://api.github.com/repos/Bridge-Node-7/pax-silica",
+      "releases_api_url": "https://api.github.com/repos/Bridge-Node-7/pax-silica/releases?per_page=100",
+      "metadata_retrieved_at_utc": "2026-10-04T12:49:23.746Z",
+      "releases_retrieved_at_utc": "2026-10-04T12:49:23.806Z",
+      "local_state_checked_at_utc": "2026-10-04T12:52:25.239693+00:00",
+      "working_tree": {
+        "clean": true,
+        "status_porcelain": [],
+        "scope": "Tracked files and nonignored untracked files; ignored build or cache files are outside this check"
+      }
+    },
+    {
+      "name": "quantum-readiness-space-communications",
+      "full_name": "Bridge-Node-7/quantum-readiness-space-communications",
+      "repository_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications",
+      "clone_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications.git",
+      "clone_path": "/Users/macbookpro/Codex/Any/BN7-sources/quantum-readiness-space-communications",
+      "default_branch": "main",
+      "github_private": false,
+      "github_archived": false,
+      "cloned_head_sha": "0f926377de268b20c2b1223eaf830405b8eb3648",
+      "head_author_date": "2026-10-01T21:43:03-07:00",
+      "head_commit_date": "2026-10-01T21:43:03-07:00",
+      "tracked_file_count": 94,
+      "source_version": "0.2.4",
+      "source_version_status": "declared_source_version",
+      "source_version_authorities": [
+        {
+          "path": "VERSION",
+          "field": "file contents",
+          "value": "0.2.4",
+          "source_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/VERSION"
+        }
+      ],
+      "license": {
+        "posture": "MIT",
+        "notice_path": "LICENSE",
+        "notice_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/blob/0f926377de268b20c2b1223eaf830405b8eb3648/LICENSE",
+        "github_detected_spdx_id": "MIT"
+      },
+      "observed_release_count": 5,
+      "latest_published_release": {
+        "tag": "v0.2.3",
+        "tag_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/tree/v0.2.3",
+        "release_url": "https://github.com/Bridge-Node-7/quantum-readiness-space-communications/releases/tag/v0.2.3",
+        "prerelease": false,
+        "draft": false,
+        "published_at_utc": "2026-08-07T21:47:26Z",
+        "resolved_tag_commit_sha": "7c61088d3aa202f67a1c216a683e0493f3c7fa76",
+        "tag_reference_api_url": "https://api.github.com/repos/Bridge-Node-7/quantum-readiness-space-communications/git/ref/tags/v0.2.3",
+        "tag_reference_retrieved_at_utc": "2026-10-04T12:51:02.569Z",
+        "tag_object_chain": [
+          {
+            "type": "tag",
+            "sha": "017b8b40f2ab63f02b47c093e7d39f0a7e72574d"
+          },
+          {
+            "type": "commit",
+            "sha": "7c61088d3aa202f67a1c216a683e0493f3c7fa76"
+          }
+        ]
+      },
+      "published_release_status": "published_non_prerelease_release_present",
+      "source_version_matches_latest_published_tag": false,
+      "head_matches_latest_published_release_commit": false,
+      "metadata_api_url": "https://api.github.com/repos/Bridge-Node-7/quantum-readiness-space-communications",
+      "releases_api_url": "https://api.github.com/repos/Bridge-Node-7/quantum-readiness-space-communications/releases?per_page=100",
+      "metadata_retrieved_at_utc": "2026-10-04T12:49:23.764Z",
+      "releases_retrieved_at_utc": "2026-10-04T12:49:23.801Z",
+      "local_state_checked_at_utc": "2026-10-04T12:52:25.279660+00:00",
+      "working_tree": {
+        "clean": true,
+        "status_porcelain": [],
+        "scope": "Tracked files and nonignored untracked files; ignored build or cache files are outside this check"
+      }
+    }
+  ],
+  "account_url": "https://github.com/Bridge-Node-7",
+  "account_type": "User"
+}

@@ -1,0 +1,1074 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#050914">
+<meta name="robots" content="index,follow">
+<title>Neutral-Atom Fault-Tolerant Quantum Computing · Bridge Node 7</title>
+<meta name="description" content="Public-source intelligence on neutral-atom fault-tolerant quantum computing architecture, error correction, control, photonics, systems engineering, and evidence.">
+<link rel="canonical" href="https://bridgenode7.com/neutral-atom-ftqc/">
+<meta property="og:title" content="Neutral-Atom Fault-Tolerant Quantum Computing · Bridge Node 7">
+<meta property="og:description" content="Public-source intelligence on neutral-atom fault-tolerant quantum computing.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://bridgenode7.com/neutral-atom-ftqc/">
+<meta property="og:site_name" content="Bridge Node 7">
+<meta property="og:image" content="https://bridgenode7.com/assets/images/social-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Bridge Node 7. Frontier Intelligence. Mission Assurance. Strategic Resilience.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Neutral-Atom Fault-Tolerant Quantum Computing · Bridge Node 7">
+<meta name="twitter:description" content="Public-source intelligence on neutral-atom fault-tolerant quantum computing.">
+<meta name="twitter:image" content="https://bridgenode7.com/assets/images/social-preview.png">
+<meta name="twitter:image:alt" content="Bridge Node 7. Frontier Intelligence. Mission Assurance. Strategic Resilience.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; object-src 'none'; form-action 'none'; img-src 'self' data:; style-src 'unsafe-inline'; style-src-attr 'unsafe-inline'; script-src 'none'; script-src-attr 'none'; connect-src 'none'; font-src 'none'; media-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'">
+<style>
+:root{color-scheme:dark;
+  --bg:#050914;--bg2:#071425;--panel:#0a1428;--panel2:#0d1a31;
+  --text:#f7f9ff;--soft:#dfe8f8;--muted:#b9c5d8;--quiet:#8392a8;
+  --line:rgba(255,255,255,.12);--line-soft:rgba(255,255,255,.07);
+  --gold:#f1c86b;--gold2:#fff0b3;--blue:#78d7ff;--violet:#c6a7ff;--green:#91d5b0;
+  --max:1160px;--shadow:0 30px 96px rgba(0,0,0,.38)
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--bg)}
+body{
+  margin:0;color:var(--text);
+  font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:
+    radial-gradient(circle at 13% 7%,rgba(120,215,255,.14),transparent 29rem),
+    radial-gradient(circle at 87% 11%,rgba(198,167,255,.13),transparent 31rem),
+    radial-gradient(circle at 50% 44%,rgba(241,200,107,.055),transparent 38rem),
+    linear-gradient(180deg,var(--bg) 0%,var(--bg2) 48%,#04070f 100%);
+  overflow-x:hidden;-webkit-font-smoothing:antialiased;
+}
+body::before{
+  content:"";position:fixed;inset:0;z-index:-3;pointer-events:none;opacity:.19;
+  background-image:
+    linear-gradient(rgba(255,255,255,.028) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.028) 1px,transparent 1px);
+  background-size:72px 72px;
+  mask-image:linear-gradient(to bottom,black 0%,rgba(0,0,0,.68) 55%,transparent 100%);
+}
+a{color:inherit;text-decoration:none}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--gold2);outline-offset:4px}
+.skip{position:absolute;left:16px;top:-72px;z-index:500;background:var(--gold2);color:#06111f;padding:12px 16px;border-radius:999px;font-weight:900}
+.skip:focus{top:12px}
+.shell{max-width:var(--max);margin:0 auto;padding:0 22px}
+
+
+.nav{
+  position:sticky;top:0;z-index:100;
+  backdrop-filter:blur(18px);
+  background:linear-gradient(180deg,rgba(5,9,20,.94),rgba(5,9,20,.66));
+  border-bottom:1px solid rgba(255,255,255,.075);
+}
+.nav-inner{max-width:var(--max);margin:0 auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{display:flex;align-items:center;gap:12px;min-height:44px;font-size:13px;font-weight:900;letter-spacing:.07em;text-transform:uppercase}
+.mark{
+  width:38px;height:38px;border-radius:50%;display:grid;place-items:center;position:relative;flex:0 0 auto;
+  border:1px solid rgba(255,240,179,.5);
+  background:radial-gradient(circle at 50% 50%,rgba(255,240,179,.95),rgba(241,200,107,.45) 35%,rgba(120,215,255,.12) 62%,transparent 72%);
+  box-shadow:0 0 36px rgba(241,200,107,.18);
+}
+.mark::before,.mark::after{content:"";position:absolute;inset:7px;border:1px solid rgba(255,255,255,.28);border-radius:45%;transform:rotate(38deg)}
+.mark::after{transform:rotate(-38deg);border-color:rgba(120,215,255,.35)}
+.mark span{z-index:2;color:#050914;font-weight:1000}
+.nav-links{display:flex;align-items:center;gap:8px}
+.nav-links a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 12px;border-radius:999px;color:var(--muted);font-size:13px}
+.nav-links a:hover{color:white;background:rgba(255,255,255,.055)}
+.nav-links .cta{padding-inline:18px;color:#06111f;background:linear-gradient(135deg,var(--gold2),var(--gold));font-weight:900}
+
+.local-nav{
+  position:sticky;top:73px;z-index:90;background:rgba(4,8,17,.91);backdrop-filter:blur(18px);
+  border-bottom:1px solid var(--line-soft);
+}
+.local-inner{display:flex;justify-content:center;gap:28px;overflow:auto;scrollbar-width:none}
+.local-inner a{padding:13px 0 12px;white-space:nowrap;font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--quiet)}
+.local-inner a:hover{color:var(--gold2)}
+
+.section{padding:106px 0 116px;border-top:1px solid var(--line-soft);scroll-margin-top:122px}
+.section-head{text-align:center;max-width:980px;margin:0 auto 44px}
+.section-head h2{
+  font-size:clamp(40px,5vw,64px);line-height:.98;letter-spacing:-.055em;margin:0;
+  background:linear-gradient(135deg,#fff 0%,#fff 60%,var(--blue));
+  -webkit-background-clip:text;background-clip:text;color:rgba(247,249,255,.45)
+}
+.section-head .single-line{font-size:15px;color:var(--muted);margin:16px auto 0;max-width:880px}
+
+
+.assessment-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:1080px;margin:0 auto}
+.assessment{
+  min-height:255px;padding:27px;border:1px solid var(--line);border-radius:26px;text-align:center;
+  background:linear-gradient(180deg,rgba(255,255,255,.026),rgba(255,255,255,.008)),rgba(8,17,31,.57);
+  display:flex;flex-direction:column;justify-content:center;align-items:center;
+}
+.assessment:nth-child(1){border-top-color:rgba(120,215,255,.34)}
+.assessment:nth-child(2){border-top-color:rgba(241,200,107,.38)}
+.assessment:nth-child(3){border-top-color:rgba(198,167,255,.34)}
+.assessment h3{font-size:25px;letter-spacing:-.035em;margin:0 0 13px}
+.assessment p{margin:0;color:var(--muted);font-size:14px;line-height:1.6}
+
+
+.development-ledger{max-width:1090px;margin:0 auto;border-top:1px solid var(--line)}
+.dev-row{
+  display:grid;grid-template-columns:128px 118px minmax(0,1.2fr) minmax(0,.9fr);
+  gap:24px;align-items:center;padding:21px 0;border-bottom:1px solid var(--line);
+}
+.dev-row time{color:var(--gold2);font-size:12px;white-space:nowrap}
+.dev-company{color:var(--blue);font-size:11px;font-weight:850}
+.dev-row strong{font-size:14px;line-height:1.35;color:var(--text)}
+.dev-row p{font-size:12px;line-height:1.5;color:var(--muted);margin:0}
+.dev-row a{display:inline-flex;margin-top:4px;color:var(--gold2);font-size:11px;text-transform:uppercase;letter-spacing:.08em}
+
+
+.loop-panel{
+  max-width:1080px;margin:0 auto;border:1px solid var(--line);border-radius:34px;padding:42px 36px 35px;
+  background:radial-gradient(circle at 50% 48%,rgba(241,200,107,.09),transparent 21rem),rgba(7,16,30,.62);
+  box-shadow:0 28px 90px rgba(0,0,0,.24);
+}
+.loop-main{display:grid;grid-template-columns:repeat(5,1fr);gap:21px;align-items:start;position:relative}
+.loop-main::before{content:"";position:absolute;left:8%;right:8%;top:43px;height:1px;background:linear-gradient(90deg,rgba(120,215,255,.30),rgba(241,200,107,.48),rgba(198,167,255,.30))}
+.loop-node{position:relative;text-align:center;z-index:2}
+.loop-node .orb{
+  width:86px;height:86px;border-radius:50%;margin:0 auto 13px;display:grid;place-items:center;
+  border:1px solid rgba(120,215,255,.42);background:radial-gradient(circle,rgba(120,215,255,.13),rgba(7,18,35,.96) 58%);
+  color:var(--blue);font-size:21px;box-shadow:0 0 28px rgba(120,215,255,.07);
+}
+.loop-node:nth-child(3) .orb{border-color:rgba(241,200,107,.5);color:var(--gold2)}
+.loop-node:nth-child(4) .orb,.loop-node:nth-child(5) .orb{border-color:rgba(198,167,255,.40);color:var(--violet)}
+.loop-node strong{display:block;font-size:12px;line-height:1.3}.loop-node small{display:block;margin-top:5px;color:var(--quiet);font-size:11px}
+.return-line{
+  width:min(700px,82%);height:54px;margin:24px auto 7px;
+  border-left:1px solid rgba(198,167,255,.28);border-right:1px solid rgba(198,167,255,.28);border-bottom:1px solid rgba(198,167,255,.28);border-radius:0 0 34px 34px;
+}
+.support-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:30px}
+.support{min-height:100px;padding:15px;border:1px solid var(--line-soft);border-radius:16px;text-align:center;background:rgba(255,255,255,.018);display:flex;flex-direction:column;justify-content:center}
+.support strong{font-size:12px;color:var(--gold2)}.support span{font-size:11px;color:var(--quiet);margin-top:5px}
+
+
+.watch-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:11px;max-width:1080px;margin:0 auto}
+.watch-card{min-height:166px;border:1px solid var(--line);border-radius:22px;padding:21px;text-align:center;background:rgba(8,17,31,.62);display:flex;flex-direction:column;justify-content:center}
+.watch-card:nth-child(3n+1){border-top-color:rgba(120,215,255,.30)}
+.watch-card:nth-child(3n+2){border-top-color:rgba(241,200,107,.30)}
+.watch-card:nth-child(3n){border-top-color:rgba(198,167,255,.30)}
+.watch-card h3{font-size:18px;margin:0 0 9px;color:var(--soft)}
+.watch-card p{margin:0;color:var(--muted);font-size:12px;line-height:1.5}
+.watch-card small{margin-top:13px;color:var(--quiet);font-size:11px}
+
+
+.landscape{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;max-width:1080px;margin:0 auto}
+.org{
+  min-height:208px;border:1px solid var(--line);border-radius:24px;padding:23px;text-align:left;background:rgba(8,17,31,.62);
+  display:flex;flex-direction:column;transition:transform .18s ease,border-color .18s ease,background .18s ease;
+}
+.org:hover{transform:translateY(-2px);border-color:rgba(255,240,179,.28);background:rgba(11,25,46,.72)}
+.org small{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:var(--quiet);font-weight:850}
+.org h3{font-size:22px;margin:28px 0 16px}
+.org-tags{display:flex;flex-wrap:wrap;gap:6px}
+.org-tags span{font-size:11px;color:var(--muted);border:1px solid var(--line-soft);border-radius:999px;padding:5px 7px;white-space:nowrap}
+.org b{margin-top:auto;padding-top:18px;color:var(--gold2);font-size:11px;text-transform:uppercase;letter-spacing:.1em}
+
+
+.requirements{display:grid;grid-template-columns:repeat(6,1fr);gap:18px;align-items:start;max-width:1110px;margin:0 auto}
+.req{text-align:center;position:relative}
+.req:not(:last-child)::after{
+  content:"";position:absolute;top:43px;left:calc(50% + 43px);right:calc(-50% - 9px);height:1px;
+  background:linear-gradient(90deg,rgba(120,215,255,.42),rgba(241,200,107,.20));
+}
+.req-circle{
+  width:86px;height:86px;border-radius:50%;margin:0 auto 14px;display:grid;place-items:center;position:relative;z-index:2;
+  border:1px solid rgba(120,215,255,.45);background:radial-gradient(circle,rgba(120,215,255,.12),rgba(7,18,35,.96) 58%);
+  color:var(--blue);font-size:20px;
+}
+.req strong{font-size:11px;text-transform:uppercase;letter-spacing:.04em}
+.req p{color:var(--muted);font-size:12px;line-height:1.45;margin:6px 0 0}
+
+
+.evidence-list{max-width:860px;margin:0 auto;display:grid;gap:8px}
+.evidence-list details{border:1px solid var(--line);border-radius:17px;background:rgba(8,17,31,.57);overflow:hidden}
+.evidence-list summary{list-style:none;cursor:pointer;padding:17px 19px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}
+.evidence-list summary::-webkit-details-marker{display:none}
+.source-name strong{display:block;font-size:13px}.source-name span{display:block;color:var(--muted);font-size:12px;margin-top:3px}
+.source-class{font-size:11px;color:var(--quiet);text-transform:uppercase;letter-spacing:.1em;text-align:right}
+.source-body{border-top:1px solid var(--line-soft);padding:18px 20px;display:grid;grid-template-columns:1fr 1fr auto;gap:20px}
+.source-body small{display:block;color:var(--quiet);font-size:11px;text-transform:uppercase;letter-spacing:.12em}
+.source-body p{font-size:11px;color:var(--muted);margin:5px 0 0}.source-body a{font-size:12px;color:var(--gold2);align-self:start}
+
+.footer{
+  border-top:1px solid rgba(255,255,255,.065);
+  padding:38px 0 44px;
+  color:var(--muted);
+  background:rgba(3,6,13,.28);
+}
+.footer-minimal{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:18px;
+  text-align:center;
+}
+.footer-wordmark{
+  color:var(--soft);
+  font-size:12px;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:.12em;
+}
+.footer-minimal nav{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:28px;
+  flex-wrap:wrap;
+}
+.footer-minimal nav a{
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.4;
+}
+.footer-minimal nav a:hover{color:#fff}
+@media(max-width:980px){
+  .assessment-grid,.watch-grid{grid-template-columns:1fr}
+  .landscape{grid-template-columns:repeat(2,1fr)}
+  .dev-row{grid-template-columns:110px 100px 1fr}.dev-row p{grid-column:3}
+  .loop-main{gap:8px}.loop-node .orb{width:72px;height:72px}.support-grid{grid-template-columns:repeat(2,1fr)}
+  .requirements{grid-template-columns:repeat(3,1fr);row-gap:36px}.req::after{display:none}
+}
+
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.moving-site{animation:none}}
+@media(forced-colors:active){.neutral-atom-visual,.logical-halo,.assessment,.loop-panel,.watch-card,.org,.evidence-list details{forced-color-adjust:auto;box-shadow:none!important;border:1px solid ButtonText!important}.hero-title span,.section-head h2,.qia-close h2{-webkit-text-fill-color:CanvasText!important;color:CanvasText!important;background:none!important}.na-site,.moving-site{background:CanvasText!important;box-shadow:none!important}.control-beam,.reconfig-arc,.focus-ring{border-color:CanvasText!important;background:CanvasText!important}}
+
+
+.hero{
+  min-height:calc(100svh - 72px);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:72px 0 74px
+}
+.eyebrow{margin:0;color:var(--gold2);font-size:12px;font-weight:900;letter-spacing:.19em;text-transform:uppercase}
+.hero-title{width:100%;max-width:1120px;margin:22px auto 24px}
+.hero-title span{
+  display:block;width:100%;white-space:nowrap;
+  font-size:clamp(62px,8.1vw,106px);line-height:.84;letter-spacing:-.073em;font-weight:720;
+  background:linear-gradient(135deg,#fff 0%,var(--gold2) 32%,var(--blue) 70%,var(--violet));
+  -webkit-background-clip:text;background-clip:text;color:rgba(247,249,255,.45)
+}
+.hero-title span+span{margin-top:3px}
+.mobile-break{display:none}
+.hero-keywords{
+  display:flex;flex-wrap:wrap;justify-content:center;align-items:center;
+  gap:7px 10px;margin:0 auto;color:var(--soft);font-size:18px;font-weight:560;letter-spacing:-.015em
+}
+.hero-keywords span{white-space:nowrap}
+.hero-keywords i{font-style:normal;color:var(--gold)}
+.hero-orientation{max-width:720px;margin:18px auto 0;color:var(--muted);font-size:14px;line-height:1.62}
+
+.neutral-atom-visual{
+  width:min(100%,980px);aspect-ratio:16/9;margin:50px auto 0;border-radius:38px;
+  position:relative;overflow:hidden;border:1px solid rgba(120,215,255,.18);
+  box-shadow:0 34px 110px rgba(0,0,0,.40),inset 0 0 110px rgba(120,215,255,.025);
+  background:
+    radial-gradient(circle at 50% 50%,rgba(241,200,107,.18),transparent 10rem),
+    radial-gradient(circle at 24% 26%,rgba(120,215,255,.14),transparent 18rem),
+    radial-gradient(circle at 76% 72%,rgba(198,167,255,.10),transparent 18rem),
+    linear-gradient(180deg,rgba(10,23,43,.82),rgba(5,11,23,.92));
+  display:grid;place-items:center;isolation:isolate
+}
+.neutral-atom-visual::before{
+  content:"";position:absolute;inset:0;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(circle at center,rgba(120,215,255,.045) 0 1px,transparent 1.7px);
+  background-size:38px 38px;
+  mask-image:radial-gradient(ellipse at center,black 0 58%,transparent 86%)
+}
+.neutral-atom-visual::after{
+  content:"";position:absolute;inset:0;pointer-events:none;z-index:5;
+  background:radial-gradient(ellipse at center,transparent 44%,rgba(2,7,16,.24) 78%,rgba(2,7,16,.52) 100%)
+}
+.ftqc-constellation{
+  position:relative;width:min(82%,780px);height:74%;z-index:2;
+  filter:drop-shadow(0 18px 42px rgba(0,0,0,.20))
+}
+.atom-lattice{
+  position:absolute;inset:8% 9%;z-index:3;
+  display:grid;grid-template-columns:repeat(7,1fr);grid-template-rows:repeat(7,1fr);
+  align-items:center;justify-items:center
+}
+.na-site{
+  width:10px;height:10px;border-radius:50%;position:relative;
+  background:radial-gradient(circle at 38% 35%,#fff 0 12%,var(--gold2) 24%,var(--gold) 47%,rgba(241,200,107,.26) 68%,transparent 73%);
+  box-shadow:0 0 11px 3px rgba(241,200,107,.16)
+}
+.na-site.blue{
+  background:radial-gradient(circle at 38% 35%,#fff 0 11%,#d9f5ff 20%,var(--blue) 47%,rgba(120,215,255,.28) 68%,transparent 73%);
+  box-shadow:0 0 14px 4px rgba(120,215,255,.22)
+}
+.na-site.violet{
+  background:radial-gradient(circle at 38% 35%,#fff 0 11%,#f0e9ff 20%,var(--violet) 47%,rgba(198,167,255,.28) 68%,transparent 73%);
+  box-shadow:0 0 14px 4px rgba(198,167,255,.20)
+}
+.na-site.dim{opacity:.52}
+.na-site.addressed{box-shadow:0 0 0 4px rgba(120,215,255,.09),0 0 20px 6px rgba(120,215,255,.22)}
+.logical-halo{
+  position:absolute;width:33%;height:41%;border-radius:50%;z-index:1;
+  border:1px solid rgba(120,215,255,.18);
+  background:radial-gradient(ellipse at center,rgba(120,215,255,.055),transparent 67%);
+  box-shadow:0 0 46px rgba(120,215,255,.045),inset 0 0 34px rgba(120,215,255,.025)
+}
+.logical-halo::after{
+  content:"";position:absolute;inset:17%;border-radius:50%;
+  border:1px solid rgba(255,240,179,.10)
+}
+.halo-a{left:8%;top:5%}.halo-b{right:8%;top:5%}.halo-c{left:8%;bottom:5%}.halo-d{right:8%;bottom:5%}
+.control-beam{position:absolute;z-index:0;pointer-events:none;opacity:.72}
+.control-beam.horizontal{left:5%;right:5%;top:50%;height:1px;background:linear-gradient(90deg,transparent,rgba(120,215,255,.08) 12%,rgba(120,215,255,.34) 50%,rgba(120,215,255,.08) 88%,transparent)}
+.control-beam.vertical{top:3%;bottom:3%;left:50%;width:1px;background:linear-gradient(180deg,transparent,rgba(120,215,255,.07) 12%,rgba(241,200,107,.28) 50%,rgba(120,215,255,.07) 88%,transparent)}
+.focus-ring{
+  position:absolute;left:50%;top:50%;width:96px;height:96px;transform:translate(-50%,-50%);z-index:2;border-radius:50%;
+  border:1px solid rgba(255,240,179,.52);box-shadow:0 0 0 24px rgba(241,200,107,.025),0 0 78px rgba(241,200,107,.14)
+}
+.reconfig-arc{
+  position:absolute;left:29%;top:57%;width:43%;height:23%;z-index:4;
+  border-top:1px dashed rgba(120,215,255,.54);border-radius:50%;transform:rotate(-14deg);transform-origin:left center;
+  filter:drop-shadow(0 0 8px rgba(120,215,255,.12))
+}
+.reconfig-arc::after{
+  content:"";position:absolute;right:2px;top:-4px;width:7px;height:7px;
+  border-right:1px solid rgba(120,215,255,.78);border-top:1px solid rgba(120,215,255,.78);transform:rotate(45deg)
+}
+.moving-site{
+  position:absolute;left:28%;top:64%;width:10px;height:10px;border-radius:50%;z-index:5;
+  background:radial-gradient(circle,#fff 0 12%,var(--blue) 26%,rgba(120,215,255,.45) 52%,transparent 73%);
+  box-shadow:0 0 20px 6px rgba(120,215,255,.24);
+  animation:reconfigureSite 15s ease-in-out infinite
+}
+@keyframes reconfigureSite{
+  0%,100%{transform:translate(0,14px);opacity:.56}
+  50%{transform:translate(330px,-82px);opacity:1}
+}
+
+.dev-title{font-size:14px!important;line-height:1.35!important;color:var(--text)!important}.dev-title:hover{color:var(--gold2)!important}
+.org{position:relative}.org::after{content:"↗";position:absolute;right:18px;top:16px;color:var(--quiet);font-size:13px;opacity:.7}
+
+
+.qia-close{padding:102px 0 96px!important;text-align:center;border-top:1px solid var(--line-soft);background:radial-gradient(circle at 50% 48%,rgba(241,200,107,.075),transparent 24rem),radial-gradient(circle at 50% 80%,rgba(120,215,255,.03),transparent 18rem)!important}
+.qia-kicker{color:var(--gold2);font-size:11px;text-transform:uppercase;letter-spacing:.19em;font-weight:900;margin-bottom:22px}
+.qia-close h2{font-size:clamp(48px,6.4vw,84px);line-height:.95;letter-spacing:-.064em;margin:0 auto;max-width:1000px;background:linear-gradient(135deg,#fff,var(--gold2) 42%,var(--blue) 74%,var(--violet));-webkit-background-clip:text;background-clip:text;color:rgba(247,249,255,.45)}
+
+
+.footer{border-top:1px solid rgba(255,255,255,.065)!important;padding:48px 0 54px!important;background:rgba(3,6,13,.30)!important}
+.footer-triangle{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.footer-wordmark{font-size:13px;font-weight:900;text-transform:uppercase;letter-spacing:.12em;color:var(--soft)}
+.footer-partner{margin-top:20px;display:inline-flex;min-height:46px;align-items:center;justify-content:center;padding:12px 24px;border-radius:999px;background:linear-gradient(135deg,var(--gold2),var(--gold));color:#06111f;font-weight:900}
+.footer-base{display:flex;justify-content:center;gap:30px;margin-top:20px}.footer-base a{font-size:12px;color:var(--muted)}.footer-base a:hover{color:#fff}
+
+.sr-only{
+  position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;
+  overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important
+}
+
+
+#assessment{padding-top:94px}
+#developments{padding-top:94px}
+#architecture{padding-top:100px}
+#requirements{padding-top:94px}
+
+
+.org h3{margin-top:12px}
+.org small{display:none!important}
+
+
+.qia-close h2 span{
+  display:block;
+}
+.qia-close h2 span+span{
+  margin-top:6px;
+}
+.qia-actions{display:flex;align-items:center;justify-content:center;margin-top:34px}
+.qia-partner{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:14px 32px;border-radius:999px;font-weight:900;background:linear-gradient(135deg,var(--gold2),var(--gold));color:#06111f}
+
+
+.footer-resolve{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
+  gap:19px
+}
+.footer-brand-final{
+  display:flex;align-items:center;justify-content:center;gap:12px;
+  min-height:44px;color:#fff;text-transform:uppercase;letter-spacing:.06em;font-size:13px
+}
+.footer-base-final{
+  display:flex;justify-content:center;gap:30px
+}
+.footer-base-final a{font-size:12px;color:var(--muted)}
+.footer-base-final a:hover{color:#fff}
+.copyright-final{font-size:11px;color:var(--quiet)}
+
+
+.progress-legend{
+  display:flex;justify-content:center;gap:22px;flex-wrap:wrap;
+  margin:-14px auto 26px;color:var(--muted);font-size:12px
+}
+.progress-legend span{display:inline-flex;align-items:center;gap:8px}
+.status{
+  display:inline-block;width:10px;height:10px;border-radius:50%;
+  flex:0 0 auto
+}
+.status.evidence{
+  background:var(--gold2);
+  box-shadow:0 0 12px rgba(241,200,107,.22)
+}
+.status.program{
+  border:1.5px solid var(--blue);
+  background:rgba(120,215,255,.05)
+}
+.status.none{
+  width:10px;height:2px;border-radius:2px;background:rgba(255,255,255,.20)
+}
+.progress-scroll{
+  overflow:auto;border:1px solid var(--line);border-radius:26px;
+  background:rgba(7,16,30,.56);box-shadow:0 24px 70px rgba(0,0,0,.20)
+}
+.progress-table{min-width:1040px}
+.progress-row{
+  display:grid;grid-template-columns:180px repeat(5,minmax(145px,1fr));
+  min-height:72px;border-bottom:1px solid var(--line2);align-items:stretch
+}
+.progress-row:last-child{border-bottom:0}
+.progress-row>div,.progress-row>a{
+  padding:15px 14px;border-left:1px solid var(--line2);
+  display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted)
+}
+.progress-row>div:first-child{border-left:0}
+.progress-row>a:hover{background:rgba(255,255,255,.025);color:#fff}
+.progress-row>a[data-evidence-class]{position:relative;padding-top:29px}
+.progress-row>a[data-evidence-class]::before{content:attr(data-evidence-class);position:absolute;left:14px;top:8px;color:var(--quiet);font-size:8px;font-weight:900;letter-spacing:.075em;text-transform:uppercase;white-space:nowrap}
+.progress-head{min-height:48px;background:rgba(255,255,255,.025)}
+.progress-head>div{
+  color:var(--quiet);font-size:11px;font-weight:850;letter-spacing:.06em;
+  text-transform:uppercase;justify-content:center;text-align:center
+}
+.progress-head>div:first-child{justify-content:flex-start}
+.progress-name{
+  color:#fff!important;font-weight:850!important;font-size:13px!important
+}
+.progress-note{
+  max-width:920px;margin:18px auto 0;text-align:center;
+  color:var(--quiet);font-size:11px;line-height:1.5
+}
+
+
+.footer-brand-final{
+  flex-direction:column!important;
+  gap:10px!important
+}
+.footer-mark{
+  margin:0 auto!important
+}
+
+
+
+.current-status{
+  padding-top:92px;
+  background:
+    radial-gradient(circle at 50% 10%,rgba(120,215,255,.035),transparent 26rem)
+}
+.status-head{
+  margin-bottom:28px!important
+}
+.status-reviewed{
+  margin:14px auto 0!important;
+  color:var(--quiet)!important;
+  font-size:11px!important;
+  text-transform:uppercase;
+  letter-spacing:.10em
+}
+.watch-next{
+  max-width:1040px;
+  margin:20px auto 0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:9px;
+  flex-wrap:wrap
+}
+.watch-next strong{
+  color:var(--gold2);
+  font-size:11px;
+  text-transform:uppercase;
+  letter-spacing:.10em;
+  margin-right:4px
+}
+.watch-next span{
+  border:1px solid var(--line2);
+  border-radius:999px;
+  padding:7px 10px;
+  color:var(--muted);
+  font-size:11px;
+  background:rgba(255,255,255,.012)
+}
+
+
+
+
+.progress-legend{margin-bottom:24px!important}
+.progress-legend span{white-space:nowrap}
+.watch-next{margin-top:22px!important;gap:10px!important}
+.watch-next strong{min-width:112px;text-align:center}
+.watch-next span{white-space:nowrap}
+.footer-mark-only{gap:20px!important}
+.footer-symbol{display:inline-flex;align-items:center;justify-content:center;width:52px;height:52px}
+.footer-symbol .mark{margin:0!important}
+.footer-base-final{gap:32px!important}
+.copyright-final{margin-top:1px;font-size:11px!important;color:var(--quiet)!important}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:900px){
+  .watch-next span{white-space:normal;text-align:center}
+  #requirements .section-head{margin-left:auto;margin-right:auto;text-align:center}
+  .requirements{
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    width:100%;max-width:520px;margin:0 auto;gap:28px
+  }
+  .req{
+    position:relative;width:100%;max-width:360px;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    text-align:center;gap:7px;margin:0 auto;padding:0 18px
+  }
+  .req::after{display:none}
+  .req-circle{display:grid;place-items:center;width:82px;height:82px;margin:0 auto 8px;grid-row:auto}
+  .req>div{width:100%;max-width:320px;margin:0 auto;text-align:center}
+  .req strong{display:block;width:100%;text-align:center;margin:0 auto 4px;line-height:1.25}
+  .req p{display:block;width:100%;max-width:290px;text-align:center;margin:0 auto;line-height:1.45}
+  .req:not(:last-child)::before{
+    content:"";display:block;order:99;width:1px;height:24px;margin:12px auto -2px;
+    background:linear-gradient(180deg,rgba(120,215,255,.08),rgba(241,200,107,.28),rgba(198,167,255,.08))
+  }
+}
+
+@media(max-width:700px){
+  .shell{padding-left:18px;padding-right:18px}
+  .section{padding:72px 0 80px;scroll-margin-top:126px}
+  .section-head{max-width:520px;margin:0 auto 30px;text-align:center}
+  .section-head h2{margin:0 auto;font-size:clamp(36px,10.5vw,45px);line-height:1;text-align:center}
+  .section-head p{max-width:460px;margin:14px auto 0;text-align:center}
+
+  .nav-inner{padding:10px 16px;align-items:center;justify-content:space-between;gap:10px}
+  .brand{justify-content:flex-start;font-size:11.5px;gap:9px}
+  .mark{width:34px;height:34px}
+  .nav-links{justify-content:flex-end;width:auto}
+  .nav-links .cta{padding-inline:16px}
+  .local-nav{position:relative;top:auto}
+  .local-inner{
+    justify-content:flex-start;padding-left:18px;padding-right:64px;gap:16px;scroll-padding-right:64px;
+    -webkit-mask-image:linear-gradient(90deg,#000 0%,#000 calc(100% - 64px),transparent 100%);
+    mask-image:linear-gradient(90deg,#000 0%,#000 calc(100% - 64px),transparent 100%)
+  }
+  .local-inner a{font-size:11.5px;letter-spacing:.10em}
+
+  .hero{padding:48px 0 50px;align-items:center;text-align:center}
+  .eyebrow{font-size:11px}
+  .hero-title{max-width:100%;margin:18px auto 20px;text-align:center}
+  .hero-title span{font-size:clamp(42px,11.6vw,48px);line-height:.9;letter-spacing:-.06em;white-space:nowrap;text-align:center}
+  .hero-title span+span{margin-top:5px}
+  .mobile-break{display:block}
+  .hero-keywords{justify-content:center;gap:6px 8px;font-size:14px;text-align:center}
+  .hero-orientation{max-width:330px;margin-top:16px;font-size:13px;line-height:1.55}
+  .neutral-atom-visual{width:min(100%,430px);aspect-ratio:5/4;margin:36px auto 0;border-radius:28px}
+  .ftqc-constellation{width:92%;height:82%}
+  .atom-lattice{inset:8% 7%}
+  .na-site{width:7px;height:7px}
+  .logical-halo{width:36%;height:40%}
+  .focus-ring{width:66px;height:66px;box-shadow:0 0 0 16px rgba(241,200,107,.025),0 0 52px rgba(241,200,107,.13)}
+  .reconfig-arc{left:27%;top:58%;width:46%}
+  .moving-site{width:8px;height:8px;left:27%;top:66%;animation-duration:16s}
+
+  .current-status{padding-top:72px}
+  .progress-scroll{overflow:visible;border:0;background:transparent;box-shadow:none}
+  .progress-table{min-width:0;width:100%}
+  .progress-head{display:none}
+  .progress-row:not(.progress-head){
+    display:grid;grid-template-columns:1fr;gap:0;min-height:0;
+    width:100%;max-width:520px;margin:0 auto 14px;
+    border:1px solid var(--line);border-radius:22px;overflow:hidden;background:rgba(7,16,30,.62)
+  }
+  .progress-row>div,.progress-row>a{
+    min-height:0;padding:13px 16px;border-left:0;border-top:1px solid var(--line2);
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:5px;text-align:center;color:var(--muted)
+  }
+  .progress-row>.progress-name{border-top:0;padding:18px 16px;font-size:17px;color:#fff}
+  .progress-row>a[data-evidence-class]{position:static;padding-top:13px}
+  .progress-row>div:nth-child(2)::before,.progress-row>a:nth-child(2)::before{content:"SYSTEM SCALE"}
+  .progress-row>div:nth-child(3)::before,.progress-row>a:nth-child(3)::before{content:"LOGICAL / QEC"}
+  .progress-row>div:nth-child(4)::before,.progress-row>a:nth-child(4)::before{content:"CONTROL / OPERATIONS"}
+  .progress-row>div:nth-child(5)::before,.progress-row>a:nth-child(5)::before{content:"DEPLOYMENT"}
+  .progress-row>div:nth-child(6)::before,.progress-row>a:nth-child(6)::before{content:"INDEPENDENT EVALUATION"}
+  .progress-row>div:nth-child(n+2)::before,.progress-row>a:nth-child(n+2)::before{
+    position:static;left:auto;top:auto;display:block;width:100%;margin:0 0 3px;
+    color:var(--quiet);font-size:10px;line-height:1.2;font-weight:850;letter-spacing:.09em;
+    text-align:center;text-transform:uppercase;white-space:normal
+  }
+  .progress-row .status{margin-bottom:3px}
+  .progress-legend{justify-content:center;gap:10px 16px;text-align:center}
+  .progress-legend span{justify-content:center;white-space:normal}
+  .watch-next{justify-content:center;text-align:center;max-width:520px}
+  .watch-next strong{width:100%;margin:0 0 3px;text-align:center}
+  .watch-next span{text-align:center;white-space:normal}
+
+  .assessment-grid,.watch-grid{grid-template-columns:1fr;max-width:520px;margin-left:auto;margin-right:auto}
+  .assessment,.watch-card{width:100%}
+
+  .development-ledger{max-width:560px;margin-left:auto;margin-right:auto}
+  .dev-row{grid-template-columns:1fr;gap:8px;text-align:center;padding:22px 10px}
+  .dev-row time,.dev-company,.dev-title{display:block;width:100%;text-align:center;justify-self:center}
+  .dev-row p{grid-column:auto;max-width:470px;margin:0 auto;text-align:left}
+
+  .loop-panel{max-width:520px;margin-left:auto;margin-right:auto;padding:26px 18px;text-align:center}
+  .loop-main{grid-template-columns:1fr;gap:18px}
+  .loop-main::before{display:none}
+  .loop-node{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:8px}
+  .loop-node .orb{width:70px;height:70px;margin:0 auto}
+  .return-line{width:62%;height:40px;margin:14px auto 10px}
+  .support-grid{grid-template-columns:1fr;max-width:460px;margin:30px auto 0}
+  .support{text-align:center}
+
+  .landscape{grid-template-columns:1fr;max-width:520px;margin-left:auto;margin-right:auto}
+  .org{min-height:180px;align-items:center;justify-content:center;text-align:center}
+  .org h3{margin:18px 0 14px;text-align:center}
+  .org-tags{justify-content:center;text-align:center}
+
+  .evidence-list{width:100%;max-width:540px;margin:0 auto}
+  .evidence-list summary{grid-template-columns:1fr;min-height:70px;padding:17px 44px;text-align:center}
+  .evidence-list summary::marker,.evidence-list summary::-webkit-details-marker{display:none;content:""}
+  .source-name{width:100%;justify-self:center;text-align:center}
+  .source-body{grid-template-columns:1fr;padding:18px;justify-items:stretch;text-align:left}
+  .source-body>div,.source-body small,.source-body p{text-align:left}
+  .source-body p{max-width:440px;margin:5px 0 0}
+  .source-body a{justify-self:start;margin-top:2px}
+
+  .qia-close{padding:82px 0 86px!important;text-align:center}
+  .qia-close h2{text-align:center}
+  .qia-partner{margin-left:auto;margin-right:auto}
+  .footer-resolve{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+  .footer-symbol,.footer-mark{margin-left:auto;margin-right:auto}
+  .footer-base-final{justify-content:center;text-align:center}
+  .copyright-final{text-align:center}
+}
+
+@media(max-width:430px){
+  .section{padding-top:66px;padding-bottom:72px}
+  .section-head h2{font-size:35px}
+  .hero-keywords{font-size:13px;gap:5px 7px}
+  .ftqc-constellation{width:94%;height:84%}
+  .atom-lattice{inset:9% 6%}
+  .progress-row>div,.progress-row>a{padding:12px 14px}
+  .watch-next span{width:100%}
+  .requirements{gap:24px}
+  .req{max-width:320px}
+  .req-circle{width:78px;height:78px}
+  .source-name strong{font-size:13px}
+  .source-name span{font-size:11px}
+}
+@media(max-width:380px){
+  .nav-inner{padding-inline:12px}
+  .brand{font-size:10.5px}
+  .nav-links .cta{padding-inline:13px}
+  .hero-title span{font-size:42px}
+  .neutral-atom-visual{border-radius:24px}
+}
+
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="https://bridgenode7.com/" aria-label="Bridge Node 7 home"><span class="mark" aria-hidden="true"><span>7</span></span><span>Bridge Node 7</span></a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a class="cta" href="https://bridgenode7.com/partner/?context=neutral-atom-ftqc">Partner</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero shell">
+  <p class="eyebrow">Frontier Intelligence</p>
+  <h1 class="hero-title"><span>Neutral-Atom</span><span>Fault-Tolerant</span><span>Quantum <br class="mobile-break">Computing</span></h1>
+  <p class="hero-keywords"><span>Architecture</span><i>·</i><span>Error Correction</span><i>·</i><span>Control</span><i>·</i><span>Photonics</span><i>·</i><span>System Performance</span></p>
+  <p class="hero-orientation">Public-source evidence on neutral-atom FTQC architecture, system integration, and the proof points that gate utility-scale capability.</p>
+  <div class="neutral-atom-visual" role="img" aria-label="Abstract neutral-atom FTQC processor: physical atom sites organized into logical regions under optical control with a reconfiguration path">
+    <div class="ftqc-constellation" aria-hidden="true">
+      <span class="control-beam horizontal"></span>
+      <span class="control-beam vertical"></span>
+      <span class="logical-halo halo-a"></span>
+      <span class="logical-halo halo-b"></span>
+      <span class="logical-halo halo-c"></span>
+      <span class="logical-halo halo-d"></span>
+      <span class="focus-ring"></span>
+      <span class="reconfig-arc"></span>
+      <span class="moving-site"></span>
+      <span class="atom-lattice"><i class="na-site dim"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site dim"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site dim"></i><i class="na-site"></i><i class="na-site addressed blue"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site addressed violet"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site blue"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site addressed violet"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site addressed blue"></i><i class="na-site"></i><i class="na-site dim"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site dim"></i><i class="na-site"></i><i class="na-site"></i><i class="na-site dim"></i></span>
+    </div>
+  </div>
+</section>
+
+<nav class="local-nav" aria-label="Neutral-atom fault-tolerant quantum computing sections">
+  <div class="shell local-inner">
+    <a href="#progress">Status</a>
+    <a href="#assessment">Judgments</a>
+    <a href="#developments">Developments</a>
+    <a href="#architecture">Architecture</a>
+    <a href="#requirements">Conditions</a>
+    <a href="#watch">FTQC Engineering</a>
+    <a href="#landscape">Landscape</a>
+    <a href="#sources">Evidence</a>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="progress" class="section current-status">
+  <div class="shell">
+    <div class="section-head status-head">
+      <h2>Current FTQC Status</h2>
+    </div>
+
+    <div class="progress-legend" aria-label="Current FTQC status evidence legend">
+      <span><i class="status evidence"></i>Public-source evidence</span>
+      <span><i class="status program"></i>Public target / program</span>
+      <span><i class="status none"></i>No marker in this review</span>
+    </div>
+    <p class="source-note">Organizations shown here are selected public-source research subjects, not a ranking or completeness claim. Inclusion does not imply affiliation, partnership, endorsement, customer status, or access to nonpublic information.</p>
+
+    <div class="progress-scroll" role="region" aria-label="Current neutral-atom FTQC public status map" tabindex="0">
+      <div class="progress-table">
+        <div class="progress-row progress-head">
+          <div>Organization / Program</div>
+          <div>System Scale</div>
+          <div>Logical / QEC</div>
+          <div>Control / Operations</div>
+          <div>Deployment</div>
+          <div>DARPA Evaluation</div>
+        </div>
+
+        <div class="progress-row">
+          <div class="progress-name">Atom Computing</div>
+          <a href="https://atom-computing.com/ac1000/" target="_blank" rel="noopener noreferrer" data-evidence-class="Product"><i class="status evidence"></i><span>1,200+ physical</span></a>
+          <a href="https://atom-computing.com/wp-content/uploads/2026/06/AtomComputing_QuantumErrorCorrectionwithToricCode.pdf" target="_blank" rel="noopener noreferrer" data-evidence-class="Technical manuscript"><i class="status evidence"></i><span>Repeated toric QEC</span></a>
+          <a href="https://atom-computing.com/wp-content/uploads/2026/06/AtomComputing_QuantumErrorCorrectionwithToricCode.pdf" target="_blank" rel="noopener noreferrer" data-evidence-class="Technical manuscript"><i class="status evidence"></i><span>Loss replacement</span></a>
+          <a href="https://atom-computing.com/ac1000/" target="_blank" rel="noopener noreferrer" data-evidence-class="Product"><i class="status evidence"></i><span>AC1000 platform</span></a>
+          <a href="https://www.darpa.mil/research/programs/quantum-benchmarking-initiative/stage-b-selection" target="_blank" rel="noopener noreferrer" data-evidence-class="Government program"><i class="status evidence"></i><span title="DARPA Quantum Benchmarking Initiative, Stage B">QBI · Stage B</span></a>
+        </div>
+
+        <div class="progress-row">
+          <div class="progress-name">Google Quantum AI</div>
+          <a href="https://blog.google/innovation-and-ai/technology/research/neutral-atom-quantum-computers/" target="_blank" rel="noopener noreferrer" data-evidence-class="Research program"><i class="status program"></i><span>Hardware program</span></a>
+          <a href="https://blog.google/innovation-and-ai/technology/research/neutral-atom-quantum-computers/" target="_blank" rel="noopener noreferrer" data-evidence-class="Research program"><i class="status program"></i><span>QEC program</span></a>
+          <a href="https://blog.google/innovation-and-ai/technology/research/neutral-atom-quantum-computers/" target="_blank" rel="noopener noreferrer" data-evidence-class="Research program"><i class="status program"></i><span>Model + hardware</span></a>
+          <div><i class="status none"></i><span>—</span></div>
+          <div><i class="status none"></i><span>—</span></div>
+        </div>
+
+        <div class="progress-row">
+          <div class="progress-name">Infleqtion</div>
+          <a href="https://ir.infleqtion.com/sec-filings/all-sec-filings/content/0001193125-26-151430/d946641d424b3.htm" target="_blank" rel="noopener noreferrer" data-evidence-class="Regulatory filing"><i class="status evidence"></i><span>1,600 physical</span></a>
+          <a href="https://ir.infleqtion.com/sec-filings/all-sec-filings/content/0001628280-26-057508/infq-20260630.htm" target="_blank" rel="noopener noreferrer" data-evidence-class="Regulatory filing"><i class="status evidence"></i><span>12 logical</span></a>
+          <a href="https://ir.infleqtion.com/news-events/press-releases/detail/170/infleqtion-to-showcase-quantum-accelerated-supercomputing-with-nvidia-nvqlink-at-gtc-2026" target="_blank" rel="noopener noreferrer" data-evidence-class="Company report"><i class="status evidence"></i><span>NVQLink / decode</span></a>
+          <a href="https://ir.infleqtion.com/news-events/press-releases/detail/197/infleqtion-to-deploy-fault-tolerant-neutral-atom-quantum-computer-in-illinois" target="_blank" rel="noopener noreferrer" data-evidence-class="Deployment plan"><i class="status program"></i><span>Illinois 2027</span></a>
+          <div><i class="status none"></i><span>—</span></div>
+        </div>
+
+        <div class="progress-row">
+          <div class="progress-name">Logiqal</div>
+          <a href="https://www.logiqal.com/" target="_blank" rel="noopener noreferrer" data-evidence-class="Architecture"><i class="status program"></i><span>Modular architecture</span></a>
+          <a href="https://arxiv.org/abs/2506.13724" target="_blank" rel="noopener noreferrer" data-evidence-class="Publication"><i class="status evidence"></i><span>Logical-qubit publication</span></a>
+          <a href="https://doi.org/10.1364/OPTICA.512155" target="_blank" rel="noopener noreferrer" data-evidence-class="Publication"><i class="status evidence"></i><span>Gate-control publication</span></a>
+          <div><i class="status none"></i><span>—</span></div>
+          <div><i class="status none"></i><span>—</span></div>
+        </div>
+
+        <div class="progress-row">
+          <div class="progress-name">Oratomic</div>
+          <a href="https://arxiv.org/abs/2603.28627" target="_blank" rel="noopener noreferrer" data-evidence-class="Theoretical estimate"><i class="status program"></i><span>10k resource estimate</span></a>
+          <a href="https://www.oratomic.com/news/fault-tolerant-within-reach" target="_blank" rel="noopener noreferrer" data-evidence-class="Theoretical basis"><i class="status program"></i><span>High-rate QEC</span></a>
+          <a href="https://www.oratomic.com/news/monarch-quantum-strategic-partnership" target="_blank" rel="noopener noreferrer" data-evidence-class="Partnership"><i class="status program"></i><span>Photonics integration</span></a>
+          <a href="https://www.oratomic.com/news/launch-announcement" target="_blank" rel="noopener noreferrer" data-evidence-class="Roadmap"><i class="status program"></i><span>End-decade target</span></a>
+          <div><i class="status none"></i><span>—</span></div>
+        </div>
+
+        <div class="progress-row">
+          <div class="progress-name">Pasqal</div>
+          <a href="https://www.pasqal.com/quantum-advantage/" target="_blank" rel="noopener noreferrer" data-evidence-class="Company report"><i class="status evidence"></i><span>250+ controlled</span></a>
+          <a href="https://www.pasqal.com/blog/a-landmark-first-solving-differential-equations-with-logical-neutral-atom-qubits/" target="_blank" rel="noopener noreferrer" data-evidence-class="Company-reported experiment"><i class="status evidence"></i><span>2-logical app demo</span></a>
+          <a href="https://investors.pasqal.com/news-releases/news-release-details/Pasqal%20Brings%20Qubit%20Control%20On-Chip%20%E2%80%93%20Advancing%20the%20Path%20to%20Fault-Tolerant%20Quantum%20Computing%20at%20Scale" target="_blank" rel="noopener noreferrer" data-evidence-class="Company report"><i class="status evidence"></i><span>PIC atom trapping</span></a>
+          <a href="https://www.pasqal.com/solutions/hardware/" target="_blank" rel="noopener noreferrer" data-evidence-class="Deployment"><i class="status evidence"></i><span>HPC / on-prem</span></a>
+          <div><i class="status none"></i><span>—</span></div>
+        </div>
+
+        <div class="progress-row">
+          <div class="progress-name">planqc</div>
+          <a href="https://planqc.eu/news/maqcs-takes-shape-as-first-quantum-computing-hardware-arrives-at-lrz" target="_blank" rel="noopener noreferrer" data-evidence-class="Company-reported demo"><i class="status evidence"></i><span>1,000 qubit TRL 5</span></a>
+          <a href="https://planqc.eu/news/planqc-to-build-1-000-qubit-neutral-atom-quantum-computer" target="_blank" rel="noopener noreferrer" data-evidence-class="Program"><i class="status program"></i><span>QEC program</span></a>
+          <a href="https://planqc.eu/technology/maqcs-custom-system" target="_blank" rel="noopener noreferrer" data-evidence-class="Integration"><i class="status evidence"></i><span>HPC integration</span></a>
+          <a href="https://planqc.eu/news/maqcs-takes-shape-as-first-quantum-computing-hardware-arrives-at-lrz" target="_blank" rel="noopener noreferrer" data-evidence-class="Roadmap"><i class="status program"></i><span>LRZ 2027</span></a>
+          <div><i class="status none"></i><span>—</span></div>
+        </div>
+
+        <div class="progress-row">
+          <div class="progress-name">QuEra</div>
+          <a href="https://www.quera.com/press-releases/quera-computing-marks-record-2025-as-the-year-of-fault-tolerance-and-over-230m-of-new-capital-to-accelerate-industrial-deployment" target="_blank" rel="noopener noreferrer" data-evidence-class="Research summary"><i class="status evidence"></i><span>3,000 continuous research demo</span></a>
+          <a href="https://www.quera.com/press-releases/quera-computing-marks-record-2025-as-the-year-of-fault-tolerance-and-over-230m-of-new-capital-to-accelerate-industrial-deployment" target="_blank" rel="noopener noreferrer" data-evidence-class="Research summary"><i class="status evidence"></i><span>96 logical research demo</span></a>
+          <a href="https://www.quera.com/blog-posts/why-fault-tolerant-quantum-computers-need-a-new-approach-to-software" target="_blank" rel="noopener noreferrer" data-evidence-class="Architecture"><i class="status program"></i><span>Real-time FT stack</span></a>
+          <a href="https://www.quera.com/press-releases/quera-computing-marks-record-2025-as-the-year-of-fault-tolerance-and-over-230m-of-new-capital-to-accelerate-industrial-deployment" target="_blank" rel="noopener noreferrer" data-evidence-class="Deployment"><i class="status evidence"></i><span>Gemini deployed</span></a>
+          <a href="https://www.darpa.mil/research/programs/quantum-benchmarking-initiative/stage-b-selection" target="_blank" rel="noopener noreferrer" data-evidence-class="Government program"><i class="status evidence"></i><span title="DARPA Quantum Benchmarking Initiative, Stage B">QBI · Stage B</span></a>
+        </div>
+      </div>
+    </div>
+    <p class="progress-note">Claim labels distinguish products and deployments, research results, theoretical estimates, roadmaps, publications, filings, and government-program status.</p>
+    <p class="progress-note"><a href="https://www.darpa.mil/research/programs/quantum-benchmarking-initiative" target="_blank" rel="noopener noreferrer">DARPA QBI</a>: Stage B evaluates R&amp;D plans, risks, and risk-reduction prototypes; Stage C is the government system verification-and-validation stage.</p>
+
+    <div class="watch-next" aria-label="Verification signals">
+      <strong>Verification Signals</strong>
+      <span>Programs advance toward system V&amp;V</span>
+      <span>Announced deployments enter observable operation</span>
+      <span>Logical error suppression persists across repeated cycles</span>
+      <span>Real-time QEC, feedback, and replenishment operate together</span>
+    </div>
+  </div>
+</section>
+
+<section id="assessment" class="section">
+  <div class="shell">
+    <div class="section-head"><h2>Key Judgments</h2></div>
+    <div class="assessment-grid">
+      <article class="assessment"><h3>Full-Stack Integration</h3><p>Scale or logical-qubit counts alone do not establish useful FTQC; QEC, movement, measurement, decoding, feedback, loss recovery, and sustained workload execution must coexist.</p></article>
+      <article class="assessment"><h3>High-Rate QEC</h3><p>Lower overhead matters only when connectivity, movement, extraction scheduling, decoder latency, and logical-error requirements survive hardware-realistic operation.</p></article>
+      <article class="assessment"><h3>Sustained Operation</h3><p>Confidence rises when logical suppression, decode and feedback, replenishment, reproducibility, and system-level operation persist under one operating envelope.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="developments" class="section">
+  <div class="shell">
+    <div class="section-head"><h2>Developments</h2></div>
+    <div class="development-ledger">
+      <div class="dev-row"><time datetime="2026-09-29">29 Sep 2026</time><span class="dev-company">Infleqtion / Riverlane</span><a class="dev-title" href="https://infleqtion.com/infleqtion-and-riverlane-sign-mou-to-advance-quantum-error-correction-and-fault-tolerant-computing-in-the-uk/" target="_blank" rel="noopener noreferrer">Real-time QEC integration planned for neutral-atom stack ↗</a><p>MOU covers evaluation of real-time QEC across neutral-atom hardware, compiler, and software; integrated fault-tolerant performance remains to be demonstrated.</p></div>
+      <div class="dev-row"><time datetime="2026-09-24">24 Sep 2026</time><span class="dev-company">Infleqtion</span><a class="dev-title" href="https://infleqtion.com/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer/" target="_blank" rel="noopener noreferrer">30 entangled logical qubits demonstrated on Sqale ↗</a><p>Company-reported hardware result uses 80 physical qubits; sustained fault-tolerant application performance remains a separate threshold.</p></div>
+      <div class="dev-row"><time datetime="2026-09-22">22 Sep 2026</time><span class="dev-company">planqc</span><a class="dev-title" href="https://planqc.eu/news/planqc-selected-for-germany-s-quantum-computing-competition-with-logiqc" target="_blank" rel="noopener noreferrer">LOGIQC selected for Germany’s error-corrected quantum competition ↗</a><p>Program selection advances a neutral-atom error-corrected system path; demonstrated fault-tolerant performance remains to be proven.</p></div>
+      <div class="dev-row"><time datetime="2026-09-22">22 Sep 2026</time><span class="dev-company">QuEra</span><a class="dev-title" href="https://www.quera.com/press-releases/quera-computing-collaborates-with-hpe-to-bring-fault-tolerant-quantum-computing-to-on-premises-hpc-environments" target="_blank" rel="noopener noreferrer">HPE collaboration targets on-premises FTQC / HPC integration ↗</a><p>Integration pathway is explicit; deployed on-premises fault-tolerant operation remains a future proof point.</p></div>
+      <div class="dev-row"><time datetime="2026-09-17">17 Sep 2026</time><span class="dev-company">DOE</span><a class="dev-title" href="https://www.energy.gov/science/articles/doe-launches-competition-accelerate-development-worlds-first-fault-tolerant" target="_blank" rel="noopener noreferrer">Quantum Genesis competition and validation testbed ↗</a><p>System development and independent validation advance in parallel.</p></div>
+      <div class="dev-row"><time datetime="2026-09-14">14 Sep 2026</time><span class="dev-company">Infleqtion</span><a class="dev-title" href="https://infleqtion.com/infleqtion-advances-fault-tolerant-quantum-computing-software-with-nvidia-cuda-q-logical/" target="_blank" rel="noopener noreferrer">qLDPC tooling enters NVIDIA CUDA-Q Logical ↗</a><p>Next threshold: hardware-realistic extraction and decoder performance.</p></div>
+      <div class="dev-row"><time datetime="2026-09-09">9 Sep 2026</time><span class="dev-company">planqc</span><a class="dev-title" href="https://planqc.eu/news/maqcs-takes-shape-as-first-quantum-computing-hardware-arrives-at-lrz" target="_blank" rel="noopener noreferrer">MAQCS hardware moves toward HPC deployment ↗</a><p>Integration, environment, reliability, and operations become part of the full-system engineering baseline.</p></div>
+      <div class="dev-row"><time datetime="2026-08-27">27 Aug 2026</time><span class="dev-company">QuEra</span><a class="dev-title" href="https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers" target="_blank" rel="noopener noreferrer">AI-assisted laser relocking and tuning ↗</a><p>Automated recovery supports longer, more autonomous operation.</p></div>
+      <div class="dev-row"><time datetime="2026-08-27">27 Aug 2026</time><span class="dev-company">QuEra</span><a class="dev-title" href="https://www.quera.com/blog-posts/introducing-ppvm-a-first-step-toward-a-quantum-digital-twin" target="_blank" rel="noopener noreferrer">PPVM digital-twin tooling ↗</a><p>Noise, classical logic, and decoding converge in a common system model.</p></div>
+      <div class="dev-row"><time datetime="2026-08-10">10 Aug 2026</time><span class="dev-company">Pasqal</span><a class="dev-title" href="https://investors.pasqal.com/news-releases/news-release-details/Pasqal%20Brings%20Qubit%20Control%20On-Chip%20%E2%80%93%20Advancing%20the%20Path%20to%20Fault-Tolerant%20Quantum%20Computing%20at%20Scale" target="_blank" rel="noopener noreferrer">Photonic-integrated atom trapping ↗</a><p>Integrated photonics strengthens the path to scalable optical control.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="architecture" class="section">
+  <div class="shell">
+    <div class="section-head">
+      <h2>Fault-Tolerant System Architecture</h2>
+      <p class="single-line">Fault tolerance emerges from the full stack working together.</p>
+    </div>
+    <p class="sr-only">Neutral-atom fault-tolerant quantum computing connects atom-array preparation and movement, gates and measurement, error signals, classical decoding, feedback, error correction, photonics and control, loss and replenishment, and sustained system operations.</p>
+    <div class="loop-panel">
+      <div class="loop-main">
+        <div class="loop-node"><div class="orb">◎</div><div><strong>Atom Array</strong><small>prepare + move</small></div></div>
+        <div class="loop-node"><div class="orb">◆</div><div><strong>Gates + Measurement</strong><small>operate + read</small></div></div>
+        <div class="loop-node"><div class="orb">◇</div><div><strong>Error Signals</strong><small>syndrome data</small></div></div>
+        <div class="loop-node"><div class="orb">▦</div><div><strong>Decoder</strong><small>interpret + decide</small></div></div>
+        <div class="loop-node"><div class="orb">↻</div><div><strong>Feedback</strong><small>correct + reconfigure</small></div></div>
+      </div>
+      <div class="return-line" aria-hidden="true"></div>
+      <div class="support-grid">
+        <div class="support"><strong>Error Correction</strong><span>codes · logical operations · error model</span></div>
+        <div class="support"><strong>Photonics + Control</strong><span>lasers · addressing · calibration</span></div>
+        <div class="support"><strong>Loss + Replenishment</strong><span>detection · reload · recovery</span></div>
+        <div class="support"><strong>System Operations</strong><span>stability · integration · workload</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="requirements" class="section">
+  <div class="shell">
+    <div class="section-head"><h2>Conditions for FTQC</h2></div>
+    <div class="requirements">
+      <div class="req"><span class="req-circle">◇</span><div><strong>Error Correction</strong><p>Realistic noise + loss</p></div></div>
+      <div class="req"><span class="req-circle">◷</span><div><strong>Cycle Timing</strong><p>Movement + decode + feedback</p></div></div>
+      <div class="req"><span class="req-circle">↻</span><div><strong>Loss Recovery</strong><p>Detect + reload + recover</p></div></div>
+      <div class="req"><span class="req-circle">✦</span><div><strong>Photonics at Scale</strong><p>Power + stability + manufacturing</p></div></div>
+      <div class="req"><span class="req-circle">◎</span><div><strong>System Integration</strong><p>Performance holds through integration</p></div></div>
+      <div class="req"><span class="req-circle">∞</span><div><strong>Sustained Operation</strong><p>Useful workload duration</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="watch" class="section">
+  <div class="shell">
+    <div class="section-head"><h2>FTQC Engineering</h2></div>
+    <div class="watch-grid">
+      <article class="watch-card"><h3>Error Correction</h3><p>Hardware-realistic code performance</p><small>Infleqtion · qLDPC + CUDA-Q Logical</small></article>
+      <article class="watch-card"><h3>Decoding</h3><p>Tail latency and throughput</p><small>QuEra · PPVM</small></article>
+      <article class="watch-card"><h3>Atom Movement</h3><p>Transport time, error, scheduling</p></article>
+      <article class="watch-card"><h3>Gates + Measurement</h3><p>Fidelity, parallelism, reset, reuse</p></article>
+      <article class="watch-card"><h3>Loss + Reload</h3><p>Detection, erasure handling, replenishment</p></article>
+      <article class="watch-card"><h3>Control + Automation</h3><p>Calibration, recovery, digital twins</p><small>QuEra · laser automation + PPVM</small></article>
+      <article class="watch-card"><h3>Photonics + Hardware</h3><p>Lasers, vacuum, packaging, manufacturing</p><small>Pasqal · photonic-integrated trapping</small></article>
+      <article class="watch-card"><h3>Resource Estimates</h3><p>Physical qubits, runtime, sensitivity</p></article>
+      <article class="watch-card"><h3>Sustained Operation</h3><p>Stability, recovery, availability, environment</p><small>planqc · QuEra</small></article>
+    </div>
+  </div>
+</section>
+
+<section id="landscape" class="section">
+  <div class="shell">
+    <div class="section-head"><h2>Neutral-Atom Landscape</h2><p class="single-line">Selected public-source landscape; not a ranking or completeness claim.</p></div>
+    <div class="landscape">
+      <a class="org" href="https://atom-computing.com/" target="_blank" rel="noopener noreferrer"><h3>Atom Computing</h3><div class="org-tags"><span>Logical Qubits</span><span>Control Systems</span><span>FTQC</span></div></a>
+      <a class="org" href="https://blog.google/innovation-and-ai/technology/research/neutral-atom-quantum-computers/" target="_blank" rel="noopener noreferrer"><h3>Google Quantum AI</h3><div class="org-tags"><span>QEC</span><span>Modeling</span><span>Experimental Hardware</span></div></a>
+      <a class="org" href="https://infleqtion.com/quantum-computing/" target="_blank" rel="noopener noreferrer"><h3>Infleqtion</h3><div class="org-tags"><span>Full-Stack FTQC</span><span>qLDPC</span><span>Software</span></div></a>
+      <a class="org" href="https://www.logiqal.com/" target="_blank" rel="noopener noreferrer"><h3>Logiqal</h3><div class="org-tags"><span>Modular Architecture</span><span>Yb-171</span><span>Interconnects</span></div></a>
+      <a class="org" href="https://www.oratomic.com/" target="_blank" rel="noopener noreferrer"><h3>Oratomic</h3><div class="org-tags"><span>High-Rate QEC</span><span>Reconfigurable Atoms</span><span>Optical Engineering</span></div></a>
+      <a class="org" href="https://www.pasqal.com/" target="_blank" rel="noopener noreferrer"><h3>Pasqal</h3><div class="org-tags"><span>Industrial Systems</span><span>FTQC Roadmap</span><span>Photonics</span></div></a>
+      <a class="org" href="https://planqc.eu/" target="_blank" rel="noopener noreferrer"><h3>planqc</h3><div class="org-tags"><span>Digital Neutral Atoms</span><span>Full Stack</span><span>Manufacturing</span></div></a>
+      <a class="org" href="https://www.quera.com/" target="_blank" rel="noopener noreferrer"><h3>QuEra</h3><div class="org-tags"><span>Reconfigurable Atoms</span><span>Logical Processors</span><span>Real-Time Control</span></div></a>
+    </div>
+  </div>
+</section>
+
+<section id="sources" class="section">
+  <div class="shell">
+    <div class="section-head"><h2>Sources & Evidence</h2><p class="single-line">Primary and direct sources are preferred. Demonstrations, publications, company-reported results, targets, and government evaluation states remain distinct. No private access is implied.</p></div>
+    <div class="evidence-list">
+      <details><summary><span class="source-name"><strong>Infleqtion</strong><span>30 entangled logical qubits on Sqale</span></span></summary><div class="source-body"><div><small>Supports</small><p>Company-reported demonstration of 30 entangled logical qubits using 80 physical qubits on Sqale.</p></div><div><small>Scope</small><p>Hardware logical-qubit demonstration; sustained fault-tolerant application performance and independent replication require separate evidence.</p></div><a href="https://infleqtion.com/infleqtion-achieves-30-entangled-logical-qubits-on-its-sqale-quantum-computer/" target="_blank" rel="noopener noreferrer">Open source ↗</a></div></details>
+      <details><summary><span class="source-name"><strong>planqc</strong><span>LOGIQC selected for Germany’s Quantum Computing Competition</span></span></summary><div class="source-body"><div><small>Supports</small><p>LOGIQC selection for a German competition aimed at error-corrected quantum computers, with neutral atoms represented as one of the selected technology approaches.</p></div><div><small>Scope</small><p>Program selection and system target; it does not establish demonstrated fault-tolerant processor performance.</p></div><a href="https://planqc.eu/news/planqc-selected-for-germany-s-quantum-computing-competition-with-logiqc" target="_blank" rel="noopener noreferrer">Open source ↗</a></div></details>
+      <details><summary><span class="source-name"><strong>QuEra</strong><span>HPE on-premises FTQC / HPC collaboration</span></span></summary><div class="source-body"><div><small>Supports</small><p>Collaboration to integrate QuEra neutral-atom fault-tolerant systems with HPE Cray supercomputing environments.</p></div><div><small>Scope</small><p>Integration plan and deployment pathway; it does not establish deployed on-premises fault-tolerant operation.</p></div><a href="https://www.quera.com/press-releases/quera-computing-collaborates-with-hpe-to-bring-fault-tolerant-quantum-computing-to-on-premises-hpc-environments" target="_blank" rel="noopener noreferrer">Open source ↗</a></div></details>
+      <details><summary><span class="source-name"><strong>U.S. Department of Energy</strong><span>Quantum Genesis fault-tolerant computing competition</span></span></summary><div class="source-body"><div><small>Supports</small><p>Quantum Genesis competition and separate validation infrastructure.</p></div><div><small>Scope</small><p>Program design and validation infrastructure; architecture performance requires separate evidence.</p></div><a href="https://www.energy.gov/science/articles/doe-launches-competition-accelerate-development-worlds-first-fault-tolerant" target="_blank" rel="noopener noreferrer">Open source ↗</a></div></details>
+      <details><summary><span class="source-name"><strong>Infleqtion</strong><span>CUDA-Q Logical integration</span></span></summary><div class="source-body"><div><small>Supports</small><p>qLDPC tooling integration and code-rate claim.</p></div><div><small>Scope</small><p>Software integration and code-rate claims; hardware performance requires separate evidence.</p></div><a href="https://infleqtion.com/infleqtion-advances-fault-tolerant-quantum-computing-software-with-nvidia-cuda-q-logical/" target="_blank" rel="noopener noreferrer">Open source ↗</a></div></details>
+      <details><summary><span class="source-name"><strong>planqc</strong><span>MAQCS deployment at LRZ</span></span></summary><div class="source-body"><div><small>Supports</small><p>Large neutral-atom hardware moving into an HPC environment.</p></div><div><small>Scope</small><p>Deployment and integration; logical performance requires separate evidence.</p></div><a href="https://planqc.eu/news/maqcs-takes-shape-as-first-quantum-computing-hardware-arrives-at-lrz" target="_blank" rel="noopener noreferrer">Open source ↗</a></div></details>
+      <details><summary><span class="source-name"><strong>QuEra</strong><span>AI-assisted laser relocking and tuning</span></span></summary><div class="source-body"><div><small>Supports</small><p>Automated laser recovery, tuning, and unattended testing.</p></div><div><small>Scope</small><p>Control automation and unattended testing; full-system reliability requires separate evidence.</p></div><a href="https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers" target="_blank" rel="noopener noreferrer">Open source ↗</a></div></details>
+      <details><summary><span class="source-name"><strong>QuEra</strong><span>PPVM digital-twin tooling</span></span></summary><div class="source-body"><div><small>Supports</small><p>System modeling that connects noise, classical logic, and decoding.</p></div><div><small>Scope</small><p>System modeling and architecture behavior; hardware runtime evidence remains separate.</p></div><a href="https://www.quera.com/blog-posts/introducing-ppvm-a-first-step-toward-a-quantum-digital-twin" target="_blank" rel="noopener noreferrer">Open source ↗</a></div></details>
+      <details><summary><span class="source-name"><strong>Pasqal</strong><span>Photonic-integrated atom trapping</span></span></summary><div class="source-body"><div><small>Supports</small><p>Atom trapping using light generated by a photonic integrated circuit.</p></div><div><small>Scope</small><p>Small-scale photonic trapping; processor-scale integration requires separate evidence.</p></div><a href="https://investors.pasqal.com/news-releases/news-release-details/Pasqal%20Brings%20Qubit%20Control%20On-Chip%20%E2%80%93%20Advancing%20the%20Path%20to%20Fault-Tolerant%20Quantum%20Computing%20at%20Scale" target="_blank" rel="noopener noreferrer">Open source ↗</a></div></details>
+    </div>
+  </div>
+</section>
+
+<section class="qia-close">
+  <div class="shell">
+    <div class="qia-kicker">Neutral-Atom FTQC</div>
+    <h2>From Quantum Intelligence to Mission Assurance.</h2>
+    <div class="qia-actions"><a class="qia-partner" href="https://bridgenode7.com/partner/?context=neutral-atom-ftqc">Work with Bridge Node 7</a></div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="shell footer-resolve footer-mark-only">
+    <a class="footer-symbol" href="https://bridgenode7.com/" rel="home" aria-label="Bridge Node 7 home">
+      <span class="mark footer-mark" aria-hidden="true"><span>7</span></span>
+    </a>
+    <nav class="footer-base-final" aria-label="Footer navigation">
+      <a href="https://bridgenode7.com/privacy/">Privacy</a>
+      <a href="mailto:contact@bridgenode7.com">Contact</a>
+    </nav>
+    <span class="copyright-final">© 2026 Bridge Node 7</span>
+  </div>
+</footer>
+</body>
+</html>

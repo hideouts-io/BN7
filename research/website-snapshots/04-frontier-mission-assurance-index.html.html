@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; object-src 'none'; form-action 'none'; img-src 'self' data:; style-src 'unsafe-inline'; style-src-attr 'unsafe-inline'; script-src 'none'; script-src-attr 'none'; connect-src 'none'; font-src 'none'; media-src 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'">
+<meta name="robots" content="noindex,follow">
+<meta name="description" content="Frontier Mission Assurance by Bridge Node 7.">
+<meta name="theme-color" content="#050914">
+<title>Frontier Mission Assurance | Bridge Node 7</title>
+<link rel="canonical" href="https://github.com/Bridge-Node-7/frontier-mission-assurance">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23f1c86b'/%3E%3Ctext x='50' y='63' font-size='52' font-weight='900' fill='%23050914' text-anchor='middle'%3E7%3C/text%3E%3C/svg%3E">
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#040813;
+  --text:#f7f9ff;
+  --muted:#98a5b9;
+  --line:rgba(255,255,255,.085);
+  --gold:#efc665;
+  --gold2:#fff0b3;
+  --cyan:#78d7ff;
+  --violet:#c6a7ff;
+  --max:1180px;
+}
+*{box-sizing:border-box}
+html{background:var(--bg);scroll-behavior:smooth}
+body{
+  margin:0;min-width:320px;color:var(--text);
+  font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:
+    radial-gradient(circle at 12% 7%,rgba(120,215,255,.075),transparent 30rem),
+    radial-gradient(circle at 88% 8%,rgba(198,167,255,.065),transparent 31rem),
+    radial-gradient(circle at 50% 38%,rgba(239,198,101,.04),transparent 35rem),
+    linear-gradient(180deg,#040813 0%,#06101b 48%,#03070f 100%);
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden
+}
+body::before{
+  content:"";position:fixed;inset:0;z-index:-3;pointer-events:none;opacity:.06;
+  background:
+    linear-gradient(rgba(255,255,255,.012) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.012) 1px,transparent 1px);
+  background-size:108px 108px
+}
+a{color:inherit;text-decoration:none}
+a:focus-visible{outline:2px solid var(--gold2);outline-offset:6px}
+.skip-link{
+  position:absolute;left:16px;top:-72px;z-index:1000;
+  padding:11px 15px;border-radius:999px;
+  background:var(--gold2);color:#06111f;font-weight:900;font-size:12px
+}
+.skip-link:focus{top:12px}
+.shell{width:min(calc(100% - 42px),var(--max));margin:0 auto}
+
+.masthead{
+  height:78px;
+  display:flex;
+  align-items:center;
+  justify-content:center
+}
+.brand{
+  display:flex;align-items:center;gap:10px;
+  color:rgba(247,249,255,.68);
+  font-size:10px;font-weight:900;letter-spacing:.20em;text-transform:uppercase
+}
+.mark{
+  width:28px;height:28px;border-radius:50%;
+  display:grid;place-items:center;
+  color:#050914;font-size:10px;font-weight:900;
+  border:1px solid rgba(255,240,179,.50);
+  background:radial-gradient(circle,#fff8d4 0 11%,var(--gold) 38%,rgba(239,198,101,.13) 67%,transparent 72%);
+  box-shadow:0 0 28px rgba(239,198,101,.09)
+}
+
+.hero{padding:66px 0 10px;text-align:center}
+.hero h1{
+  margin:0 auto;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:clamp(54px,7.1vw,88px);
+  line-height:.92;
+  letter-spacing:-.061em;
+  font-weight:500;
+  text-wrap:balance
+}
+
+.bridge-section{padding:18px 0 86px}
+.bridge-stage{
+  position:relative;
+  min-height:610px;
+  overflow:hidden;
+  border-top:1px solid rgba(255,255,255,.04);
+  border-bottom:1px solid rgba(255,255,255,.04);
+  background:
+    radial-gradient(ellipse at 50% 46%,rgba(239,198,101,.07),transparent 24rem),
+    radial-gradient(ellipse at 50% 79%,rgba(120,215,255,.022),transparent 34rem),
+    linear-gradient(180deg,rgba(255,255,255,.006),transparent 35%,rgba(255,255,255,.003));
+  isolation:isolate
+}
+.bridge-stage::before{
+  content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+  background:
+    linear-gradient(90deg,rgba(4,8,19,.64),transparent 18%,transparent 82%,rgba(4,8,19,.64)),
+    linear-gradient(180deg,rgba(4,8,19,.18),transparent 22%,transparent 78%,rgba(4,8,19,.34))
+}
+.axis{
+  position:absolute;z-index:1;left:50%;top:5%;bottom:4%;width:1px;transform:translateX(-50%);
+  background:linear-gradient(180deg,transparent,rgba(239,198,101,.12) 22%,rgba(239,198,101,.19) 50%,rgba(239,198,101,.08) 80%,transparent)
+}
+.bridge-wrap{
+  position:absolute;z-index:3;
+  inset:58px -20px 38px
+}
+.bridge{width:100%;height:100%;display:block}
+.bridge *{vector-effect:non-scaling-stroke}
+.land{fill:rgba(255,255,255,.038)}
+.land-rim{fill:none;stroke:rgba(255,255,255,.055);stroke-width:1}
+.water{fill:none;stroke:rgba(120,215,255,.065);stroke-width:1}
+.deck-shadow{fill:none;stroke:rgba(255,255,255,.05);stroke-width:11}
+.deck{fill:none;stroke:rgba(239,198,101,.84);stroke-width:2.2}
+.deck-glow{fill:none;stroke:rgba(255,240,179,.13);stroke-width:5;filter:drop-shadow(0 0 9px rgba(239,198,101,.09))}
+.tower{fill:none;stroke:rgba(239,198,101,.69);stroke-width:1.8}
+.cross{fill:none;stroke:rgba(239,198,101,.39);stroke-width:1.15}
+.cable{fill:none;stroke:rgba(255,255,255,.125);stroke-width:1.08}
+.hanger{fill:none;stroke:rgba(255,255,255,.072);stroke-width:1}
+.foundation{fill:none;stroke-width:1.55}
+.foundation.e{stroke:rgba(120,215,255,.55)}
+.foundation.a{stroke:rgba(198,167,255,.58)}
+.foundation.d{stroke:rgba(239,198,101,.52)}
+.foundation-node.e{fill:var(--cyan)}
+.foundation-node.a{fill:var(--violet)}
+.foundation-node.d{fill:var(--gold2)}
+
+.bridge-center{
+  position:absolute;z-index:8;left:50%;top:48%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+  text-shadow:0 0 26px rgba(239,198,101,.09)
+}
+.bridge-center strong{
+  display:block;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:clamp(36px,4.6vw,58px);
+  line-height:.88;
+  font-weight:500;
+  letter-spacing:-.055em
+}
+.fma-link{
+  display:inline-block;
+  color:inherit;
+  text-decoration:none;
+}
+.fma-link:hover,
+.fma-link:active{
+  color:inherit;
+  text-decoration:none;
+}
+
+  9%{opacity:.92}
+  80%{opacity:.92}
+  100%{transform:translateX(820%);opacity:0}
+}
+
+.windows{padding:74px 0 104px}
+.window-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:16px
+}
+.window{
+  position:relative;
+  min-height:268px;
+  padding:28px 24px 26px;
+  overflow:hidden;
+  display:grid;
+  grid-template-rows:96px minmax(64px,auto) 1fr;
+  align-items:center;
+  border:1px solid var(--line);
+  border-radius:24px;
+  background:
+    radial-gradient(circle at 50% 0%,rgba(255,255,255,.025),transparent 45%),
+    linear-gradient(180deg,rgba(255,255,255,.025),rgba(255,255,255,.008));
+  box-shadow:0 18px 72px rgba(0,0,0,.15);
+  transition:border-color .22s ease,transform .22s ease,background .22s ease
+}
+.window::after{
+  content:"";
+  position:absolute;left:17%;right:17%;bottom:0;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.11),transparent)
+}
+.window:hover{
+  transform:translateY(-3px);
+  border-color:rgba(255,240,179,.22);
+  background:
+    radial-gradient(circle at 50% 0%,rgba(255,255,255,.038),transparent 45%),
+    linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.011))
+}
+.signal{
+  position:relative;z-index:2;
+  height:96px;
+  display:grid;
+  place-items:center
+}
+.signal svg{width:124px;height:78px;overflow:visible}
+.signal svg *{vector-effect:non-scaling-stroke}
+
+.window h2{
+  position:relative;z-index:2;
+  margin:0;
+  align-self:center;
+  text-align:center;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:clamp(23px,2.1vw,29px);
+  line-height:1.06;
+  letter-spacing:-.03em;
+  font-weight:500
+}
+.window h2 .line{display:block}
+
+.window p{
+  position:relative;z-index:2;
+  margin:16px auto 0;
+  align-self:end;
+  max-width:305px;
+  color:#a9b5c7;
+  text-align:center;
+  font-size:13px;
+  line-height:1.45
+}
+
+.science-line{fill:none;stroke:rgba(120,215,255,.48);stroke-width:1}
+.science-node{fill:var(--cyan)}
+.science-ring{fill:none;stroke:rgba(255,255,255,.12);stroke-width:1}
+
+.quantum-line{fill:none;stroke:rgba(198,167,255,.43);stroke-width:1}
+.quantum-node{fill:rgba(198,167,255,.94)}
+.quantum-ring{fill:none;stroke:rgba(198,167,255,.18);stroke-width:1}
+
+.orbit-line{fill:none;stroke:rgba(239,198,101,.40);stroke-width:1}
+.orbit-node{fill:var(--gold2)}
+.sat-body{fill:rgba(255,240,179,.86)}
+.sat-panel{fill:rgba(120,215,255,.26);stroke:rgba(120,215,255,.58);stroke-width:1}
+.sat-detail{fill:none;stroke:rgba(255,240,179,.60);stroke-width:1}
+
+.close{
+  position:relative;
+  min-height:390px;
+  display:grid;
+  place-items:center;
+  padding:92px 0 96px;
+  text-align:center;
+  overflow:hidden;
+  border-top:1px solid rgba(255,255,255,.04);
+  isolation:isolate
+}
+.close::before{
+  content:"";
+  position:absolute;z-index:-2;left:50%;top:49%;
+  width:min(780px,90vw);height:min(380px,48vw);
+  transform:translate(-50%,-50%);
+  border-radius:50%;
+  background:radial-gradient(ellipse at center,rgba(239,198,101,.10),rgba(239,198,101,.032) 38%,transparent 72%)
+}
+.arrival{
+  width:min(980px,100%);
+  margin:0 auto;
+  padding:44px 30px;
+  text-align:center
+}
+.arrival h2{
+  margin:0;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:clamp(46px,5.7vw,74px);
+  line-height:.94;
+  letter-spacing:-.052em;
+  white-space:nowrap;
+  font-weight:500;
+  text-shadow:0 0 42px rgba(239,198,101,.08)
+}
+.cta{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:34px;
+  min-height:54px;
+  padding:15px 30px;
+  border-radius:999px;
+  border:1px solid rgba(255,240,179,.88);
+  background:linear-gradient(135deg,#fff3bc,#eec15a);
+  color:#07111d;
+  font-size:10px;
+  font-weight:900;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  box-shadow:0 15px 48px rgba(239,198,101,.12),inset 0 1px 0 rgba(255,255,255,.55);
+  transition:transform .2s ease,box-shadow .2s ease
+}
+.cta:hover{
+  transform:translateY(-2px);
+  box-shadow:0 19px 56px rgba(239,198,101,.18),inset 0 1px 0 rgba(255,255,255,.66)
+}
+
+.footer{
+  padding:27px 0 40px;
+  text-align:center;
+  color:rgba(255,255,255,.38);
+  font-size:11px
+}
+.footer a{display:inline-block}
+.footer a:hover{color:rgba(255,255,255,.72)}
+
+@media(max-width:820px){
+  .hero{padding-top:48px}
+  .bridge-stage{min-height:565px}
+  .bridge-wrap{inset:52px -110px 34px}
+  .bridge-center{top:48%}
+  .window-grid{grid-template-columns:1fr}
+  .window{min-height:230px;grid-template-rows:86px auto 1fr}
+}
+@media(max-width:560px){
+  .masthead{height:64px}
+  .hero{padding-top:44px}
+  .hero h1{font-size:clamp(43px,12vw,60px)}
+  .bridge-stage{min-height:510px}
+  .bridge-wrap{inset:44px -180px 24px}
+  .bridge-center{top:47.8%}
+  .windows{padding-top:60px}
+  .close{min-height:390px;padding:78px 0 92px}
+  .arrival h2{font-size:clamp(29px,8.7vw,42px);white-space:nowrap}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .window,.cta{transition:none}
+}
+@media(forced-colors:active){
+  body{background:Canvas;color:CanvasText}
+  .window{background:Canvas;border-color:CanvasText}
+  .bridge *,.signal svg *{stroke:CanvasText!important;filter:none!important}
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="shell">
+  <header class="masthead">
+    <a class="brand" href="https://bridgenode7.com/" aria-label="Bridge Node 7 home">
+      <span class="mark" aria-hidden="true">7</span>
+      <span>Bridge Node 7</span>
+    </a>
+  </header>
+</div>
+
+<main id="main">
+  <section class="hero">
+    <div class="shell">
+      <h1>Frontier Mission Assurance</h1>
+    </div>
+  </section>
+
+  <section class="bridge-section" aria-label="Frontier Mission Assurance bridge">
+    <div class="shell">
+      <div class="bridge-stage">
+        <div class="axis" aria-hidden="true"></div>
+
+        <div class="bridge-wrap">
+          <svg class="bridge" viewBox="0 0 1160 440" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="bridge-title bridge-desc">
+            <title id="bridge-title">Frontier Mission Assurance bridge</title>
+            <desc id="bridge-desc">A balanced bridge represents Frontier Mission Assurance reducing the distance between frontier work and useful mission capability.</desc>
+<path class="land" d="M0 326 H178 L238 298 L292 326 H0 Z"/>
+            <path class="land" d="M1160 326 H982 L922 298 L868 326 H1160 Z"/>
+            <path class="land-rim" d="M0 326 H178 L238 298 L292 326"/>
+            <path class="land-rim" d="M1160 326 H982 L922 298 L868 326"/>
+
+            <path class="water" d="M252 350 C398 338 510 356 580 348 C654 340 760 355 900 344"/>
+            <path class="water" d="M282 374 C414 364 520 380 592 373 C666 365 770 378 868 369"/>
+
+            <path class="deck-shadow" d="M178 278 H982"/>
+            <path class="deck-glow" d="M178 278 H982"/>
+            <path class="deck" d="M178 278 H982"/>
+
+            <path class="tower" d="M392 278 V104 M768 278 V104"/>
+            <path class="cross" d="M371 128 H413 M747 128 H789"/>
+
+            <path class="cable" d="M178 266 C270 222 334 148 392 104 C452 158 514 210 580 237"/>
+            <path class="cable" d="M580 237 C646 210 708 158 768 104 C826 148 890 222 982 266"/>
+
+            <path class="hanger" d="M258 225 V278 M321 169 V278 M449 157 V278 M515 212 V278"/>
+            <path class="hanger" d="M645 212 V278 M711 157 V278 M839 169 V278 M902 225 V278"/>
+
+            <path class="foundation e" d="M390 278 L340 345"/>
+            <path class="foundation a" d="M580 278 L580 345"/>
+            <path class="foundation d" d="M770 278 L820 345"/>
+            <circle class="foundation-node e" cx="340" cy="345" r="6"/>
+            <circle class="foundation-node a" cx="580" cy="345" r="7"/>
+            <circle class="foundation-node d" cx="820" cy="345" r="6"/>
+          </svg>
+        </div>
+
+        <div class="bridge-center">
+          <a class="fma-link" href="https://github.com/Bridge-Node-7/frontier-mission-assurance" aria-label="Frontier Mission Assurance">
+            <strong>FMA</strong>
+          </a>
+        </div>
+</div>
+    </div>
+  </section>
+
+  <section class="windows" aria-label="Frontier Mission Assurance profiles">
+    <div class="shell">
+      <div class="window-grid">
+
+        <a class="window" href="https://github.com/Bridge-Node-7/frontier-mission-assurance/tree/main/profiles/scientific-discovery" aria-label="Scientific Discovery profile">
+          <div class="signal" aria-hidden="true">
+            <svg viewBox="0 0 124 78">
+              <circle class="science-ring" cx="62" cy="39" r="31"/>
+              <path class="science-line" d="M23 52 L46 27 L69 43 L100 22"/>
+              <path class="science-line" d="M46 27 L58 61 L69 43"/>
+              <circle class="science-node" cx="23" cy="52" r="3"/>
+              <circle class="science-node" cx="46" cy="27" r="4"/>
+              <circle class="science-node" cx="58" cy="61" r="3"/>
+              <circle class="science-node" cx="69" cy="43" r="4"/>
+              <circle class="science-node" cx="100" cy="22" r="3"/>
+            </svg>
+          </div>
+          <h2>Scientific Discovery</h2>
+          <p>Make machine-assisted scientific claims reviewable.</p>
+        </a>
+
+        <a class="window" href="https://github.com/Bridge-Node-7/frontier-mission-assurance/tree/main/profiles/ftqc-assurance" aria-label="Fault-Tolerant Quantum Computing profile">
+          <div class="signal" aria-hidden="true">
+            <svg viewBox="0 0 124 78">
+              <circle class="quantum-ring" cx="62" cy="39" r="31"/>
+              <path class="quantum-line" d="M31 20 H93 M31 39 H93 M31 58 H93 M42 10 V68 M62 10 V68 M82 10 V68"/>
+              <circle class="quantum-node" cx="42" cy="20" r="3"/>
+              <circle class="quantum-node" cx="62" cy="39" r="4"/>
+              <circle class="quantum-node" cx="82" cy="58" r="3"/>
+            </svg>
+          </div>
+          <h2>
+            <span class="line">Fault-Tolerant</span>
+            <span class="line">Quantum Computing</span>
+          </h2>
+          <p>Trace quantum decisions to their evidence.</p>
+        </a>
+
+        <a class="window" href="https://github.com/Bridge-Node-7/frontier-mission-assurance/tree/main/profiles/orbital-recovery-assurance" aria-label="Orbital Recovery profile">
+          <div class="signal" aria-hidden="true">
+            <svg viewBox="0 0 124 78">
+              <ellipse class="orbit-line" cx="62" cy="40" rx="45" ry="19" transform="rotate(-17 62 40)"/>
+              <rect class="sat-body" x="56" y="34" width="12" height="12" rx="2"/>
+              <rect class="sat-panel" x="36" y="36" width="17" height="8" rx="1"/>
+              <rect class="sat-panel" x="71" y="36" width="17" height="8" rx="1"/>
+              <path class="sat-detail" d="M53 40 H56 M68 40 H71 M62 30 V34 M59 30 H65"/>
+              <circle class="orbit-node" cx="97" cy="22" r="3.5"/>
+            </svg>
+          </div>
+          <h2>Orbital Recovery</h2>
+          <p>Evaluate satellite recovery and requalification.</p>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="close">
+    <div class="shell">
+      <div class="arrival">
+        <h2>Accelerate Innovation</h2>
+        <a class="cta" href="mailto:contact@bridgenode7.com?subject=Bridge%20Node%207%20%7C%20Inquiry">Submit a Request</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="shell">
+    <a href="https://bridgenode7.com/" aria-label="Bridge Node 7 home">© 2026 Bridge Node 7</a>
+  </div>
+</footer>
+
+</body>
+</html>

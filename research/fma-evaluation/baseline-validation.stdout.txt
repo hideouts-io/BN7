@@ -1,0 +1,136 @@
+{
+  "status": "PASS",
+  "summary": {
+    "architecture_revision": "synthetic-r1",
+    "assumptions": [
+      {
+        "domain": "qec",
+        "id": "ASSUMPTION-QEC-001",
+        "name": "QEC code family",
+        "source_ref": "EXPERT-REVIEW-001",
+        "status": "REVIEWED",
+        "unit": null,
+        "value": "synthetic_code_a"
+      },
+      {
+        "domain": "qec",
+        "id": "ASSUMPTION-DECODER-001",
+        "name": "Decoder family",
+        "source_ref": "EXPERT-REVIEW-001",
+        "status": "REVIEWED",
+        "unit": null,
+        "value": "synthetic_decoder_a"
+      },
+      {
+        "domain": "physical_model",
+        "id": "ASSUMPTION-LOSS-001",
+        "name": "Movement loss regime",
+        "source_ref": "EVIDENCE-LOSS-001",
+        "status": "DECLARED",
+        "unit": null,
+        "value": "baseline"
+      },
+      {
+        "domain": "architecture",
+        "id": "ASSUMPTION-SCALE-001",
+        "name": "Array scale target",
+        "source_ref": "EVIDENCE-LOSS-001",
+        "status": "DECLARED",
+        "unit": "synthetic_units",
+        "value": 800
+      },
+      {
+        "domain": "interface",
+        "id": "ASSUMPTION-PHOTONIC-001",
+        "name": "Photonic interface regime",
+        "source_ref": "EVIDENCE-PHOTONIC-001",
+        "status": "REVIEWED",
+        "unit": null,
+        "value": "baseline"
+      }
+    ],
+    "decision": {
+      "disposition": "HOLD",
+      "id": "DECISION-001",
+      "rationale": "The synthetic architecture is structurally traceable, but one decision-gating evidence envelope is declared rather than established. Advancement therefore remains on HOLD pending a stronger applicability basis.\n",
+      "reopen_when": [
+        "Decision-gating evidence applicability becomes established.",
+        "The QEC code family changes.",
+        "The physical loss regime changes.",
+        "The resource estimate is regenerated.",
+        "The photonic interface regime changes."
+      ]
+    },
+    "evidence_envelopes": [
+      {
+        "authority_state": "DECLARED",
+        "decision_gate": true,
+        "envelope_id": "ENV-RESOURCE-001",
+        "evidence_class": "CALCULATED",
+        "evidence_ref": "MODEL-RESOURCE-001",
+        "status": "IN_SCOPE"
+      },
+      {
+        "authority_state": "ESTABLISHED",
+        "decision_gate": true,
+        "envelope_id": "ENV-QEC-001",
+        "evidence_class": "EXPERT_ADJUDICATED",
+        "evidence_ref": "EXPERT-REVIEW-001",
+        "status": "IN_SCOPE"
+      },
+      {
+        "authority_state": "DECLARED",
+        "decision_gate": true,
+        "envelope_id": "ENV-LOSS-001",
+        "evidence_class": "EXPERIMENTAL",
+        "evidence_ref": "EVIDENCE-LOSS-001",
+        "status": "IN_SCOPE"
+      },
+      {
+        "authority_state": "ESTABLISHED",
+        "decision_gate": true,
+        "envelope_id": "ENV-PHOTONIC-001",
+        "evidence_class": "EXPERIMENTAL",
+        "evidence_ref": "EVIDENCE-PHOTONIC-001",
+        "status": "IN_SCOPE"
+      }
+    ],
+    "expert_reviews": [
+      {
+        "conclusion": "SUPPORTED_WITHIN_SCOPE",
+        "mandatory": true,
+        "question": "Does the declared synthetic evidence support the QEC assumption inside the current physical-model envelope?",
+        "review_class": "INTERNAL_DOMAIN_REVIEW",
+        "review_id": "EXPERT-REVIEW-001"
+      }
+    ],
+    "hold_reasons": [
+      "ENV-RESOURCE-001 applicability is declared but not established",
+      "ENV-LOSS-001 applicability is declared but not established"
+    ],
+    "mission_objective": "Determine whether the declared evidence basis is mature enough to advance the synthetic architecture into its next integration and risk-retirement phase.",
+    "modality": "neutral_atom",
+    "profile_version": "0.2",
+    "record_class": "synthetic",
+    "resource_estimate": {
+      "applicability_envelope_ref": "ENV-RESOURCE-001",
+      "physical_qubits": 12000,
+      "provenance_status": "DECLARED_ONLY",
+      "record_id": "MODEL-RESOURCE-001",
+      "review_state": "CURRENT",
+      "runtime_seconds": 7200,
+      "synthetic_only": true
+    },
+    "system_id": "FTQC-SYNTHETIC-001",
+    "workload": {
+      "description": "Synthetic utility-scale workload used only to demonstrate assurance behavior.",
+      "id": "WORKLOAD-001"
+    }
+  },
+  "warnings": [
+    "assurance-graph.yaml: EVIDENCE-QEC-001: evidence has no source/provenance field",
+    "assurance-graph.yaml: EVIDENCE-LOSS-001: evidence has no source/provenance field",
+    "assurance-graph.yaml: EXPERT-REVIEW-001: evidence has no source/provenance field",
+    "assurance-graph.yaml: EVIDENCE-PHOTONIC-001: evidence has no source/provenance field"
+  ]
+}

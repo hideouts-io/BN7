@@ -1,0 +1,21 @@
+{
+  "name": "create-venv",
+  "argv": [
+    "/opt/homebrew/bin/python3.11",
+    "-m",
+    "venv",
+    "/Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z/.venv"
+  ],
+  "cwd": "/Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z",
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "shell_display": "env PYTHONDONTWRITEBYTECODE=1 /opt/homebrew/bin/python3.11 -m venv /Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z/.venv",
+  "started_at_utc": "2026-10-04T22:39:32.348042+00:00",
+  "finished_at_utc": "2026-10-04T22:39:34.223672+00:00",
+  "exit_code": 0,
+  "stdout_path": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/create-venv.stdout.txt",
+  "stderr_path": "/Users/macbookpro/Documents/ChatGPT/BN7/research/fma-evaluation/create-venv.stderr.txt",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

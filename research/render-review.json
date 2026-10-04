@@ -1,0 +1,248 @@
+{
+  "review_date": "2026-10-04",
+  "assembled_at_utc": "2026-10-04T22:58:08.262309+00:00",
+  "canonical_workspace": "/Users/macbookpro/Documents/ChatGPT/BN7",
+  "local_render_snapshot": "/Users/macbookpro/Codex/Any/BN7-render",
+  "source_match_verified": true,
+  "manuscript_words": 1454,
+  "manuscript_sha256": "5295419f3c6db083aae62973e8ddb322f6e159e07fdee1e27e83caedc62341ca",
+  "source_review": {
+    "repositories": 8,
+    "tracked_source_files": 917,
+    "website_html_pages": 9,
+    "kind": "Bounded static studies plus separately recorded synthetic FMA execution; no full-suite or operational validation."
+  },
+  "editorial_review": {
+    "kind": "Model editorial/source review",
+    "result": "passed at current manuscript identity",
+    "manuscript_sha256": "5295419f3c6db083aae62973e8ddb322f6e159e07fdee1e27e83caedc62341ca",
+    "evidence_register_revision": "r3",
+    "named_human_signoff": false
+  },
+  "browser_checks": {
+    "engine": "Installed Google Chrome via Playwright",
+    "report": "/Users/macbookpro/Codex/Any/BN7-render/output/verification/browser-checks.json",
+    "widths_css_px": [
+      1280,
+      375,
+      320
+    ],
+    "passed": [
+      "no horizontal overflow",
+      "fragment targets",
+      "keyboard skip and visible focus",
+      "reduced motion",
+      "no remote runtime resources",
+      "computed sampled text contrast",
+      "table header/column structure"
+    ],
+    "sampled_text_color_pairs": 10,
+    "minimum_sampled_text_contrast": 6.16195032072144,
+    "focus_outline": {
+      "style": "solid",
+      "width": 3,
+      "color": "rgb(189, 98, 24)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 4.2648028649440395
+    },
+    "tables": [
+      {
+        "rows": 4,
+        "columns": 2,
+        "headers": 1
+      },
+      {
+        "rows": 7,
+        "columns": 2,
+        "headers": 1
+      }
+    ],
+    "resolved_failure": {
+      "cause": "New full commit identifier caused 9px source-note overflow at 320 CSS pixels.",
+      "fix": "Apply overflow-wrap:anywhere to the source-note paragraph.",
+      "final_overflow_css_px": [
+        0,
+        0,
+        0
+      ]
+    },
+    "native_zoom_observations": [
+      {
+        "percent": 200,
+        "scope": "Earlier candidate: prose and portfolio table fit the native Chrome reading view; layout observation only.",
+        "manuscript_sha256": "00c08c4e6ead12d2896327437f1d0d378fba6099bbba794184d154935fa8de56"
+      },
+      {
+        "percent": 400,
+        "scope": "Earlier candidate: heading/prose/cards fit. Final candidate: source note and full commit identifier visually wrap within reading area; not a complete native 400% table or keyboard audit.",
+        "final_manuscript_sha256": "5295419f3c6db083aae62973e8ddb322f6e159e07fdee1e27e83caedc62341ca"
+      }
+    ],
+    "native_zoom_restored_percent": 100,
+    "temporary_review_tab_closed": true,
+    "temporary_loopback_server_stopped": true,
+    "limitations": [
+      "Screen-reader review not performed; TODO P07 remains open.",
+      "No full accessibility conformance claim.",
+      "No website changes, deployment or original-site interactive testing."
+    ]
+  },
+  "pdf": {
+    "pages": 4,
+    "page_size": "Letter",
+    "tagged": true,
+    "all_pages_visually_inspected": true,
+    "reference_check_report": "/Users/macbookpro/Codex/Any/BN7-render/output/verification/pdf-reference-checks.json",
+    "distinct_reference_urls": 23,
+    "uri_annotations": 26,
+    "all_manuscript_reference_urls_present": true,
+    "limitations": [
+      "Tagging/layout do not establish assistive-technology usability; TODO P07 remains open."
+    ]
+  },
+  "source_links": {
+    "report": "research/link-checks.json",
+    "checked_at_utc": "2026-10-04T22:38:57.261585+00:00",
+    "summary": {
+      "http_destinations": 71,
+      "http_200": 71,
+      "http_failures": 0,
+      "redirected_destinations": 0,
+      "local_pinned_references": 57,
+      "local_missing_paths": 0,
+      "local_invalid_ranges": 0,
+      "manuscript_raw_checks": 8,
+      "manuscript_raw_matches": 8
+    },
+    "current_manuscript_https_set_unchanged_from_live_check": true,
+    "scholarly_source_identity": "Cite inspected commit for source analysis; cite actual distribution for packaged evaluation. Same version label does not imply identical bytes.",
+    "contact": "Published address matches source pages; email delivery not tested; no outreach performed."
+  },
+  "fresh_fma_execution": {
+    "status": "completed within bounded synthetic scope",
+    "evidence_register_entry": "C09",
+    "result": "research/fma-evaluation/RESULT.md",
+    "receipt": "research/fma-evaluation/receipt.json",
+    "verification": "research/fma-evaluation/verification.json",
+    "source_head": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+    "source_version": "0.11.2",
+    "source_differs_from_published_release_commit": true,
+    "commands": [
+      {
+        "name": "baseline-validation",
+        "exit_code": 0,
+        "stdout_sha256": "8bdf0b4a87150e11dcf025c0b505ea5efffb1589427d4862bb999bf92615f322",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "changed-assumption-comparison",
+        "exit_code": 0,
+        "stdout_sha256": "5f8e3c47e1f4bd2ee22ff08ff10ddf694b83cf69fcc95e867d1752306c0742cf",
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "isolated_dependency_install": "Source-declared PyYAML 6.0.3 and jsonschema 4.26.0 in recorded project venv; version/artifact/installation records preserved; no global install.",
+    "all_six_expected_impact_fields_match": true,
+    "both_decisions_remain": "HOLD",
+    "warnings": "Four evidence records lack source/provenance fields; retained in baseline and comparison output.",
+    "expert_review": "Flagged for reopening; no human review conducted.",
+    "governance_review_required": false,
+    "retained_failure": {
+      "kind": "capture-wrapper expectation typo",
+      "command_argv": [
+        "/opt/homebrew/bin/python3.11",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/fma-20261004T223724Z/run.py"
+      ],
+      "cwd": "/Users/macbookpro/Codex/Any/BN7-sources/frontier-mission-assurance",
+      "exit_code": 1,
+      "reason": "Wrapper used ENVELOPE-RESOURCE-001; source and observed output use ENV-RESOURCE-001. Both FMA commands succeeded and all six source expected-impact fields matched in this initial attempt.",
+      "original_expectation_result": "evaluation.json",
+      "original_stdout": "orchestrator.stdout.txt",
+      "original_stderr": "orchestrator.stderr.txt",
+      "correction_script": "verify-capture.py",
+      "correction_exit_code": 0,
+      "correction_note": "Corrected expectation verification without rerunning or changing FMA commands, source or outputs."
+    },
+    "source_tracked_files_byte_identical": 239,
+    "limits": "Synthetic declared-contract behavior only. No quantum estimator execution, hardware validation, independent scientific validation, operational deployment, or consequential decision authority was established."
+  },
+  "github_repository": {
+    "status": "created and connected",
+    "full_name": "hideouts-io/BN7",
+    "url": "https://github.com/hideouts-io/BN7",
+    "private": true,
+    "visibility": "private",
+    "api_size": 0,
+    "local_origin": "https://github.com/hideouts-io/BN7.git",
+    "owner_selected_by_user": true,
+    "upstream_research_account": "Bridge-Node-7",
+    "verified_date": "2026-10-04",
+    "remote_content": "empty; no commit or push performed"
+  },
+  "publication": {
+    "status": "review candidate; not published",
+    "website_changes": "excluded by explicit user instruction",
+    "distribution_channel": "unselected",
+    "format_decision": "pending user response: PDF first, PDF only, or HTML first",
+    "archive_members": [
+      "PUBLIC_PLAYBOOK.md",
+      "index.html",
+      "Bridge-Node-7-Public-Playbook-Short.pdf",
+      "manifest.json"
+    ],
+    "private_research_todo_brief_excluded_from_archive": true,
+    "commits": 0,
+    "pushes": 0,
+    "uploads": 0
+  },
+  "human_review": {
+    "brief": "REVIEW_BRIEF.md",
+    "prepared": true,
+    "reviewers": "unassigned; user question pending",
+    "technical_signoff": false,
+    "real_reader_feedback": false,
+    "outreach_performed": false
+  },
+  "renderer_validation": {
+    "native_node_syntax_checks": "passed",
+    "typescript_typecheck": "not performed; no compiler available in current declared runtime",
+    "build": "passed",
+    "browser_verify": "passed",
+    "pdf_export": "passed"
+  },
+  "artifacts": [
+    {
+      "path": "/Users/macbookpro/Codex/Any/BN7-render/output/web/index.html",
+      "bytes": 20442,
+      "sha256": "6d306a929832e1ce6f2c5c887e077f60b620ff0b6d59b5e0fed86d0bbcd50e65"
+    },
+    {
+      "path": "/Users/macbookpro/Codex/Any/BN7-render/output/pdf/Bridge-Node-7-Public-Playbook-Short.pdf",
+      "bytes": 272045,
+      "sha256": "47ab6423fda6c66a25476bfbdacabd94ba6914368586bb5a67ade6c3d5d0d1f0"
+    },
+    {
+      "path": "/Users/macbookpro/Codex/Any/BN7-render/output/package/Bridge-Node-7-Public-Playbook-Review.zip",
+      "bytes": 239072,
+      "sha256": "e27dcc2828e30fb948c472bbb9011c14a0ca944b840f215471361e03daf011d9"
+    }
+  ],
+  "preservation_verification": {
+    "baseline_manuscripts": 2,
+    "sha256_matches": true,
+    "fma_evidence_manifest_files": 37,
+    "all_evidence_hashes_and_byte_counts_match": true,
+    "source_clones_checked": 8,
+    "tracked_source_files": 917,
+    "all_clones_clean_at_recorded_sha": true,
+    "kind": "Independent read-only custody verification; no runtime reexecution."
+  },
+  "todo_states": {
+    "tasks": 67,
+    "completed_in_stated_scope": 44,
+    "in_progress": 4,
+    "open": 18,
+    "excluded_by_user": 1,
+    "waiting_for_owner": 0
+  }
+}
