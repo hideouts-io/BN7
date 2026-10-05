@@ -1,6 +1,6 @@
 # Public playbook evidence register
 
-Current revision: **r4**. Review date: **2026-10-04**. These revision/date fields apply to every entry below unless an entry states otherwise. This is the current claim register; it replaces the earlier workplan's claim-matrix concept. It does not duplicate the research studies or publication TODO.
+Current revision: **r5**. Review date: **2026-10-04**. These revision/date fields apply to every entry below unless an entry states otherwise. This is the current claim register; it replaces the earlier workplan's claim-matrix concept. It does not duplicate the research studies or publication TODO.
 
 **Evidence meanings:** Observed source content means the cited files were inspected; it does not mean deployed software or real-world behavior was observed. Reported means a repository's own statement. Synthetic means fictional fixtures or declared example outcomes. Inferred means editorial synthesis with its basis stated. Tested is reserved for an executed, preserved run. Supported for drafting does not mean approved for public release.
 
@@ -209,3 +209,23 @@ The user's Bridge Node 7 role and authorization to use GitHub/website material f
 **Source/revision:** [Public-reference scope, profile README lines 64–72](https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/README.md#L64-L72), [M2M stronger-maturity evidence boundary, lines 5–23](https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/docs/MATURITY_AND_PROOF.md#L5-L23), [FMA public-example boundary, README lines 13–17](https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/README.md#L13-L17).
 
 **Scope/remaining proof:** Absence from examined sources is not proof no customers or outcomes exist. Obtain company-approved facts and supporting records, plus permission to name counterparties where material. Public code, mission language, synthetic results, and source reuse authorization cannot substitute for business evidence.
+
+## C21 — Published engagement and inquiry routes
+
+**Exact proposed wording:** “The partner page describes Strategic Resilience Assessments, mission pilots, technical collaboration, research programs, and strategic opportunities. Begin with a non-confidential overview at contact@bridgenode7.com and follow the published privacy guidance.”
+
+**Status/class:** Supported as attributed public website wording; Observed source content. Covers the manuscript's “Learn more or begin a conversation” section and privacy paragraph.
+
+**Source/revision:** [Partner page](https://bridgenode7.com/partner/) and [privacy guidance](https://bridgenode7.com/privacy/), captured October 4, 2026. The [snapshot manifest](website-snapshots/manifest.json) binds retrieved URLs, times, response status, hashes, and local files `01-partner.html` and `08-privacy.html`; the [website study](website-study.md#page-by-page-findings) describes their bounded scope.
+
+**Scope/remaining proof:** Establishes advertised engagement categories, inquiry address, and public handling guidance. Does not establish delivery capacity, a completed engagement, prices, timelines, customer outcomes, email delivery, or permission to contact anyone. Final company wording remains U03; commercial evidence remains C20.
+
+## C22 — Website seven-domain positioning
+
+**Exact proposed wording:** “Bridge Node 7's public website presents Quantum Technology, AI Governance, Critical Materials, Supply Chain, Space Systems, Information Trust, and Mission Assurance as its seven-domain model.”
+
+**Status/class:** Supported as attributed public positioning; Observed source labels. Covers the website-style HTML hero, rather than an additional manuscript capability claim.
+
+**Source/revision:** [Homepage](https://bridgenode7.com/), captured October 4, 2026 as `00-home.html` in the [snapshot manifest](website-snapshots/manifest.json). The later [design reference](web-design-reference.json) records the same homepage source identity and the reading-copy adaptations.
+
+**Scope/remaining proof:** Domain labels describe the brand's breadth; they do not establish seven shipped products, uniform maturity, operational deployments, partnerships, or complete domain coverage. Implementation claims remain bounded by C12–C19 and the referenced repositories.

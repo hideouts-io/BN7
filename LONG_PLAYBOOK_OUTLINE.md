@@ -22,7 +22,7 @@ Use this map when applying short-edition feedback to the outline. It points to e
 | Dated Gallium evidence and qualification gap | 5 | C10–C11 |
 | Framing alternatives and recording a human choice | 6 | C12–C14 |
 | AI/cyber, quantum-transition, and supply-chain entry points | 5 and 7, selected by reader need | C15, C17–C18; C16 only if its separate synthetic ACA case is introduced |
-| Engagement and the evidence still needed for business claims | 9 | C20 |
+| Engagement and the evidence still needed for business claims | 9 | C20–C21 |
 
 ## Recommended expansion sequence after short review
 
