@@ -1,0 +1,253 @@
+{
+  "tasks": [
+    "P16",
+    "P17"
+  ],
+  "status": "Published editorial review draft; human and final-edition review remain pending",
+  "checked_at": "2026-10-05T10:35:54.661Z",
+  "authorization": "User explicitly instructed commit and push and publish; scoped to verified short-edition corrections and existing hideouts.io route",
+  "source_base_commit": "29162f3fcdda61a774ed89ecd1f464e95c2b0aa4",
+  "source_branch": "codex/public-playbook",
+  "website_commit": "1abf213cfaee794bb0095864403c6d5e3f1a6aba",
+  "website_branches": [
+    "codex/bn7-publication",
+    "main"
+  ],
+  "website_revision": "c5b6cbb8501c-22dc71bea89e",
+  "local_archive_revision": "c5b6cbb8501c-34f38a6a6fc7-22dc71bea89e",
+  "source_sha256": "c5b6cbb8501c1f4c2adcb62ecbfd50b2b7a2035dbc52d5ce702ee9d8486c06a7",
+  "stylesheet_sha256": "a744cc859ef0fa0d6373d44bd4f7650212d4da01933d33565b3ed11935906d03",
+  "html_sha256": "34f38a6a6fc7be0a360dc651e91d8f3fc9efb582a885942b8602d2badaa2defa",
+  "pdf_sha256": "22dc71bea89e68b2898f73bba51aa91ebd66ab156ca33a9dfca7223a262d14e9",
+  "manifest_sha256": "124e1ba768b8d1ad898e5e2299caf2ce4f57a6a2fe9506f5ff749da56300db0d",
+  "archive_sha256": "49092f535957a8105631f0d4d3940f6a8a09a81b5cf344ab49457d2579d136e8",
+  "workflow": {
+    "url": "https://github.com/hideouts-io/hideouts.io/actions/runs/37297449410",
+    "run_id": 37297449410,
+    "conclusion": "success"
+  },
+  "live_http_checks": [
+    {
+      "file": "index.html",
+      "url": "https://hideouts.io/bridgenode7/",
+      "status": 200,
+      "bytes": 46854,
+      "sha256": "34f38a6a6fc7be0a360dc651e91d8f3fc9efb582a885942b8602d2badaa2defa",
+      "matches_selected": true
+    },
+    {
+      "file": "PUBLIC_PLAYBOOK.md",
+      "url": "https://hideouts.io/bridgenode7/PUBLIC_PLAYBOOK.md",
+      "status": 200,
+      "bytes": 12829,
+      "sha256": "c5b6cbb8501c1f4c2adcb62ecbfd50b2b7a2035dbc52d5ce702ee9d8486c06a7",
+      "matches_selected": true
+    },
+    {
+      "file": "Bridge-Node-7-Public-Playbook-Short.pdf",
+      "url": "https://hideouts.io/bridgenode7/Bridge-Node-7-Public-Playbook-Short.pdf",
+      "status": 200,
+      "bytes": 274842,
+      "sha256": "22dc71bea89e68b2898f73bba51aa91ebd66ab156ca33a9dfca7223a262d14e9",
+      "matches_selected": true
+    },
+    {
+      "file": "manifest.json",
+      "url": "https://hideouts.io/bridgenode7/manifest.json",
+      "status": 200,
+      "bytes": 798,
+      "sha256": "124e1ba768b8d1ad898e5e2299caf2ce4f57a6a2fe9506f5ff749da56300db0d",
+      "matches_selected": true
+    }
+  ],
+  "live_browser_checks": {
+    "url": "https://hideouts.io/bridgenode7/",
+    "checkedAt": "2026-10-05T10:35:54.661Z",
+    "browserVersion": "154.0.8037.93",
+    "htmlSha256": "34f38a6a6fc7be0a360dc651e91d8f3fc9efb582a885942b8602d2badaa2defa",
+    "pdfSha256": "22dc71bea89e68b2898f73bba51aa91ebd66ab156ca33a9dfca7223a262d14e9",
+    "pdfBytes": 274842,
+    "sourceLinks": 24,
+    "citation": "https://github.com/hideouts-io/BN7/blob/29162f3fcdda61a774ed89ecd1f464e95c2b0aa4/research/fma-evaluation/RESULT.md",
+    "checks": [
+      {
+        "width": 1280,
+        "route": "skip",
+        "headerBottom": 73,
+        "targetTop": 100.375
+      },
+      {
+        "width": 1280,
+        "route": "read",
+        "headerBottom": 73,
+        "targetTop": 100.375
+      },
+      {
+        "width": 375,
+        "route": "skip",
+        "headerBottom": 65,
+        "targetTop": 100.328125
+      },
+      {
+        "width": 375,
+        "route": "read",
+        "headerBottom": 65,
+        "targetTop": 100.328125
+      },
+      {
+        "width": 320,
+        "route": "skip",
+        "headerBottom": 65,
+        "targetTop": 99.734375
+      },
+      {
+        "width": 320,
+        "route": "read",
+        "headerBottom": 65,
+        "targetTop": 99.734375
+      }
+    ],
+    "pageErrors": [],
+    "scope": "Live Chrome byte identity, native PDF download, keyboard skip and reading fragment visibility/reflow; no human or accessibility conformance claim."
+  },
+  "deployed_artifact_preservation": {
+    "workflow_run_id": 37297449410,
+    "artifact_id": 11339317470,
+    "artifact_zip_sha256": "820e024ad55ec79e5bbafe8376e1a45dd614c048c413fdfc8a9d8bc4f18d79a6",
+    "baseline_files": 466,
+    "deployed_files": 466,
+    "protected_files_unchanged": 462,
+    "changed_files": [
+      "bridgenode7/Bridge-Node-7-Public-Playbook-Short.pdf",
+      "bridgenode7/PUBLIC_PLAYBOOK.md",
+      "bridgenode7/index.html",
+      "bridgenode7/manifest.json"
+    ],
+    "added_files": [],
+    "deleted_files": [],
+    "directories_identical": true
+  },
+  "overlay_checks": {
+    "checked_at_utc": "2026-10-05T10:37:04.600Z",
+    "status": "passed",
+    "scope": "Pure finalized overlay verifier against authentic retained production fingerprints and selected package. Acceptance and rejection mutations are in memory; no production/source/dist mutations. This is not deployment or human-review evidence.",
+    "deployment_script": "/Users/macbookpro/Codex/Any/hideouts.io-bn7-publication/scripts/prepare-playbook-deployment.ts",
+    "deployment_script_sha256": "039e5acf983d8806e8d14b715ba22f1b8fadb8ae79886b0a6feaa9704f499f3e",
+    "verifier_function_sha256": "439186acb82aeea9e3bd1cf24df3fb5ad6523d8ffcd606de05ad2e6791a9ccd4",
+    "evidence_script": "file:///Users/macbookpro/Documents/ChatGPT/BN7/output/p17-publication-20261005/overlay-checks.mjs",
+    "evidence_script_sha256": "fcda9f14c3097915cf01193b24c12f65186a854363eeb9acb3f70d2c23d66d2e",
+    "baseline_snapshot": "/Users/macbookpro/Documents/ChatGPT/BN7/output/p17-publication-20261005/baseline-files.json",
+    "baseline_snapshot_sha256": "f2ae057b5ae52b12595eeb87101cb5267cc65f2a1d637ef24a522cb78c893caa",
+    "baseline_files": 466,
+    "protected_files": 462,
+    "selected_revision": "c5b6cbb8501c-22dc71bea89e",
+    "selected_manifest_sha256": "124e1ba768b8d1ad898e5e2299caf2ce4f57a6a2fe9506f5ff749da56300db0d",
+    "baseline_route_collisions": [],
+    "accepted_cases": 5,
+    "rejected_cases": 8,
+    "cases": [
+      {
+        "case": "replacement edition",
+        "expected": "accepted",
+        "actual": "accepted",
+        "status": "passed"
+      },
+      {
+        "case": "initial publication",
+        "expected": "accepted",
+        "actual": "accepted",
+        "status": "passed"
+      },
+      {
+        "case": "mixed additions and replacements",
+        "expected": "accepted",
+        "actual": "accepted",
+        "status": "passed"
+      },
+      {
+        "case": "unchanged repeat",
+        "expected": "accepted",
+        "actual": "accepted",
+        "status": "passed"
+      },
+      {
+        "case": "existing extra BN7 file retained",
+        "expected": "accepted",
+        "actual": "accepted",
+        "status": "passed"
+      },
+      {
+        "case": "unrelated byte change",
+        "expected": "rejected",
+        "actual": "rejected",
+        "status": "passed",
+        "error": "Production file .well-known/security.txt changed or disappeared during BN7 preparation"
+      },
+      {
+        "case": "unrelated deletion",
+        "expected": "rejected",
+        "actual": "rejected",
+        "status": "passed",
+        "error": "Production file .well-known/security.txt changed or disappeared during BN7 preparation"
+      },
+      {
+        "case": "unrelated addition",
+        "expected": "rejected",
+        "actual": "rejected",
+        "status": "passed",
+        "error": "Unexpected added production files: unexpected.txt"
+      },
+      {
+        "case": "undeclared BN7 addition",
+        "expected": "rejected",
+        "actual": "rejected",
+        "status": "passed",
+        "error": "Unexpected added production files: bridgenode7/unexpected.txt"
+      },
+      {
+        "case": "missing required BN7 member",
+        "expected": "rejected",
+        "actual": "rejected",
+        "status": "passed",
+        "error": "Required BN7 files missing after preparation: bridgenode7/manifest.json"
+      },
+      {
+        "case": "missing BN7 file replaced by directory",
+        "expected": "rejected",
+        "actual": "rejected",
+        "status": "passed",
+        "error": "Required BN7 files missing after preparation: bridgenode7/manifest.json"
+      },
+      {
+        "case": "unrelated empty directory addition",
+        "expected": "rejected",
+        "actual": "rejected",
+        "status": "passed",
+        "error": "Production directory names changed beyond the allowed bridgenode7 directory"
+      },
+      {
+        "case": "existing directory removal",
+        "expected": "rejected",
+        "actual": "rejected",
+        "status": "passed",
+        "error": "Production directory names changed beyond the allowed bridgenode7 directory"
+      }
+    ]
+  },
+  "validation": {
+    "bn7_syntax_and_rebuild": "passed; exact previously verified HTML bytes",
+    "website_npm_test": "passed",
+    "website_final_lint_format_typecheck": "passed; 0 Astro diagnostics",
+    "preserved_site_verify": "passed;3916 internal links and anchors",
+    "pdf": "Reused unchanged verified four-page tagged Letter candidate;24 manuscript references,27 URI annotations; all pages previously inspected",
+    "fma_runtime": "Not rerun; citation points to existing bounded synthetic evaluation"
+  },
+  "remaining_dependencies": [
+    "V06 qualified technical review",
+    "P04 public and academic participant observations",
+    "P05 partner or investor participant observations",
+    "P07 actual assistive-technology review",
+    "P06 freezing and final-edition approval"
+  ],
+  "preservation_scope": "Previous revisions and unrelated expanded-edition, business-development, staged-reference and website work excluded; dirty primary Git indexes retained"
+}

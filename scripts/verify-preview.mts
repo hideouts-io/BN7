@@ -16,6 +16,9 @@ type ReadingCheck = Readonly<{
   rootClipping: readonly string[]; brokenFragments: readonly string[]; remoteResources: readonly string[];
 }>;
 type BrowserFailure = Readonly<{ kind: string; message: string }>;
+type LayoutBox = Readonly<{ x: number; y: number; width: number; height: number }>;
+type FragmentVisibility = Readonly<{ target: string; headerBottom: number; targetTop: number }>;
+type NavigationCheck = Readonly<{ viewport: string; skip: FragmentVisibility; read: FragmentVisibility }>;
 
 /** Hash exact served or downloaded artifact bytes. */
 function sha256(bytes: Buffer): string { return createHash('sha256').update(bytes).digest('hex'); }
@@ -137,6 +140,17 @@ async function checkReading(page: Page, viewport: ViewportCheck): Promise<Readin
   return result;
 }
 
+/** Reject a fragment destination covered by the sticky header or outside the viewport. */
+async function checkFragmentVisibility(page: Page, targetId: string): Promise<FragmentVisibility> {
+  const header: LayoutBox | null = await page.locator('#site-header').boundingBox();
+  const target: LayoutBox | null = await page.locator(`#${targetId}`).boundingBox();
+  if (!header || !target) throw new Error(`Cannot measure #${targetId} against #site-header; both must have layout boxes.`);
+  const result: FragmentVisibility = { target: targetId, headerBottom: header.y + header.height, targetTop: target.y };
+  assert.ok(result.targetTop >= result.headerBottom, `#${targetId} starts at ${result.targetTop}px behind the header ending at ${result.headerBottom}px.`);
+  assert.ok(result.targetTop < await page.evaluate(() => innerHeight), `#${targetId} starts below the visible viewport.`);
+  return result;
+}
+
 /** Verify HTTP identity, keyboard navigation, source links, and a native PDF download. */
 async function main(): Promise<void> {
   const executablePath: string | undefined = process.argv[2];
@@ -208,24 +222,37 @@ async function main(): Promise<void> {
     const downloadedPdf: Buffer = await readFile(downloadPath);
     assert.ok(downloadedPdf.equals(expectedPdf), 'Browser-downloaded PDF differs from the exported PDF bytes.');
     const checks: ReadingCheck[] = [];
+    const navigationChecks: NavigationCheck[] = [];
     const viewports: readonly ViewportCheck[] = [{ name: 'desktop', width: 1280, height: 900 }, { name: 'mobile', width: 375, height: 812 }, { name: 'reflow', width: 320, height: 900 }];
-    for (const viewport of viewports) {
-      checks.push(await checkReading(page, viewport));
-      await page.locator('#playbook').evaluate(element => element.blur());
-      await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));
-      await page.screenshot({ path: fileURLToPath(new URL(`${viewport.name}.png`, outputDirectory)), fullPage: true });
-    }
     await page.emulateMedia({ reducedMotion: 'reduce' });
     assert.equal(await page.evaluate(() => getComputedStyle(document.documentElement).scrollBehavior), 'auto', 'Reduced motion must disable smooth scrolling.');
+    for (const viewport of viewports) {
+      checks.push(await checkReading(page, viewport));
+      await page.goto(readingUrl.href, { waitUntil: 'load' });
+      await page.keyboard.press('Tab');
+      assert.equal(await page.locator('#skip-link').evaluate(element => element === document.activeElement), true, `${viewport.name}: first keyboard stop must be #skip-link.`);
+      await page.keyboard.press('Enter');
+      assert.equal(await page.locator('#playbook').evaluate(element => element === document.activeElement), true, `${viewport.name}: skip link must focus #playbook.`);
+      await page.waitForFunction(() => location.hash === '#playbook');
+      const skip: FragmentVisibility = await checkFragmentVisibility(page, 'playbook');
+      await page.goto(readingUrl.href, { waitUntil: 'load' });
+      await page.locator('#read-playbook').click();
+      await page.waitForFunction(() => location.hash === '#playbook');
+      const read: FragmentVisibility = await checkFragmentVisibility(page, 'playbook');
+      navigationChecks.push({ viewport: viewport.name, skip, read });
+      await page.screenshot({ path: fileURLToPath(new URL(`${viewport.name}-reading-start.png`, outputDirectory)) });
+      await page.goto(readingUrl.href, { waitUntil: 'load' });
+      await page.screenshot({ path: fileURLToPath(new URL(`${viewport.name}.png`, outputDirectory)), fullPage: true });
+    }
     assert.deepEqual(failures, [], 'Browser page, console, HTTP and network errors must be resolved.');
     const report: string = JSON.stringify({ input: readingUrl.href, checkedAt: new Date().toISOString(), browserVersion: browser.version(),
-      htmlSha256: sha256(expectedHtml), keyboardSkip: 'passed', navigation: 'passed', reducedMotion: 'passed', checks, preservedLinks,
+      htmlSha256: sha256(expectedHtml), keyboardSkip: 'passed', navigation: 'passed', reducedMotion: 'passed', checks, navigationChecks, preservedLinks,
       pdfDownload: { url: download.url(), filename: download.suggestedFilename(), bytes: downloadedPdf.length, sha256: sha256(downloadedPdf), matchesExportedPdf: true },
       textContrast, contrastMethod: 'Conservative gradient-stop and alpha composition through ancestor surfaces; ordinary opaque text and button endpoints retain 4.5:1, skip focus retains 3:1. Gradient-clipped brand headings and center-node brand labels are excluded from numeric palette checks; decorative pseudo-elements/backdrop filters and actual assistive-technology usability remain unverified.',
       excludedBrandText: palette.excludedBrandText, focusOutline: { ...palette.focus, ratio: focusContrast.ratio }, tableStructure, browserErrors: failures,
       scope: 'Local HTTP Chromium integration checks; no accessibility conformance claim; named human and assistive-technology reviews remain open.' }, null, 2) + '\n';
     await writeFile(new URL('browser-checks.json', outputDirectory), report, 'utf8');
-    process.stdout.write(JSON.stringify({ report: fileURLToPath(new URL('browser-checks.json', outputDirectory)), checks, sourceLinks: preservedLinks.length,
+    process.stdout.write(JSON.stringify({ report: fileURLToPath(new URL('browser-checks.json', outputDirectory)), checks, navigationChecks, sourceLinks: preservedLinks.length,
       pdfSha256: sha256(downloadedPdf), minimumTextContrast: Math.min(...textContrast.map(check => check.ratio)), focusContrast: focusContrast.ratio,
       excludedBrandText: palette.excludedBrandText, browserErrors: failures }) + '\n');
   } finally { await browser.close(); }

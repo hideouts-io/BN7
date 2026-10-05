@@ -39,7 +39,7 @@ An **assumption** is a premise or condition the reasoning relies on; its support
 
 Consider a team evaluating a fault-tolerant quantum-computing architecture. The public Frontier Mission Assurance (FMA) example links a resource estimate, evidence about its applicable conditions, expert review, and one decision.
 
-The initial decision is already **HOLD**: required applicability evidence has been declared but not established. In a local evaluation of the supplied synthetic case, baseline software checks passed with warnings about missing source details; the decision remained HOLD. The changed-case comparison produced the signals below.
+The initial decision is already **HOLD**: required applicability evidence has been declared but not established. In a [local evaluation of the supplied synthetic case](https://github.com/hideouts-io/BN7/blob/29162f3fcdda61a774ed89ecd1f464e95c2b0aa4/research/fma-evaluation/RESULT.md), baseline software checks passed with warnings about missing source details; the decision remained HOLD. The changed-case comparison produced the signals below.
 
 Now a movement-loss assumption changes from its baseline condition to a degraded condition. In ordinary language, an input about loss during atom movement has changed. Which earlier reasoning can still be relied upon?
 
