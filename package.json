@@ -8,10 +8,13 @@
   },
   "scripts": {
     "build": "node scripts/build-playbook.mts",
+    "prepare:expanded": "node scripts/prepare-expanded-playbook.mts",
+    "package:expanded": "python3 scripts/package-expanded-playbook.py",
+    "verify:expanded": "node scripts/verify-expanded-playbook.mts",
     "pdf": "node scripts/export-playbook.mts",
     "package:review": "python3 scripts/package-playbook.py --canonical-root . --render-root . --output output/package/Bridge-Node-7-Public-Playbook-Review.zip",
     "verify": "node scripts/verify-preview.mts",
-    "check": "node --check scripts/build-playbook.mts && node --check scripts/export-playbook.mts && node --check scripts/verify-preview.mts",
+    "check": "node --check scripts/build-playbook.mts && node --check scripts/export-playbook.mts && node --check scripts/verify-preview.mts && node --check scripts/playbook-page.mts && node --check scripts/prepare-expanded-playbook.mts && node --check scripts/verify-expanded-playbook.mts",
     "preview": "python3 -m http.server 4173 --bind 127.0.0.1 --directory output/web"
   },
   "devDependencies": {

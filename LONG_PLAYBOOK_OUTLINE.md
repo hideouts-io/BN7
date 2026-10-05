@@ -1,18 +1,18 @@
 # Bridge Node 7: longer playbook outline
 
-**Expansion plan only · October 4, 2026 · Short edition first**
+**Longer-edition structure · October 5, 2026 · Short edition preserved; expanded review candidate prepared**
 
-The [short edition](PUBLIC_PLAYBOOK.md) is the first review deliverable. This outline defines a deeper edition without beginning a second full manuscript before the short version's direction has been reviewed. Execution and publication tasks belong in [TODO.md](TODO.md).
+The [short edition](PUBLIC_PLAYBOOK.md) is the first review deliverable. The user has now authorized a ten-page expanded review candidate before remaining short-edition human reviews. [PUBLIC_PLAYBOOK_EXTENDED.md](PUBLIC_PLAYBOOK_EXTENDED.md) owns that distinct manuscript; this outline remains the structure and future-depth guide. Execution and publication tasks belong in [TODO.md](TODO.md).
 
 ## Proposed form and reader promise
 
-Target approximately **5,000–8,000 words**, excluding a compact source index, with a proposed primary PDF and standalone HTML reading copy generated from the same manuscript. Confirm longer-edition length and delivery after short-edition review; the short edition's PDF-first format is already selected. Readers should be able to move from an understandable decision question to the underlying records, methods, implementation, and limits.
+The prepared expanded candidate contains **approximately 3,850 visible words across ten PDF pages**, including introductory material and references, with matching standalone HTML. PDF-first delivery remains selected. The earlier **5,000–8,000-word** concept is a possible future depth extension; it is not a requirement to pad this candidate. Use actual company, specialist and reader feedback before adding further chapters or domain detail. Readers should be able to move from an understandable decision question to the underlying records, methods, implementation, and limits.
 
 The central narrative and factual claims should agree with the short edition. The longer edition adds explanations, evidence, and domain depth; it should link canonical specifications rather than reproduce them. The shared [evidence register](research/EVIDENCE_REGISTER.md) owns the claim-to-source map.
 
 ## Shared-content navigation
 
-Use this map when applying short-edition feedback to the outline. It points to existing claims rather than repeating their wording or evidence. A chapter's proposed additional example or technical depth is not supported merely by sharing a claim ID; register and review any added material when expansion is authorized.
+The ten-page candidate adapts this outline: FMA spans two pages, and selected responsibility/domain detail is combined into the portfolio reading path. Chapter numbers below refer to this further-depth outline, rather than the candidate's PDF pages; [expanded page/claim coverage](research/EVIDENCE_REGISTER.md#expanded-edition-coverage) records the actual candidate map. Use this map when applying short-edition feedback to the outline. It points to existing claims rather than repeating their wording or evidence. A chapter's proposed additional example or technical depth is not supported merely by sharing a claim ID; register and review any added material when expansion is authorized.
 
 | Short-edition topic | Planned deeper chapter | Existing claim references |
 | --- | --- | --- |
@@ -24,13 +24,13 @@ Use this map when applying short-edition feedback to the outline. It points to e
 | AI/cyber, quantum-transition, and supply-chain entry points | 5 and 7, selected by reader need | C15, C17–C18; C16 only if its separate synthetic ACA case is introduced |
 | Engagement and the evidence still needed for business claims | 9 | C20–C21 |
 
-## Recommended expansion sequence after short review
+## Expanded candidate and further-depth priorities
 
-Start with **chapter 2, source origins and evidence classes**, because it deepens the opening question for public and academic readers without requiring a domain-specific background. The FIW example supplies an inspectable foundation; qualified methodology review and primary scholarly comparisons are still needed before adding stronger research claims.
+For further depth, prioritize **chapter 2, source origins and evidence classes**, because it deepens the opening question for public and academic readers without requiring a domain-specific background. The FIW example supplies an inspectable foundation; qualified methodology review and primary scholarly comparisons are still needed before adding stronger research claims.
 
-Next connect **chapter 4's changed-assumption walkthrough with chapter 8's evaluation guidance**. Explain what was run, which records and assumptions it covered, what the software signaled, and which judgment remains for a qualified reviewer. The current synthetic validator/comparison evidence supports that bounded walkthrough. Deeper estimator/receipt claims require their own evaluation and domain review.
+A second proposed priority connects **chapter 4's changed-assumption walkthrough with chapter 8's evaluation guidance**. Explain what was run, which records and assumptions it covered, what the software signaled, and which judgment remains for a qualified reviewer. The current synthetic validator/comparison evidence supports that bounded walkthrough. Deeper estimator/receipt claims require their own evaluation and domain review.
 
-These are editorial recommendations rather than measured audience preferences. Bryan's lead internal review and actual reader questions determine the chosen priorities under TODO L03. Materials and other domain chapters expand when those questions justify them; no full longer manuscript is drafted yet. PDF remains the primary planned format, with a standalone HTML reading copy.
+These are editorial recommendations rather than measured audience preferences. Bryan's lead internal review and actual reader questions determine the chosen priorities under TODO L03. The ten-page candidate now supplies bounded depth on source genealogy, lifecycle, FMA, Gallium, portfolio roles, evaluation/rights, engagement and maintenance. Further materials or domain expansion follows actual evidence and reader questions. This preparation does not establish completed short/expanded human review or final-release authorization. PDF remains the primary planned format, with a standalone HTML reading copy.
 
 ## 1. Why the decision basis matters
 
@@ -62,7 +62,7 @@ Describe public research methods, domain records, assurance relationships, decis
 
 Explain graphs, evidence coverage, assumptions, dependency impact, research receipts, decision receipts, and reopen conditions. Distinguish file identity from fresh reproduction and reproduction from scientific validity. Follow the synthetic movement-loss example from its initial HOLD through changed conditions, stale estimates, applicability limits, and review flagged for reopening.
 
-**Sources:** assurance-study.md and its pinned implementation/tests/contracts. **Visuals:** initial vs changed state; receipt/reproduction distinctions. **Evaluation evidence now available:** the private FMA validator/comparison run at the exact inspected commit reproduces the synthetic HOLD and change-impact signals. Preserve provenance warnings, comparison-derived staleness, and source-versus-release identity. **Needed:** named domain review and any deeper receipt/estimator evaluation required by the expanded chapter.
+**Sources:** assurance-study.md and its pinned implementation/tests/contracts. **Visuals:** initial vs changed state; receipt/reproduction distinctions. **Evaluation evidence now available:** the retained public FMA validator/comparison record at the exact inspected commit reproduces the synthetic HOLD and change-impact signals. Preserve provenance warnings, comparison-derived staleness, and source-versus-release identity. **Needed:** named domain review and any deeper receipt/estimator evaluation required by the expanded chapter.
 
 ## 5. Materials and industrial pathways
 

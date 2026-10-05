@@ -1,10 +1,27 @@
 # Public playbook evidence register
 
-Current revision: **r6**. Source review date: **2026-10-04**; C09's public citation was verified **2026-10-05**. These revision/source-date fields apply to every entry below unless an entry states otherwise. This is the current claim register; it replaces the earlier workplan's claim-matrix concept. It does not duplicate the research studies or publication TODO.
+Current revision: **r7**. Source review date: **2026-10-04**; C09's public citation was verified **2026-10-05**. These revision/source-date fields apply to every entry below unless an entry states otherwise. This is the current claim register; it replaces the earlier workplan's claim-matrix concept. It does not duplicate the research studies or publication TODO.
 
 **Evidence meanings:** Observed source content means the cited files were inspected; it does not mean deployed software or real-world behavior was observed. Reported means a repository's own statement. Synthetic means fictional fixtures or declared example outcomes. Inferred means editorial synthesis with its basis stated. Tested is reserved for an executed, preserved run. Supported for drafting does not mean approved for public release.
 
 The user's Bridge Node 7 role and authorization to use GitHub/website material for this playbook are established by their instructions. That permission is the working authorization; it is separate from licenses granted to public readers. Company mission and product intentions below are attributed statements. Customers, revenue, funding, partnerships, performance improvements, and commercial outcomes are not established by this research.
+
+## Expanded edition coverage
+
+The authorized [expanded manuscript](../PUBLIC_PLAYBOOK_EXTENDED.md) reuses this register. Its October 5, 2026 assistant source audit checks added detail against the same eight pinned source repositories and retained FMA evaluation, rather than reporting new execution or real outcomes. Named qualified review remains V06. The exact artifact revision and check evidence are recorded in [REVIEW_BRIEF.md](../REVIEW_BRIEF.md#expanded-candidate-identity).
+
+| Expanded pages | Existing claim coverage and added drafting detail |
+| --- | --- |
+| 1 — purpose | C01–C03/C20; attributed positioning and editorial synthesis, without commercial benefit claims. |
+| 2–3 — genealogy/lifecycle | C03–C05/C14/C19; fictional roots, recorded relationships, compositional responsibility and accountable choice. |
+| 4–5 — FMA | C05–C09; supplied inputs, PASS/HOLD, four baseline/eight comparison provenance warnings, all six retained impact fields, unchanged input states and unexecuted estimator/reproduction work. No new runtime run. |
+| 6 — Gallium | C10–C11; dated v1.0.0/M0, derived-view fields and first unresolved qualification. Decision Passport field detail is observed in the pinned M2M [Decision Passport contract](https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/docs/DECISION_PASSPORT.md); evidence/claim distinctions in its [evidence model](https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/docs/EVIDENCE_MODEL.md). |
+| 7 — portfolio | C06/C12–C15/C17–C19; documented roles, maturity and lossy contract projection without observed whole-pipeline integration. |
+| 8 — academic evaluation/rights | C05/C09/C14/C19/C23; source/release distinction, proposed study questions, repository-native reproduction and observed license/citation terms. |
+| 9 — engagement | C02/C20–C21; attributed categories, proposed evaluation questions and business-evidence unknowns. |
+| 10 — terms/maintenance | C03/C05/C19/C23; plain-language glossary and explicitly proposed review/maintenance practice. |
+
+The reader exercise, evaluation measures and maintenance sequence are **editorial proposals** derived from these boundaries. They report no human participation, scientific comparison, established effectiveness, adoption or approved release. C16's separate ACA synthetic example remains unused. Added source detail needs its own qualified scope review even where its parent claim ID already appeared in the short edition.
 
 ## C01 — Company purpose
 
@@ -229,3 +246,13 @@ The user's Bridge Node 7 role and authorization to use GitHub/website material f
 **Source/revision:** [Homepage](https://bridgenode7.com/), captured October 4, 2026 as `00-home.html` in the [snapshot manifest](website-snapshots/manifest.json). The later [design reference](web-design-reference.json) records the same homepage source identity and the reading-copy adaptations.
 
 **Scope/remaining proof:** Domain labels describe the brand's breadth; they do not establish seven shipped products, uniform maturity, operational deployments, partnerships, or complete domain coverage. Implementation claims remain bounded by C12–C19 and the referenced repositories.
+
+## C23 — Repository-specific reuse and citation identity
+
+**Expanded proposed wording:** “Public inspection differs from permission to reuse software. Follow each repository's license, notices, citation metadata and applicable use guidance. Source version or citation metadata alone does not establish identity with a packaged release.”
+
+**Status/class:** Supported for drafting; Observed pinned licenses/notices/citation metadata on October 5, 2026. This is a record of stated source terms, not a grant of new rights or an assessment of legal sufficiency.
+
+**Source/revision:** The [source inventory](source-inventory.json) records exact LICENSE URLs and commits for all eight repositories. At those pins, the architecture source reserves original-documentation rights; FMA reserves original-content rights with evaluation/review conditions; FIW, M2M, ACA, Quantum Readiness and Pax Silica state MIT; FDE states Apache-2.0. [FMA use/evaluation](https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/USE_AND_EVALUATION.md) supplies its stated evaluation boundary. [M2M NOTICE](https://github.com/Bridge-Node-7/materials-to-mission/blob/2a8d26af86e8adb8b1e34550045782d1a20418a4/NOTICE) distinguishes included repository content from third-party/private material; [Pax NOTICE](https://github.com/Bridge-Node-7/pax-silica/blob/2f62f678d06f8444ddc7788ce03e1f1f46cf4cba/NOTICE) excludes brand/site-copy/identity from its software reuse scope. Root CITATION.cff is present at the examined FMA, FDE, M2M and Quantum pins; use the requested release/source/case identities accurately.
+
+**Scope/remaining proof:** User authorization to prepare the playbook and reuse BN7 website/GitHub material is settled separately. It does not alter public readers' software or third-party/brand rights. No playbook-wide license, attribution owner, operational-use permission or organizational approval is inferred. A qualified rights reviewer should assess final wording and any proposed reuse beyond these recorded terms. Citation metadata is inspected source content, not a fresh reproduction or release-parity result.

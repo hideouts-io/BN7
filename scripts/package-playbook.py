@@ -8,12 +8,11 @@ from __future__ import annotations
 
 import argparse
 from hashlib import sha256
-from io import BytesIO
 import json
 from pathlib import Path
 import re
 from typing import TypeAlias, TypedDict, cast
-from zipfile import ZIP_STORED, ZipFile, ZipInfo
+from review_archive import archive_bytes, write_candidate
 
 
 JsonValue: TypeAlias = None | bool | int | float | str | list["JsonValue"] | dict[str, "JsonValue"]
@@ -143,30 +142,6 @@ def verified_members(canonical_root: Path, render_root: Path) -> list[ArchiveMem
     validate_hash(pdf, exported["pdf_hash"], "PDF against PDF sidecar")
     members: list[ArchiveMember] = [("PUBLIC_PLAYBOOK.md", source), ("index.html", html), ("Bridge-Node-7-Public-Playbook-Short.pdf", pdf)]
     return [*members, ("manifest.json", public_manifest(members, web["source_hash"], exported["browser_version"]))]
-
-
-def archive_bytes(members: list[ArchiveMember]) -> bytes:
-    """Create deterministic stdlib ZIP bytes without timestamps or compression drift."""
-    buffer = BytesIO()
-    with ZipFile(buffer, mode="w", compression=ZIP_STORED) as archive:
-        for name, data in members:
-            info = ZipInfo(filename=name, date_time=(1980, 1, 1, 0, 0, 0))
-            info.create_system = 3
-            info.external_attr = 0o100644 << 16
-            archive.writestr(info, data)
-    return buffer.getvalue()
-
-
-def write_candidate(output: Path, data: bytes) -> bool:
-    """Reuse identical bytes or create a new candidate without replacing old work."""
-    if output.exists():
-        if output.read_bytes() != data:
-            raise FileExistsError(f"Existing candidate {output} has different bytes; choose an unused output path to preserve it")
-        return True
-    output.parent.mkdir(parents=True, exist_ok=True)
-    with output.open("xb") as stream:
-        stream.write(data)
-    return False
 
 
 def main() -> None:

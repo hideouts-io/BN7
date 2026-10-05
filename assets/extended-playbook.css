@@ -1,0 +1,28 @@
+/* Expanded-edition reading and print adaptations; the shared BN7 brand remains canonical. */
+.reading-section h3 { margin: 28px 0 14px; color: var(--gold2); font-size: 21px; line-height: 1.3; }
+.reading-section ul { padding-left: 24px; }
+.reading-section li { margin-bottom: 10px; }
+.reading-section ol { display: block; list-style: decimal; padding-left: 28px; }
+.reading-section ol li { position: static; padding: 0 0 0 6px; border: 0; background: none; color: var(--soft); font-size: inherit; }
+.reading-section ol li::before { content: none; }
+.reading-section:last-child p:last-child { font-size: inherit; color: var(--soft); }
+code { overflow-wrap: anywhere; font-size: .92em; }
+@media screen and (min-width: 921px) {
+  .contents { max-height: calc(100svh - 120px); overflow-y: auto; }
+}
+@media print {
+  body { font: 11pt/1.42 Arial, sans-serif; }
+  #playbook { padding: 0; border: 0; }
+  .reading-section { padding-top: 13px; border-top: 3px solid #0b6874; }
+  .reading-section + .reading-section { break-before: page; }
+  .manuscript-title { font-size: 24pt; line-height: 1.08; margin: 0 0 14px; }
+  .reading-section h2, .reading-section:first-child h2:not(.manuscript-title) { font-size: 20pt; line-height: 1.16; margin: 0 0 14px; }
+  .reading-section h3 { font-size: 12pt; line-height: 1.2; margin: 14px 0 7px; break-after: avoid; }
+  .reading-section p { margin-bottom: 9px; orphans: 2; widows: 2; }
+  .reading-section ul, .reading-section ol { display: block; margin: 9px 0; padding-left: 22px; }
+  .reading-section ol li, .reading-section ul li { font-size: 11pt; line-height: 1.42; margin: 0 0 6px; padding: 0; border: 0; background: none; break-inside: avoid; }
+  .reading-section ol li::before { content: none; }
+  table { font-size: 10.5pt; line-height: 1.3; margin: 12px 0; }
+  th, td { padding: 6px 8px; }
+  .reading-section:last-child p:last-child { font-size: 11pt; }
+}
