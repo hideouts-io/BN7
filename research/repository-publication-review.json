@@ -1,0 +1,111 @@
+{
+  "review_date": "2026-10-04",
+  "prepared_at_utc": "2026-10-05T01:00:41.344684+00:00",
+  "repository": "hideouts-io/BN7",
+  "branch": "codex/public-playbook",
+  "status": "Disclosure review passed; questionnaire/access milestone prepared; visibility and anonymous access verification pending",
+  "authorization": {
+    "source": "Current explicit user request",
+    "scope": "Commit/push intended questionnaire/access preparation, make BN7 public after disclosure review, verify public repository/questionnaire/manuscript links, and draft an email for the user to send",
+    "email_sending_authorized": false,
+    "website_changes_authorized": false,
+    "final_playbook_approval_or_human_signoff_implied": false
+  },
+  "reviewed_history": {
+    "head_before_this_milestone": "19195cb808260a67d00b60ef80f9b21952779f8d",
+    "reachable_commits": 4,
+    "reachable_git_objects": 125,
+    "historical_tracked_paths": 105,
+    "unique_tracked_blobs": 100,
+    "unique_blob_bytes": 1236358,
+    "all_blobs_utf8_text": true,
+    "published_branches": [
+      "codex/public-playbook"
+    ],
+    "published_tags": [],
+    "scanner": {
+      "tool": "TruffleHog",
+      "version": "3.97.9",
+      "credential_verification_enabled": false,
+      "update_checks_enabled": false,
+      "exit_code": 0,
+      "chunks": 197,
+      "bytes_scanned": 1094774,
+      "findings": 0
+    },
+    "independent_credential_patterns": "All unique blobs checked for private keys, GitHub/AWS/service tokens, secret assignments, authenticated URLs and JWTs; zero candidates",
+    "contextual_content_review": "Public-source studies/snapshots, synthetic FMA results, local paths/versions/checksums, blank review/CEO records and labeled business hypotheses; no actual confidential customer, pricing, financial, contract, deal or reviewer-answer content identified",
+    "disclosure_blockers_found": []
+  },
+  "repository_surfaces": {
+    "pull_requests": 0,
+    "issues": 0,
+    "releases": 0,
+    "forks": 0,
+    "wiki_enabled": false,
+    "discussions_enabled": false,
+    "actions_runs": 1,
+    "actions_artifacts": 0,
+    "actions_log_review": {
+      "run_id": 37242516693,
+      "head": "f116fc8ff63a608eb9862330a3c3c1c642fe01f8",
+      "kind": "Successful dynamic Dependabot pip graph update",
+      "zip_bytes": 5535,
+      "zip_sha256": "f4cfb4a9856b17fbcfb3ce6ec37a7ccfd148207e117886a6faf54bf7139467c2",
+      "utf8_members": 2,
+      "log_bytes": 20433,
+      "lines": 212,
+      "members": [
+        {
+          "file": "0_update-pip-graph.txt",
+          "bytes": 19849,
+          "lines": 204
+        },
+        {
+          "file": "update-pip-graph/system.txt",
+          "bytes": 584,
+          "lines": 8
+        }
+      ],
+      "zip_integrity_passed": true,
+      "offline_scanner_exit_code": 0,
+      "offline_scanner_findings": 0,
+      "contextual_review": "Token values are GitHub-masked; remaining content is ordinary runner metadata, dependency processing and submission. No actual exposed credentials or confidential business information identified."
+    }
+  },
+  "preservation": {
+    "history_rewritten": false,
+    "unique_work_deleted": false,
+    "excluded_unrelated_work": [
+      "BUSINESS_DEVELOPMENT_BRIEF.md working edits",
+      "README.md business-conversation row",
+      "TODO.md business-development paragraph/section",
+      "FIRST_CONVERSATION_KIT.md"
+    ],
+    "historical_baselines_and_captures_preserved": true,
+    "environments_caches_and_generated_outputs_ignored": true
+  },
+  "questionnaire": {
+    "file": "REVIEW_BRIEF.md",
+    "heading": "Questions for Bryan",
+    "expected_anchor": "questions-for-bryan",
+    "questions": 12,
+    "url": "https://github.com/hideouts-io/BN7/blob/codex/public-playbook/REVIEW_BRIEF.md#questions-for-bryan",
+    "actual_answers_received": false
+  },
+  "public_access": {
+    "status": "Pending visibility change and anonymous GET checks",
+    "visibility_change_performed": false,
+    "checks": []
+  },
+  "email": {
+    "status": "Draft to be prepared after link verification",
+    "sent": false
+  },
+  "limitations": [
+    "Bounded review of reachable history and observed repository surfaces; deleted remote refs and unreachable objects are not asserted to have been reviewed",
+    "No credential verification against external services performed",
+    "Future confidential feedback requires separate approved disclosure; blank public templates are not completed feedback",
+    "Generated PDF/HTML/ZIP are local-only and are not public downloads"
+  ]
+}

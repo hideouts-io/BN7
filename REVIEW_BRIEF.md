@@ -1,12 +1,31 @@
 # BN7 short playbook: human review brief
 
-**Private preparation · October 4, 2026 · Lead reviewer: Bryan Lachica · Human review not yet completed**
+**Review preparation · October 4, 2026 · Lead reviewer: Bryan Lachica · Human review not yet completed**
 
 Use this brief for the PDF-first short manuscript and standalone HTML reading copy. The user identified Bryan Lachica as CEO and selected him as lead reviewer. The evidence-to-decisions narrative is confirmed; website changes are outside scope. [TODO.md](TODO.md) remains the only task register: technical review is **V06**, public/academic readers are **P04**, partner/investor readers are **P05**, accessibility is **P07**, and revision/freezing is **P06**. This brief prepares review scope and capture fields; it does not satisfy those tasks by itself. No outreach or participant contact has been performed.
 
+This brief is prepared for the public BN7 review workspace. Open repository access allows inspection of the work in progress; it does not establish final playbook approval, completed human review, or authorization to contact reviewers or prospects.
+
+## Questions for Bryan
+
+Start with the [short playbook](PUBLIC_PLAYBOOK.md), then answer the numbered questions below. For each, use **Accept as written**, **Revise**, **Outside my scope**, or **Pending**, followed by the exact section/phrase and a short reason. Supply a source or company-approved record for factual corrections; name the missing input or reviewer where an answer is pending. The detailed passage table and review records below support deeper review.
+
+1. **Company wording:** Does the opening accurately describe BN7's current work and intended value? Which phrase, if any, needs a specific correction?
+2. **Your review scope:** Which technical claims can you assess from your actual expertise, and which need another qualified reviewer?
+3. **Explanation:** Which sentence or term in the three-reports story or six-step sequence needs clarification for a newcomer?
+4. **FMA example:** Within your review scope, is the initial HOLD, synthetic PASS with warnings, and review-reopening signal described accurately? Identify any wording that implies a new engineering result or completed expert review.
+5. **Gallium example:** Is GA-001 clearly a dated public-source snapshot with an unresolved qualification link? What correction would prevent an unsupported inference about present supply or readiness?
+6. **Technical boundaries:** Is any portfolio description or explanation in “Read the results within their scope” inaccurate or likely to overstate integration, validation, or partnership? Give the passage and supporting source.
+7. **Attribution and reuse:** Which author/publisher attribution and public reuse wording should accompany this guide? Are its source credits, citation instructions, and repository-specific use boundaries correct?
+8. **Engagement:** Is the published contact route and non-confidential introduction appropriate? What information should a prospective collaborator provide for a useful first conversation?
+9. **Company evidence:** Are there additional company facts essential to this public guide? If so, which supporting records and approved public wording are available?
+10. **Distribution:** Where should the final approved PDF and HTML have a stable public home, and who will manage that location? Website changes remain excluded.
+11. **Maintenance:** Who will own editorial corrections, company/technical review, and release updates, and which public route should readers use to report a correction?
+12. **Longer edition:** After the short review, which one or two outline chapters should be expanded first, and what reader question should each answer?
+
 ## Candidate identity
 
-The inspected short manuscript contains 1,492 words. These identities match the final render and source checks for this review candidate. Recalculate identities after revision; record exactly which artifact each person reviewed.
+The inspected short manuscript contains 1,492 words. These identities match the final render and source checks for this review candidate. Recalculate identities after revision; record exactly which artifact each person reviewed. Paths beginning `/Users/macbookpro/` refer to local generated review files; they are not public download links. The PDF, HTML, and ZIP remain untracked and require an approved distribution location.
 
 | Artifact | Location | SHA-256 inspected |
 | --- | --- | --- |
@@ -18,7 +37,7 @@ The inspected short manuscript contains 1,492 words. These identities match the 
 
 The [evidence register](research/EVIDENCE_REGISTER.md), revision r4, distinguishes inspected sources, repository-reported statements, fictional fixtures, editorial inference, and executed observations. **C09 records completed bounded synthetic evaluation:** baseline validation and changed-assumption comparison exited 0 at FMA commit f99dd2174c74f26b648321e02f8d30e2cff10230, source version 0.11.2; that source differs from the published release commit. [RESULT.md](research/fma-evaluation/RESULT.md), [receipt.json](research/fma-evaluation/receipt.json), and [verification.json](research/fma-evaluation/verification.json) preserve the exact commands, isolated environment, outputs, hashes, warnings, and matched expectations. Both decisions remain HOLD; expert review is flagged for reopening, without conducting it. The preserved initial capture-wrapper error was corrected in output verification; the FMA commands succeeded. The run cannot establish hardware performance, scientific validity, independent expert review, or commercial outcomes. Refresh [render-review.json](research/render-review.json) and candidate identities after any revision.
 
-The [standalone review archive](/Users/macbookpro/Codex/Any/BN7-render/output/package/revisions/2143be65c720-4ec8cbd1ad49/Bridge-Node-7-Public-Playbook-Review.zip) contains only the short manuscript, PDF, HTML, and file manifest. Its SHA-256 is `a69a2bf87b253ae049c4688b329503f6a6c22997a7025d87b4f073ad706e66c4`. Share it with reviewers only when the user authorizes the recipients and delivery. Keep this private brief and research records in the working workspace.
+The [standalone review archive](/Users/macbookpro/Codex/Any/BN7-render/output/package/revisions/2143be65c720-4ec8cbd1ad49/Bridge-Node-7-Public-Playbook-Review.zip) contains only the short manuscript, PDF, HTML, and file manifest. Its SHA-256 is `a69a2bf87b253ae049c4688b329503f6a6c22997a7025d87b4f073ad706e66c4`. Share it with reviewers only when the user authorizes the recipients and delivery. This brief and research records describe the review workspace; they are not included in that artifact archive.
 
 ## People and sessions
 
@@ -37,7 +56,7 @@ The BN7 business-development/marketing owner coordinates review and records Brya
 
 ## Bryan's 30–45 minute review
 
-The coordinator provides the matching PDF, HTML, and this private brief after recipient/delivery authorization. Bryan reads the four-page PDF in its normal order, then uses the passage prompts below. Discuss marked or disputed passages first; record prompts not covered within the time limit as pending. Open the evidence register and FMA result only for a disputed claim or a technical question within his recorded expertise; the full V06 source review is a separate session. The longer outline is optional follow-up, not required reading for this session.
+The coordinator provides the matching PDF, HTML, and this review brief after recipient/delivery authorization. Bryan reads the four-page PDF in its normal order, then uses the passage prompts below. Discuss marked or disputed passages first; record prompts not covered within the time limit as pending. Open the evidence register and FMA result only for a disputed claim or a technical question within his recorded expertise; the full V06 source review is a separate session. The longer outline is optional follow-up, not required reading for this session.
 
 | Activity | 30-minute session | 45-minute session | Capture |
 | --- | --- | --- | --- |
@@ -104,9 +123,9 @@ For P07, a named reviewer uses their actual screen reader and PDF reader. Record
 
 ## Feedback capture and revision
 
-Keep feedback privately with the project evidence. Capture: session date; participant name/role/expertise and relationship; artifact path/hash; device/format; reading time; question responses; exact confusing text/location; observed navigation success or failure; factual/source objection and citation; requested expansion; severity; proposed revision; owner disposition and rationale; revised artifact identity; and reviewer confirmation of material fixes. Record only information needed for review, with participant permission for any attributable quotation used publicly.
+Keep completed feedback containing personal or confidential information outside the public repository unless its disclosure is approved. Capture: session date; participant name/role/expertise and relationship; artifact path/hash; device/format; reading time; question responses; exact confusing text/location; observed navigation success or failure; factual/source objection and citation; requested expansion; severity; proposed revision; owner disposition and rationale; revised artifact identity; and reviewer confirmation of material fixes. Record only information needed for review, with participant permission for any attributable quotation used publicly.
 
-Use this blank record in the same private review workspace. No fields below represent completed feedback. Assign a finding ID at capture; leave missing assignments explicitly **Unassigned** and dependencies **Not supplied** until received. Reference the existing TODO ID instead of creating another task register.
+Use this blank record for review capture, applying the disclosure rule above to completed responses. No fields below represent completed feedback. Assign a finding ID at capture; leave missing assignments explicitly **Unassigned** and dependencies **Not supplied** until received. Reference the existing TODO ID instead of creating another task register.
 
 | Session field | Blank response |
 | --- | --- |
