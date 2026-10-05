@@ -10,6 +10,20 @@ Target approximately **5,000–8,000 words**, excluding a compact source index, 
 
 The central narrative and factual claims should agree with the short edition. The longer edition adds explanations, evidence, and domain depth; it should link canonical specifications rather than reproduce them. The shared [evidence register](research/EVIDENCE_REGISTER.md) owns the claim-to-source map.
 
+## Shared-content navigation
+
+Use this map when applying short-edition feedback to the outline. It points to existing claims rather than repeating their wording or evidence. A chapter's proposed additional example or technical depth is not supported merely by sharing a claim ID; register and review any added material when expansion is authorized.
+
+| Short-edition topic | Planned deeper chapter | Existing claim references |
+| --- | --- | --- |
+| Company purpose and the common decision pattern | 1 and 3 | C01–C03, C19 |
+| Source origins and the limits of a passing check | 2 and 8 | C04–C05 |
+| Initial HOLD, changed assumption, and bounded evaluation | 4 and 8 | C06–C09 |
+| Dated Gallium evidence and qualification gap | 5 | C10–C11 |
+| Framing alternatives and recording a human choice | 6 | C12–C14 |
+| AI/cyber, quantum-transition, and supply-chain entry points | 5 and 7, selected by reader need | C15, C17–C18; C16 only if its separate synthetic ACA case is introduced |
+| Engagement and the evidence still needed for business claims | 9 | C20 |
+
 ## Recommended expansion sequence after short review
 
 Start with **chapter 2, source origins and evidence classes**, because it deepens the opening question for public and academic readers without requiring a domain-specific background. The FIW example supplies an inspectable foundation; qualified methodology review and primary scholarly comparisons are still needed before adding stronger research claims.

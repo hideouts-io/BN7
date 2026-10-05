@@ -14,7 +14,7 @@ The inspected short manuscript contains 1,492 words. These identities match the 
 | Matching local render input | [/Users/macbookpro/Codex/Any/BN7-render/PUBLIC_PLAYBOOK.md](/Users/macbookpro/Codex/Any/BN7-render/PUBLIC_PLAYBOOK.md) | `2143be65c72098b3529d048aded83e1d9fee830346a8363aff9025c00d990dd7` |
 | Web preview | [index.html](/Users/macbookpro/Codex/Any/BN7-render/output/web/index.html) | `841dd611f2b3868585fe81d1fdfe79121b1c06e6b72e50740aaefea28a7aa92f` |
 | Four-page PDF | [Short playbook PDF](/Users/macbookpro/Codex/Any/BN7-render/output/pdf/Bridge-Node-7-Public-Playbook-Short.pdf) | `4ec8cbd1ad49f2da822cbc6b8ba3a95b029ff24606262c6cd052175b008b34a7` |
-| Expansion outline | [LONG_PLAYBOOK_OUTLINE.md](LONG_PLAYBOOK_OUTLINE.md) | `8515ad3f436c9680ea852f53dcabd1600c8d81bb8a24e4c5a41a95e7d1a8ce6c` |
+| Expansion outline | [LONG_PLAYBOOK_OUTLINE.md](LONG_PLAYBOOK_OUTLINE.md) | `649c48de0b7dc4c9c866fd33648470e951c49edb56b24ec1a84fcf811de41fd9` |
 
 The [evidence register](research/EVIDENCE_REGISTER.md), revision r4, distinguishes inspected sources, repository-reported statements, fictional fixtures, editorial inference, and executed observations. **C09 records completed bounded synthetic evaluation:** baseline validation and changed-assumption comparison exited 0 at FMA commit f99dd2174c74f26b648321e02f8d30e2cff10230, source version 0.11.2; that source differs from the published release commit. [RESULT.md](research/fma-evaluation/RESULT.md), [receipt.json](research/fma-evaluation/receipt.json), and [verification.json](research/fma-evaluation/verification.json) preserve the exact commands, isolated environment, outputs, hashes, warnings, and matched expectations. Both decisions remain HOLD; expert review is flagged for reopening, without conducting it. The preserved initial capture-wrapper error was corrected in output verification; the FMA commands succeeded. The run cannot establish hardware performance, scientific validity, independent expert review, or commercial outcomes. Refresh [render-review.json](research/render-review.json) and candidate identities after any revision.
 
@@ -35,6 +35,35 @@ Bryan is the lead internal/company reviewer, with the CEO role supplied by the u
 
 The BN7 business-development/marketing owner coordinates review and records Bryan's company feedback. Technical participation does not substitute for public comprehension; investor participation does not substitute for academic review. Record each participant's actual lens. Use the PDF as the initial reading artifact and HTML for navigation/accessibility tasks; retain the reviewed file hashes. Naming a reviewer does not authorize sending material; no session or outreach has been scheduled.
 
+## Bryan's 30–45 minute review
+
+The coordinator provides the matching PDF, HTML, and this private brief after recipient/delivery authorization. Bryan reads the four-page PDF in its normal order, then uses the passage prompts below. Discuss marked or disputed passages first; record prompts not covered within the time limit as pending. Open the evidence register and FMA result only for a disputed claim or a technical question within his recorded expertise; the full V06 source review is a separate session. The longer outline is optional follow-up, not required reading for this session.
+
+| Activity | 30-minute session | 45-minute session | Capture |
+| --- | --- | --- | --- |
+| Read the PDF without explanation from the facilitator. | Minutes 0–8 | Minutes 0–10 | Actual reading time and phrases marked for return. |
+| Give an unaided account of BN7's purpose, the changed-assumption example, and the evidence limits. | Minutes 8–12 | Minutes 10–15 | Bryan's own words; distinguish internal understanding from observations of new readers. |
+| Discuss passage-specific company and technical questions. | Minutes 12–23 | Minutes 15–30 | Corrections, evidence references, and claims outside his review scope. |
+| Prioritize required fixes and assess the proposed engagement wording. | Minutes 23–27 | Minutes 30–40 | Company wording accepted or requiring changes; no inferred approval from silence. |
+| Record scope, owners, missing inputs, and next review. | Minutes 27–30 | Minutes 40–45 | Explicit disposition for each material finding and specialist/reader assignments still needed. |
+
+Use exact manuscript section headings and claim IDs as passage references. They remain identifiable across Markdown, PDF, and HTML; page numbers alone are insufficient after regeneration. The evidence register remains the authority for citations and limits.
+
+| Passage and claim reference | Question for Bryan | Evidence or decision needed |
+| --- | --- | --- |
+| **Evidence to trusted capability** — C01–C02 | Does “develops evidence-to-decision infrastructure” describe the company's current work accurately? Which phrase, if any, implies an offered capability beyond what BN7 can support today? | Company wording decision; supporting record for any stronger assertion. |
+| **Begin with a question, then follow the evidence** — C04 | Does the three-reports story explain why source tracing changes the next question without suggesting that a real breakthrough was disproved? | Identify the confusing phrase; preserve the fictional-case boundary. |
+| **How the work connects** — C03, C19 | Do the six responsibilities and three term definitions describe the portfolio accurately? Could a reader mistake the common pattern for an already deployed integration of every repository? | Review within actual architecture expertise; route any compatibility assertion to qualified source review. |
+| **When an assumption changes**, initial HOLD paragraph and change table — C06–C09 | Is it clear that HOLD precedes the changed assumption, the run checked supplied synthetic records, and PASS included provenance warnings? Do the four table rows agree with the retained comparison results? | Inspect C09 and RESULT.md if disputed; record the technical scope actually assessed. |
+| **When an assumption changes**, final expert/human paragraph — C08–C09 | Does “expert review needs reconsideration” describe a reopening signal without implying that a new review, replacement estimate, or approval occurred? | Correction if necessary; a qualified reviewer for technical claims beyond Bryan's expertise. |
+| **A materials pathway makes the boundary visible** — C10–C11 | Is the dated Gallium snapshot clearly separated from present supply conditions and supplier qualification? Does it explain the unresolved link without overstating maturity? | Refer scope disputes to a materials/domain reviewer; do not silently refresh the historical snapshot. |
+| **Explore the public portfolio** — C12–C15, C17–C19 | Do the entry-point descriptions match what readers can inspect, and does research coverage avoid implying partnerships? | Exact repository/source reference for a disputed capability; company evidence for any proposed affiliation claim. |
+| **A useful route for every reader**, investor paragraph — C20 | Does the passage support initial technical diligence while making the missing commercial evidence understandable? What question would a prospective partner reasonably ask next? | Company-approved facts only if adding a claim; external partner/investor response remains P05. |
+| **Read the results within their scope** — C05, C14, C19 | Can a reader distinguish a matching digital fingerprint, a passing check, scientific validity, qualification, and human authority? Are evaluation/use boundaries accurately presented? | Source-based technical corrections within scope; reader comprehension still requires P04. |
+| **Learn more or begin a conversation** and source note — C20, C09 | Are the published services, contact route, non-confidential introduction, and source/release distinction appropriate for this public edition? | Explicit company wording decision; no claim that contact delivery was tested or a service transaction is available. |
+
+At the end, record separate outcomes: **company/editorial wording**, **technical claims reviewed with stated expertise**, **claims referred for domain review**, and **reader/accessibility work still pending**. Use “reviewed within the recorded scope,” “requires revision,” or “outside my scope” as explicit responses. Company acceptance does not establish scientific validity, independent expert review, external audience comprehension, assistive-technology usability, or permission to publish. Actual release authorization remains U05.
+
 ## Review questions and scope
 
 Begin with the reader's unaided explanation. Avoid teaching the intended answer before capturing their response. Preserve confusing phrases verbatim with their locations.
@@ -51,13 +80,55 @@ Ask every reader:
 
 The facilitator's interpretation guide is: BN7 organizes an inspectable evidence/decision basis; repetition is not independent corroboration; the quantum baseline already holds; changed conditions flag dependent review for reopening; GA-001 is dated and leaves qualification unknown; a software pass does not authorize a human action or prove customer outcomes. Record misunderstanding as feedback, without treating agreement with this guide as expert signoff.
 
-The technical reviewer additionally checks C01–C14 and C19–C20 against the actual wording, especially baseline HOLD, stale reused estimates, declared applicability limits, expert-review reopening, human authority, and source-versus-release identity. Review FMA's evaluation terms and each other repository's own license without inferring uniform operational rights. Report exact citations for disputed wording; assess only the included claims, not every repository's scientific or operational validity.
+The technical reviewer additionally checks the included wording against C01–C15 and C17–C20, especially baseline HOLD, stale reused estimates, declared applicability limits, expert-review reopening, human authority, source-versus-release identity, and the bounded ACA, quantum-readiness, and Pax Silica portfolio descriptions. C16's separate synthetic ACA case is not included in this manuscript and needs review only if introduced later. Review FMA's evaluation terms and each other repository's own license without inferring uniform operational rights. Report exact citations for disputed wording; assess only the included claims, not every repository's scientific or operational validity.
 
 The academic reader identifies one usable teaching/research question, locates the exact source revision, and explains reproduction versus validity. The partner/investor reader names one bounded evaluation question, the business evidence still needed, and the published non-confidential engagement route. The longer outline is optional background after the short reading; ask which one or two chapters deserve expansion first.
+
+## Observable reader and accessibility tasks
+
+After the unaided questions, use the tasks below without supplying the intended answer or navigating for the participant. Record the chosen path, success or barrier, assistance given, and exact passage. These are qualitative observations; no success rate or population claim follows from a small set of sessions.
+
+| Reviewer | Concrete task | Record |
+| --- | --- | --- |
+| Public reader — P04 | Explain the initial and changed FMA situation in their own words. In HTML, follow one example link of their choice and identify one unknown and the evidence that could address it. | Their explanation, fictional/synthetic/date distinctions, chosen source, assistance, and confusing text. |
+| Academic reader — P04 | Select one teaching/research question. Follow a pinned source from the manuscript, identify its commit and example, and explain what repeating the described check could establish and what it could not. | Proposed use, citation information found, reuse question, and reproduction/validity distinction. |
+| Partner/investor reader — P05 | Choose a consequential evaluation question, identify which public example helps, list the additional technical or business evidence needed, and locate a non-confidential next step. Stop before sending an inquiry. | Actual partner or investment lens, diligence gaps, next step found, and misleading expectations. |
+
+For P07, a named reviewer uses their actual screen reader and PDF reader. Record software/versions, device, input method, file identity, and reviewed scope before testing. If a function is unavailable in that reader, record that limitation and the untested task; do not call it a pass.
+
+1. In HTML, use the skip link and heading navigation to reach **When an assumption changes**, then **Learn more or begin a conversation**. Check whether focus and announced context support finding the content.
+2. Read the four-row changed-assumption table and the portfolio table using table navigation. Record whether headers and cell relationships are announced understandably.
+3. Navigate source links and the contact link. Record whether link names describe their destination and whether keyboard focus remains usable. Stop before sending an inquiry.
+4. In PDF, read from the title through the source note, using the reader's available heading/link/table navigation. Check reading order, emphasis, the six-step sequence, both tables, and link destinations. Record skipped, repeated, or misordered text precisely.
+5. Record format-specific barriers and any usable alternative. A usable HTML copy does not resolve an inaccessible primary PDF; affected-format fixes and repeat observations remain required before launch.
 
 ## Feedback capture and revision
 
 Keep feedback privately with the project evidence. Capture: session date; participant name/role/expertise and relationship; artifact path/hash; device/format; reading time; question responses; exact confusing text/location; observed navigation success or failure; factual/source objection and citation; requested expansion; severity; proposed revision; owner disposition and rationale; revised artifact identity; and reviewer confirmation of material fixes. Record only information needed for review, with participant permission for any attributable quotation used publicly.
+
+Use this blank record in the same private review workspace. No fields below represent completed feedback. Assign a finding ID at capture; leave missing assignments explicitly **Unassigned** and dependencies **Not supplied** until received. Reference the existing TODO ID instead of creating another task register.
+
+| Session field | Blank response |
+| --- | --- |
+| Date; participant; company relationship | Not recorded |
+| Role, relevant expertise, and exact review scope | Not recorded |
+| Reviewed file/path and SHA-256 | Not recorded |
+| Format, device, browser/PDF reader/assistive technology and versions | Not recorded |
+| Reading time; unaided responses; tasks attempted and assistance | Not recorded |
+
+| Finding field | Blank response |
+| --- | --- |
+| Finding ID; relevant TODO ID | Not assigned |
+| Section/claim ID; exact passage or navigation action | Not recorded |
+| Correction/question; observed effect; proposed wording if offered | Not recorded |
+| Supporting evidence, source revision, or reader observation | Not supplied |
+| Severity and required review scope | Not assessed |
+| Decision/disposition and rationale | Pending |
+| Responsible owner | Unassigned |
+| Unresolved dependency; person/input needed; next action | Not supplied |
+| Revision identity; affected check/review result; confirmation by qualified reviewer | Not recorded |
+
+Do not treat a blank answer as acceptance. Record a declined or outside-scope review explicitly. For unaided reader responses, retain the original observation before facilitator clarification; for a source objection, request the precise evidence rather than replacing it with an unsupported correction.
 
 Resolve issues in this order:
 

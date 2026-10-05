@@ -66,6 +66,42 @@ Prepare the primary PDF and self-contained HTML reading copy from the same canon
 
 No destination, upload, public metadata, or outreach is approved by selecting a format or naming a reviewer. Distribution preparation remains U01–U05 in TODO.md.
 
+## Publication handoff preparation
+
+This is the private, destination-independent handoff for U02. It supplies proposed listing copy and the information a publisher needs; it is not a public listing or a completed launch check. The exact review candidate and artifact hashes are recorded in [REVIEW_BRIEF.md](REVIEW_BRIEF.md#candidate-identity). Do not substitute a newer candidate without updating that record and obtaining the relevant review.
+
+| Field | Prepared value or required decision |
+| --- | --- |
+| Display title | **Bridge Node 7 — Evidence to trusted capability**; derived from the manuscript title and subtitle. Proposed for the distribution listing. |
+| Short description | **A public introduction to Bridge Node 7's evidence, assurance, and accountable decision methods.** Matches the current HTML description; approve as part of the final listing copy. |
+| Language and formats | English; primary four-page Letter PDF, with a self-contained HTML reading copy from the same manuscript. |
+| Audience | Curious public readers, researchers and academia, technical teams, prospective partners, and institutional/investor reviewers. |
+| Present status | Editorial review draft. October 4, 2026 is the source-review/draft date; the public publication date is pending. The current render retains draft labels. |
+| Attribution | The manuscript identifies Bridge Node 7. Individual authors, team biographies, legal-entity wording, and a playbook-wide license are not supplied. Do not infer them from repository ownership or add them to the listing. Existing repository-specific use boundaries remain in the manuscript. |
+| Files to select | Primary PDF, `index.html`, optional `PUBLIC_PLAYBOOK.md`, and the public `manifest.json` from the approved candidate archive. The candidate ZIP contains those four files. Select actual downloadable formats before approving the handoff; no private working document or research record is included. |
+| Edition identity | Record the approved manuscript SHA-256 and exact published file hashes from the candidate manifest. A draft renderer/package version is not a published playbook edition number. |
+| Public route | Stable entry reference, versioned file location, HTML rendering/download behavior, and publisher remain pending under U01. Keep the stable entry useful when a later approved edition replaces the current edition. |
+| Public contact and corrections | The manuscript points to the existing published inquiry route. The correction recipient, public wording, and ongoing responsibility need confirmation under M01/U03 before presenting that route as accepting playbook corrections. |
+
+For U03–U05, prepare a release decision that binds the approved listing copy, manuscript and generated file identities, actual destination, selected formats, publisher, correction route, and review results. Record factual approval, technical scope, reader/accessibility findings, and public-release authorization separately. A proposed destination or a named reviewer does not supply the other decisions. The owner may revise the title/description without changing the manuscript; any manuscript or rendering change requires updated identities and the relevant checks.
+
+Use this private release record once actual decisions are supplied; none have been inferred:
+
+```text
+Approved title/description, attribution, and public reuse wording: Pending
+Approved manuscript and selected artifact SHA-256 identities: Pending
+Edition identifier, publication date, and source-review cutoff: Pending
+Public entry reference, versioned file locations, and access behavior: Pending
+Publisher and correction recipient/route: Pending
+Review records, resolved findings, and remaining disclosed limits: Pending
+Exact-content/destination release authorization, approver, and date: Pending
+Actual publication URLs/date and served-file verification result: Not published
+```
+
+The final production pass must address the existing review-draft labels in the manuscript, HTML title/header/footer, PDF footer, and package manifest. Replace them only after the owner approves release wording. Regenerate both formats and a distinct archive, then inspect the affected pages and verify the links and artifact binding. Preserve the reviewed draft; an approved manuscript and an approved release package must refer to the same bytes. These release changes belong to U04, not to this preparation milestone.
+
+The selected publisher needs to establish whether the destination serves HTML or downloads it, how a PDF is opened/downloaded, and whether public readers can access both without an account. After authorized publication, U07 verifies the actual unsigned-in entry/download routes, file bytes against the approved manifest, HTML navigation and source references, displayed status/date/edition, and correction route. Record the actual URLs, verification date, browser, hashes, and failures; do not infer successful access from an upload response. Retain an attributable prior edition and update the stable entry only through the approved revision process.
+
 ## Continuous improvement and revision handling
 
 Prepare maintenance before launch. TODO.md owns task status; this section defines the working method and references the feedback capture and severity rules in REVIEW_BRIEF.md.
@@ -77,6 +113,8 @@ Prepare maintenance before launch. TODO.md owns task status; this section define
 | Technical reviewer/source custodian | Assess affected claims, source revisions, example behavior, evidence limits, citations, and terms. Bryan may review within his relevant expertise; additional domain assignment is needed only where the reviewed claims require it. No independent signoff is inferred from his title. |
 | Production and distribution owner | Codex prepares and verifies private candidates; the responsible public publisher remains to be selected. The approved publisher maintains the public route and released artifact identity. |
 | Reader and accessibility reviewers | Record actual public, academic, partner/investor, and assistive-technology perspectives. Internal review does not establish representative audience or accessibility feedback. |
+
+Under M01, record actual acceptance for each ongoing role before launch. Naming Bryan for this candidate's review does not assign ongoing source maintenance or public publishing. Use a role acceptance record with: role from the table; named assignee; acceptance date; covered claims/files or publication route; correction intake and escalation recipient; and any gap requiring another owner. Names and acceptance dates remain pending until supplied. Reader sessions are recorded in REVIEW_BRIEF.md; this record concerns responsibility for maintaining the publication.
 
 A revision starts when evidence relevant to a claim changes, a cited example/validator/citation/license changes materially, a link fails, a dated analysis needs new evidence, approved company facts change, or a reader reports a material misunderstanding or access barrier. A new upstream commit by itself does not replace pinned sources. Assess its relevance before revising an edition.
 

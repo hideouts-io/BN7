@@ -173,7 +173,7 @@
     "limits": "Synthetic declared-contract behavior only. No quantum estimator execution, hardware validation, independent scientific validation, operational deployment, or consequential decision authority was established."
   },
   "github_repository": {
-    "status": "private repository with pushed initial review milestone",
+    "status": "Private repository with prior validated milestones pushed; current preparation milestone pending commit/push",
     "full_name": "hideouts-io/BN7",
     "url": "https://github.com/hideouts-io/BN7",
     "private": true,
@@ -182,9 +182,9 @@
     "owner_selected_by_user": true,
     "upstream_research_account": "Bridge-Node-7",
     "verified_date": "2026-10-04",
-    "remote_content": "Initial review milestone pushed; active branch verified at recorded pre-milestone commit. Subsequent private milestones use standing authorization.",
+    "remote_content": "Prepared playbook and separate business-development milestones pushed; active branch verified at the recorded pre-milestone commit. Subsequent private milestones use standing authorization.",
     "active_branch": "codex/public-playbook",
-    "verified_commit_before_current_milestone": "f116fc8ff63a608eb9862330a3c3c1c642fe01f8"
+    "verified_commit_before_current_milestone": "bbf8c10759a7d963525a08ec138efaff25969471"
   },
   "publication": {
     "status": "review candidate; not published",
@@ -201,7 +201,9 @@
     "current_archive": "/Users/macbookpro/Codex/Any/BN7-render/output/package/revisions/2143be65c720-4ec8cbd1ad49/Bridge-Node-7-Public-Playbook-Review.zip",
     "public_uploads": 0,
     "public_release_authorized": false,
-    "private_milestone_commit_push_authorized": true
+    "private_milestone_commit_push_authorized": true,
+    "handoff": "PLAYBOOK_WORKPLAN.md#publication-handoff-preparation",
+    "metadata_status": "Proposed title/description and release record prepared privately; final attribution/reuse wording, edition/date, destination/publisher and authorization pending"
   },
   "human_review": {
     "brief": "REVIEW_BRIEF.md",
@@ -212,7 +214,15 @@
     "outreach_performed": false,
     "lead_reviewer": "Bryan Lachica",
     "role_source": "User supplied CEO role and selected reviewer",
-    "review_received": false
+    "review_received": false,
+    "timed_lead_session_prepared": "30-minute and 45-minute agendas with ten passage/claim prompts",
+    "audience_tasks_prepared": [
+      "Public reader explanation and source navigation",
+      "Academic research/citation and reproduction-scope task",
+      "Prospective partner/investor diligence and next-step task"
+    ],
+    "assistive_technology_tasks_prepared": 5,
+    "feedback_capture": "Blank session/finding records with explicit owners, disposition, evidence and unresolved dependency; no feedback received"
   },
   "renderer_validation": {
     "native_node_syntax_checks": "passed",
@@ -253,9 +263,10 @@
     "tasks": 69,
     "completed_in_stated_scope": 48,
     "in_progress": 5,
-    "open": 15,
-    "excluded_by_user": 1,
-    "waiting_for_owner": 0
+    "open": 9,
+    "waiting": 6,
+    "excluded": 1,
+    "scope": "Public-playbook task IDs only; separate concurrent BD preparation tasks excluded from this milestone"
   },
   "stylesheet_sha256": "3abe1183b2a537ee5e873e8dd89b791e3570e5baa8de23fd79bf51b7267cd7ba",
   "maintenance": {
@@ -270,7 +281,9 @@
       "reader comprehension or access barrier"
     ],
     "automatic_schedule_created": false,
-    "ongoing_roles_assignment": "Partially assigned; TODO M01 remains in progress"
+    "ongoing_roles_assignment": "Partially assigned; TODO M01 remains in progress",
+    "role_acceptance_record_prepared": true,
+    "short_long_navigation": "LONG_PLAYBOOK_OUTLINE.md#shared-content-navigation"
   },
   "packaging_validation": {
     "integration_result": "research/package-evaluation/integration-result.json",
@@ -290,5 +303,35 @@
     "previous_archive_preserved": true,
     "determinism_scope": "Identical input bytes; fresh browser PDF exports may differ.",
     "no_dependencies_installed": true
+  },
+  "preparation_review": {
+    "verified_at_utc": "2026-10-05T00:24:39.415097+00:00",
+    "scope": "Private review/metadata/maintenance/outline preparation; no public manuscript, stylesheet, renderer or generated artifact changes",
+    "documents": [
+      {
+        "file": "REVIEW_BRIEF.md",
+        "sha256": "3e5663a69b66b7704dd3d933e5ba3d832f1a7c9781349bd03bbfccdc2bda7d1b"
+      },
+      {
+        "file": "PLAYBOOK_WORKPLAN.md",
+        "sha256": "27b2761e40cc238ebf534adbb1df423f0af0a982cc074e8be2fbcfb66385e36b"
+      },
+      {
+        "file": "LONG_PLAYBOOK_OUTLINE.md",
+        "sha256": "649c48de0b7dc4c9c866fd33648470e951c49edb56b24ec1a84fcf811de41fd9"
+      }
+    ],
+    "model_source_coherence_review": "No material correction to current public manuscript identified against the existing claim register and retained runtime scope",
+    "human_feedback_received": false,
+    "outreach_or_publication_performed": false,
+    "unrelated_work_preserved": "Concurrent business-development edits in README.md, BUSINESS_DEVELOPMENT_BRIEF.md, FIRST_CONVERSATION_KIT.md and separate TODO paragraph/section remain outside this milestone",
+    "verification": {
+      "identity_and_preservation_checks_passed": 13,
+      "local_file_and_fragment_references_checked": 22,
+      "independent_model_review": "No material blockers in review scope, handoff, claim routing, or pending-input task states",
+      "public_manuscript_stylesheet_renderers_unchanged_from_head": true,
+      "artifact_regeneration_needed": false,
+      "checks_scope": "Private documentation changes and candidate identity; prior passing browser, PDF and synthetic execution checks were not repeated"
+    }
   }
 }
