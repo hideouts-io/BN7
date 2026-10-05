@@ -3,7 +3,7 @@
   "prepared_at_utc": "2026-10-05T01:00:41.344684+00:00",
   "repository": "hideouts-io/BN7",
   "branch": "codex/public-playbook",
-  "status": "Disclosure review passed; questionnaire/access milestone prepared; visibility and anonymous access verification pending",
+  "status": "Repository made public under explicit authorization; anonymous repository/questionnaire/manuscript access verified; playbook remains a review draft",
   "authorization": {
     "source": "Current explicit user request",
     "scope": "Commit/push intended questionnaire/access preparation, make BN7 public after disclosure review, verify public repository/questionnaire/manuscript links, and draft an email for the user to send",
@@ -80,7 +80,10 @@
       "BUSINESS_DEVELOPMENT_BRIEF.md working edits",
       "README.md business-conversation row",
       "TODO.md business-development paragraph/section",
-      "FIRST_CONVERSATION_KIT.md"
+      "FIRST_CONVERSATION_KIT.md",
+      "ACTIVITY_TRACKER.csv",
+      "OUTREACH_DRAFTS.md",
+      "research/BD_CANDIDATES.md"
     ],
     "historical_baselines_and_captures_preserved": true,
     "environments_caches_and_generated_outputs_ignored": true
@@ -94,12 +97,66 @@
     "actual_answers_received": false
   },
   "public_access": {
-    "status": "Pending visibility change and anonymous GET checks",
-    "visibility_change_performed": false,
-    "checks": []
+    "status": "Passed",
+    "visibility_change_performed": true,
+    "verified_at_utc": "2026-10-05T01:04:52.630840+00:00",
+    "verified_published_commit": "2621710cac9619b91f4d3b427a237b942f8d554b",
+    "private": false,
+    "visibility": "public",
+    "authentication": "No Authorization header, cookies, GitHub CLI session, or user login used for these GETs",
+    "checks": [
+      {
+        "url": "https://github.com/hideouts-io/BN7",
+        "http_status": 200,
+        "final_url": "https://github.com/hideouts-io/BN7",
+        "response_bytes": 280717,
+        "response_sha256": "4f869a589ca76b8c4dab0a2b04f26f5974b69d740c5daf02f6c31db262b6d09d",
+        "result": "Anonymous repository page with intended README"
+      },
+      {
+        "url": "https://github.com/hideouts-io/BN7/blob/codex/public-playbook/REVIEW_BRIEF.md#questions-for-bryan",
+        "http_status": 200,
+        "final_url": "https://github.com/hideouts-io/BN7/blob/codex/public-playbook/REVIEW_BRIEF.md#questions-for-bryan",
+        "response_bytes": 344481,
+        "response_sha256": "3d0bcd34513c71e297cfa3a06d5070565e300681cc27ac89a585d9ce7de9e04b",
+        "result": "Anonymous questionnaire page with rendered questions-for-bryan anchor"
+      },
+      {
+        "url": "https://github.com/hideouts-io/BN7/blob/codex/public-playbook/PUBLIC_PLAYBOOK.md",
+        "http_status": 200,
+        "final_url": "https://github.com/hideouts-io/BN7/blob/codex/public-playbook/PUBLIC_PLAYBOOK.md",
+        "response_bytes": 302358,
+        "response_sha256": "542dc9a847cea50a2ec05296934eca144e71140138f9b60889b05b4d7564cf36",
+        "result": "Anonymous manuscript page with review-draft content"
+      },
+      {
+        "url": "https://api.github.com/repos/hideouts-io/BN7",
+        "http_status": 200,
+        "final_url": "https://api.github.com/repos/hideouts-io/BN7",
+        "response_bytes": 5067,
+        "response_sha256": "e7f12f0a1c1b90beb6222bd42207b2bfda6a5297c7ff4bdb509a47196e2432bb",
+        "result": "Anonymous GitHub API confirms private=false and visibility=public"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/hideouts-io/BN7/codex/public-playbook/REVIEW_BRIEF.md",
+        "http_status": 200,
+        "final_url": "https://raw.githubusercontent.com/hideouts-io/BN7/codex/public-playbook/REVIEW_BRIEF.md",
+        "response_bytes": 24402,
+        "response_sha256": "0bc085bcbedc1815db7640dce711badb8b5ca270527fb28bf36a35860de91b8c",
+        "result": "Anonymous raw file bytes match committed REVIEW_BRIEF.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/hideouts-io/BN7/codex/public-playbook/PUBLIC_PLAYBOOK.md",
+        "http_status": 200,
+        "final_url": "https://raw.githubusercontent.com/hideouts-io/BN7/codex/public-playbook/PUBLIC_PLAYBOOK.md",
+        "response_bytes": 12711,
+        "response_sha256": "2143be65c72098b3529d048aded83e1d9fee830346a8363aff9025c00d990dd7",
+        "result": "Anonymous raw file bytes match committed PUBLIC_PLAYBOOK.md"
+      }
+    ]
   },
   "email": {
-    "status": "Draft to be prepared after link verification",
+    "status": "Professional draft prepared locally for the user to send",
     "sent": false
   },
   "limitations": [

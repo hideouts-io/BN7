@@ -1,6 +1,6 @@
 # BN7 public playbook TODO
 
-**Current state: eight bounded repository studies and nine-page website review complete; 1,492-word short manuscript and local PDF/HTML/archive candidates prepared. Bryan's linked questionnaire and detailed review scope are ready. The user authorizes publishing the repository review workspace after tracked-file/history disclosure review, with intended changes committed/pushed on codex/public-playbook. The playbook remains an editorial review draft; actual human feedback, final-format distribution, and final-edition decisions remain pending. Website changes and email sending are excluded. Repository visibility/access results are recorded in research/repository-publication-review.json. Updated October 4, 2026.**
+**Current state: hideouts-io/BN7 is public under explicit user authorization; repository, Bryan questionnaire/anchor, and manuscript passed anonymous access checks. Eight bounded repository studies and nine-page website review are complete; the 1,492-word short manuscript and local PDF/HTML/archive candidates remain editorial review drafts. Actual human feedback, final-format distribution, and final-edition decisions remain pending. Website changes and email sending are excluded. A professional email draft is prepared for the user to send. Disclosure and access results are recorded in research/repository-publication-review.json. Updated October 4, 2026.**
 
 This is the single task register for the project. [PUBLIC_PLAYBOOK.md](PUBLIC_PLAYBOOK.md) is the short public manuscript; [LONG_PLAYBOOK_OUTLINE.md](LONG_PLAYBOOK_OUTLINE.md) defines the longer edition. [PLAYBOOK_WORKPLAN.md](PLAYBOOK_WORKPLAN.md) holds editorial choices; the research folder holds evidence and source studies.
 
@@ -10,7 +10,7 @@ Checked tasks are complete only within the stated scope. **In progress** means w
 
 | ID | Decision | Current state |
 | --- | --- | --- |
-| D1 | Repository owner and draft access | Confirmed owner: [hideouts-io/BN7](https://github.com/hideouts-io/BN7). User explicitly authorizes making the tracked review workspace public after disclosure review; A08 records actual verification. Bridge-Node-7 remains the upstream research source. |
+| D1 | Repository owner and draft access | Confirmed owner: [hideouts-io/BN7](https://github.com/hideouts-io/BN7). Repository is public after explicitly authorized disclosure review and anonymous access verification under A08. Bridge-Node-7 remains the upstream research source. |
 | D2 | Short-edition narrative | Confirmed by user: keep evidence-to-decisions, using the source-tracing story, changed-assumption example, and Gallium sidebar. |
 | D3 | Lead example | FMA's synthetic changed-assumption example is retained within the confirmed narrative, with the dated Gallium sidebar. Source/runtime review passed; Bryan reviews the exact candidate wording. |
 | D4 | Voice and visual treatment | Proposed: approachable technical prose, restrained diagrams, clear source links. Awaiting review of a concrete draft. |
@@ -30,7 +30,7 @@ Checked tasks are complete only within the stated scope. **In progress** means w
 | [x] A05 | Create BN7 and connect the local checkout. | Initially created and verified private; origin points to its HTTPS clone URL. The later explicitly authorized public transition is recorded under A08, without rewriting earlier captures. | A04. | Codex |
 | [x] A06 | Define a small working file layout. | One manuscript per edition, one TODO, one editorial brief, evidence records, generated deliverables; clones excluded from BN7 tracking. Local render snapshot uses the same authored manuscript. | A02. | Codex |
 | [x] A07 | Confirm review-state preservation. | Intended review milestones preserved; originals and historical captures remain. Unrelated business-development edits are excluded from this publication milestone; no history rewrite or unique-work deletion. Final-edition approval remains pending. | A02, A05–A06; current staging scope verified. | Codex |
-| In progress A08 | Publish and verify repository draft access. | Inspect tracked files/reachable history and repository surfaces; publish the questionnaire/access milestone, change visibility under explicit authorization, and verify repository/questionnaire/manuscript without authentication. Record checks in research/repository-publication-review.json; no email sent. | Current explicit request; disclosure review before visibility change. | Codex |
+| [x] A08 | Publish and verify repository draft access. | Four reachable commits/100 unique blobs and the complete Actions log archive reviewed without an actual disclosure blocker. Intended questionnaire/access preparation pushed; visibility changed to public. Six anonymous GET checks passed, including rendered questionnaire anchor and raw manuscript/brief byte matching. Evidence in research/repository-publication-review.json; email draft prepared, no email sent. | Current explicit request; disclosure review completed before visibility change. | Codex |
 
 ## 2. Inventory and source acquisition
 
