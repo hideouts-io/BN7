@@ -1,0 +1,97 @@
+{
+  "input": "/Users/macbookpro/Codex/Any/BN7-render/output/web/index.html",
+  "keyboardSkip": "passed",
+  "reducedMotion": "passed",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "horizontalOverflow": 0,
+      "brokenFragments": [],
+      "remoteResources": []
+    },
+    {
+      "viewport": "mobile",
+      "horizontalOverflow": 0,
+      "brokenFragments": [],
+      "remoteResources": []
+    },
+    {
+      "viewport": "reflow",
+      "horizontalOverflow": 0,
+      "brokenFragments": [],
+      "remoteResources": []
+    }
+  ],
+  "textContrast": [
+    {
+      "foreground": "rgb(7, 86, 107)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 8.227366954343026
+    },
+    {
+      "foreground": "rgb(23, 43, 67)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 14.353753181960426
+    },
+    {
+      "foreground": "rgb(75, 96, 117)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 6.503177947358163
+    },
+    {
+      "foreground": "rgb(75, 96, 117)",
+      "background": "rgb(247, 249, 251)",
+      "ratio": 6.16195032072144
+    },
+    {
+      "foreground": "rgb(23, 43, 67)",
+      "background": "rgb(247, 249, 251)",
+      "ratio": 13.600598774798712
+    },
+    {
+      "foreground": "rgb(11, 104, 116)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 6.468412608072062
+    },
+    {
+      "foreground": "rgb(23, 43, 67)",
+      "background": "rgb(243, 247, 249)",
+      "ratio": 13.316970412696234
+    },
+    {
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(23, 43, 67)",
+      "ratio": 14.353753181960426
+    },
+    {
+      "foreground": "rgb(23, 43, 67)",
+      "background": "rgb(245, 248, 250)",
+      "ratio": 13.458271494152436
+    },
+    {
+      "foreground": "rgb(7, 86, 107)",
+      "background": "rgb(245, 248, 250)",
+      "ratio": 7.714089600810845
+    }
+  ],
+  "focusOutline": {
+    "style": "solid",
+    "width": 3,
+    "color": "rgb(189, 98, 24)",
+    "background": "rgb(255, 255, 255)",
+    "ratio": 4.2648028649440395
+  },
+  "tableStructure": [
+    {
+      "rows": 4,
+      "columns": 2,
+      "headers": 1
+    },
+    {
+      "rows": 7,
+      "columns": 2,
+      "headers": 1
+    }
+  ],
+  "scope": "Local Chromium integration checks; named human and assistive-technology reviews remain open."
+}

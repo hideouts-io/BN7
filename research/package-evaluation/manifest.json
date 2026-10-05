@@ -1,0 +1,147 @@
+[
+  {
+    "file": "build.stderr.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "build.stdout.txt",
+    "bytes": 356,
+    "sha256": "5c5208033770e33df0d24aa64ae8e6a2deea5bd45ddc122ed79af1455dffdef0"
+  },
+  {
+    "file": "export-rejects-stale-source.stderr.txt",
+    "bytes": 845,
+    "sha256": "c37ff5bdc0834724e3cf8c69a6476d84eb1e0dcf162c0806acfbe9aa82e11530"
+  },
+  {
+    "file": "export-rejects-stale-source.stdout.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "final-browser-checks.json",
+    "bytes": 2282,
+    "sha256": "66807d927a22d22ebfdf345a5dd2fa7e39785938242762d0c91326cd547298af"
+  },
+  {
+    "file": "final-pdf-reference-checks.json",
+    "bytes": 365,
+    "sha256": "0280593efc9762eb8236fb02dbbffb9c7d5f1ba428952ac5f7a442a46dd48e72"
+  },
+  {
+    "file": "final-pdf-source.json",
+    "bytes": 671,
+    "sha256": "8fcae77942b76ae5253634831dc2bc59b29a552c474dc56c6a8d4141a2466cd3"
+  },
+  {
+    "file": "final-web-source.json",
+    "bytes": 418,
+    "sha256": "8c6326820a6dd88d046cee5dce68ebc4185e7b46f1875c74594bbc62cc0cbf0d"
+  },
+  {
+    "file": "integration-result.json",
+    "bytes": 9240,
+    "sha256": "c6c277ac811cb579f5e14a8fedc81061269cc4ad347b9519d3827c1468d21532"
+  },
+  {
+    "file": "package-current.stderr.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "package-current.stdout.txt",
+    "bytes": 362,
+    "sha256": "2b8a0da299ecdbdcaee4d8240a28230b6f6f3bfb0f6c086649f77e2818f21de7"
+  },
+  {
+    "file": "package-identical-reuse.stderr.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "package-identical-reuse.stdout.txt",
+    "bytes": 361,
+    "sha256": "e03ec8030a7a0a146b4655ff6db9212d248283d8a9adc8248fd0168b677ea52e"
+  },
+  {
+    "file": "package-repeat-new-path.stderr.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "package-repeat-new-path.stdout.txt",
+    "bytes": 362,
+    "sha256": "ac58a05ab62566ec68a0d460b3e1954b3974eeb00a40f908de5b126c5dc7a9ef"
+  },
+  {
+    "file": "pdf-export.stderr.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "pdf-export.stdout.txt",
+    "bytes": 535,
+    "sha256": "12f643afda7f663be2885fff3d1d8037f0d3ddce1c7667b7e26825dafa0cf49b"
+  },
+  {
+    "file": "reject-altered-html.stderr.txt",
+    "bytes": 1087,
+    "sha256": "b99deaef6ff4cac7cedc38f569248706edb68f0b7055f26ceec7c7b965e3f5f9"
+  },
+  {
+    "file": "reject-altered-html.stdout.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "reject-altered-pdf.stderr.txt",
+    "bytes": 1088,
+    "sha256": "835888a4a06c29688c2ba392d2308823ffc3b369c6d2dd5afc568eb060a937fe"
+  },
+  {
+    "file": "reject-altered-pdf.stdout.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "reject-altered-stylesheet.stderr.txt",
+    "bytes": 1132,
+    "sha256": "adaeef01ddc34635c93e8731bcf9de3fd1780870797c4f0dbb4d1e9321960e87"
+  },
+  {
+    "file": "reject-altered-stylesheet.stdout.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "reject-distinct-existing-archive.stderr.txt",
+    "bytes": 754,
+    "sha256": "a87398cc6c6f3ed049c1be0253ce0390a387d0215c2f9f0c20e54ccb5b042ab4"
+  },
+  {
+    "file": "reject-distinct-existing-archive.stdout.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "reject-html-pdf-binding.stderr.txt",
+    "bytes": 1092,
+    "sha256": "a637ea1273ec22aa3a7a348ddd445f02026901fea7bc9244c0b3d0feea723108"
+  },
+  {
+    "file": "reject-html-pdf-binding.stdout.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "reject-stale-manuscript.stderr.txt",
+    "bytes": 1123,
+    "sha256": "6f235fc27c3a6be2503bde722616ce062be4687eda6f1f6ebc18ac43ae343220"
+  },
+  {
+    "file": "reject-stale-manuscript.stdout.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

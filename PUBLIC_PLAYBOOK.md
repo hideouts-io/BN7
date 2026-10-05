@@ -90,7 +90,7 @@ The website also presents [neutral-atom quantum-computing intelligence](https://
 
 ## Read the results within their scope
 
-A passing software check means the exercised rules passed for the supplied records. Source tracing, artifact integrity, reproduction, scientific validity, and system qualification answer different questions. The public architecture keeps those distinctions and consequential human authority explicit. [Architecture and evidence boundaries](https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md).
+A passing software check means the exercised rules passed for the supplied records. A file can match its recorded digital fingerprint while the claim it contains still lacks support. Source tracing, artifact integrity, reproduction, scientific validity, and system qualification answer different questions. For any reported result, ask which check ran, what records and assumptions it covered, and which question remains for a qualified reviewer. The public architecture keeps those distinctions and consequential human authority explicit. [Architecture and evidence boundaries](https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md).
 
 Publicly inspectable does not mean uniformly open source. FMA is provided for evaluation and review under its [license and use terms](https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/USE_AND_EVALUATION.md); supporting repositories state their own licenses. The portfolio's public examples do not establish customer outcomes or complete operational integration.
 

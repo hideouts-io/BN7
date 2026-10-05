@@ -1,0 +1,26 @@
+{
+  "checked_at_utc": "2026-10-04T23:43:48.527044+00:00",
+  "scope": "Two added C05 supporting citations only; the public manuscript HTTPS references are unchanged from research/link-checks.json.",
+  "checks": [
+    {
+      "citation": "https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/ARCHITECTURE.md#L73-L83",
+      "source_commit": "f99dd2174c74f26b648321e02f8d30e2cff10230",
+      "local_path": "/Users/macbookpro/Codex/Any/BN7-sources/frontier-mission-assurance/docs/ARCHITECTURE.md",
+      "line_range_valid": true,
+      "raw_url": "https://raw.githubusercontent.com/Bridge-Node-7/frontier-mission-assurance/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/ARCHITECTURE.md",
+      "http_status": 200,
+      "bytes_match": true,
+      "sha256": "43a9a097a259cf8729bcbefccd091e19ab72cedb97004da62dbbd7e379d34a68"
+    },
+    {
+      "citation": "https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md#L160-L173",
+      "source_commit": "3f959138f3252b16bc69dabf178bdde83a606a3b",
+      "local_path": "/Users/macbookpro/Codex/Any/BN7-sources/Bridge-Node-7/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md",
+      "line_range_valid": true,
+      "raw_url": "https://raw.githubusercontent.com/Bridge-Node-7/Bridge-Node-7/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md",
+      "http_status": 200,
+      "bytes_match": true,
+      "sha256": "5f98e008e55a43297161136d062c81467f974377fd0f5a922e95ad38b601a03e"
+    }
+  ]
+}

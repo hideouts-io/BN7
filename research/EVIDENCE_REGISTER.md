@@ -1,6 +1,6 @@
 # Public playbook evidence register
 
-Current revision: **r3**. Review date: **2026-10-04**. These revision/date fields apply to every entry below unless an entry states otherwise. This is the current claim register; it replaces the earlier workplan's claim-matrix concept. It does not duplicate the research studies or publication TODO.
+Current revision: **r4**. Review date: **2026-10-04**. These revision/date fields apply to every entry below unless an entry states otherwise. This is the current claim register; it replaces the earlier workplan's claim-matrix concept. It does not duplicate the research studies or publication TODO.
 
 **Evidence meanings:** Observed source content means the cited files were inspected; it does not mean deployed software or real-world behavior was observed. Reported means a repository's own statement. Synthetic means fictional fixtures or declared example outcomes. Inferred means editorial synthesis with its basis stated. Tested is reserved for an executed, preserved run. Supported for drafting does not mean approved for public release.
 
@@ -48,13 +48,13 @@ The user's Bridge Node 7 role and authorization to use GitHub/website material f
 
 ## C05 — Limits of deterministic checks
 
-**Exact proposed wording:** “A clean structural or integrity check does not establish that a claim is true, that its evidence is sufficient, or that an action is authorized.”
+**Exact proposed wording:** “A passing software check means the exercised rules passed for the supplied records. A file can match its recorded digital fingerprint while the claim it contains still lacks support. Source tracing, artifact integrity, reproduction, scientific validity, and system qualification answer different questions. For any reported result, ask which check ran, what records and assumptions it covered, and which question remains for a qualified reviewer.”
 
-**Status/class:** Supported for drafting; Observed declared boundary.
+**Status/class:** Supported for drafting; Observed declared boundary, with Inferred editorial explanation and reader guidance.
 
-**Source/revision:** [FIW limitations, lines 9–35](https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/LIMITATIONS.md#L9-L35), [ACA validation boundary, lines 92–98](https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/13-assurance-intelligence/README.md#L92-L98).
+**Source/revision:** [FIW limitations, lines 9–35](https://github.com/Bridge-Node-7/frontier-intelligence-workflows/blob/36366e96c12765e14d09965c1f82330194dfa8d3/LIMITATIONS.md#L9-L35), [ACA validation boundary, lines 92–98](https://github.com/Bridge-Node-7/ai-cyber-assurance/blob/9033bf73bbd3923c5de0a9c6fb9959b4c140de64/13-assurance-intelligence/README.md#L92-L98), [FMA verification and scientific boundary, lines 73–83](https://github.com/Bridge-Node-7/frontier-mission-assurance/blob/f99dd2174c74f26b648321e02f8d30e2cff10230/docs/ARCHITECTURE.md#L73-L83), [portfolio human-authority boundary, lines 160–173](https://github.com/Bridge-Node-7/Bridge-Node-7/blob/3f959138f3252b16bc69dabf178bdde83a606a3b/docs/FRONTIER_ASSURANCE_ARCHITECTURE.md#L160-L173).
 
-**Scope/remaining proof:** Applies to named checks within declared contracts. `NO_FINDINGS` and `PASS` have distinct meanings. Do not collapse them into “verified.” Final examples must name their exact check and result scope.
+**Scope/remaining proof:** Applies to named checks within declared contracts. The digital-fingerprint sentence is a simplified illustration of hash matching, not a new executed check or authentication claim; the reader questions are editorial guidance derived from the documented boundaries. `NO_FINDINGS` and `PASS` have distinct meanings. Do not collapse them into “verified.” Final examples must name their exact check and result scope.
 
 ## C06 — FMA preserves a decision basis
 

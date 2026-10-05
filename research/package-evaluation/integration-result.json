@@ -1,0 +1,198 @@
+{
+  "source_sha256": "2143be65c72098b3529d048aded83e1d9fee830346a8363aff9025c00d990dd7",
+  "stylesheet_sha256": "6850894285732d8a5d30c5b98b52d7126c1afd9f6efe535170444865e07ab537",
+  "html_sha256": "48b9a22f0e3c88473d2097f2d43715237db799c65aa28c7d6abff490f95ae035",
+  "pdf_sha256": "ceba77bab4d8f9e112766e2ea4d20b1d9e1cbb136bdf39ccabcd17e0b4259246",
+  "new_package_sha256": "1c70641c2a7069bf2a330973af76035d873326bc1241ec3930f7406ecd792407",
+  "new_package_bytes": 307906,
+  "old_candidate_sha256_unchanged": "e27dcc2828e30fb948c472bbb9011c14a0ca944b840f215471361e03daf011d9",
+  "new_zip_deterministic_for_identical_inputs": true,
+  "public_members_exact": true,
+  "public_manifest_contains_no_local_paths": true,
+  "raw_pdf_contains_file_uri": false,
+  "raw_pdf_contains_local_workspace_path": false,
+  "stale_manuscript_html_pdf_stylesheet_and_cross_binding_rejected": true,
+  "existing_different_zip_rejected": true,
+  "failed_validation_preserved_candidate": true,
+  "stale_export_preserved_pdf": true,
+  "steps": [
+    {
+      "name": "build",
+      "argv": [
+        "/opt/homebrew/bin/node",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render/scripts/build-playbook.mts"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "5c5208033770e33df0d24aa64ae8e6a2deea5bd45ddc122ed79af1455dffdef0",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "pdf-export",
+      "argv": [
+        "/opt/homebrew/bin/node",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render/scripts/export-playbook.mts",
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "/Users/macbookpro/Documents/ChatGPT/BN7"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "12f643afda7f663be2885fff3d1d8037f0d3ddce1c7667b7e26825dafa0cf49b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "package-current",
+      "argv": [
+        "/opt/homebrew/bin/python3.11",
+        "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py",
+        "--canonical-root",
+        "/Users/macbookpro/Documents/ChatGPT/BN7",
+        "--render-root",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render",
+        "--output",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render/output/package/review-a.zip"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "2b8a0da299ecdbdcaee4d8240a28230b6f6f3bfb0f6c086649f77e2818f21de7",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "package-identical-reuse",
+      "argv": [
+        "/opt/homebrew/bin/python3.11",
+        "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py",
+        "--canonical-root",
+        "/Users/macbookpro/Documents/ChatGPT/BN7",
+        "--render-root",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render",
+        "--output",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render/output/package/review-a.zip"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "e03ec8030a7a0a146b4655ff6db9212d248283d8a9adc8248fd0168b677ea52e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "package-repeat-new-path",
+      "argv": [
+        "/opt/homebrew/bin/python3.11",
+        "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py",
+        "--canonical-root",
+        "/Users/macbookpro/Documents/ChatGPT/BN7",
+        "--render-root",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render",
+        "--output",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render/output/package/review-b.zip"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "ac58a05ab62566ec68a0d460b3e1954b3974eeb00a40f908de5b126c5dc7a9ef",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "reject-stale-manuscript",
+      "argv": [
+        "/opt/homebrew/bin/python3.11",
+        "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py",
+        "--canonical-root",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/stale-canonical",
+        "--render-root",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render",
+        "--output",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render/output/package/review-a.zip"
+      ],
+      "exit_code": 1,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "6f235fc27c3a6be2503bde722616ce062be4687eda6f1f6ebc18ac43ae343220"
+    },
+    {
+      "name": "reject-altered-html",
+      "argv": [
+        "/opt/homebrew/bin/python3.11",
+        "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py",
+        "--canonical-root",
+        "/Users/macbookpro/Documents/ChatGPT/BN7",
+        "--render-root",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/altered-html",
+        "--output",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render/output/package/review-a.zip"
+      ],
+      "exit_code": 1,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "b99deaef6ff4cac7cedc38f569248706edb68f0b7055f26ceec7c7b965e3f5f9"
+    },
+    {
+      "name": "reject-altered-pdf",
+      "argv": [
+        "/opt/homebrew/bin/python3.11",
+        "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py",
+        "--canonical-root",
+        "/Users/macbookpro/Documents/ChatGPT/BN7",
+        "--render-root",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/altered-pdf",
+        "--output",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render/output/package/review-a.zip"
+      ],
+      "exit_code": 1,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "835888a4a06c29688c2ba392d2308823ffc3b369c6d2dd5afc568eb060a937fe"
+    },
+    {
+      "name": "reject-altered-stylesheet",
+      "argv": [
+        "/opt/homebrew/bin/python3.11",
+        "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py",
+        "--canonical-root",
+        "/Users/macbookpro/Documents/ChatGPT/BN7",
+        "--render-root",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/altered-stylesheet",
+        "--output",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render/output/package/review-a.zip"
+      ],
+      "exit_code": 1,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "adaeef01ddc34635c93e8731bcf9de3fd1780870797c4f0dbb4d1e9321960e87"
+    },
+    {
+      "name": "reject-html-pdf-binding",
+      "argv": [
+        "/opt/homebrew/bin/python3.11",
+        "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py",
+        "--canonical-root",
+        "/Users/macbookpro/Documents/ChatGPT/BN7",
+        "--render-root",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/html-new-pdf-old",
+        "--output",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render/output/package/review-a.zip"
+      ],
+      "exit_code": 1,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "a637ea1273ec22aa3a7a348ddd445f02026901fea7bc9244c0b3d0feea723108"
+    },
+    {
+      "name": "reject-distinct-existing-archive",
+      "argv": [
+        "/opt/homebrew/bin/python3.11",
+        "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py",
+        "--canonical-root",
+        "/Users/macbookpro/Documents/ChatGPT/BN7",
+        "--render-root",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render",
+        "--output",
+        "/Users/macbookpro/Codex/Any/BN7-render/output/package/Bridge-Node-7-Public-Playbook-Review.zip"
+      ],
+      "exit_code": 1,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "a87398cc6c6f3ed049c1be0253ce0390a387d0215c2f9f0c20e54ccb5b042ab4"
+    },
+    {
+      "name": "export-rejects-stale-source",
+      "argv": [
+        "/opt/homebrew/bin/node",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render/scripts/export-playbook.mts",
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/stale-canonical"
+      ],
+      "exit_code": 1,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "c37ff5bdc0834724e3cf8c69a6476d84eb1e0dcf162c0806acfbe9aa82e11530"
+    }
+  ]
+}

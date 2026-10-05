@@ -1,0 +1,10 @@
+file:///Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render/scripts/export-playbook.mts:49
+    throw new Error('The HTML source hash or render manuscript differs from the canonical manuscript; synchronize and rebuild before exporting.');
+          ^
+
+Error: The HTML source hash or render manuscript differs from the canonical manuscript; synchronize and rebuild before exporting.
+    at validateWebSource (file:///Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render/scripts/export-playbook.mts:49:11)
+    at async main (file:///Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render/scripts/export-playbook.mts:86:29)
+    at async file:///Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render/scripts/export-playbook.mts:111:1
+
+Node.js v26.10.0

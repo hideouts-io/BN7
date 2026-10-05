@@ -9,6 +9,7 @@
   "scripts": {
     "build": "node scripts/build-playbook.mts",
     "pdf": "node scripts/export-playbook.mts",
+    "package:review": "python3 scripts/package-playbook.py --canonical-root . --render-root . --output output/package/Bridge-Node-7-Public-Playbook-Review.zip",
     "verify": "node scripts/verify-preview.mts",
     "check": "node --check scripts/build-playbook.mts && node --check scripts/export-playbook.mts && node --check scripts/verify-preview.mts"
   },

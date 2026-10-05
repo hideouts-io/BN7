@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py", line 191, in <module>
+    main()
+  File "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py", line 184, in main
+    members = verified_members(canonical_root, render_root)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py", line 135, in verified_members
+    validate_hash(source, web["source_hash"], "canonical manuscript against web sidecar")
+  File "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py", line 108, in validate_hash
+    raise ValueError(f"Stale or mismatched {label}: expected SHA-256 {expected}, observed {actual}; rebuild/export from the canonical manuscript before packaging")
+ValueError: Stale or mismatched canonical manuscript against web sidecar: expected SHA-256 2143be65c72098b3529d048aded83e1d9fee830346a8363aff9025c00d990dd7, observed df4c69d60cd01314777c1e2071e29ea887936eb7c52a0703254929d99b925338; rebuild/export from the canonical manuscript before packaging

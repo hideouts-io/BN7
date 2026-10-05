@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py", line 191, in <module>
+    main()
+  File "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py", line 184, in main
+    members = verified_members(canonical_root, render_root)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py", line 138, in verified_members
+    validate_hash(render_stylesheet, web["stylesheet_hash"], "render stylesheet against web sidecar")
+  File "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py", line 108, in validate_hash
+    raise ValueError(f"Stale or mismatched {label}: expected SHA-256 {expected}, observed {actual}; rebuild/export from the canonical manuscript before packaging")
+ValueError: Stale or mismatched render stylesheet against web sidecar: expected SHA-256 6850894285732d8a5d30c5b98b52d7126c1afd9f6efe535170444865e07ab537, observed 1609a228ea91d2b5e730907dadb8f3b0dc227d8fe9a6f7515dce3cfc1ef61477; rebuild/export from the canonical manuscript before packaging

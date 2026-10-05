@@ -1,0 +1,10 @@
+{
+  "manuscript_sha256": "2143be65c72098b3529d048aded83e1d9fee830346a8363aff9025c00d990dd7",
+  "pdf_sha256": "4ec8cbd1ad49f2da822cbc6b8ba3a95b029ff24606262c6cd052175b008b34a7",
+  "pdf_pages": 4,
+  "pdf_tagged": true,
+  "distinct_reference_urls": 23,
+  "uri_annotations": 26,
+  "all_manuscript_reference_urls_present": true,
+  "all_pages_visually_inspected": true
+}

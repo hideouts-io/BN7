@@ -1,0 +1,1 @@
+{"bytes": 307906, "members": ["PUBLIC_PLAYBOOK.md", "index.html", "Bridge-Node-7-Public-Playbook-Short.pdf", "manifest.json"], "output": "/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render/output/package/review-b.zip", "reused_identical_candidate": false, "sha256": "1c70641c2a7069bf2a330973af76035d873326bc1241ec3930f7406ecd792407"}

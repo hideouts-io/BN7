@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py", line 191, in <module>
+    main()
+  File "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py", line 186, in main
+    reused = write_candidate(output, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/macbookpro/Documents/ChatGPT/BN7/scripts/package-playbook.py", line 164, in write_candidate
+    raise FileExistsError(f"Existing candidate {output} has different bytes; choose an unused output path to preserve it")
+FileExistsError: Existing candidate /Users/macbookpro/Codex/Any/BN7-render/output/package/Bridge-Node-7-Public-Playbook-Review.zip has different bytes; choose an unused output path to preserve it

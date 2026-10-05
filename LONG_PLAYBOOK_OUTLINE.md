@@ -6,9 +6,17 @@ The [short edition](PUBLIC_PLAYBOOK.md) is the first review deliverable. This ou
 
 ## Proposed form and reader promise
 
-Target approximately **5,000–8,000 words**, excluding a compact source index, organized as an accessible web document with an optional PDF generated from the same manuscript. Length is a proposal to confirm after short-edition review. Readers should be able to move from an understandable decision question to the underlying records, methods, implementation, and limits.
+Target approximately **5,000–8,000 words**, excluding a compact source index, with a proposed primary PDF and standalone HTML reading copy generated from the same manuscript. Confirm longer-edition length and delivery after short-edition review; the short edition's PDF-first format is already selected. Readers should be able to move from an understandable decision question to the underlying records, methods, implementation, and limits.
 
 The central narrative and factual claims should agree with the short edition. The longer edition adds explanations, evidence, and domain depth; it should link canonical specifications rather than reproduce them. The shared [evidence register](research/EVIDENCE_REGISTER.md) owns the claim-to-source map.
+
+## Recommended expansion sequence after short review
+
+Start with **chapter 2, source origins and evidence classes**, because it deepens the opening question for public and academic readers without requiring a domain-specific background. The FIW example supplies an inspectable foundation; qualified methodology review and primary scholarly comparisons are still needed before adding stronger research claims.
+
+Next connect **chapter 4's changed-assumption walkthrough with chapter 8's evaluation guidance**. Explain what was run, which records and assumptions it covered, what the software signaled, and which judgment remains for a qualified reviewer. The current synthetic validator/comparison evidence supports that bounded walkthrough. Deeper estimator/receipt claims require their own evaluation and domain review.
+
+These are editorial recommendations rather than measured audience preferences. Bryan's lead internal review and actual reader questions determine the chosen priorities under TODO L03. Materials and other domain chapters expand when those questions justify them; no full longer manuscript is drafted yet. PDF remains the primary planned format, with a standalone HTML reading copy.
 
 ## 1. Why the decision basis matters
 

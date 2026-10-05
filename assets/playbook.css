@@ -58,12 +58,12 @@ main > p:last-child { margin-bottom: 0; color: var(--muted); font-size: 13px; ov
   h1 { font-size: 34pt; }
   h2 { font-size: 16pt; margin: 24px 0 12px; break-after: avoid; }
   h1 + h2 { font-size: 20pt; }
-  p { margin-bottom: 12px; orphans: 3; widows: 3; }
+  p { margin-bottom: 8px; orphans: 3; widows: 3; }
   main > ol { gap: 9px; margin: 16px 0; }
   main > ol li { font-size: 9.5pt; padding: 11px; break-inside: avoid; }
   table { font-size: 9pt; margin: 16px 0; }
   th, td { padding: 9px 11px; }
   tr { break-inside: avoid; }
   a { color: var(--ink); }
-  main > p:last-child { font-size: 8.5pt; }
+  main > p:last-child { font-size: 8.5pt; break-inside: avoid; }
 }

@@ -1,0 +1,1 @@
+{"output":"/Users/macbookpro/Codex/Any/BN7-evaluation/package-css-20261004T235000Z/render/output/web/index.html","sourceHash":"2143be65c72098b3529d048aded83e1d9fee830346a8363aff9025c00d990dd7","stylesheetHash":"6850894285732d8a5d30c5b98b52d7126c1afd9f6efe535170444865e07ab537","htmlHash":"48b9a22f0e3c88473d2097f2d43715237db799c65aa28c7d6abff490f95ae035"}

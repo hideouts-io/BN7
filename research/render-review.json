@@ -1,11 +1,11 @@
 {
   "review_date": "2026-10-04",
-  "assembled_at_utc": "2026-10-04T22:58:08.262309+00:00",
+  "assembled_at_utc": "2026-10-04T23:55:10.570645+00:00",
   "canonical_workspace": "/Users/macbookpro/Documents/ChatGPT/BN7",
   "local_render_snapshot": "/Users/macbookpro/Codex/Any/BN7-render",
   "source_match_verified": true,
-  "manuscript_words": 1454,
-  "manuscript_sha256": "5295419f3c6db083aae62973e8ddb322f6e159e07fdee1e27e83caedc62341ca",
+  "manuscript_words": 1492,
+  "manuscript_sha256": "2143be65c72098b3529d048aded83e1d9fee830346a8363aff9025c00d990dd7",
   "source_review": {
     "repositories": 8,
     "tracked_source_files": 917,
@@ -14,9 +14,9 @@
   },
   "editorial_review": {
     "kind": "Model editorial/source review",
-    "result": "passed at current manuscript identity",
-    "manuscript_sha256": "5295419f3c6db083aae62973e8ddb322f6e159e07fdee1e27e83caedc62341ca",
-    "evidence_register_revision": "r3",
+    "result": "Bounded model source/editorial review passed after reader-guidance refinement",
+    "manuscript_sha256": "2143be65c72098b3529d048aded83e1d9fee830346a8363aff9025c00d990dd7",
+    "evidence_register_revision": "r4",
     "named_human_signoff": false
   },
   "browser_checks": {
@@ -85,7 +85,9 @@
       "Screen-reader review not performed; TODO P07 remains open.",
       "No full accessibility conformance claim.",
       "No website changes, deployment or original-site interactive testing."
-    ]
+    ],
+    "current_artifact_sha256": "841dd611f2b3868585fe81d1fdfe79121b1c06e6b72e50740aaefea28a7aa92f",
+    "native_zoom_scope": "Retained observations are from the prior candidates named by their hashes; native zoom was not repeated in this milestone. Current reflow/browser checks passed separately."
   },
   "pdf": {
     "pages": 4,
@@ -98,7 +100,9 @@
     "all_manuscript_reference_urls_present": true,
     "limitations": [
       "Tagging/layout do not establish assistive-technology usability; TODO P07 remains open."
-    ]
+    ],
+    "sha256": "4ec8cbd1ad49f2da822cbc6b8ba3a95b029ff24606262c6cd052175b008b34a7",
+    "print_refinement": "New paragraph produced an orphaned source-note page; print paragraph spacing reduced from 12px to 8px and source note kept together. Body font remains 10.5pt. Final four pages visually inspected."
   },
   "source_links": {
     "report": "research/link-checks.json",
@@ -116,7 +120,9 @@
     },
     "current_manuscript_https_set_unchanged_from_live_check": true,
     "scholarly_source_identity": "Cite inspected commit for source analysis; cite actual distribution for packaged evaluation. Same version label does not imply identical bytes.",
-    "contact": "Published address matches source pages; email delivery not tested; no outreach performed."
+    "contact": "Published address matches source pages; email delivery not tested; no outreach performed.",
+    "refinement_check_report": "research/refinement-source-checks.json",
+    "added_supporting_citations_checked": 2
   },
   "fresh_fma_execution": {
     "status": "completed within bounded synthetic scope",
@@ -167,23 +173,24 @@
     "limits": "Synthetic declared-contract behavior only. No quantum estimator execution, hardware validation, independent scientific validation, operational deployment, or consequential decision authority was established."
   },
   "github_repository": {
-    "status": "created and connected",
+    "status": "private repository with pushed initial review milestone",
     "full_name": "hideouts-io/BN7",
     "url": "https://github.com/hideouts-io/BN7",
     "private": true,
     "visibility": "private",
-    "api_size": 0,
     "local_origin": "https://github.com/hideouts-io/BN7.git",
     "owner_selected_by_user": true,
     "upstream_research_account": "Bridge-Node-7",
     "verified_date": "2026-10-04",
-    "remote_content": "empty; no commit or push performed"
+    "remote_content": "Initial review milestone pushed; active branch verified at recorded pre-milestone commit. Subsequent private milestones use standing authorization.",
+    "active_branch": "codex/public-playbook",
+    "verified_commit_before_current_milestone": "f116fc8ff63a608eb9862330a3c3c1c642fe01f8"
   },
   "publication": {
     "status": "review candidate; not published",
     "website_changes": "excluded by explicit user instruction",
     "distribution_channel": "unselected",
-    "format_decision": "pending user response: PDF first, PDF only, or HTML first",
+    "format_decision": "User confirmed PDF first with standalone HTML reading copy",
     "archive_members": [
       "PUBLIC_PLAYBOOK.md",
       "index.html",
@@ -191,40 +198,45 @@
       "manifest.json"
     ],
     "private_research_todo_brief_excluded_from_archive": true,
-    "commits": 0,
-    "pushes": 0,
-    "uploads": 0
+    "current_archive": "/Users/macbookpro/Codex/Any/BN7-render/output/package/revisions/2143be65c720-4ec8cbd1ad49/Bridge-Node-7-Public-Playbook-Review.zip",
+    "public_uploads": 0,
+    "public_release_authorized": false,
+    "private_milestone_commit_push_authorized": true
   },
   "human_review": {
     "brief": "REVIEW_BRIEF.md",
     "prepared": true,
-    "reviewers": "unassigned; user question pending",
+    "reviewers": "Bryan Lachica, user-identified CEO, is lead internal/company reviewer. Actual technical scope and audience/accessibility feedback remain to be recorded.",
     "technical_signoff": false,
     "real_reader_feedback": false,
-    "outreach_performed": false
+    "outreach_performed": false,
+    "lead_reviewer": "Bryan Lachica",
+    "role_source": "User supplied CEO role and selected reviewer",
+    "review_received": false
   },
   "renderer_validation": {
     "native_node_syntax_checks": "passed",
     "typescript_typecheck": "not performed; no compiler available in current declared runtime",
     "build": "passed",
     "browser_verify": "passed",
-    "pdf_export": "passed"
+    "pdf_export": "passed",
+    "python_packaging_syntax": "passed"
   },
   "artifacts": [
     {
       "path": "/Users/macbookpro/Codex/Any/BN7-render/output/web/index.html",
-      "bytes": 20442,
-      "sha256": "6d306a929832e1ce6f2c5c887e077f60b620ff0b6d59b5e0fed86d0bbcd50e65"
+      "bytes": 20701,
+      "sha256": "841dd611f2b3868585fe81d1fdfe79121b1c06e6b72e50740aaefea28a7aa92f"
     },
     {
       "path": "/Users/macbookpro/Codex/Any/BN7-render/output/pdf/Bridge-Node-7-Public-Playbook-Short.pdf",
-      "bytes": 272045,
-      "sha256": "47ab6423fda6c66a25476bfbdacabd94ba6914368586bb5a67ade6c3d5d0d1f0"
+      "bytes": 272224,
+      "sha256": "4ec8cbd1ad49f2da822cbc6b8ba3a95b029ff24606262c6cd052175b008b34a7"
     },
     {
-      "path": "/Users/macbookpro/Codex/Any/BN7-render/output/package/Bridge-Node-7-Public-Playbook-Review.zip",
-      "bytes": 239072,
-      "sha256": "e27dcc2828e30fb948c472bbb9011c14a0ca944b840f215471361e03daf011d9"
+      "path": "/Users/macbookpro/Codex/Any/BN7-render/output/package/revisions/2143be65c720-4ec8cbd1ad49/Bridge-Node-7-Public-Playbook-Review.zip",
+      "bytes": 306920,
+      "sha256": "a69a2bf87b253ae049c4688b329503f6a6c22997a7025d87b4f073ad706e66c4"
     }
   ],
   "preservation_verification": {
@@ -238,11 +250,45 @@
     "kind": "Independent read-only custody verification; no runtime reexecution."
   },
   "todo_states": {
-    "tasks": 67,
-    "completed_in_stated_scope": 44,
-    "in_progress": 4,
-    "open": 18,
+    "tasks": 69,
+    "completed_in_stated_scope": 48,
+    "in_progress": 5,
+    "open": 15,
     "excluded_by_user": 1,
     "waiting_for_owner": 0
+  },
+  "stylesheet_sha256": "3abe1183b2a537ee5e873e8dd89b791e3570e5baa8de23fd79bf51b7267cd7ba",
+  "maintenance": {
+    "policy": "PLAYBOOK_WORKPLAN.md#continuous-improvement-and-revision-handling",
+    "task_register": "TODO.md",
+    "setup_before_publication": true,
+    "trigger_types": [
+      "claim-relevant source/evidence change",
+      "material example/validator/citation/terms change",
+      "broken reference or artifact route",
+      "approved company-fact change",
+      "reader comprehension or access barrier"
+    ],
+    "automatic_schedule_created": false,
+    "ongoing_roles_assignment": "Partially assigned; TODO M01 remains in progress"
+  },
+  "packaging_validation": {
+    "integration_result": "research/package-evaluation/integration-result.json",
+    "captured_command_steps": 12,
+    "current_final_archive_verified": true,
+    "identical_current_inputs_reused_identical_bytes": true,
+    "canonical_manuscript_stylesheet_html_pdf_bound": true,
+    "stale_or_altered_inputs_rejected": [
+      "manuscript",
+      "stylesheet",
+      "HTML",
+      "PDF",
+      "new HTML/old PDF"
+    ],
+    "different_existing_candidate_rejected": true,
+    "previous_archive_sha256": "e27dcc2828e30fb948c472bbb9011c14a0ca944b840f215471361e03daf011d9",
+    "previous_archive_preserved": true,
+    "determinism_scope": "Identical input bytes; fresh browser PDF exports may differ.",
+    "no_dependencies_installed": true
   }
 }

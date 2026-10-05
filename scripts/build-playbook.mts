@@ -52,7 +52,7 @@ function renderPage(manuscript: string, stylesheet: string, sections: readonly S
 </html>\n`;
 }
 
-/** Read explicit project inputs and write the derived preview plus its source hash. */
+/** Read explicit project inputs and bind the preview bytes to their source manuscript. */
 async function main(): Promise<void> {
   const manuscriptUrl: URL = new URL('../PUBLIC_PLAYBOOK.md', import.meta.url);
   const stylesheetUrl: URL = new URL('../assets/playbook.css', import.meta.url);
@@ -69,13 +69,18 @@ async function main(): Promise<void> {
   const outputDirectory: URL = new URL('../output/web/', import.meta.url);
   await mkdir(outputDirectory, { recursive: true });
   const outputUrl: URL = new URL('index.html', outputDirectory);
-  await writeFile(outputUrl, renderPage(manuscript, stylesheet, sections), 'utf8');
+  const html: string = renderPage(manuscript, stylesheet, sections);
+  await writeFile(outputUrl, html, 'utf8');
   const sourceHash: string = createHash('sha256').update(manuscript).digest('hex');
+  const stylesheetHash: string = createHash('sha256').update(stylesheet).digest('hex');
+  const htmlHash: string = createHash('sha256').update(html).digest('hex');
   await writeFile(new URL('source.json', outputDirectory), JSON.stringify({
     source: 'PUBLIC_PLAYBOOK.md', sha256: sourceHash, sections: sections.length,
+    html: 'index.html', html_sha256: htmlHash,
+    stylesheet: 'assets/playbook.css', stylesheet_sha256: stylesheetHash,
     generator: 'scripts/build-playbook.mts',
   }, null, 2) + '\n', 'utf8');
-  process.stdout.write(JSON.stringify({ output: fileURLToPath(outputUrl), sourceHash }) + '\n');
+  process.stdout.write(JSON.stringify({ output: fileURLToPath(outputUrl), sourceHash, stylesheetHash, htmlHash }) + '\n');
 }
 
 type TokensList = ReturnType<typeof marked.lexer>;

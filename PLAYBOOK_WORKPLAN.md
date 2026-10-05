@@ -8,7 +8,7 @@
 
 Produce a central public playbook that is understandable, technically credible, and inviting to curious readers, academia, technical partners, and institutional/investor reviewers. The short edition comes first; the longer edition initially receives only an expansion outline.
 
-The user works in Bridge Node 7 business development and marketing and has stated full access and authorization to use all material on the canonical public GitHub account and website. Content reuse for this initiative is settled. Public-reader software rights remain accurately described by each repository's own terms. The user explicitly authorized commit and push to the private hideouts-io/BN7 repository on October 4, 2026. Public release still requires approval of final content and destination.
+The user works in Bridge Node 7 business development and marketing and has stated full access and authorization to use all material on the canonical public GitHub account and website. Content reuse for this initiative is settled. Public-reader software rights remain accurately described by each repository's own terms. The user authorizes automatic commits and pushes of completed, validated milestones to private hideouts-io/BN7 on the existing codex/public-playbook branch. Public release still requires approval of exact content and destination; website changes remain excluded.
 
 All eight public repositories have been cloned separately under /Users/macbookpro/Codex/Any/BN7-sources. Their studies examine implementation/validators, contracts, examples, tests, release records, and limitations, with exact examined-path inventories. Source inspection is distinct from running software, verifying customer outcomes, or auditing every file.
 
@@ -24,15 +24,15 @@ The user confirmed the first direction for the short manuscript. It opens with F
 
 ## Deliverables and formats
 
-- **Short edition:** [PUBLIC_PLAYBOOK.md](PUBLIC_PLAYBOOK.md), 1,454 words. A standalone public learning guide with a plain-language process, bounded examples, portfolio reading paths, academia/partner/investor routes, and source/use boundaries.
+- **Short edition:** [PUBLIC_PLAYBOOK.md](PUBLIC_PLAYBOOK.md), 1,492 words. A standalone public learning guide with a plain-language process, bounded examples, portfolio reading paths, academia/partner/investor routes, and source/use boundaries.
 - **Web review candidate:** output/web/index.html, derived from that same manuscript. Semantic headings, contents navigation, responsive layout, source links, and no third-party runtime assets.
 - **Printable review candidate:** output/pdf/Bridge-Node-7-Public-Playbook-Short.pdf, printed from the same generated page. The four-page tagged Letter candidate was rendered and every page inspected; final human accessibility and release review remain open.
 - **Long edition:** [LONG_PLAYBOOK_OUTLINE.md](LONG_PLAYBOOK_OUTLINE.md), proposing 5,000–8,000 words and ten deeper chapters. Full expansion follows short-edition review.
 - **Private evidence:** source studies, claim register, exact source/release metadata, website snapshots and hashes. These are working evidence rather than public playbook content.
-- **Standalone review archive:** output/package/Bridge-Node-7-Public-Playbook-Review.zip contains only the short manuscript, self-contained HTML, four-page PDF, and file/hash manifest. Preferred delivery format and distribution channel are pending; no upload or release has occurred.
-- **Human-review preparation:** [REVIEW_BRIEF.md](REVIEW_BRIEF.md) defines named technical review and public, academic, and partner/investor reader sessions. Assignments and feedback remain pending; no outreach has occurred.
+- **Standalone review archive:** a revision-specific ZIP contains only the short manuscript, self-contained HTML, four-page PDF, and file/hash manifest. PDF is the primary deliverable, with HTML as the reading copy. Distribution channel and public release remain pending.
+- **Human-review preparation:** [REVIEW_BRIEF.md](REVIEW_BRIEF.md) identifies Bryan Lachica, whom the user named as CEO, as lead internal/company reviewer and defines the remaining technical, audience, and accessibility review scopes. Feedback has not yet been received; no outreach has occurred.
 
-Tone and visual direction are provisional: approachable technical prose, a restrained navy/teal reading layout, and clear sources. The design introduces no new official logo or identity. The ordered process becomes a six-step visual in the generated page while retaining its complete text explanation.
+Tone and visual direction are provisional: approachable technical prose, a restrained navy/teal reading layout, and clear sources. The design introduces no new official logo or identity. The ordered process becomes a six-step visual in the generated page while retaining its complete text explanation. The user selected PDF first with a standalone HTML reading copy; this settles the short-format decision.
 
 ## Source and build arrangement
 
@@ -44,21 +44,54 @@ The renderers' inputs, outputs, and requirements are documented in their functio
 npm run check
 npm run build
 npm run verify -- /absolute/path/to/installed/chromium-browser
-npm run pdf -- /absolute/path/to/installed/chromium-browser
+npm run pdf -- /absolute/path/to/installed/chromium-browser /absolute/canonical/workspace
+python3 scripts/package-playbook.py --canonical-root /absolute/canonical/workspace --render-root /absolute/render/workspace --output /absolute/unused/review.zip
 ```
 
-The PDF command requires an explicitly supplied browser path. Current checks use the installed Google Chrome executable. Final browser checks passed for 1280, 375, and 320 CSS-pixel widths, keyboard skip navigation, fragments, reduced motion, computed text contrast, visible focus, and table structure. Native Chrome zoom observations and their scope are recorded separately. All four final PDF pages were visually inspected, and every manuscript reference URL is present in PDF link annotations. These checks do not establish assistive-technology usability or full accessibility conformance; TODO P07 retains that review. The check command validates syntax, not TypeScript types. Generated output and intermediates are ignored by Git; approved publication artifacts can be selected separately. To avoid intermittent iCloud hydration stalls in Documents, an exact local render snapshot is preserved at /Users/macbookpro/Codex/Any/BN7-render; its outputs are the reliable review copies. The source hashes and verification scope are recorded in research/render-review.json. This does not relocate the canonical workspace or change cloud settings.
+The PDF command requires explicit browser and canonical-workspace paths; it checks the render inputs against that workspace before and after printing. The web/PDF provenance sidecars and package validator bind the manuscript, stylesheet, HTML, and PDF bytes. The Python packager uses the standard library, requires explicit roots/output, and creates a deterministic archive for identical inputs. It reuses an identical existing archive and rejects an existing archive with different bytes; use a new revision path for an updated candidate. The old candidate remains preserved. Function/module docstrings own the implementation details.
+
+Current checks use the installed Google Chrome executable. Browser checks cover 1280, 375, and 320 CSS-pixel widths, keyboard skip navigation, fragments, reduced motion, computed text contrast, visible focus, and table structure. Native Chrome zoom observations and their scope are recorded separately. PDF pages are visually inspected after substantive changes, and manuscript reference URLs are checked against PDF link annotations. These checks do not establish assistive-technology usability or full accessibility conformance; TODO P07 retains that review. The check command validates Node syntax, not TypeScript types. Generated outputs and intermediates remain ignored by Git. To avoid intermittent iCloud hydration stalls in Documents, an exact local render snapshot is preserved at /Users/macbookpro/Codex/Any/BN7-render; its outputs are the reliable review copies. Source hashes and verification scope are recorded in research/render-review.json. This does not relocate the canonical workspace or change cloud settings.
 
 ## Standalone distribution
 
 The user does not want changes to bridgenode7.com. Treat the existing site and public source repositories as read-only research. The earlier proposed /playbook/ URL is superseded.
 
-Prepare a standalone PDF and optional self-contained HTML from the same canonical manuscript. Keep the private working repository, source studies, task register, and confidential business evidence separate from the public artifact. Select a public file host, Library/share location, or user-managed distribution route after the review candidate is assessed; no destination or upload is assumed.
+Prepare the primary PDF and self-contained HTML reading copy from the same canonical manuscript. Keep the private working repository, source studies, task register, and business evidence separate from the public artifact. Choose among these concrete delivery arrangements after the candidate is assessed:
+
+| Arrangement | Reader experience and work required |
+| --- | --- |
+| **Owner-controlled public file location — recommended** | One stable public reference leads to the versioned PDF; place the HTML reading copy beside it where supported. Select the actual destination and publisher, then check unsigned-in access, downloads, references, and file identity. |
+| **Public Library/share location** | Use an available sharing destination only after checking its actual public-access and download behavior. Keep PDF primary; offer HTML as a downloadable copy if the service does not render it. |
+| **Owner-managed artifact package** | Distribute the approved PDF, HTML, and manifest as files or an archive. This supports handouts and authorized direct sharing; a stable public reference still needs to be selected. |
+
+No destination, upload, public metadata, or outreach is approved by selecting a format or naming a reviewer. Distribution preparation remains U01–U05 in TODO.md.
+
+## Continuous improvement and revision handling
+
+Prepare maintenance before launch. TODO.md owns task status; this section defines the working method and references the feedback capture and severity rules in REVIEW_BRIEF.md.
+
+| Role | Responsibility and assignment |
+| --- | --- |
+| Editorial owner | The user's BN7 business-development/marketing role coordinates the manuscript, single TODO, feedback, reader needs, and approved company wording. Formal ongoing assignment is confirmed under M01. |
+| Lead internal/company reviewer | Bryan Lachica, identified by the user as CEO, reviews positioning, company statements, engagement language, and overall clarity. Record the actual passages reviewed and his scope; review is pending. |
+| Technical reviewer/source custodian | Assess affected claims, source revisions, example behavior, evidence limits, citations, and terms. Bryan may review within his relevant expertise; additional domain assignment is needed only where the reviewed claims require it. No independent signoff is inferred from his title. |
+| Production and distribution owner | Codex prepares and verifies private candidates; the responsible public publisher remains to be selected. The approved publisher maintains the public route and released artifact identity. |
+| Reader and accessibility reviewers | Record actual public, academic, partner/investor, and assistive-technology perspectives. Internal review does not establish representative audience or accessibility feedback. |
+
+A revision starts when evidence relevant to a claim changes, a cited example/validator/citation/license changes materially, a link fails, a dated analysis needs new evidence, approved company facts change, or a reader reports a material misunderstanding or access barrier. A new upstream commit by itself does not replace pinned sources. Assess its relevance before revising an edition.
+
+Capture the affected passage and claim ID, supplied evidence, severity, responsible role, disposition, and verification needed using the review brief's fields. Add a concrete task to the existing TODO when remediation needs work. Prioritize evidence/factual/rights errors, then comprehension or access failures, then optional depth. Recheck the affected sources and behavior; obtain relevant human feedback again when meaning or usability changes. Keep unresolved evidence visible.
+
+After an accepted change, regenerate both formats, check their source and file identities, inspect substantive layout changes, and package a distinct revision. Preserve previous candidate archives and source-pinned evidence. Before any public update, obtain approval of the exact content/destination and verify the served artifact. Keep the short manuscript, evidence register, and longer outline aligned now; expand the long edition only after short review and priority selection. No monitoring schedule or analytics is created.
+
+## Validated private milestones
+
+Finish a cohesive reader-facing or preparation improvement, update the single TODO, and inspect the complete diff. Stage only intended project files and run the checks relevant to that change. Record source/artifact identities where applicable. Commit with a concrete milestone message, push normally to private hideouts-io/BN7, and verify local and remote commits match. Preserve unrelated work and immutable evidence; keep environments, caches, and generated working outputs ignored. This standing authorization does not cover force-pushing, merging into main, changing visibility, contacting people, or publishing publicly.
 
 ## Decisions and evidence still needed
 
 The user selected hideouts-io as the private repository owner. [hideouts-io/BN7](https://github.com/hideouts-io/BN7) is created and verified private; the local origin points to https://github.com/hideouts-io/BN7.git. The authorized private commit/push uses codex/public-playbook. Bridge-Node-7 remains the canonical upstream account for research, and no source clone was modified. Git state in research/render-review.json records the earlier review checkpoint; it does not grant public-release authorization.
 
-The user should review the concrete short draft to confirm the lead example, tone, and formats within the chosen narrative. The next factual questions concern an approved company identity/brief team description and what academic or technical collaboration BN7 wants to invite. Commercial figures and financing details can remain outside this public guide unless the user wants supported public language.
+Bryan's concrete review should assess the candidate's examples, tone, company scope, and engagement language within the chosen narrative and PDF-first format. The next factual gaps concern approved company identity/brief team information and the academic or technical collaboration BN7 wants to invite. Naming Bryan as reviewer does not authorize adding a public biography or credentials. Commercial figures and financing details remain outside this public guide unless supported wording is supplied and approved.
 
 The bounded FMA baseline validator and changed-assumption comparison were executed successfully at the inspected source commit. Six expected impacts matched; both decisions remain HOLD, with provenance warnings retained. The evidence register links exact commands and outputs and separates those observations from scientific or operational validity. Named qualified review, real representative-reader feedback, assistive-technology review, standalone distribution, and public release remain separate tasks in TODO.md. Website integration is excluded. Model editorial review and browser layout checks do not satisfy those human or operational requirements.

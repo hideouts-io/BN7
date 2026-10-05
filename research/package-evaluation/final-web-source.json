@@ -1,0 +1,10 @@
+{
+  "source": "PUBLIC_PLAYBOOK.md",
+  "sha256": "2143be65c72098b3529d048aded83e1d9fee830346a8363aff9025c00d990dd7",
+  "sections": 9,
+  "html": "index.html",
+  "html_sha256": "841dd611f2b3868585fe81d1fdfe79121b1c06e6b72e50740aaefea28a7aa92f",
+  "stylesheet": "assets/playbook.css",
+  "stylesheet_sha256": "3abe1183b2a537ee5e873e8dd89b791e3570e5baa8de23fd79bf51b7267cd7ba",
+  "generator": "scripts/build-playbook.mts"
+}
