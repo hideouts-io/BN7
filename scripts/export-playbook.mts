@@ -60,6 +60,7 @@ async function printPdf(inputUrl: URL, executablePath: string): Promise<PdfResul
   try {
     const page: Page = await browser.newPage();
     await page.goto(inputUrl.href, { waitUntil: 'load' });
+    await page.evaluate(async (): Promise<void> => { await document.fonts.ready; });
     const bytes: Buffer = await page.pdf({
       format: 'Letter', printBackground: true, preferCSSPageSize: true,
       tagged: true, outline: true, displayHeaderFooter: true,
@@ -92,8 +93,15 @@ async function main(): Promise<void> {
   const outputDirectory: URL = new URL('../output/pdf/', import.meta.url);
   await mkdir(outputDirectory, { recursive: true });
   const outputUrl: URL = new URL('Bridge-Node-7-Public-Playbook-Short.pdf', outputDirectory);
+  const downloadUrl: URL = new URL('Bridge-Node-7-Public-Playbook-Short.pdf', inputUrl);
   const pdfHash: string = sha256(result.bytes);
   await writeFile(outputUrl, result.bytes);
+  await writeFile(downloadUrl, result.bytes);
+  const [exportedPdf, downloadPdf]: [Buffer, Buffer] = await Promise.all([
+    readFile(outputUrl), readFile(downloadUrl),
+  ]);
+  if (!exportedPdf.equals(result.bytes) || !downloadPdf.equals(result.bytes))
+    throw new Error(`The exported PDF or sibling download differs from rendered bytes at ${fileURLToPath(outputUrl)} and ${fileURLToPath(downloadUrl)}; export again before packaging or deployment.`);
   await writeFile(new URL('source.json', outputDirectory), JSON.stringify({
     source: before.source, sha256: before.sha256,
     html: before.html, html_sha256: before.html_sha256,

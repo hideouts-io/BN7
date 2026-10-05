@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-05T05:54:56.297091+00:00",
+  "status": "Validated local website-style editorial review draft; public HTML hosting awaits a destination decision.",
+  "repository": {
+    "name": "hideouts-io/BN7",
+    "branch": "codex/public-playbook",
+    "base_commit": "9ec786739124147af59e80f8eafd6458febbb29c",
+    "visibility": "public",
+    "homepage": null,
+    "github_pages_api_status": 404
+  },
+  "diagnosis": {
+    "original_failing_url": "Not supplied; clarification requested while independent inspection continued.",
+    "observed_failing_url": "https://hideouts-io.github.io/BN7/",
+    "browser_status": 404,
+    "browser_title": "Site not found \u00b7 GitHub Pages",
+    "original_local_build": "passed",
+    "original_local_browser_navigation": "passed",
+    "conclusion": "No GitHub Pages reading site is configured; repository Markdown access is separate from generated HTML hosting. No local build/runtime/navigation defect reproduced in the original candidate.",
+    "baseline_evidence": "output/web-baseline/"
+  },
+  "design_reference": "research/web-design-reference.json",
+  "manuscript": {
+    "file": "PUBLIC_PLAYBOOK.md",
+    "sha256": "2143be65c72098b3529d048aded83e1d9fee830346a8363aff9025c00d990dd7",
+    "words": 1492,
+    "changed": false,
+    "narrative_preserved": [
+      "source tracing",
+      "synthetic FMA comparison with evidence limits",
+      "dated Gallium sidebar",
+      "source references",
+      "editorial review status"
+    ]
+  },
+  "artifacts": {
+    "html": {
+      "file": "output/web/index.html",
+      "sha256": "2b598c6ddaeada131c7a4080f2a99b0c16db3f397fba7eba66a2068ba2a7adba",
+      "stylesheet_sha256": "816f92db09d61e4618b806b84c4340c997e6dc067ece5a9407d27d5342ced155",
+      "runtime_assets": "Embedded CSS, favicon and CSS-drawn graphics; no external font/logo/runtime dependency."
+    },
+    "pdf": {
+      "file": "output/pdf/Bridge-Node-7-Public-Playbook-Short.pdf",
+      "download_copy": "output/web/Bridge-Node-7-Public-Playbook-Short.pdf",
+      "sha256": "ea075aa99f5314becfe637322c13919ade28edb96f7c34d9a434f8e6e89be0c7",
+      "pages": 4,
+      "tagged": true,
+      "structure_tree_present": true,
+      "distinct_reference_destinations": 23,
+      "uri_annotations": 26,
+      "local_file_actions": [],
+      "all_pages_visually_inspected": true,
+      "final_page_pixels_match_inspected_pages": true
+    },
+    "revision_zip": {
+      "file": "output/package/revisions/2143be65c720-ea075aa99f53/Bridge-Node-7-Public-Playbook-Review.zip",
+      "sha256": "5a83f785b4975f457b607092deb8a34657531a9c25b1f2d8cafac76ca2fe9884",
+      "members": [
+        "PUBLIC_PLAYBOOK.md",
+        "index.html",
+        "Bridge-Node-7-Public-Playbook-Short.pdf",
+        "manifest.json"
+      ]
+    },
+    "deployable_directory": "output/deploy/revisions/2143be65c720-ea075aa99f53",
+    "preservation": "Earlier render snapshot, immutable original candidate and intermediate revisions retained; no previous archive replaced."
+  },
+  "browser_validation": {
+    "browser": "154.0.8037.93",
+    "reading_url": "http://127.0.0.1:4173/",
+    "viewports": [
+      {
+        "width": 1280,
+        "height": 900
+      },
+      {
+        "width": 375,
+        "height": 812
+      },
+      {
+        "width": 320,
+        "height": 900
+      }
+    ],
+    "checks": [
+      {
+        "viewport": "desktop",
+        "horizontalOverflow": 0,
+        "overflowingText": [],
+        "rootClipping": [],
+        "brokenFragments": [],
+        "remoteResources": []
+      },
+      {
+        "viewport": "mobile",
+        "horizontalOverflow": 0,
+        "overflowingText": [],
+        "rootClipping": [],
+        "brokenFragments": [],
+        "remoteResources": []
+      },
+      {
+        "viewport": "reflow",
+        "horizontalOverflow": 0,
+        "overflowingText": [],
+        "rootClipping": [],
+        "brokenFragments": [],
+        "remoteResources": []
+      }
+    ],
+    "keyboard_skip": "passed",
+    "navigation": "passed",
+    "reduced_motion": "passed",
+    "visible_manuscript_references": 23,
+    "pdf_download_matches_export": true,
+    "minimum_measured_ordinary_text_contrast": 5.4155640105344505,
+    "focus_contrast": 16.581043788385728,
+    "contrast_scope": "Conservative gradient-stop and alpha composition through ancestor surfaces; ordinary opaque text and button endpoints retain 4.5:1, skip focus retains 3:1. Gradient-clipped brand headings and center-node brand labels are excluded from numeric palette checks; decorative pseudo-elements/backdrop filters and actual assistive-technology usability remain unverified.",
+    "excluded_brand_text_elements": 5,
+    "browser_errors": [],
+    "raw_report": "output/verification/browser-checks.json",
+    "decorative_motion_check": {
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "normalRunningAnimations": 3,
+      "reducedMotion": {
+        "scroll": "auto",
+        "animations": 0
+      },
+      "status": "passed"
+    }
+  },
+  "links": {
+    "anonymous_https_gets": 22,
+    "all_status_200": true,
+    "mailto": "Present in HTML/PDF; no email sent.",
+    "raw_report": "output/web-repair/source-link-checks.json"
+  },
+  "hosting": {
+    "repository_url": "https://github.com/hideouts-io/BN7",
+    "local_preview_url": "http://127.0.0.1:4173/",
+    "public_reading_url": null,
+    "deployable_subdirectory_smoke": "output/web-repair/deploy-smoke.json",
+    "required_decision": "Provide the selected static host destination.",
+    "state": "Complete validated static artifact prepared; user selected another static host, destination pending.",
+    "live_website_modified": false,
+    "website_deployed": false,
+    "subdirectory_smoke_result": {
+      "status": "passed",
+      "html_sha256": "2b598c6ddaeada131c7a4080f2a99b0c16db3f397fba7eba66a2068ba2a7adba",
+      "pdf_sha256": "ea075aa99f5314becfe637322c13919ade28edb96f7c34d9a434f8e6e89be0c7",
+      "navigation_routes_checked": 4,
+      "page_errors": [],
+      "request_failures": []
+    },
+    "selected_arrangement": "Another static host, selected by user; actual destination to be supplied."
+  },
+  "scope_limits": [
+    "Editorial review draft; no Bryan/company/specialist signoff inferred.",
+    "No named human or assistive-technology review completed.",
+    "Browser palette and model screenshots do not establish full accessibility conformance.",
+    "Unrelated business-development files and staged reference gitlinks remain outside the milestone."
+  ]
+}

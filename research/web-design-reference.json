@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "status": "Visual comparison passed within the recorded viewports, with documented reading adaptations.",
+  "reference": {
+    "url": "https://bridgenode7.com/",
+    "retrieved_at": "2026-10-05T05:33:47.598Z",
+    "retrieval_date_pacific": "2026-10-04",
+    "source_html_sha256": "a45e59d3af559b4f592eef317f33b0da4e78746fedb8caa85d7110483e4e3fbd",
+    "source_identity_checks": "Desktop and mobile browser response bodies matched the independent curl fetch byte-for-byte.",
+    "palette": {
+      "--gold": "#f1c86b",
+      "--bg2": "#071425",
+      "--muted": "#b9c5d8",
+      "--text": "#f7f9ff",
+      "--panel": "#0a1428",
+      "--line-soft": "rgba(255,255,255,.07)",
+      "--shadow": "0 28px 90px rgba(0,0,0,.42)",
+      "--teal": "#9bc8ae",
+      "--radius": "28px",
+      "--gold2": "#fff0b3",
+      "--violet": "#c6a7ff",
+      "--soft": "#dfe8f8",
+      "--blue": "#78d7ff",
+      "--max": "1160px",
+      "--line": "rgba(255,255,255,.12)",
+      "--bg": "#050914",
+      "--panel2": "#0d1a31"
+    },
+    "body_font_source": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif",
+    "display_font_source": "Georgia,\"Times New Roman\",serif",
+    "platform_font_observations": [
+      {
+        "selector": "#hero-title",
+        "fonts": [
+          {
+            "familyName": ".SF NS",
+            "postScriptName": ".SFNS-Bold",
+            "isCustomFont": false,
+            "glyphCount": 58
+          }
+        ]
+      },
+      {
+        "selector": ".hero-lead",
+        "fonts": [
+          {
+            "familyName": ".SF NS",
+            "postScriptName": ".SFNS-Regular",
+            "isCustomFont": false,
+            "glyphCount": 78
+          }
+        ]
+      },
+      {
+        "selector": ".brand",
+        "fonts": [
+          {
+            "familyName": ".SF NS",
+            "postScriptName": ".SFNS-Bold",
+            "isCustomFont": false,
+            "glyphCount": 13
+          }
+        ]
+      },
+      {
+        "selector": "#activation-title",
+        "fonts": [
+          {
+            "familyName": "Georgia",
+            "postScriptName": "Georgia-Bold",
+            "isCustomFont": false,
+            "glyphCount": 16
+          }
+        ]
+      },
+      {
+        "selector": ".context-golden h3",
+        "fonts": [
+          {
+            "familyName": "Georgia",
+            "postScriptName": "Georgia-Bold",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      }
+    ],
+    "logo": "Native CSS circular mark containing text 7, with crossed rotated pseudo-element rings; no external logo image.",
+    "runtime_assets": "Only the homepage document was requested; no external stylesheet, executable script, font, or image request was observed.",
+    "social_image_metadata_url": "https://bridgenode7.com/assets/images/social-preview.png",
+    "social_image_scope": "Metadata reference only; availability was not independently tested in the design capture.",
+    "reduced_motion_observation": "Scroll behavior became auto and no active CSS animations remained at both reference widths."
+  },
+  "preview": {
+    "url": "http://127.0.0.1:4173/",
+    "checked_at": "2026-10-05T05:52:21.400Z",
+    "browser_version": "154.0.8037.93",
+    "html_sha256": "2b598c6ddaeada131c7a4080f2a99b0c16db3f397fba7eba66a2068ba2a7adba",
+    "stylesheet_sha256": "816f92db09d61e4618b806b84c4340c997e6dc067ece5a9407d27d5342ced155",
+    "viewports": [
+      {
+        "name": "desktop",
+        "viewport_css_pixels": {
+          "width": 1280,
+          "height": 900
+        },
+        "document_width_css_pixels": 1280,
+        "horizontal_overflow_css_pixels": 0,
+        "header_height_css_pixels": 73,
+        "mark_size_css_pixels": {
+          "width": 38,
+          "height": 38
+        },
+        "partner_button_size_css_pixels": {
+          "width": 87.125,
+          "height": 44
+        },
+        "hero_type": {
+          "font-family": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "font-size": "71.68px",
+          "font-weight": "700",
+          "line-height": "67.3792px",
+          "letter-spacing": "-4.6592px"
+        },
+        "orbital_size_css_pixels": {
+          "width": 940,
+          "height": 560
+        },
+        "matching_computed_style_selectors": [
+          ".nav",
+          ".nav-inner",
+          ".brand",
+          ".mark",
+          ".nav-links .cta",
+          "#hero-title",
+          ".hero-lead",
+          ".orbital",
+          ".center-node",
+          ".node",
+          ".footer-brand",
+          ".copyright"
+        ],
+        "draft_label_vertical_displacement_css_pixels": 35.59375,
+        "page_errors": [],
+        "screenshots_visually_inspected": [
+          "output/verification/design/desktop-top.png",
+          "output/verification/design/desktop-reading.png",
+          "output/verification/design/desktop-process.png",
+          "output/verification/design/desktop-example.png",
+          "output/verification/design/desktop-footer.png"
+        ],
+        "footer_contact_comparison": "Source font, size, position, and geometry retained; final opaque color is an intentional contrast adaptation rather than an identical source style."
+      },
+      {
+        "name": "mobile",
+        "viewport_css_pixels": {
+          "width": 375,
+          "height": 812
+        },
+        "document_width_css_pixels": 375,
+        "horizontal_overflow_css_pixels": 0,
+        "header_height_css_pixels": 65,
+        "mark_size_css_pixels": {
+          "width": 34,
+          "height": 34
+        },
+        "partner_button_size_css_pixels": {
+          "width": 73.6875,
+          "height": 44
+        },
+        "hero_type": {
+          "font-family": "ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+          "font-size": "42px",
+          "font-weight": "700",
+          "line-height": "39.48px",
+          "letter-spacing": "-2.73px"
+        },
+        "orbital_size_css_pixels": {
+          "width": 343,
+          "height": 693.5
+        },
+        "matching_computed_style_selectors": [
+          ".nav",
+          ".nav-inner",
+          ".brand",
+          ".mark",
+          ".nav-links .cta",
+          "#hero-title",
+          ".hero-lead",
+          ".orbital",
+          ".center-node",
+          ".node",
+          ".footer-brand",
+          ".copyright"
+        ],
+        "draft_label_vertical_displacement_css_pixels": 46.78125,
+        "page_errors": [],
+        "screenshots_visually_inspected": [
+          "output/verification/design/mobile-top.png",
+          "output/verification/design/mobile-reading.png",
+          "output/verification/design/mobile-process.png",
+          "output/verification/design/mobile-example.png",
+          "output/verification/design/mobile-footer.png"
+        ],
+        "footer_contact_comparison": "Source font, size, position, and geometry retained; final opaque color is an intentional contrast adaptation rather than an identical source style."
+      }
+    ],
+    "visual_inspection_html_sha256": "2b598c6ddaeada131c7a4080f2a99b0c16db3f397fba7eba66a2068ba2a7adba",
+    "final_binding_verified_at": "2026-10-05T05:52:22.716Z",
+    "binding_scope": "Final HTML and CSS verified through the extracted ea075 revision smoke and refreshed ordinary-view browser captures. All ten top/reading/process/example/footer regions inspected at both requested widths. Focus-ring and opaque footer-contact contrast changes are documented adaptations.",
+    "post_visual_footer_check": {
+      "checked_at": "2026-10-05T05:51:29.882Z",
+      "html_sha256": "2b598c6ddaeada131c7a4080f2a99b0c16db3f397fba7eba66a2068ba2a7adba",
+      "color": "rgb(185, 197, 216)",
+      "geometry_matches_reference": true,
+      "scope": "Actual current-preview footer captured and inspected at desktop and mobile; the color is intentionally opaque, with font, dimensions, and positions retained."
+    },
+    "deployment_smoke": {
+      "url": "http://127.0.0.1:4174/revisions/2143be65c720-ea075aa99f53/",
+      "status": "passed",
+      "pdf_sha256": "ea075aa99f5314becfe637322c13919ade28edb96f7c34d9a434f8e6e89be0c7",
+      "actual_download_sha256": "ea075aa99f5314becfe637322c13919ade28edb96f7c34d9a434f8e6e89be0c7",
+      "fragment_routes_clicked": 4,
+      "page_errors": [],
+      "request_failures": []
+    }
+  },
+  "documented_adaptations": [
+    "Editorial-review status and date above the hero add a measured vertical displacement; the source hero type and orbital dimensions remain unchanged.",
+    "Playbook navigation, contents, review-question link, and back-to-top navigation support the standalone reading copy.",
+    "Article uses source palette and system font, dark bounded tables and numbered cards; contents and cards stack at mobile widths.",
+    "Call-to-action wording and local PDF/project destinations describe the review deliverable rather than duplicating the homepage sales copy.",
+    "Decorative radial background layers use captured live field heights of 4368 desktop and 5913 mobile CSS pixels, independent of the longer manuscript; the linear base extends through the document.",
+    "Actual source gradient text fill rgba(247,249,255,0.45) is retained; opaque computed fallback color gold2 is declared separately.",
+    "Screen brand sections and navigation are excluded from print, retaining the short manuscript as the PDF reading content.",
+    "Footer contact uses opaque source-muted text color instead of source rgba(185,197,216,0.86), to resolve the conservative contrast boundary. Footer type and geometry are retained.",
+    "Focused skip link adds a 9px gold outer shadow around its dark outline so the control remains visible against the surrounding dark header."
+  ],
+  "visual_findings": {
+    "background_bloom_drift": "Resolved in refreshed desktop and mobile captures.",
+    "headline_gradient_saturation_difference": "Resolved by restoring the source translucent text fill.",
+    "substantial_unexplained_differences": "None identified in the inspected top, reading, process, synthetic-example, activation, and footer captures.",
+    "clipping_or_overlap": "None identified in the inspected captures.",
+    "footer_contact_color": "Final opaque source-muted token observed and visually inspected; font, dimensions, and positions retained. Text fill and the non-painting zero-width border inherit the same color. This color is intentionally different from the translucent source."
+  },
+  "evidence": {
+    "raw_reference": "output/design-reference/browser-observations.json",
+    "raw_comparison": "output/verification/design/browser-comparison.json",
+    "comparison_manifest": "output/verification/design/manifest.json",
+    "prior_capture_preservation": "output/verification/design/before-bloom-fix/",
+    "tracking_scope": "Raw browser captures and screenshots remain generated, gitignored output; this summary records the source design and inspected scope.",
+    "final_revision_smoke": "output/web-repair/deploy-smoke.json",
+    "side_by_side_images": [
+      "output/web-repair/desktop-comparison.png",
+      "output/web-repair/mobile-comparison.png"
+    ],
+    "footer_contrast_adaptation": "output/web-repair/footer-color-checks.json"
+  },
+  "limits": [
+    "This is a local browser and visual inspection, not human reader feedback or assistive-technology signoff.",
+    "Animations and document-status/navigation additions prevent a claim of pixel-identical screenshots.",
+    "Public hosting and finalized playbook publication remain separate pending decisions; no deployment occurred in this inspection."
+  ]
+}
