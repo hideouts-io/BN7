@@ -1,6 +1,6 @@
 # Bridge Node 7 editorial workplan
 
-**Current editorial brief · October 4, 2026**
+**Current editorial brief · October 5, 2026**
 
 [TODO.md](TODO.md) is the single ordered task register. This file records editorial direction and deliverable choices. Research details live in the [evidence register](research/EVIDENCE_REGISTER.md), [source inventory](research/source-inventory.json), and separate source studies. The two original drafts are preserved byte-for-byte in research/baseline/ with their hashes.
 
@@ -36,7 +36,7 @@ The user requested a faithful adaptation of bridgenode7.com. The HTML uses the i
 
 ## Source and build arrangement
 
-BN7 is the editorial working source authorized for public draft review. PUBLIC_PLAYBOOK.md owns the short narrative; detailed technical specifications remain authoritative in their original repositories. The manuscript and questionnaire are the GitHub-accessible reading routes. The generated HTML/PDF remain local candidates prepared for a separately chosen distribution channel. Original source studies use the separate pinned clones; staged reference gitlinks under references/Bridge-Node-7 are preserved outside this continuation's edits. Upstream repositories and the live bridgenode7.com site remain unchanged. Local hideouts.io integration and its separate deployment dependency are recorded under P14/P15.
+BN7 is the editorial working source authorized for public draft review. PUBLIC_PLAYBOOK.md owns the short narrative; detailed technical specifications remain authoritative in their original repositories. The manuscript and questionnaire are the GitHub-accessible reading routes. The generated HTML/PDF are preserved locally, and the selected review draft is published on hideouts.io; [REVIEW_BRIEF.md](REVIEW_BRIEF.md#candidate-identity) owns the draft reading/download routes and exact artifact identities. Original source studies use the separate pinned clones; staged reference gitlinks under references/Bridge-Node-7 are preserved outside this continuation's edits. Upstream repositories and the live bridgenode7.com site remain unchanged. P14/P15 record completed integration and authorized review-draft deployment. Final-edition distribution and approval remain U01–U05.
 
 The renderers' inputs, outputs, and requirements are documented in their functions. The project declares exact Marked/Playwright versions in package.json and uses already-bundled dependencies through an ignored local node_modules symlink; no Node packages were installed. The separate FMA evaluation used the authorized isolated Python environment and source-declared PyYAML/jsonschema dependencies; its installation record lives in research/fma-evaluation/. With the declared renderer dependencies available, regenerate using:
 
@@ -78,11 +78,11 @@ This is the destination-independent final-edition handoff for U02. It supplies p
 | Short description | **A public introduction to Bridge Node 7's evidence, assurance, and accountable decision methods.** Matches the current HTML description; approve as part of the final listing copy. |
 | Language and formats | English; primary four-page Letter PDF, with a self-contained HTML reading copy from the same manuscript. |
 | Audience | Curious public readers, researchers and academia, technical teams, prospective partners, and institutional/investor reviewers. |
-| Present status | Editorial review draft. October 4, 2026 is the source-review/draft date; the public publication date is pending. The current render retains draft labels. |
+| Present status | Editorial review draft. October 4, 2026 is the source-review/draft date; P15 records review-draft publication on October 5, 2026. The final-edition publication date remains pending. The current render retains draft labels. |
 | Attribution | The manuscript identifies Bridge Node 7. Individual authors, team biographies, legal-entity wording, and a playbook-wide license are not supplied. Do not infer them from repository ownership or add them to the listing. Existing repository-specific use boundaries remain in the manuscript. |
 | Files to select | Primary PDF, `index.html`, optional `PUBLIC_PLAYBOOK.md`, and the public `manifest.json` from the approved candidate archive. The candidate ZIP contains those four files. Select actual downloadable formats before approving the handoff; no private working document or research record is included. |
 | Edition identity | Record the approved manuscript SHA-256 and exact published file hashes from the candidate manifest. A draft renderer/package version is not a published playbook edition number. |
-| Public route | Stable entry reference, versioned file location, HTML rendering/download behavior, and publisher remain pending under U01. Keep the stable entry useful when a later approved edition replaces the current edition. |
+| Public route | P15 records the published draft entry and downloads; [REVIEW_BRIEF.md](REVIEW_BRIEF.md#candidate-identity) supplies their routes and identities. Final-edition destination, versioning/access behavior, and responsible publisher remain to be approved under U01. Keep the stable entry useful when a later approved edition replaces the current edition. |
 | Public contact and corrections | The manuscript points to the existing published inquiry route. The correction recipient, public wording, and ongoing responsibility need confirmation under M01/U03 before presenting that route as accepting playbook corrections. |
 
 For U03–U05, prepare a release decision that binds the approved listing copy, manuscript and generated file identities, actual destination, selected formats, publisher, correction route, and review results. Record factual approval, technical scope, reader/accessibility findings, and public-release authorization separately. A proposed destination or a named reviewer does not supply the other decisions. The owner may revise the title/description without changing the manuscript; any manuscript or rendering change requires updated identities and the relevant checks.

@@ -4,6 +4,8 @@
 
 Use this brief for the PDF-first short manuscript and standalone HTML reading copy. Bryan Lachica is the user-selected CEO and lead internal/company reviewer. The evidence-to-decisions narrative is confirmed. Changes to bridgenode7.com remain excluded; the separate hideouts.io review-draft deployment is complete under P15. [TODO.md](TODO.md) remains the only task register: technical review is **V06**, public/academic readers are **P04**, partner/investor readers are **P05**, accessibility is **P07**, and revision/freezing is **P06**. This brief prepares review scope and capture fields; it does not satisfy those tasks. No outreach or participant contact has been performed.
 
+Technical and reader/accessibility reviews can proceed without the business CEO questionnaire. V06 requires named reviewers qualified for the claims they assess; Bryan remains the selected internal/company lead. The [input dependency matrix](TODO.md#input-dependencies-and-work-without-ceo-answers) distinguishes these reviews from company decisions and release authorization.
+
 This brief is prepared for the public BN7 review workspace. Open repository access allows inspection of the work in progress; it does not establish final playbook approval, completed human review, or authorization to contact reviewers or prospects.
 
 ## Questions for Bryan
@@ -45,7 +47,7 @@ Bryan is the lead internal/company reviewer, with the CEO role supplied by the u
 | Role and TODO | Named assignment | Task and realistic duration |
 | --- | --- | --- |
 | Lead company/editorial review — D3–D4, D7, U03 | **Bryan Lachica — CEO, user-identified; internal BN7 reviewer. Review pending.** | Read the primary PDF, then assess purpose, scope, examples, positioning, company wording, and engagement route. Approximately 30–45 minutes; return passage-specific corrections and unresolved questions. |
-| Technical accuracy — V06 | **Bryan Lachica as lead reviewer; relevant technical/domain scope to be recorded.** Assign a specialist for any included claim he cannot assess. | Read the manuscript and source bundle beforehand, 15–20 minutes; review together, 45–60 minutes. Check claims, sources, assumptions, terminology, runtime scope, and reuse boundaries. |
+| Technical accuracy — V06 | **Qualified technical/domain reviewer(s), names and scope pending.** Bryan may assess claims within his recorded expertise; assign other qualified reviewers for remaining scope. | Read the manuscript and source bundle beforehand, 15–20 minutes; review together, 45–60 minutes. Check claims, sources, assumptions, terminology, runtime scope, and reuse boundaries. |
 | Curious public reader — P04 | **Unassigned:** record name and prior BN7/technical familiarity. Prefer someone outside the authoring team. | Read the rendered short edition, 7–10 minutes; explain it and navigate one link, 10–15 minutes. Approximately 20–25 minutes total. |
 | Academic reader — P04 | **Unassigned:** record name, discipline, and experience with research evaluation or teaching. | Read, 10 minutes; inspect one source and discuss methodological/citation usefulness, 15–20 minutes. Approximately 25–30 minutes total. |
 | Prospective partner or investor reader — P05 | **Unassigned:** record name, relevant professional role, and whether the lens is partner evaluation or investment diligence. | Read, 10 minutes; distinguish available technical evidence from missing business evidence and identify an engagement step, 15–20 minutes. Approximately 25–30 minutes total. |

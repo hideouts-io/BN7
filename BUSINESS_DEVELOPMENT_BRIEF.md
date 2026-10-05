@@ -28,7 +28,7 @@ Ten [organization records](research/BD_CANDIDATES.md), five [outreach drafts](OU
 
 ## Deferred CEO discussion
 
-No meeting is arranged or required. Use the [asynchronous Q&A workflow](CEO_QA_WORKFLOW.md) and its [questionnaire](CEO_QA_TEMPLATE.md) for the three essential topics: priorities, available capability, and relationships/materials. A private Google Doc is prepared; you control sharing and link handoff without email notifications. No sharing, contact, or response import has occurred.
+No meeting is arranged or required. Use the [asynchronous Q&A workflow](CEO_QA_WORKFLOW.md) and its [questionnaire](CEO_QA_TEMPLATE.md) for the three decision topics: priorities, available capability, and relationships/materials. The [input dependency matrix](TODO.md#input-dependencies-and-work-without-ceo-answers) identifies when those answers are essential and which tasks proceed without them. A private Google Doc is prepared; you control sharing and link handoff without email notifications. No sharing, contact, or response import has occurred.
 
 ## CEO decision record
 
