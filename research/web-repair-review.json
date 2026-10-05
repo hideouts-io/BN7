@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "checked_at_utc": "2026-10-05T05:54:56.297091+00:00",
-  "status": "Validated local website-style editorial review draft; public HTML hosting awaits a destination decision.",
+  "status": "Published and anonymously verified website-style editorial review draft; human review and final-edition approval remain pending.",
   "repository": {
     "name": "hideouts-io/BN7",
     "branch": "codex/public-playbook",
@@ -143,6 +143,45 @@
   "hosting": {
     "repository_url": "https://github.com/hideouts-io/BN7",
     "local_preview_url": "http://127.0.0.1:4173/",
+    "integrated_local_preview_url": "http://127.0.0.1:4388/bridgenode7/",
+    "public_reading_url": "https://hideouts.io/bridgenode7/",
+    "public_pdf_url": "https://hideouts.io/bridgenode7/Bridge-Node-7-Public-Playbook-Short.pdf",
+    "public_manifest_url": "https://hideouts.io/bridgenode7/manifest.json",
+    "selected_arrangement": "Independent hideouts.io Astro/GitHub Pages section; outside software navigation, catalog, search, and sitemap; publicly accessible and crawlable.",
+    "state": "Successful authorized review-draft deployment and anonymous served-byte/browser verification.",
+    "website_deployed": true,
+    "bridgenode7_website_modified": false,
+    "publication_verified_at_utc": "2026-10-05T07:17:02.070376+00:00",
+    "website_commit": "be69e428ae952815b37b3a4e5c8060d3f9333a1b",
+    "workflow_run_id": 37276075298,
+    "workflow_url": "https://github.com/hideouts-io/hideouts.io/actions/runs/37276075298",
+    "deployment_id": 6853295701,
+    "baseline_run_id": 37275327804,
+    "baseline_artifact_id": 11329912591,
+    "baseline_artifact_sha256": "0f5e0376f8431ac55d97cb52e44d0f1ae7acf614b074ec93c50a9371c7e2c0b6",
+    "published_artifact_id": 11330730361,
+    "selected_revision": "2143be65c720-ea075aa99f53",
+    "selected_manifest_sha256": "f3491c2968ab57d79aed5f1f6f7e2e3a08b961730caf6b085535265707b7aa5b",
+    "preserved_existing_files": 462,
+    "added_bn7_files": 4,
+    "anonymous_package_files": "All four HTTP 200 responses exactly match selected manifest-bound bytes.",
+    "browser_checks": "Chrome 154: direct entry/refresh; 1280/375/320 widths; keyboard skip/navigation; PDF download; reduced motion; no browser errors or horizontal overflow; all 23 source destinations retained and 22 HTTPS GETs returned 200.",
+    "slashless_route": "HTTP 301 to /bridgenode7/, followed by HTTP 200.",
+    "existing_software_checks": "All 462 prior file paths/hashes are unchanged in deployed artifact; live navigation and search smoke passed with no BN7 URL in the 18-page software index.",
+    "internal_links_checked": 3916,
+    "raw_evidence_directory": "/Users/macbookpro/Codex/Any/hideouts.io-branding/.cache/bn7-deployment/published",
+    "browser_evidence_directory": "/Users/macbookpro/Codex/Any/hideouts.io-branding/.cache/bn7-integration/bn7-live"
+  },
+  "scope_limits": [
+    "Editorial review draft; no Bryan/company/specialist signoff inferred.",
+    "No named human or assistive-technology review completed.",
+    "Browser palette and model screenshots do not establish full accessibility conformance.",
+    "Unrelated business-development files and staged reference gitlinks remain outside the milestone."
+  ],
+  "initial_status": "Validated local website-style editorial review draft; public HTML hosting awaits a destination decision.",
+  "initial_hosting": {
+    "repository_url": "https://github.com/hideouts-io/BN7",
+    "local_preview_url": "http://127.0.0.1:4173/",
     "public_reading_url": null,
     "deployable_subdirectory_smoke": "output/web-repair/deploy-smoke.json",
     "required_decision": "Provide the selected static host destination.",
@@ -158,11 +197,5 @@
       "request_failures": []
     },
     "selected_arrangement": "Another static host, selected by user; actual destination to be supplied."
-  },
-  "scope_limits": [
-    "Editorial review draft; no Bryan/company/specialist signoff inferred.",
-    "No named human or assistive-technology review completed.",
-    "Browser palette and model screenshots do not establish full accessibility conformance.",
-    "Unrelated business-development files and staged reference gitlinks remain outside the milestone."
-  ]
+  }
 }
